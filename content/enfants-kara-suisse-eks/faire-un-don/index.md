@@ -1,5 +1,6 @@
 ---
 title: "Dons"
+draft: false
 aliases:
   - "/enfants-kara-suisse-eks/faire-un-don/index.html"
 ---

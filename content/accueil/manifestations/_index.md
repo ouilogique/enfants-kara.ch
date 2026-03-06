@@ -1,5 +1,6 @@
 ---
 title: "Manifestations"
+draft: false
 aliases:
   - "/accueil/manifestations/index.html"
 ---

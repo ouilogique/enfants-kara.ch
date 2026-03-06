@@ -1,5 +1,6 @@
 ---
 title: "Remise des diplômes et kits, session 2021"
+draft: false
 aliases:
   - "/accueil/actions-aupre%CC%80s-du-foyer-de-l-espe%CC%81rance-de-2014-a%CC%80-ce-jour/diplo%CC%82mes-2021/index.html"
 ---
@@ -8,14 +9,14 @@ aliases:
 
 Cérémonie du 20 août 2021
 
-![](https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/s2989e56b0cc176fb/image/i0eb276d10735e09c/version/1716822385/image.jpg)
+![](/media/jimdo/i0eb276d10735e09c-58d25cf242.jpg)
 
-![](https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/s2989e56b0cc176fb/image/ie26869cf349545c2/version/1716822385/image.jpg)
+![](/media/jimdo/ie26869cf349545c2-19b6d0fc1b.jpg)
 
-![](https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/s2989e56b0cc176fb/image/i164d531b6e705f5d/version/1716822385/image.jpg)
+![](/media/jimdo/i164d531b6e705f5d-da945657ac.jpg)
 
-![](https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/s2989e56b0cc176fb/image/id8b44cc89ca69d34/version/1716822385/image.jpg)
+![](/media/jimdo/id8b44cc89ca69d34-9b72d1e843.jpg)
 
-![](https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/s2989e56b0cc176fb/image/i28a7d664fc36e977/version/1716822385/image.jpg)
+![](/media/jimdo/i28a7d664fc36e977-2e66ba3333.jpg)
 
-![](https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/s2989e56b0cc176fb/image/i780bda2fe5c91542/version/1716822359/image.jpg)
+![](/media/jimdo/i780bda2fe5c91542-ff7a0a7fdb.jpg)

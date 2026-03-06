@@ -1,5 +1,6 @@
 ---
 title: "Organisation de l'Association"
+draft: false
 aliases:
   - "/enfants-kara-suisse-eks/index.html"
 ---

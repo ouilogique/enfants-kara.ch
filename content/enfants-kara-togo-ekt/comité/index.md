@@ -1,5 +1,6 @@
 ---
 title: "Comité EKT 2025"
+draft: false
 aliases:
   - "/enfants-kara-togo-ekt/comite%CC%81/index.html"
 ---

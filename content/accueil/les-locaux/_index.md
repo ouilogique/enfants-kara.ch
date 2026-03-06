@@ -1,5 +1,6 @@
 ---
 title: "Les locaux du Foyer Ste-Marguerite"
+draft: false
 aliases:
   - "/accueil/les-locaux/index.html"
 ---
@@ -8,7 +9,7 @@ aliases:
 
 Quand l'association Enfants-Kara s'est créée (en 2001), l'ODPE (Organisation pour le Développement par la Promotion de l'Enfance, occupait des locaux qu'elle louait mensuellement. A la fin de 2002, l'ODPE a reçu "en prêt" de la mairie de Kara un terrain pour la construction de bâtiments pour l'hébergement des enfants. L'ODPE a trouvé un financement provenant d'autres associations, et le déménagement s'est fait en 2005.
 
-![](https://image.jimcdn.com/app/cms/image/transf/none/path/s2989e56b0cc176fb/image/i0fd24ce154da018b/version/1391730249/image.png)
+![](/media/jimdo/i0fd24ce154da018b-be4b5c3d5e.png)
 
 **Locaux d'habitation**
 

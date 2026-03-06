@@ -1,16 +1,17 @@
 ---
 title: "Géographie"
+draft: false
 aliases:
   - "/accueil/le-togo/index.html"
 ---
 
-![](https://image.jimcdn.com/app/cms/image/transf/dimension=180x10000:format=gif/path/s2989e56b0cc176fb/image/i9f7b85dc3fda7dbc/version/1347480147/image.gif)
+![](/media/jimdo/i9f7b85dc3fda7dbc-dfd2516480.gif)
 
 # Géographie
 
 Le Togo se trouve en Afrique de l'Ouest, entre le Ghana à l'ouest, le Bénin à l'est, le Burkina au nord et sur le golfe de Guinée au sud (cf photo 1). Sa superficie est de 56'600 km2, pour environ 700 km de long et 50 à 150 km de large. En 2012, on y recense plus de 6'900'000 habitants. La langue officielle est le français. En plus du français, l'éwé et le kabyè sont enseignés dans le pays (parmi une quarantaine de langues). Par comparaison, la Suisse a une superficie de 41'293 km2 et une population d'un peu plus de 8'000'000 d'habitants (2012). La monnaie du pays est le franc CFA (Taux approximatif 1 CHF = 500 CFA).
 
-![](https://image.jimcdn.com/app/cms/image/transf/dimension=480x10000:format=png/path/s2989e56b0cc176fb/image/ib53bd1f23752a077/version/1392570058/image.png)
+![](/media/jimdo/ib53bd1f23752a077-71008a90a2.png)
 
 C'est un pays au climat tropical humide au sud (forêts) et de plus en plus sec en allant au nord (savanes). Le Togo demeure essentiellement rural. Les exportations de produits agricoles (palmistes, café, cacao, coton) viennent cependant loin derrière celles des phosphates, seule ressource notable du sous-sol. Le Togo est d’ailleurs le cinquième producteur mondial de phosphates.
 
@@ -24,7 +25,7 @@ Site officiel du Togo : <http://www.republicoftogo.com/>
 
 Voir aussi : [http://fr.wikipedia.org/wiki/Lomé](http://fr.wikipedia.org/wiki/Lom%C3%A9)
 
-![](https://image.jimcdn.com/app/cms/image/transf/dimension=150x10000:format=jpg/path/s2989e56b0cc176fb/image/i678f7c1fa41f5d67/version/1347480277/image.jpg)
+![](/media/jimdo/i678f7c1fa41f5d67-9b624e04ba.jpg)
 
 # Histoire
 
@@ -44,7 +45,7 @@ Dès le **XIème siècle**: présence humaine attestée par la découverte de di
 
 **1922**: le partage est confirmé par l'octroi de mandats de la SDN.
 
-![](https://image.jimcdn.com/app/cms/image/transf/none/path/s2989e56b0cc176fb/image/ic3ee1f17d48f32bb/version/1347480315/image.png)
+![](/media/jimdo/ic3ee1f17d48f32bb-a0e7da860e.png)
 
 **1946:** Le pays passe sous la tutelle de l'ONU.
 
@@ -86,7 +87,7 @@ Dès le **XIème siècle**: présence humaine attestée par la découverte de di
 
 **2011:** Annulation par la France de la dette du Togo d'un montant de 100 millions d'euros.
 
-![](https://image.jimcdn.com/app/cms/image/transf/dimension=150x10000:format=jpg/path/s2989e56b0cc176fb/image/iec03540ad9066e56/version/1347480377/image.jpg)
+![](/media/jimdo/iec03540ad9066e56-04c0e9c87b.jpg)
 
 # Economie
 

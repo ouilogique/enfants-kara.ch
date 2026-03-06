@@ -1,5 +1,6 @@
 ---
 title: "Downloads"
+draft: false
 aliases:
   - "/_downloads.html"
 ---

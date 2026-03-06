@@ -1,0 +1,14 @@
+baseURL: "https://example.org/"
+languageCode: "fr-CH"
+title: "Enfants-Kara"
+defaultContentLanguage: "fr"
+enableRobotsTXT: true
+disableKinds:
+  - taxonomy
+  - term
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+params:
+  description: "Migration du site Enfants-Kara depuis Jimdo vers Hugo."

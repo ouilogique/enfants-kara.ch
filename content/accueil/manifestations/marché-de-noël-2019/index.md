@@ -1,5 +1,6 @@
 ---
 title: "Marché de Noël 2019"
+draft: false
 aliases:
   - "/accueil/manifestations/marche%CC%81-de-noe%CC%88l-2019/index.html"
 ---
@@ -12,12 +13,12 @@ Tous les articles étaient en provenance du Togo grâce à des achats effectués
 
 Au bilan une rentrée d'argent significative pour les comptes de l'Association.
 
-![](https://image.jimcdn.com/app/cms/image/transf/dimension=480x10000:format=jpg/path/s2989e56b0cc176fb/image/i37644801b409d095/version/1583931985/image.jpg)
+![](/media/jimdo/i37644801b409d095-7d370a6315.jpg)
 
 Quatre membres du comité surpris sur le stand.
 
 Merci à tous les autres bénévoles invisibles !
 
-![](https://image.jimcdn.com/app/cms/image/transf/dimension=480x10000:format=jpg/path/s2989e56b0cc176fb/image/ia61891e422e1397f/version/1583932213/image.jpg)
+![](/media/jimdo/ia61891e422e1397f-57510eb268.jpg)
 
 **Rendez-vous en décembre 2020**

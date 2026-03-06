@@ -1,5 +1,6 @@
 ---
 title: "Plan du site"
+draft: false
 aliases:
   - "/sitemap/index.html"
 ---

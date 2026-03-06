@@ -1,5 +1,6 @@
 ---
 title: "Juillet 2015"
+draft: false
 aliases:
   - "/accueil/actions-aupre%CC%80s-du-foyer-de-l-espe%CC%81rance-de-2014-a%CC%80-ce-jour/nos-visites-au-foyer/index.html"
 ---
@@ -18,20 +19,20 @@ Joie d'accueillir la représentante des donateurs, reconnaissance envers eux pou
 
 **Tapez Escape pour revenir au format initial.**
 
-![](https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/s2989e56b0cc176fb/image/iaf643db58c6dd83b/version/1467036499/image.jpg)
+![](/media/jimdo/iaf643db58c6dd83b-4be8ee1b26.jpg)
 
-![](https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/s2989e56b0cc176fb/image/i00b0f67490087188/version/1467036499/image.jpg)
+![](/media/jimdo/i00b0f67490087188-dcab03648b.jpg)
 
-![](https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/s2989e56b0cc176fb/image/i13e52c34c1e32695/version/1467036499/image.jpg)
+![](/media/jimdo/i13e52c34c1e32695-5d121ff02a.jpg)
 
-![](https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/s2989e56b0cc176fb/image/id991145f4eab2b25/version/1467036499/image.jpg)
+![](/media/jimdo/id991145f4eab2b25-971c4aabd6.jpg)
 
-![](https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/s2989e56b0cc176fb/image/ifc4662a6f250e1f1/version/1467036366/image.jpg)
+![](/media/jimdo/ifc4662a6f250e1f1-671d408f14.jpg)
 
-![](https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/s2989e56b0cc176fb/image/i84996a632fa6deba/version/1467036464/image.jpg)
+![](/media/jimdo/i84996a632fa6deba-0af18ac43f.jpg)
 
-![](https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/s2989e56b0cc176fb/image/i6c86d573a4889294/version/1467036464/image.jpg)
+![](/media/jimdo/i6c86d573a4889294-f028e74882.jpg)
 
-![](https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/s2989e56b0cc176fb/image/i70b85971a0381439/version/1467036464/image.jpg)
+![](/media/jimdo/i70b85971a0381439-b1bb2e5bce.jpg)
 
-![](https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/s2989e56b0cc176fb/image/ibdf0b5cacc8bc8c7/version/1467036464/image.jpg)
+![](/media/jimdo/ibdf0b5cacc8bc8c7-82786e072a.jpg)

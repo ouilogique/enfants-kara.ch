@@ -1,5 +1,6 @@
 ---
 title: "Devenir membre"
+draft: false
 aliases:
   - "/enfants-kara-suisse-eks/devenir-membre/index.html"
 ---
@@ -28,4 +29,4 @@ Vous pouvez aussi nous demander l'envoi à votre adresse postale d'un bulletin d
 
 **Merci de votre intérêt pour eux !**
 
-![](https://image.jimcdn.com/app/cms/image/transf/dimension=390x10000:format=jpg/path/s2989e56b0cc176fb/image/i047bf402cb1df83f/version/1391873993/image.jpg)
+![](/media/jimdo/i047bf402cb1df83f-660e6d54c1.jpg)

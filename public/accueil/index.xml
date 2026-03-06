@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Accueils on Enfants-Kara</title>
+    <link>https://example.org/accueil/</link>
+    <description>Recent content in Accueils on Enfants-Kara</description>
+    <generator>Hugo</generator>
+    <language>fr-CH</language>
+    <atom:link href="https://example.org/accueil/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Géographie</title>
+      <link>https://example.org/accueil/le-togo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/accueil/le-togo/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://example.org/media/jimdo/i9f7b85dc3fda7dbc-dfd2516480.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;géographie&#34;&gt;Géographie&lt;/h1&gt;&#xA;&lt;p&gt;Le Togo se trouve en Afrique de l&amp;rsquo;Ouest, entre le Ghana à l&amp;rsquo;ouest, le Bénin à l&amp;rsquo;est, le Burkina au nord et sur le golfe de Guinée au sud (cf photo 1). Sa superficie est de 56&#39;600 km2, pour environ 700 km de long et 50 à 150 km de large. En 2012, on y recense plus de 6&#39;900&#39;000 habitants. La langue officielle est le français. En plus du français, l&amp;rsquo;éwé et le kabyè sont enseignés dans le pays (parmi une quarantaine de langues). Par comparaison, la Suisse a une superficie de 41&#39;293 km2 et une population d&amp;rsquo;un peu plus de 8&#39;000&#39;000 d&amp;rsquo;habitants (2012). La monnaie du pays est le franc CFA (Taux approximatif 1 CHF = 500 CFA).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Le Foyer Ste Marguerite</title>
+      <link>https://example.org/accueil/le-foyer-ste-marguerite/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/accueil/le-foyer-ste-marguerite/</guid>
+      <description>&lt;h1 id=&#34;le-foyer-ste-marguerite&#34;&gt;Le Foyer Ste Marguerite&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://example.org/media/jimdo/i6d640fdc2d91e3d8-340331714b.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Initialement géré par une ONG (Organisation Non Gouvernementale), l&amp;rsquo;Organisation pour le Développement par la Promotion de l&amp;rsquo;Enfance, ou ODPE) fondée par des Togolais qui cotisent en fonction de leurs moyens, le foyer a commencé son action, mais l&amp;rsquo;argent a vite manqué. L’association Enfants-Kara a donc vu le jour en Suisse le 31 octobre 2001 pour compléter le budget de fonctionnement de l&amp;rsquo;institution.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://example.org/media/jimdo/ib183e1bb55c2aaa8-b5f8bc2809.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Depuis 2012, grâce aux efforts de chacun et à vos dons, le foyer est en bonne voie d&amp;rsquo;évolution et peut bénéficier de l&amp;rsquo;aide d&amp;rsquo;autres organismes. Enfants-Kara peut commencer à orienter son aide sur le terrain auprès d&amp;rsquo; enfants plus âgés, d&amp;rsquo;une manière plus durable encore, cherchant à favoriser des apprentissages utiles pour eux-mêmes et leur région, afin d&amp;rsquo;éviter un exode rural massif.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

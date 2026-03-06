@@ -104,7 +104,24 @@ def slugify(value: str) -> str:
 
 
 def collect_html_files(root: Path) -> list[Path]:
-    return sorted(path for path in root.rglob("*.html") if path.is_file() and "content" not in path.parts)
+    excluded_roots = {
+        ".git",
+        "archetypes",
+        "assets",
+        "content",
+        "data",
+        "i18n",
+        "layouts",
+        "public",
+        "resources",
+        "scripts",
+        "static",
+    }
+    return sorted(
+        path
+        for path in root.rglob("*.html")
+        if path.is_file() and not any(part in excluded_roots for part in path.parts)
+    )
 
 
 def has_child_pages(html_path: Path, all_files: set[Path]) -> bool:
@@ -236,6 +253,7 @@ def format_front_matter(meta: PageMeta, alias: str) -> str:
     lines.append(f'title: "{escape_yaml(meta.title or "Sans titre")}"')
     if meta.description:
         lines.append(f'description: "{escape_yaml(meta.description)}"')
+    lines.append("draft: false")
     lines.append("aliases:")
     lines.append(f'  - "{escape_yaml(alias)}"')
     lines.append("---")
@@ -251,6 +269,20 @@ def is_thumbnail_gallery_line(line: str) -> bool:
     if not stripped or "dimension=25x25:mode=crop" not in stripped:
         return False
     return bool(re.fullmatch(r"(?:!\[[^\]]*\]\([^)]+\)\s*)+", stripped))
+
+
+def derive_title(markdown: str, fallback: str) -> str:
+    for line in markdown.splitlines():
+        stripped = line.strip()
+        if not stripped:
+            continue
+        match = re.match(r"^#\s+(.+?)\s*$", stripped)
+        if match:
+            heading = match.group(1).strip()
+            if heading:
+                return heading
+            break
+    return fallback or "Sans titre"
 
 
 def clean_markdown(markdown: str) -> str:
@@ -278,6 +310,7 @@ def convert_file(html_path: Path, source_root: Path, output_root: Path, all_file
     meta = read_meta(html)
     fragment = extract_content_fragment(html)
     markdown = clean_markdown(run_pandoc(fragment))
+    meta.title = derive_title(markdown, meta.title)
     destination = build_output_path(html_path.relative_to(source_root), output_root, all_files)
     destination.parent.mkdir(parents=True, exist_ok=True)
     front_matter = format_front_matter(meta, original_alias(html_path.relative_to(source_root)))
