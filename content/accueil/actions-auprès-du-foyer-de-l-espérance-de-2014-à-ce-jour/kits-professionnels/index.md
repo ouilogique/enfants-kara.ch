@@ -6,7 +6,7 @@ aliases:
 
 # Kits professionnels
 
-Lors d'une visite au Centre de formation, l'idée d'offrir un kit d'outillage professionnel à chacun des apprenants a été émise. Cette idée a conquis la Direction qui a établi la liste ci-après. Enfants-Kara s'est engagée pour une action annuelle et espère donner ainsi l'impulsion nécessaire à ces jeunes adultes pour se présenter sur le marché du travail soit en indépendant, soit auprès d'un patron.
+Lors d'une visite au Centre de formation, l'idée d'offrir un kit d'outillage professionnel à chacun des apprenants a été émise. Cette idée a conquis la Direction qui a établi la liste ci-après. Enfants-Kara s'est engagée pour une action annuelle et espère donner ainsi l'impulsion nécessaire à ces jeunes adultes pour se présenter sur le marché du travail soit en indépendant, soit auprès d'un patron.
 
 **Couture**
 
@@ -18,7 +18,7 @@ Brouette, pelle, pioche, truelle, masse, taloche, mètre, chaussures de sécurit
 
 **Ferronnerie**
 
-Masse et pince de forgeron, étau, mètre, chaussures de sécurité, tenue, sac à outillage
+Masse et pince de forgeron, étau, mètre, chaussures de sécurité, tenue, sac à outillage
 
 **Electricité bâtiment**
 
@@ -26,13 +26,11 @@ Volt-ampèremètre, jeu de tournevis, pince coupante, burin, niveau à bulle, la
 
 **Mécanique 2 roues**
 
-Caisse complète d'outillage (tournevis, clés, pinces, etc.), chaussures de sécurité, tenue, sac à outillage
+Caisse complète d'outillage (tournevis, clés, pinces, etc.), chaussures de sécurité, tenue, sac à outillage
 
 **Menuiserie**
 
 Scies, rabots, ciseaux à bois, marteau, équerre, tenaille, mètre, chaussures de sécurité, tenue, sac à outillage
-
- 
 
 **Cliquez sur une image pour l'agrandir.**
 

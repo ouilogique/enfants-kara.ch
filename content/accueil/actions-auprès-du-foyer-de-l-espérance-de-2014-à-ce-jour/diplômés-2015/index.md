@@ -6,19 +6,17 @@ aliases:
 
 # Diplômés 2015
 
-Les kits ont été remis pour la première fois lors de la remise des diplômes de fin de formation au printemps 2015. Ils ont été accueillis avec joie et l'association a été chaleureusement remerciée pour cette initiative.
+Les kits ont été remis pour la première fois lors de la remise des diplômes de fin de formation au printemps 2015. Ils ont été accueillis avec joie et l'association a été chaleureusement remerciée pour cette initiative.
 
 La répartition entre les différents métiers se présente ainsi :
 
-Couture                     9 diplômes
+Couture 9 diplômes
 
-Maçonnerie               3 diplômes
+Maçonnerie 3 diplômes
 
-Ferronnerie               2 diplômes
+Ferronnerie 2 diplômes
 
-Electricité bâtiment   1 diplôme
-
- 
+Electricité bâtiment 1 diplôme
 
 ![](https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/s2989e56b0cc176fb/image/i2b655cea73e24e36/version/1467036200/image.jpg)
 

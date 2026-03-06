@@ -12,31 +12,11 @@ Initialement géré par une ONG (Organisation Non Gouvernementale), l'Organisati
 
 ![](https://image.jimcdn.com/app/cms/image/transf/none/path/s2989e56b0cc176fb/image/ib183e1bb55c2aaa8/version/1347479308/image.png)
 
-Depuis 2012, grâce aux efforts de chacun et à vos dons, le foyer est en bonne voie d'évolution et peut bénéficier de l'aide d'autres organismes.  Enfants-Kara peut commencer à orienter son aide sur le terrain auprès d' enfants plus âgés, d'une manière plus durable encore, cherchant à favoriser des apprentissages utiles pour eux-mêmes et leur région, afin d'éviter un exode rural massif.
+Depuis 2012, grâce aux efforts de chacun et à vos dons, le foyer est en bonne voie d'évolution et peut bénéficier de l'aide d'autres organismes. Enfants-Kara peut commencer à orienter son aide sur le terrain auprès d' enfants plus âgés, d'une manière plus durable encore, cherchant à favoriser des apprentissages utiles pour eux-mêmes et leur région, afin d'éviter un exode rural massif.
 
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-Savoir plus sur KARA :   <http://fr.wikipedia.org/wiki/Kara_(Togo)>
+Savoir plus sur KARA : <http://fr.wikipedia.org/wiki/Kara_(Togo)>
 
 <http://www.togo-confidentiel.com/texte/Info&Service/Kara_et_sites.htm>
-
- 
 
 Plus sur la région : <http://fr.wikipedia.org/wiki/R%C3%A9gion_de_la_Kara>
 

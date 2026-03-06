@@ -246,16 +246,29 @@ def escape_yaml(value: str) -> str:
     return value.replace("\\", "\\\\").replace('"', '\\"').replace("\n", " ").strip()
 
 
+def is_thumbnail_gallery_line(line: str) -> bool:
+    stripped = line.strip()
+    if not stripped or "dimension=25x25:mode=crop" not in stripped:
+        return False
+    return bool(re.fullmatch(r"(?:!\[[^\]]*\]\([^)]+\)\s*)+", stripped))
+
+
 def clean_markdown(markdown: str) -> str:
     markdown = rewrite_internal_links(markdown)
     markdown = re.sub(r"\[(!\[[^\]]*\]\([^)]+\))\]\(javascript:[^)]*\)", r"\1", markdown)
     markdown = re.sub(r"\[(!\[[^\]]*\]\([^)]+\))\]\(\)", r"\1", markdown)
     filtered_lines = []
     for line in markdown.splitlines():
-        if "javascript:" in line or "/app/common/captcha/" in line:
+        line = line.replace("\xa0", " ").rstrip()
+        if re.fullmatch(r"\s*\\\s*", line):
             continue
+        if "javascript:" in line or "/app/common/captcha/" in line or is_thumbnail_gallery_line(line):
+            continue
+        line = re.sub(r"^\\-\s*", "- ", line)
+        line = re.sub(r"\s{2,}", " ", line) if not re.match(r"^\s{4,}", line) else line
         filtered_lines.append(line)
     markdown = "\n".join(filtered_lines)
+    markdown = re.sub(r"\n[ \t]+\n", "\n\n", markdown)
     markdown = re.sub(r"\n{3,}", "\n\n", markdown)
     return markdown.strip() + "\n"
 

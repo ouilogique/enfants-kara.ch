@@ -13,3 +13,6 @@
 ## Instructions persistantes actuelles
 - Maintenir ce fichier a jour a chaque nouvelle instruction persistante donnee par l'utilisateur.
 - Utiliser ce fichier comme source principale de contexte a relire au debut des futures sessions sur ce projet.
+- Le projet consiste a migrer un site miroir Jimdo vers une structure compatible Hugo.
+- Privilegier une sortie directement exploitable par Hugo, notamment dans `content/`.
+- Avant une operation importante ou ambigue, indiquer brievement si la consigne utilisateur peut etre optimisee ou resserree.

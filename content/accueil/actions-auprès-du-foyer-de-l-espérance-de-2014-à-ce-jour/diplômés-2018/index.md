@@ -6,9 +6,7 @@ aliases:
 
 # Juillet 2018
 
-A l'occasion de leur séjour au Togo, Rose Balmer, présidente et son mari Claude Balmer, trésorier, ont assisté à la remise des diplômes de la volée 2018. Ils ont pu apprécier la reconnaissance des hautes autorités locales pour le soutien au développement des infrastructures du Foyer et du Centre de formation. Ils ont également noté la joie des diplômants à la réception des kits professionnels.
-
- 
+A l'occasion de leur séjour au Togo, Rose Balmer, présidente et son mari Claude Balmer, trésorier, ont assisté à la remise des diplômes de la volée 2018. Ils ont pu apprécier la reconnaissance des hautes autorités locales pour le soutien au développement des infrastructures du Foyer et du Centre de formation. Ils ont également noté la joie des diplômants à la réception des kits professionnels.
 
 ![](https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/s2989e56b0cc176fb/image/i33791f3ecac0968b/version/1535029605/image.jpg)
 

@@ -6,15 +6,15 @@ aliases:
 
 # Diplômés 2016
 
-Les kits ont été remis pour la second fois lors de la remise des diplômes de fin de formation au printemps 2016. C'est toujours avec beaucoup de gratitude qu'ils ont été accueillis. 
+Les kits ont été remis pour la second fois lors de la remise des diplômes de fin de formation au printemps 2016. C'est toujours avec beaucoup de gratitude qu'ils ont été accueillis.
 
 La répartition entre les différents métiers se présente ainsi :
 
-Couture                     6 diplômes
+Couture 6 diplômes
 
-Menuiserie                5 diplômes
+Menuiserie 5 diplômes
 
-Maçonnerie              12 diplômes
+Maçonnerie 12 diplômes
 
 ![](https://image.jimcdn.com/app/cms/image/transf/none/path/s2989e56b0cc176fb/image/i4d82503fee98e245/version/1467038460/image.jpg)
 

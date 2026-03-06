@@ -6,15 +6,11 @@ aliases:
 
 **Nouveaux dortoirs** **pour les garçons**
 
- 
-
 La construction (dortoirs, latrines, douches) a commencé en novembre 2015.
 
 Elle fait suite à celle réalisée pour les filles en 2014 et est en tous points identique. ([infos](../2014-dortoirs-des-filles/ "Nouvelles constructions")).
 
 Les travaux se sont achevés en mai 2016 et le bâtiment a été inauguré en juillet 2016 en présence de Rose Balmer, présidente.
-
- 
 
 ![](https://image.jimcdn.com/app/cms/image/transf/none/path/s2989e56b0cc176fb/image/ifa1dd57efb05244d/version/1477240860/image.jpg)
 
