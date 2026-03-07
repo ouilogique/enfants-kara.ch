@@ -11,7 +11,6 @@ if [[ -f "${PROJECT_ROOT}/config.test_ouilogique_nogit.yaml" ]]; then
   HUGO_CONFIG="${HUGO_CONFIG},${PROJECT_ROOT}/config.test_ouilogique_nogit.yaml"
 fi
 USE_LAN_BASEURL="${USE_LAN_BASEURL:-0}"
-PREVIEW_DIR="${PROJECT_ROOT}/.hugo_preview"
 
 if ! command -v hugo >/dev/null 2>&1; then
   echo "hugo introuvable dans le PATH." >&2
@@ -108,7 +107,6 @@ HUGO_ARGS=(
   server
   --source "${PROJECT_ROOT}"
   --config "${HUGO_CONFIG}"
-  --destination "${PREVIEW_DIR}"
   --bind 0.0.0.0
   --port "${PORT}"
   --appendPort=false
@@ -121,3 +119,4 @@ if [[ "${USE_LAN_BASEURL}" == "1" ]]; then
 fi
 
 exec hugo "${HUGO_ARGS[@]}"
+
