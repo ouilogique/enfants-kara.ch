@@ -23,7 +23,7 @@
       <section class="listing">
         {{ range $pages }}
           <article class="card">
-            <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+            <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle | safeHTML }}</a></h2>
             {{ with .Params.description }}<p>{{ . }}</p>{{ end }}
           </article>
         {{ end }}
