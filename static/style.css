@@ -117,6 +117,8 @@ body.is-home .sidepane {
   display: grid;
   gap: 1rem;
   align-self: start;
+  position: relative;
+  z-index: 6;
 }
 
 .sidebar,
@@ -275,6 +277,55 @@ body.is-home .sidepane {
   min-width: 0;
 }
 
+.site-footer {
+  position: relative;
+  z-index: 6;
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+  padding: 0.4rem 0 0.2rem;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.site-footer a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 3.5rem;
+  min-height: 3.5rem;
+  padding: 0.6rem;
+  color: inherit;
+  text-decoration: none;
+  font-size: 2em;
+  line-height: 1;
+  opacity: 0.72;
+  text-shadow: 0 0 0.5rem rgba(255, 244, 235, 0.45), 0 0 1.1rem rgba(255, 244, 235, 0.22);
+}
+
+.site-footer a:hover,
+.site-footer a:focus-visible {
+  color: var(--accent);
+  text-decoration: underline;
+  outline: none;
+}
+
+.home-footer {
+  position: absolute;
+  left: 50%;
+  bottom: max(1.1rem, env(safe-area-inset-bottom, 0px));
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+  transform: translateX(-50%);
+  color: rgba(255, 244, 235, 0.82);
+}
+
+.home-footer a:hover,
+.home-footer a:focus-visible {
+  color: #fff7f0;
+}
+
 .page {
   padding: 0.2rem 0 3rem;
 }
@@ -293,6 +344,12 @@ body.is-home .page {
   box-shadow: var(--shadow);
   position: relative;
   overflow: hidden;
+}
+
+.page-header-home-link {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
 }
 
 .page-header::after {
@@ -321,6 +378,8 @@ body.is-home .page {
 }
 
 .page-header h1 {
+  position: relative;
+  z-index: 1;
   margin: 0;
   max-width: 12ch;
   font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Palatino, serif;
@@ -330,6 +389,8 @@ body.is-home .page {
 }
 
 .dek {
+  position: relative;
+  z-index: 1;
   margin: 0.8rem 0 0;
   max-width: 44rem;
   font-size: 1.04rem;
@@ -916,7 +977,7 @@ body.is-home .listing {
   }
 
   .home-hero-content {
-    padding: 1.25rem;
+    padding: 1.25rem 1.25rem 5.5rem;
   }
 
   .home-hero-brand {

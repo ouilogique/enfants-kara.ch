@@ -25,6 +25,11 @@
       </div>
       <main class="mainpane">
         {{ block "main" . }}{{ end }}
+        {{ if not .IsHome }}
+          <footer class="site-footer">
+            <a href="https://jeanmonod.net" target="_blank" rel="noopener noreferrer">❧</a>
+          </footer>
+        {{ end }}
       </main>
     </div>
     <div class="lightbox" id="site-lightbox" hidden>
