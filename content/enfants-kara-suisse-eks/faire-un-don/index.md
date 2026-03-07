@@ -16,21 +16,13 @@ Sachez qu'il sera le bienvenu et versé dans son intégralité au profit des ado
 Parmi les projets qu'Enfants-Kara et les dirigeants du Foyer de l'Espérance et du Centre de formation souhaitent réaliser :
 
 - la construction d'un réfectoire et d'un espace cuisine communautaires
-
-- la construction d'une petite centrale solaire pour l'éclairage, la télévision et le petit
-
- outillage électrique
-
+- la construction d'une petite centrale solaire pour l'éclairage, la télévision et le petit outillage électrique
 - la construction d'un petit réseau de distribution d'eau et son forage
-
-- le financement annuel de matériaux liés aux divers enseignements (ciment,
-
- électrodes de soudure, tissus, etc.)
+- le financement annuel de matériaux liés aux divers enseignements (ciment, électrodes de soudure, tissus, etc.)
 
 Pour ls orphelinats :
 
 - un soutien tous les 4 mois pour la nourriture et les produits d'hygiène
-
 - etc.
 
 Comment vous le voyez, nous avons besoin de vous. Si vous souhaitez contribuer à l'un des projets en particulier, n'hésitez pas à nous le faire savoir.

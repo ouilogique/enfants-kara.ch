@@ -20,16 +20,11 @@ Un enfant de la rue, orphelin, démuni ou victime de la traite est protégé dan
 Les organes dirigeants de l'institution sont:
 
 - Conseil d'administration
-
 - Bureau exécutif constitué de 5 formateurs ou patrons
-
 - Comité de gestion composé de
-
-      - 5 représentants des apprenants
-
-      - 2 représentants des patrons
-
-      - 1 représentant des éventuels parrains/marraines ou parenté des apprenants
+  - 5 représentants des apprenants
+  - 2 représentants des patrons
+  - 1 représentant des éventuels parrains/marraines ou parenté des apprenants
 
 ![Dirigeants de FE](/media/jimdo/i5ca053f369b5ef8e-9a0f00a85a.jpg)
 

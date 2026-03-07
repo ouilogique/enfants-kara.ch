@@ -45,17 +45,17 @@ Si on veut construire quelque chose sur ce terrain, il faut tout acheminer l’e
 
 L’idée initiale ayant conduit à l’achat de ce terrain a été de rendre « durable » le foyer Caredo, l’autonomiser en lui apportant un outil lui permettant de compléter son quotidien avec des fruits, des légumes frais et de l’élevage. Il permettra aussi d’apporter un complément financier en faisant du maraîchage et de devenir un lieu où on pourrait faire de la formation dans l’agriculture bio.
 
-## 2.1.A court terme
+## 2.1. A court terme
 
 On va commencer par planter des arbres, car cela prend du temps pour pousser. On choisira par exemple des palmiers à huile, des orangers, des manguiers, des acajous, des cocotiers, des bananiers, des avocatiers et des papayers. Ils pousseront pendant que nous élaborerons les futurs projets d'extensions.
 
 Chaque plant d’arbre doit être entouré d'une une protection en osier pour éviter qu’il se fasse manger par les chèvres (ou autres). Quand nous seront sur place, nous visiterons le site et nous discuterons avec EKT, Caredo et Kpéléé pour définir la stratégie.
 
-## 2.2.A long terme
+## 2.2. A long terme
 
 Améliorer le maraîchage en impliquant des femmes du coin, en les chargeant de cultiver et d’aller vendre les fruits et légumes. Cela impliquerait un doublement ou un triplement des surfaces cultivées. Sur place, on discutera sur la manière de faire.
 
-## 2.3.A plus long terme
+## 2.3. A plus long terme
 
 Plusieurs voies sont envisagées:
 

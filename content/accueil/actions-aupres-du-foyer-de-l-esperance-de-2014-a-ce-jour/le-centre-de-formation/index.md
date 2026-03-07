@@ -15,15 +15,10 @@ Les Formateurs
 Le Centre de formation du Foyer de l'Espérance fonctionne grâce à l'encadrement bénévole de patrons issus des secteurs suivants :
 
 - Menuiserie
-
 - Maçonnerie
-
 - Mécanique 2 roues
-
 - Electricité bâtiment
-
 - Forge et soudure
-
 - Couture et tissage
 
 ![Atelier de couture](/media/jimdo/i81d03ac01b9c88ed-a6c591ba02.jpg)
