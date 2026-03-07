@@ -22,7 +22,7 @@ aliases:
 - ![](/images/i07661b25f9c45cab-52513fc338.jpg)
 - ![](/images/i49c96363d7fd1869-6c3d8e5f0f.jpg)
 
-# Foyer Ste-Marguerite et les achats au marché à Kara (avril 2012)
+# Foyer Ste&#8209;Marguerite et les achats au marché à Kara (avril 2012)
 
 - ![](/images/ic78458af24d0e509-142a38b50f.jpg)
 - ![](/images/i13535d95a9a9d02a-620e6cf6b2.jpg)
@@ -47,7 +47,7 @@ aliases:
 - ![](/images/ice1618c1ef32451f-20506c24cd.jpg)
 - ![](/images/i7fa62f7663c65fe9-88db6f2fbc.jpg)
 
-# Foyer Ste-Marguerite (janvier 2009)
+# Foyer Ste&#8209;Marguerite (janvier 2009)
 
 - ![](/images/i0f70d502ef81a3b3-d97eb3171b.jpg)
 - ![](/images/i65d40a8de5f8869b-a46fc74b29.jpg)
@@ -79,7 +79,7 @@ aliases:
 - ![](/images/i3377713e852edecb-f95f53980e.jpg)
 - ![](/images/i62816221504caf35-a84570ce52.jpg)
 
-# Foyer Ste-Marguerite (janvier 2008)
+# Foyer Ste&#8209;Marguerite (janvier 2008)
 
 - ![](/images/iba9e9b2a3b34d651-c454b3ae80.jpg)
 - ![](/images/i8b5d747260d1e1a2-4dda0b7757.jpg)
