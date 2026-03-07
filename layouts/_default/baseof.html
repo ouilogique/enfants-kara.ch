@@ -29,10 +29,11 @@
         </nav>
       </div>
       {{ with $currentTop }}
-        {{ if and (eq .Kind "section") (gt (len .Pages) 0) }}
+        {{ $children := where .Pages "Parent.RelPermalink" .RelPermalink }}
+        {{ if and (eq .Kind "section") (gt (len $children) 0) }}
           <div class="shell">
             <nav class="subnav" aria-label="Navigation secondaire">
-              {{ range .Pages.ByWeight }}
+              {{ range $children.ByWeight }}
                 <a class="{{ if eq $.RelPermalink .RelPermalink }}is-active{{ end }}" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
               {{ end }}
             </nav>
