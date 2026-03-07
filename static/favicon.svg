@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Enfants-Kara</title>
+  <desc id="desc">Un foyer stylise avec deux enfants et un soleil.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7efe0"/>
+      <stop offset="100%" stop-color="#e7c7a7"/>
+    </linearGradient>
+    <linearGradient id="roof" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#c55a33"/>
+      <stop offset="100%" stop-color="#8f351c"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#bg)"/>
+  <circle cx="49" cy="16" r="6" fill="#f3b43f"/>
+  <path d="M14 31 32 17l18 14" fill="none" stroke="url(#roof)" stroke-linecap="round" stroke-linejoin="round" stroke-width="6"/>
+  <path d="M19 29h26v19a4 4 0 0 1-4 4H23a4 4 0 0 1-4-4Z" fill="#fff8ef" stroke="#b88d6f" stroke-width="2"/>
+  <path d="M28 52V39a4 4 0 0 1 4-4 4 4 0 0 1 4 4v13" fill="#d79e63"/>
+  <circle cx="24" cy="34" r="3.5" fill="#a64628"/>
+  <circle cx="40" cy="34" r="3.5" fill="#a64628"/>
+  <path d="M20.5 44c.6-3 2.2-5 3.5-5s2.9 2 3.5 5" fill="none" stroke="#a64628" stroke-linecap="round" stroke-width="3"/>
+  <path d="M36.5 44c.6-3 2.2-5 3.5-5s2.9 2 3.5 5" fill="none" stroke="#a64628" stroke-linecap="round" stroke-width="3"/>
+</svg>
