@@ -3,8 +3,7 @@
   --bg-deep: #e4c7aa;
   --panel-alpha: 0.8;
   --panel-padding: 2.55rem;
-  --font-sans: "Gentium Book Plus", "Palatino Linotype", serif;
-  --font-display: "Gentium Book Plus", "Palatino Linotype", serif;
+  --font-serif: "Georgia", serif;
   --paper: rgba(255, 248, 240, 0.92);
   --paper-strong: #fffaf4;
   --ink: #2d1f18;
@@ -72,7 +71,7 @@ body {
   margin: 0;
   min-height: 100vh;
   color: var(--ink);
-  font-family: var(--font-sans);
+  font-family: var(--font-serif);
   font-size: 1.2rem;
   line-height: 1.7;
   background:
@@ -256,7 +255,7 @@ body.is-home .sidepane {
 
 .brand-name {
   color: var(--ink);
-  font-family: var(--font-display);
+  font-family: var(--font-serif);
   font-size: 1.9rem;
   line-height: 1;
 }
@@ -366,7 +365,7 @@ body.is-home .sidepane {
   min-width: 0;
 }
 
-.site-footer {
+.site-footer:not(.home-footer) {
   grid-column: 2;
   position: relative;
   z-index: 6;
@@ -417,6 +416,7 @@ body.is-home .sidepane {
   z-index: 1;
   margin: 0;
   padding: 0;
+  font-size: 0.9rem;
   transform: translateX(-50%);
   color: rgba(255, 248, 240, 0.98);
 }
@@ -478,7 +478,7 @@ body.is-home .page {
   position: relative;
   z-index: 1;
   margin: 0;
-  font-family: var(--font-display);
+  font-family: var(--font-serif);
   line-height: 1.02;
   font-size: clamp(2.5rem, 6vw, 4.9rem);
 }
@@ -545,7 +545,7 @@ body.is-home .page {
 }
 
 .page-nav-title {
-  font-family: var(--font-display);
+  font-family: var(--font-serif);
   font-size: 1.15rem;
   line-height: 1.1;
 }
@@ -599,7 +599,7 @@ body.is-home .home {
   display: grid;
   align-content: end;
   gap: 1rem;
-  padding: clamp(1.5rem, 4vw, 3.75rem);
+  padding: clamp(1.5rem, 4vw, 3.75rem) clamp(1.5rem, 4vw, 3.75rem) 7rem;
   color: #fff7f0;
 }
 
@@ -771,7 +771,7 @@ body.is-home .home {
 .content h3,
 .content h4 {
   color: var(--accent-deep);
-  font-family: var(--font-display);
+  font-family: var(--font-serif);
   line-height: 1.15;
 }
 
@@ -853,7 +853,7 @@ body.is-home .home {
 
 .document-card h3 {
   color: var(--accent-deep);
-  font-family: var(--font-display);
+  font-family: var(--font-serif);
   font-size: 1.35rem;
   line-height: 1.08;
 }
@@ -918,7 +918,7 @@ body.is-home .listing {
 
 .card h2 {
   margin: 0;
-  font-family: var(--font-display);
+  font-family: var(--font-serif);
   font-size: 1.45rem;
   line-height: 1.1;
 }
@@ -1054,7 +1054,7 @@ body.is-home .listing {
     overflow: visible;
   }
 
-  .site-footer {
+  .site-footer:not(.home-footer) {
     grid-column: auto;
     order: 4;
   }
@@ -1151,7 +1151,7 @@ body.is-home .listing {
   }
 
   .home-hero-content {
-    padding: 7rem 1.25rem 5.5rem;
+    padding: 7rem 1.25rem 8rem;
     align-content: end;
   }
 

@@ -6,17 +6,11 @@
 
     https://unsplash.com/fr/photos/un-groupe-de-jeunes-enfants-debout-dans-une-fenetre-7MD4DR9jbP0?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 
--   -   [Jannik]
+-   [Bill Wegener]
 
-    [Jannik]: https://unsplash.com/fr/@jaenix?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
+    [bill wegener]: https://unsplash.com/fr/@wegenerb?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
 
-    https://unsplash.com/fr/photos/des-enfants-courent-pres-dun-batiment-pendant-la-journee-v6ttXWuuKdo?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
-
--   -   [Antoine Demare]
-
-    [Antoine Demare]: https://unsplash.com/fr/@tonio77?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
-
-    https://unsplash.com/fr/photos/des-enfants-dans-une-classe-avec-des-chiffres-accroches-au-mur-5OhSEgbUQwo?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+    https://unsplash.com/fr/photos/garcon-en-chemise-rouge-a-manches-longues-assis-sur-une-chaise-hs98_9hzTcU?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 
 -   [Tobie Eniafe]
 
@@ -31,8 +25,6 @@
     https://unsplash.com/fr/photos/garcon-ecrivant-sur-le-bloc-notes-bsk8f6BVSHc?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 
 
-
-
 -   [Felicia Montenegro]
 
     [Felicia Montenegro]: https://unsplash.com/fr/@feliciamontenegro?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
@@ -40,8 +32,3 @@
     https://unsplash.com/fr/photos/un-groupe-de-jeunes-enfants-assis-a-une-table-EEbLJlfCnSI?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 
 
--   [Bill Wegener]
-
-    [bill wegener]: https://unsplash.com/fr/@wegenerb?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
-
-    https://unsplash.com/fr/photos/garcon-en-chemise-rouge-a-manches-longues-assis-sur-une-chaise-hs98_9hzTcU?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink

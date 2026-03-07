@@ -43,10 +43,7 @@
     {{ else if $sectionImage }}
       <link rel="preload" as="image" href="{{ $sectionImage | relURL }}">
     {{ end }}
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:wght@400;700&display=swap">
-    <link rel="stylesheet" href="{{ `style.css` | relURL }}">
+<link rel="stylesheet" href="{{ `style.css` | relURL }}">
     <script src="{{ `scripts.js` | relURL }}" defer></script>
   </head>
   <body
