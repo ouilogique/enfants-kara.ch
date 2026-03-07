@@ -4,7 +4,7 @@ set -euo pipefail
 
 PORT="${1:-1313}"
 OS_NAME="$(uname -s)"
-SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 PROJECT_ROOT="$(cd "${SCRIPT_DIR}/.." && pwd)"
 HUGO_CONFIG="${PROJECT_ROOT}/config.yaml"
 if [[ -f "${PROJECT_ROOT}/config.test_ouilogique_nogit.yaml" ]]; then
