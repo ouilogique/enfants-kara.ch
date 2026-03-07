@@ -4,5 +4,5 @@
 {{- end -}}
 <a href="{{ $dest }}"
   {{- with .Title }} title="{{ . }}"{{ end -}}
-  {{- if strings.HasPrefix $dest "http" }} target="_blank" rel="noopener"{{ end -}}
+  {{- if strings.HasPrefix $dest "http" }} target="_blank" rel="noopener noreferrer"{{ end -}}
 >{{ .Text }}</a>

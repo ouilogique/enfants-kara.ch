@@ -38,7 +38,7 @@ function rewriteRootRelativeAssetUrls() {
     const prefix = getSitePathPrefix();
     if (!prefix) return;
 
-    const rootScopedPattern = /^\/(images|documents|downloads|media|style\.css|scripts\.js|favicon\.svg|logo-association-enfants-kara\.svg)(\/|$)/;
+    const rootScopedPattern = /^\/(images|documents|downloads|media|style\.css|scripts\.js|favicon\.svg|logo-association-enfants-kara\.png)(\/|$)/;
 
     document.querySelectorAll("[src], [href]").forEach((node) => {
         const attr = node.hasAttribute("src") ? "src" : "href";

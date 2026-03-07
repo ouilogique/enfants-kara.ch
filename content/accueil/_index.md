@@ -3,8 +3,6 @@ title: "Accueil"
 linkTitle: "Accueil"
 weight: 20
 draft: false
-aliases:
-  - "/accueil/"
 ---
 
 # Accueil
