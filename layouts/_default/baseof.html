@@ -20,9 +20,10 @@
     {{ with .Params.description }}<meta name="description" content="{{ . }}">{{ else }}{{ with site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}{{ end }}
     <link rel="canonical" href="{{ .Permalink }}">
     <link rel="icon" type="image/svg+xml" href="{{ `favicon.svg` | relURL }}">
-    <link rel="preload" as="image" href="{{ `images/bill-wegener-7MD4DR9jbP0-unsplash.jpg` | relURL }}">
-    {{ range $key, $image := $sectionImageMap }}
-      <link rel="preload" as="image" href="{{ $image | relURL }}">
+    {{ if .IsHome }}
+      <link rel="preload" as="image" href="{{ `images/bill-wegener-7MD4DR9jbP0-unsplash.jpg` | relURL }}">
+    {{ else if $sectionImage }}
+      <link rel="preload" as="image" href="{{ $sectionImage | relURL }}">
     {{ end }}
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
