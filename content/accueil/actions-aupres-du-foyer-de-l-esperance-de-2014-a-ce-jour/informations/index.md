@@ -9,9 +9,7 @@ aliases:
 
 # Foyer de l'Espérance et Centre de formation
 
-" Mieux vaut apprendre à un jeune enfant à pêcher
-
-que de lui donner du poisson dans un plat. "
+« Mieux vaut apprendre à un jeune enfant à pêcher<br>que de lui donner du poisson dans un plat. »
 
 ![](/media/jimdo/i541a646335de8f34-d421125c8c.jpg)
 

@@ -17,10 +17,10 @@ Initialement géré par une ONG (Organisation Non Gouvernementale), l'Organisati
 
 Depuis 2012, grâce aux efforts de chacun et à vos dons, le foyer est en bonne voie d'évolution et peut bénéficier de l'aide d'autres organismes. Enfants-Kara peut commencer à orienter son aide sur le terrain auprès d' enfants plus âgés, d'une manière plus durable encore, cherchant à favoriser des apprentissages utiles pour eux-mêmes et leur région, afin d'éviter un exode rural massif.
 
-Savoir plus sur Kara : Wikipedia, article "Kara (Togo)".
+Savoir plus sur Kara : [Kara (Togo)](http://fr.wikipedia.org/wiki/Kara_(Togo))
 
-Voir aussi : Togo Confidentiel, page d'information sur Kara et ses sites.
+[Kara et sites](http://www.togo-confidentiel.com/texte/Info&Service/Kara_et_sites.htm)
 
-Plus sur la région : Wikipedia, article "Region de la Kara".
+Plus sur la région : [Région de la Kara](http://fr.wikipedia.org/wiki/R%C3%A9gion_de_la_Kara)
 
 ![](/media/jimdo/i39b034fb0513ca08-2aee0428c5.png)
