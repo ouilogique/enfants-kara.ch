@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>1. Proposition de projet pour l’utilisation d&#39;un on Enfants-Kara</title>
-    <link>https://example.org/projet-marcar/</link>
+    <link>http://10.97.156.218:1313/projet-marcar/</link>
     <description>Recent content in 1. Proposition de projet pour l’utilisation d&#39;un on Enfants-Kara</description>
     <generator>Hugo</generator>
     <language>fr-CH</language>
-    <atom:link href="https://example.org/projet-marcar/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://10.97.156.218:1313/projet-marcar/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
