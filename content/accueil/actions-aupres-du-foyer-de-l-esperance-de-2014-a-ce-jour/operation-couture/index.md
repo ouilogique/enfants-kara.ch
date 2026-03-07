@@ -1,6 +1,6 @@
 ---
 title: "Désolation"
-linkTitle: "Opération \"Couture\""
+linkTitle: "Opération “Couture”"
 weight: 60
 draft: false
 aliases:
