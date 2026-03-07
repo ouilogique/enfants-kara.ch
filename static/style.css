@@ -969,6 +969,10 @@ body.is-home .listing {
 }
 
 @media (max-width: 640px) {
+  :root {
+    --panel-alpha: 0.9;
+  }
+
   .shell {
     width: min(100% - 1rem, 76rem);
   }
@@ -1051,11 +1055,13 @@ body.is-home .listing {
   }
 
   .home-hero-content {
-    padding: 1.25rem 1.25rem 5.5rem;
+    padding: 7rem 1.25rem 5.5rem;
+    align-content: end;
   }
 
   .home-hero-brand {
     top: 1.25rem;
     left: 1.25rem;
+    right: 1.25rem;
   }
 }
