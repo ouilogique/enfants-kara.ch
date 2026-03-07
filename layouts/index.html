@@ -1,30 +1,24 @@
 {{ define "main" }}
+  {{ $entryPage := index site.Home.Pages.ByWeight 0 }}
   <section class="page home">
-    <header class="page-header">
-      <p class="eyebrow">Solidarite et accompagnement</p>
-      <h1>{{ .Title | safeHTML }}</h1>
-      {{ with .Params.description }}<p class="dek">{{ . }}</p>{{ end }}
-      <nav class="page-nav" aria-label="Navigation entre pages">
-        <a class="page-nav-link is-prev" data-page-nav="prev" href="" hidden>
-          <span class="page-nav-kicker">Page précédente</span>
-          <span class="page-nav-title"></span>
+    <header class="home-hero">
+      <img
+        class="home-hero-image"
+        src="{{ `images/bill-wegener-7MD4DR9jbP0-unsplash.jpg` | relURL }}"
+        alt="Enfants marchant vers un horizon lumineux"
+      >
+      <div class="home-hero-overlay"></div>
+      <div class="home-hero-content">
+        <a class="home-hero-brand" href="{{ `` | relURL }}">
+          <span class="brand-kicker">Association</span>
+          <span class="brand-name">{{ site.Title }}</span>
         </a>
-        <a class="page-nav-link is-next" data-page-nav="next" href="" hidden>
-          <span class="page-nav-kicker">Page suivante</span>
-          <span class="page-nav-title"></span>
-        </a>
-      </nav>
+        <p class="eyebrow">Bienvenue</p>
+        <h1>Enfants-Kara</h1>
+        <p class="home-hero-lead">Une association qui accompagne des enfants et des jeunes au Togo avec un engagement concret, durable et profondément humain.</p>
+        <p class="home-hero-curiosity">Derrière chaque action se cache une histoire, un visage et un avenir à découvrir.</p>
+        <a class="home-hero-button" href="{{ with $entryPage }}{{ .RelPermalink }}{{ else }}{{ `` | relURL }}{{ end }}">Venez à la rencontre des Enfants-Kara</a>
+      </div>
     </header>
-    <div class="content">
-      {{ .Content }}
-    </div>
-    <section class="listing">
-      {{ range site.Home.Pages.ByWeight }}
-        <article class="card">
-          <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-          {{ with .Params.description }}<p>{{ . }}</p>{{ end }}
-        </article>
-      {{ end }}
-    </section>
   </section>
 {{ end }}
