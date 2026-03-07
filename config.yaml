@@ -6,6 +6,9 @@ enableRobotsTXT: true
 disableKinds:
   - taxonomy
   - term
+caches:
+  images:
+    dir: :cacheDir/images
 markup:
   goldmark:
     renderer:
