@@ -1,6 +1,6 @@
 ---
 title: "Accueil"
-linkTitle: "accueil"
+linkTitle: "Accueil"
 weight: 20
 draft: false
 aliases:
@@ -9,4 +9,4 @@ aliases:
 
 # Accueil
 
-Cette section regroupe les pages d'accueil du site.
+![](/media/jimdo/i47345acee0002839-17e1afcd26.jpg)

@@ -1,5 +1,5 @@
 ---
-title: "1. Proposition de projet pour l’utilisation d'un"
+title: "1. Proposition de projet pour l’utilisation d'un terrain à Blitta"
 linkTitle: "Projet MarCar"
 weight: 50
 draft: false
@@ -7,9 +7,7 @@ aliases:
   - "/projet-marcar/index.html"
 ---
 
-# 1. Proposition de projet pour l’utilisation d'un
-
-# terrain à Blitta
+# 1. Proposition de projet pour l’utilisation d'un terrain à Blitta
 
 ## 1.1. Orphelinat de Caredo
 
