@@ -13,7 +13,7 @@
         <a class="brand" href="{{ `` | relURL }}">{{ site.Title }}</a>
         <nav class="topnav" aria-label="Navigation principale">
           {{ range where site.Sections "RelPermalink" "!=" "/" }}
-            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
           {{ end }}
         </nav>
       </div>

@@ -1,5 +1,7 @@
 ---
 title: "Statuts"
+linkTitle: "Statuts"
+weight: 10
 draft: false
 aliases:
   - "/enfants-kara-suisse-eks/statuts/index.html"

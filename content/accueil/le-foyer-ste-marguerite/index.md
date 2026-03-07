@@ -1,5 +1,7 @@
 ---
 title: "Le Foyer Ste Marguerite"
+linkTitle: "Le Foyer Ste-Marguerite"
+weight: 20
 draft: false
 aliases:
   - "/accueil/le-foyer-ste-marguerite/index.html"

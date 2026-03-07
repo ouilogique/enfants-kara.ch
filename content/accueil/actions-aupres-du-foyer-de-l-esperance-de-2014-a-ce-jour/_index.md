@@ -1,5 +1,7 @@
 ---
 title: "Le Foyer de l'Espérance et son Centre de formation"
+linkTitle: "Actions auprès du Foyer de l'Espérance de 2014 à ce jour"
+weight: 40
 draft: false
 aliases:
   - "/accueil/actions-auprès-du-foyer-de-l-espérance-de-2014-à-ce-jour/index.html"

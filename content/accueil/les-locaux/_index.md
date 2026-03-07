@@ -1,5 +1,7 @@
 ---
 title: "Les locaux du Foyer Ste-Marguerite"
+linkTitle: "Les Locaux"
+weight: 30
 draft: false
 aliases:
   - "/accueil/les-locaux/index.html"

@@ -1,5 +1,6 @@
 ---
 title: "1. Proposition de projet pour l’utilisation d'un"
+linkTitle: "Projet MarCar"
 draft: false
 aliases:
   - "/projet-marcar/index.html"

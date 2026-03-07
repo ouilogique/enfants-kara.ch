@@ -1,5 +1,7 @@
 ---
 title: "Comité 2017 - 2021"
+linkTitle: "Comité"
+weight: 20
 draft: false
 aliases:
   - "/enfants-kara-suisse-eks/comité/index.html"

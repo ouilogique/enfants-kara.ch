@@ -1,5 +1,7 @@
 ---
 title: "Devenir membre"
+linkTitle: "Devenir membre"
+weight: 40
 draft: false
 aliases:
   - "/enfants-kara-suisse-eks/devenir-membre/index.html"

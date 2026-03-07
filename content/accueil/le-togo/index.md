@@ -1,5 +1,7 @@
 ---
 title: "Géographie"
+linkTitle: "Le Togo"
+weight: 10
 draft: false
 aliases:
   - "/accueil/le-togo/index.html"

@@ -1,5 +1,7 @@
 ---
 title: "Contact"
+linkTitle: "Contact"
+weight: 60
 draft: false
 aliases:
   - "/enfants-kara-suisse-eks/contact/index.html"

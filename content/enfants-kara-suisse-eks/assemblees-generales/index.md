@@ -1,5 +1,7 @@
 ---
 title: "Documents pour l'Assemblée générale 2021"
+linkTitle: "Assemblées générales"
+weight: 30
 draft: false
 aliases:
   - "/enfants-kara-suisse-eks/assemblées-générales/index.html"

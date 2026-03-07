@@ -1,5 +1,7 @@
 ---
 title: "Comité EKT 2025"
+linkTitle: "Comité"
+weight: 20
 draft: false
 aliases:
   - "/enfants-kara-togo-ekt/comité/index.html"

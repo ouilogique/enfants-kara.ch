@@ -1,5 +1,7 @@
 ---
 title: "Manifestations"
+linkTitle: "Manifestations"
+weight: 50
 draft: false
 aliases:
   - "/accueil/manifestations/index.html"
