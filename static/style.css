@@ -407,12 +407,6 @@ body.is-home .page {
   overflow: hidden;
 }
 
-.page-header-home-link {
-  position: absolute;
-  inset: 0;
-  z-index: 0;
-}
-
 .page-header::after {
   content: "";
   position: absolute;
