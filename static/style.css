@@ -367,11 +367,12 @@ body.is-home .sidepane {
 }
 
 .site-footer {
+  grid-column: 2;
   position: relative;
   z-index: 6;
   display: flex;
   justify-content: center;
-  margin-top: 1.5rem;
+  margin-top: 0;
   padding: 0.4rem 0 0.2rem;
   font-size: 0.9rem;
   color: rgba(255, 248, 240, 0.96);
@@ -1051,6 +1052,11 @@ body.is-home .listing {
     position: static;
     max-height: none;
     overflow: visible;
+  }
+
+  .site-footer {
+    grid-column: auto;
+    order: 4;
   }
 
   .page-header h1 {

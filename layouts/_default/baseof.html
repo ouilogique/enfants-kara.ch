@@ -57,12 +57,12 @@
       </div>
       <main class="mainpane">
         {{ block "main" . }}{{ end }}
-        {{ if not .IsHome }}
-          <footer class="site-footer">
-            <a href="https://jeanmonod.net" target="_blank" rel="noopener noreferrer">❧</a>
-          </footer>
-        {{ end }}
       </main>
+      {{ if not .IsHome }}
+        <footer class="site-footer">
+          <a href="https://jeanmonod.net" target="_blank" rel="noopener noreferrer">❧</a>
+        </footer>
+      {{ end }}
     </div>
     <div class="lightbox" id="site-lightbox" hidden>
       <button class="lightbox-nav lightbox-prev" type="button" aria-label="Image precedente">&#8249;</button>
