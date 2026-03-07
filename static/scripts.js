@@ -340,8 +340,14 @@ function setupPageNavigation() {
         if (!link || !target) return;
 
         const title = link.querySelector(".page-nav-title");
-        link.href = target.href;
+        link.dataset.href = target.href;
+        link.onclick = () => {
+            if (isNavigating) return;
+            isNavigating = true;
+            window.location.href = target.href;
+        };
         if (title) title.textContent = target.label;
+        link.setAttribute("aria-label", target.label);
         link.hidden = false;
     });
 }
