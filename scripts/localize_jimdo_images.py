@@ -6,7 +6,6 @@ import argparse
 import hashlib
 import mimetypes
 import re
-import shutil
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -62,8 +61,6 @@ def main() -> None:
     args = parse_args()
     content_root = args.content.resolve()
     static_root = args.static.resolve() if args.static.is_absolute() else (Path.cwd() / args.static).resolve()
-    if static_root.exists():
-        shutil.rmtree(static_root)
     static_root.mkdir(parents=True, exist_ok=True)
 
     urls: dict[str, str] = {}
@@ -72,6 +69,10 @@ def main() -> None:
         for url in IMAGE_PATTERN.findall(text):
             if url not in urls:
                 urls[url] = f"/media/jimdo/{file_name_for_url(url)}"
+
+    if not urls:
+        print(f"No remote Jimdo images found in {content_root}; keeping existing files in {static_root}")
+        return
 
     for url, local_path in urls.items():
         destination = static_root / Path(local_path).name
