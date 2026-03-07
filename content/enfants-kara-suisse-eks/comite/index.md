@@ -7,7 +7,7 @@ aliases:
   - "/enfants-kara-suisse-eks/comité/index.html"
 ---
 
-![](/images/ibac569724a40e6e4-9b23ad94dd.jpg)
+![](images/ibac569724a40e6e4-9b23ad94dd.jpg)
 
 # Comité 2017 - 2021
 

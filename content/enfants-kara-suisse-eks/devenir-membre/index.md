@@ -30,4 +30,4 @@ Vous pouvez aussi nous demander l'envoi à votre adresse postale d'un bulletin d
 
 **Merci de votre intérêt pour eux !**
 
-![](/images/i047bf402cb1df83f-660e6d54c1.jpg)
+![](images/i047bf402cb1df83f-660e6d54c1.jpg)

@@ -7,7 +7,7 @@ aliases:
   - "/enfants-kara-suisse-eks/statuts/index.html"
 ---
 
-![](/images/i3cd6a4cbce1f8069-026496f9b9.jpg)
+![](images/i3cd6a4cbce1f8069-026496f9b9.jpg)
 
 # Statuts de l'association Enfants-Kara
 

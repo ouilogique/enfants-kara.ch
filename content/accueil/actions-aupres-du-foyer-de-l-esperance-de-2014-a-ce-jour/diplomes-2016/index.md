@@ -18,9 +18,9 @@ Menuiserie 5 diplômes
 
 Maçonnerie 12 diplômes
 
-- ![](/images/i4d82503fee98e245-e69dd29853.jpg)
-- ![](/images/iaba36fb27c530eea-d2e8244bee.jpg)
-- ![](/images/id01935a8adfb2a97-b1ff8cccd1.jpg)
-- ![](/images/iae20e4aa0efb5a3f-290c93661b.jpg)
-- ![](/images/if7df2a3e719b36f8-0b691f7c57.jpg)
-- ![](/images/i9b95d0b9f77612bb-6639ebc36f.jpg)
+- ![](images/i4d82503fee98e245-e69dd29853.jpg)
+- ![](images/iaba36fb27c530eea-d2e8244bee.jpg)
+- ![](images/id01935a8adfb2a97-b1ff8cccd1.jpg)
+- ![](images/iae20e4aa0efb5a3f-290c93661b.jpg)
+- ![](images/if7df2a3e719b36f8-0b691f7c57.jpg)
+- ![](images/i9b95d0b9f77612bb-6639ebc36f.jpg)

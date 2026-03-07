@@ -6,4 +6,4 @@ draft: false
 aliases:
   - "/projet-marcar/plan-du-terrain/index.html"
 ---
-![Plan du terrain](/images/i256d62d426008f2b-ed792f239e.jpg)
+![Plan du terrain](images/i256d62d426008f2b-ed792f239e.jpg)

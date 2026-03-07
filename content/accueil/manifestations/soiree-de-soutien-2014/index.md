@@ -9,5 +9,5 @@ aliases:
 
 # Soirée de soutien 2014
 
-- ![](/images/if872b5d7b4d6e583-282a6b3fd8.jpg)
-- ![](/images/ib9b58585d4360285-0746863772.jpg)
+- ![](images/if872b5d7b4d6e583-282a6b3fd8.jpg)
+- ![](images/ib9b58585d4360285-0746863772.jpg)

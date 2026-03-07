@@ -21,20 +21,20 @@ Conformément à la décision des membres d'EK réunis lors de leur Assemblée G
 
 La progression des travaux a été suivi par M. Kilim BINI, précédemment notre représentant au foyer Ste Marguerite. Il nous en a fait le rapport d'avancement toutes les 2 semaines. Une inauguration solennelle a eu lieu en août 2014 en présence de notables locaux.
 
-![Les nouveaux dortoirs (10 chambres doubles)](/images/i2e95ff53b9727535-afc408ef78.jpg)
+![Les nouveaux dortoirs (10 chambres doubles)](images/i2e95ff53b9727535-afc408ef78.jpg)
 
 Les nouveaux dortoirs (10 chambres doubles)
 
-![Une des chambres aménagée](/images/i4873a8d9b5a853e1-42ec3101dd.jpg)
+![Une des chambres aménagée](images/i4873a8d9b5a853e1-42ec3101dd.jpg)
 
 Une des chambres aménagée
 
-![4 Latrines "filles"](/images/i1861642ac801becb-9eca4632e0.jpg)
+![4 Latrines "filles"](images/i1861642ac801becb-9eca4632e0.jpg)
 
 4 Latrines "filles"
 
 Douches et latrines "Garçons" sont à l'identique.
 
-![Inauguration](/images/iabe5430d4eb2546d-c9182e5bae.gif)
+![Inauguration](images/iabe5430d4eb2546d-c9182e5bae.gif)
 
 Inauguration
