@@ -9,7 +9,9 @@ aliases:
 
 # Foyer de l'Espérance et Centre de formation
 
+<div class="text-center">
 « Mieux vaut apprendre à un jeune enfant à pêcher<br>que de lui donner du poisson dans un plat. »
+</div>
 
 ![](/images/i541a646335de8f34-d421125c8c.jpg)
 
