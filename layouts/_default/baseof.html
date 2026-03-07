@@ -13,12 +13,30 @@
       {{ $sectionImage = index $sectionImageMap $rootSection.Section }}
     {{ end }}
   {{ end }}
+  {{ $ogTitle := site.Title }}
+  {{ if not .IsHome }}{{ $ogTitle = printf "%s | %s" (.Title | plainify) site.Title }}{{ end }}
+  {{ $ogDesc := or .Params.description site.Params.description }}
+  {{ $ogImage := `images/bill-wegener-7MD4DR9jbP0-unsplash.jpg` | absURL }}
+  {{ if and (not .IsHome) $sectionImage }}{{ $ogImage = $sectionImage | absURL }}{{ end }}
+  {{ $ogType := "website" }}
+  {{ if .IsPage }}{{ $ogType = "article" }}{{ end }}
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title | plainify }} | {{ site.Title }}{{ end }}</title>
-    {{ with .Params.description }}<meta name="description" content="{{ . }}">{{ else }}{{ with site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}{{ end }}
+    <title>{{ $ogTitle }}</title>
+    {{ with $ogDesc }}<meta name="description" content="{{ . }}">{{ end }}
     <link rel="canonical" href="{{ .Permalink }}">
+    <meta property="og:title" content="{{ $ogTitle }}">
+    <meta property="og:description" content="{{ $ogDesc }}">
+    <meta property="og:url" content="{{ .Permalink }}">
+    <meta property="og:type" content="{{ $ogType }}">
+    <meta property="og:image" content="{{ $ogImage }}">
+    <meta property="og:site_name" content="{{ site.Title }}">
+    <meta property="og:locale" content="fr_CH">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ $ogTitle }}">
+    <meta name="twitter:description" content="{{ $ogDesc }}">
+    <meta name="twitter:image" content="{{ $ogImage }}">
     <link rel="icon" type="image/svg+xml" href="{{ `favicon.svg` | relURL }}">
     {{ if .IsHome }}
       <link rel="preload" as="image" href="{{ `images/bill-wegener-7MD4DR9jbP0-unsplash.jpg` | relURL }}">
