@@ -9,14 +9,14 @@ aliases:
 
 Cliquez sur une image pour l'agrandir.
 
-![](/media/jimdo/ia171e1f86f115395-3d2ce7a936.jpg)
+![](https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/s2989e56b0cc176fb/image/ia171e1f86f115395/version/1473949298/image.jpg)
 
-![](/media/jimdo/iaa334181a4c30e3a-a5c2c02144.jpg)
+![](https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/s2989e56b0cc176fb/image/iaa334181a4c30e3a/version/1473949298/image.jpg)
 
-![](/media/jimdo/i0b41128cbfc1922d-5f698bc7db.jpg)
+![](https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/s2989e56b0cc176fb/image/i0b41128cbfc1922d/version/1473949298/image.jpg)
 
-![](/media/jimdo/i0f02733389c41674-f782d9292b.jpg)
+![](https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/s2989e56b0cc176fb/image/i0f02733389c41674/version/1473949298/image.jpg)
 
-- ![On a raclé ...](/media/jimdo/iad55d1bb00ac0a96-a63085f580.jpg)
-- ![On a grillé ...](/media/jimdo/i68eb1c64a639f94a-21ed1204aa.jpg)
-- ![On s'est régalé !](/media/jimdo/idb0ac82eca6156ed-de34dd1a18.jpg)
+- ![On a raclé ...](https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s2989e56b0cc176fb/image/iad55d1bb00ac0a96/version/1479727232/image.jpg)
+- ![On a grillé ...](https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s2989e56b0cc176fb/image/i68eb1c64a639f94a/version/1479726985/image.jpg)
+- ![On s'est régalé !](https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s2989e56b0cc176fb/image/idb0ac82eca6156ed/version/1479727232/image.jpg)

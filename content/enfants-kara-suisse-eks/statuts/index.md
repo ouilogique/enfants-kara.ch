@@ -5,7 +5,7 @@ aliases:
   - "/enfants-kara-suisse-eks/statuts/index.html"
 ---
 
-![](/media/jimdo/i3cd6a4cbce1f8069-026496f9b9.jpg)
+![](https://image.jimcdn.com/app/cms/image/transf/dimension=166x10000:format=jpg/path/s2989e56b0cc176fb/image/i3cd6a4cbce1f8069/version/1364761565/image.jpg)
 
 ** **
 

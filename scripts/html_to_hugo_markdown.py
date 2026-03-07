@@ -107,6 +107,13 @@ def normalize_path_text(value: str) -> str:
     return unicodedata.normalize("NFC", value)
 
 
+def slugify_parts(path: Path) -> Path:
+    parts = [slugify(normalize_path_text(part)) for part in path.parts]
+    if not parts:
+        return Path()
+    return Path(*parts)
+
+
 def collect_html_files(root: Path) -> list[Path]:
     excluded_roots = {
         ".git",
@@ -252,11 +259,11 @@ def build_output_path(html_path: Path, output_root: Path, all_files: set[Path]) 
     if html_path == Path("index.html"):
         return output_root / "_index.md"
     if html_path.name == "index.html":
-        parent = output_root / html_path.parent
+        parent = output_root / slugify_parts(html_path.parent)
         filename = "_index.md" if has_child_pages(html_path, all_files) else "index.md"
         return parent / filename
     slug = slugify(html_path.stem)
-    return output_root / html_path.parent / slug / "index.md"
+    return output_root / slugify_parts(html_path.parent) / slug / "index.md"
 
 
 def original_alias(html_path: Path) -> str:
