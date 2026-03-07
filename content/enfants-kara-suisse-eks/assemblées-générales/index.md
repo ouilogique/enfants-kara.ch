@@ -7,26 +7,26 @@ aliases:
 
 ## Documents pour l'Assemblée générale 2021
 
-[![Télécharger](/media/jimdo/pdf-9b35d9d12e.png)](https://enfantskara.jimdofree.com/app/download/10433840284/PV+AG+EK+2022.pdf?t=1715334534)
+[![Télécharger](/media/jimdo/pdf-9b35d9d12e.png)](/downloads/PV-AG-EK-2022-87f086053a.pdf)
 
 PV AG EK 2022.pdf
 
 Document Adobe Acrobat 255.9 KB
 
-[Télécharger](/app/download/10433840284/PV+AG+EK+2022.pdf?t=1715334534)
+[Télécharger](/downloads/PV-AG-EK-2022-87f086053a.pdf)
 
-[![Télécharger](/media/jimdo/pdf-9b35d9d12e.png)](https://enfantskara.jimdofree.com/app/download/10433842484/PV+AG+EK+2023+.pdf?t=1715334534)
+[![Télécharger](/media/jimdo/pdf-9b35d9d12e.png)](/downloads/PV-AG-EK-2023-7114860277.pdf)
 
 PV AG EK 2023 .pdf
 
 Document Adobe Acrobat 327.9 KB
 
-[Télécharger](/app/download/10433842484/PV+AG+EK+2023+.pdf?t=1715334534)
+[Télécharger](/downloads/PV-AG-EK-2023-7114860277.pdf)
 
-[![Télécharger](/media/jimdo/pdf-9b35d9d12e.png)](https://enfantskara.jimdofree.com/app/download/10433843184/PV+AG+EK+2024.pdf?t=1715334546)
+[![Télécharger](/media/jimdo/pdf-9b35d9d12e.png)](/downloads/PV-AG-EK-2024-bf3a0d4d83.pdf)
 
 PV AG EK 2024.pdf
 
 Document Adobe Acrobat 305.6 KB
 
-[Télécharger](/app/download/10433843184/PV+AG+EK+2024.pdf?t=1715334546)
+[Télécharger](/downloads/PV-AG-EK-2024-bf3a0d4d83.pdf)

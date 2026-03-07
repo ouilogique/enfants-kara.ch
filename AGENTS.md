@@ -16,3 +16,6 @@
 - Le projet consiste a migrer un site miroir Jimdo vers une structure compatible Hugo.
 - Privilegier une sortie directement exploitable par Hugo, notamment dans `content/`.
 - Avant une operation importante ou ambigue, indiquer brievement si la consigne utilisateur peut etre optimisee ou resserree.
+- Privilegier un site Hugo autonome, avec les ressources distantes rapatriees localement quand c'est pertinent.
+- Les images du contenu sont relocalisees dans `static/media/jimdo`.
+- Les documents telechargeables rapatries sont relocalises dans `static/downloads`.
