@@ -1,5 +1,18 @@
 <!DOCTYPE html>
 <html lang="{{ site.Language.Lang | default `fr` }}">
+  {{ $sectionImage := "" }}
+  {{ if not .IsHome }}
+    {{ $rootSection := .FirstSection }}
+    {{ if $rootSection }}
+      {{ $sectionImageMap := dict
+        "accueil" "images/jannik-v6ttXWuuKdo-unsplash.jpg"
+        "enfants-kara-suisse-eks" "images/antoine-demare-5OhSEgbUQwo-unsplash.jpg"
+        "enfants-kara-togo-ekt" "images/tobie-eniafe-7EZfQdvDAl8-unsplash.jpg"
+        "projet-marcar" "images/stijn-kleerebezem-bsk8f6BVSHc-unsplash.jpg"
+      }}
+      {{ $sectionImage = index $sectionImageMap $rootSection.Section }}
+    {{ end }}
+  {{ end }}
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,8 +22,13 @@
     <link rel="stylesheet" href="{{ `style.css` | relURL }}">
     <script src="{{ `scripts.js` | relURL }}" defer></script>
   </head>
-  <body class="{{ if .IsHome }}is-home{{ else if .IsSection }}is-section{{ else }}is-page{{ end }}">
+  <body
+    class="{{ if .IsHome }}is-home{{ else if .IsSection }}is-section{{ else }}is-page{{ end }}"
+  >
     {{ $rootPages := site.Home.Pages.ByWeight }}
+    {{ with $sectionImage }}
+      <div class="page-background" aria-hidden="true" style="--page-bg-image: url('{{ . | relURL }}');"></div>
+    {{ end }}
     <div class="app shell">
       <div class="sidepane">
         <a class="brand" href="{{ `` | relURL }}">
