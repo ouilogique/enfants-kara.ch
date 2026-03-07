@@ -260,6 +260,7 @@ img {
   height: 12rem;
   border-radius: 50%;
   background: radial-gradient(circle, rgba(255, 240, 222, 0.34) 0, transparent 68%);
+  pointer-events: none;
 }
 
 .eyebrow,
@@ -290,6 +291,60 @@ img {
   max-width: 44rem;
   font-size: 1.04rem;
   color: rgba(255, 244, 235, 0.88);
+}
+
+.page-nav {
+  position: relative;
+  z-index: 1;
+  margin-top: 1.15rem;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.85rem;
+  max-width: 42rem;
+}
+
+.page-nav-link {
+  display: grid;
+  gap: 0.22rem;
+  min-height: 5rem;
+  padding: 0.95rem 1rem;
+  border-radius: 1.15rem;
+  text-decoration: none;
+  color: #fff7f0;
+  background: rgba(255, 248, 240, 0.12);
+  border: 1px solid rgba(255, 244, 235, 0.18);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.14);
+  transition: transform 180ms ease, background-color 180ms ease, border-color 180ms ease;
+}
+
+.page-nav-link:hover,
+.page-nav-link:focus-visible {
+  transform: translateY(-2px);
+  background: rgba(255, 248, 240, 0.18);
+  border-color: rgba(255, 244, 235, 0.32);
+  color: #fffdf9;
+  outline: none;
+}
+
+.page-nav-link[hidden] {
+  display: none;
+}
+
+.page-nav-link.is-next {
+  text-align: right;
+}
+
+.page-nav-kicker {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: rgba(255, 244, 235, 0.78);
+}
+
+.page-nav-title {
+  font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 1.15rem;
+  line-height: 1.1;
 }
 
 .home .content {
@@ -629,6 +684,17 @@ img {
   .content .image-gallery {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 0.75rem;
+  }
+
+  .page-nav {
+    grid-template-columns: 1fr;
+    max-width: none;
+  }
+
+  .page-nav-link,
+  .page-nav-link.is-next {
+    text-align: left;
+    min-height: 0;
   }
 
   .lightbox-nav {

@@ -262,7 +262,8 @@ function getSidebarNavigationTargets() {
             const url = new URL(link.href, window.location.href);
             return {
                 href: link.href,
-                path: normalizePath(url.pathname)
+                path: normalizePath(url.pathname),
+                label: (link.textContent || "").trim()
             };
         })
         .filter((item) => {
@@ -282,6 +283,31 @@ function getAdjacentNavigationTarget(delta) {
     const target = targets[currentIndex + delta];
     return target ? target.href : null;
 }
+
+function setupPageNavigation() {
+    const targets = getSidebarNavigationTargets();
+    const currentPath = normalizePath(window.location.pathname);
+    const currentIndex = targets.findIndex((item) => item.path === currentPath);
+    if (currentIndex < 0) return;
+
+    const prev = targets[currentIndex - 1] || null;
+    const next = targets[currentIndex + 1] || null;
+
+    [
+        { selector: '[data-page-nav="prev"]', target: prev },
+        { selector: '[data-page-nav="next"]', target: next }
+    ].forEach(({ selector, target }) => {
+        const link = document.querySelector(selector);
+        if (!link || !target) return;
+
+        const title = link.querySelector(".page-nav-title");
+        link.href = target.href;
+        if (title) title.textContent = target.label;
+        link.hidden = false;
+    });
+}
+
+setupPageNavigation();
 
 document.addEventListener("keydown", (event) => {
     if (lightboxState.isOpen) {
