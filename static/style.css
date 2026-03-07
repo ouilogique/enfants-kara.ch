@@ -561,6 +561,7 @@ body.is-home .home {
   padding: 0.8rem 1.4rem;
   border-radius: 999px;
   text-decoration: none;
+  text-align: center;
   font-weight: 700;
   letter-spacing: 0.02em;
   color: #fffaf5;
