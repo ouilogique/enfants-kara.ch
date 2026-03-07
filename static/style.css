@@ -391,6 +391,10 @@ body.is-home .page {
   padding: 0;
 }
 
+.page.home {
+  position: relative;
+}
+
 .page-header {
   margin-bottom: 1.35rem;
   padding: calc(var(--panel-padding) * 0.6) var(--panel-padding) calc(var(--panel-padding) * 1);
