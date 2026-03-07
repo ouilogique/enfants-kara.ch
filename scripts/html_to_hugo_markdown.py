@@ -120,8 +120,21 @@ def collect_html_files(root: Path) -> list[Path]:
     return sorted(
         path
         for path in root.rglob("*.html")
-        if path.is_file() and not any(part in excluded_roots for part in path.parts)
+        if path.is_file()
+        and not any(part in excluded_roots for part in path.parts)
+        and not should_skip_source(path.relative_to(root))
     )
+
+
+def should_skip_source(relative_path: Path) -> bool:
+    posix = relative_path.as_posix()
+    if posix == "_downloads.html":
+        return True
+    if posix == "sitemap/index.html":
+        return True
+    if posix.startswith("protected/"):
+        return True
+    return False
 
 
 def has_child_pages(html_path: Path, all_files: set[Path]) -> bool:
@@ -285,6 +298,29 @@ def derive_title(markdown: str, fallback: str) -> str:
     return fallback or "Sans titre"
 
 
+def humanize_slug(value: str) -> str:
+    text = unicodedata.normalize("NFC", value)
+    text = text.replace("-", " ")
+    if not text:
+        return "Sans titre"
+    return text[0].upper() + text[1:]
+
+
+def choose_title(markdown: str, fallback: str, relative_path: Path) -> str:
+    derived = derive_title(markdown, fallback)
+    if "photos-" in relative_path.as_posix() and "photos" not in derived.lower():
+        return humanize_slug(relative_path.parent.name)
+    return derived
+
+
+def markdown_has_meaningful_content(markdown: str) -> bool:
+    text = re.sub(r"!\[[^\]]*\]\([^)]+\)", "", markdown)
+    text = re.sub(r"\[[^\]]+\]\([^)]+\)", "", text)
+    text = re.sub(r"^#+\s*", "", text, flags=re.MULTILINE)
+    text = text.strip()
+    return bool(text)
+
+
 def clean_markdown(markdown: str) -> str:
     markdown = rewrite_internal_links(markdown)
     markdown = re.sub(r"\[(!\[[^\]]*\]\([^)]+\))\]\(javascript:[^)]*\)", r"\1", markdown)
@@ -306,14 +342,17 @@ def clean_markdown(markdown: str) -> str:
 
 
 def convert_file(html_path: Path, source_root: Path, output_root: Path, all_files: set[Path]) -> Path:
+    relative_path = html_path.relative_to(source_root)
     html = html_path.read_text(encoding="utf-8")
     meta = read_meta(html)
     fragment = extract_content_fragment(html)
     markdown = clean_markdown(run_pandoc(fragment))
-    meta.title = derive_title(markdown, meta.title)
-    destination = build_output_path(html_path.relative_to(source_root), output_root, all_files)
+    meta.title = choose_title(markdown, meta.title, relative_path)
+    if not markdown_has_meaningful_content(markdown) and relative_path.name == "index.html" and relative_path != Path("index.html"):
+        return output_root / ".skip"
+    destination = build_output_path(relative_path, output_root, all_files)
     destination.parent.mkdir(parents=True, exist_ok=True)
-    front_matter = format_front_matter(meta, original_alias(html_path.relative_to(source_root)))
+    front_matter = format_front_matter(meta, original_alias(relative_path))
     destination.write_text(front_matter + markdown, encoding="utf-8")
     return destination
 
@@ -334,7 +373,9 @@ def main() -> None:
 
     converted: list[Path] = []
     for html_file in html_files:
-        converted.append(convert_file(html_file, source_root, output_root, relative_files))
+        destination = convert_file(html_file, source_root, output_root, relative_files)
+        if destination.name != ".skip":
+            converted.append(destination)
 
     print(f"Converted {len(converted)} HTML files to {output_root}")
 

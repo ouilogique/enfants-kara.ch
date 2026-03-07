@@ -1,5 +1,5 @@
 ---
-title: "Soirée de soutien 2012"
+title: "Photos soirée 2012"
 draft: false
 aliases:
   - "/accueil/manifestations/photos-soire%CC%81e-2012/index.html"

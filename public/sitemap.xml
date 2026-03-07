@@ -10,8 +10,6 @@
   </url><url>
     <loc>https://example.org/accueil/</loc>
   </url><url>
-    <loc>https://example.org/enfants-kara-togo-ekt/assembl%C3%A9es-g%C3%A9n%C3%A9rales/</loc>
-  </url><url>
     <loc>https://example.org/accueil/actions-aupr%C3%A8s-du-foyer-de-l-esp%C3%A9rance-de-2014-%C3%A0-ce-jour/pr%C3%A9ambule/</loc>
   </url><url>
     <loc>https://example.org/enfants-kara-suisse-eks/comit%C3%A9/</loc>
@@ -22,15 +20,11 @@
   </url><url>
     <loc>https://example.org/enfants-kara-suisse-eks/contact/</loc>
   </url><url>
-    <loc>https://example.org/enfants-kara-togo-ekt/contact/</loc>
-  </url><url>
     <loc>https://example.org/accueil/actions-aupr%C3%A8s-du-foyer-de-l-esp%C3%A9rance-de-2014-%C3%A0-ce-jour/op%C3%A9ration-meubles/</loc>
   </url><url>
     <loc>https://example.org/accueil/actions-aupr%C3%A8s-du-foyer-de-l-esp%C3%A9rance-de-2014-%C3%A0-ce-jour/op%C3%A9ration-couture/</loc>
   </url><url>
     <loc>https://example.org/enfants-kara-suisse-eks/devenir-membre/</loc>
-  </url><url>
-    <loc>https://example.org/enfants-kara-togo-ekt/devenir-membre/</loc>
   </url><url>
     <loc>https://example.org/accueil/actions-aupr%C3%A8s-du-foyer-de-l-esp%C3%A9rance-de-2014-%C3%A0-ce-jour/dipl%C3%B4m%C3%A9s-2015/</loc>
   </url><url>
@@ -40,13 +34,9 @@
   </url><url>
     <loc>https://example.org/enfants-kara-suisse-eks/faire-un-don/</loc>
   </url><url>
-    <loc>https://example.org/downloads/</loc>
-  </url><url>
     <loc>https://example.org/accueil/actions-aupr%C3%A8s-du-foyer-de-l-esp%C3%A9rance-de-2014-%C3%A0-ce-jour/electrification/</loc>
   </url><url>
     <loc>https://example.org/enfants-kara-togo-ekt/</loc>
-  </url><url>
-    <loc>https://example.org/enfants-kara-togo-ekt/faire-un-don/</loc>
   </url><url>
     <loc>https://example.org/accueil/actions-aupr%C3%A8s-du-foyer-de-l-esp%C3%A9rance-de-2014-%C3%A0-ce-jour/2014-dortoirs-des-filles/</loc>
   </url><url>
@@ -88,15 +78,9 @@
   </url><url>
     <loc>https://example.org/accueil/manifestations/photos-soir%C3%A9e-2010/</loc>
   </url><url>
+    <loc>https://example.org/accueil/manifestations/photos-soir%C3%A9e-2012/</loc>
+  </url><url>
     <loc>https://example.org/accueil/manifestations/photos-soir%C3%A9e-2014/</loc>
-  </url><url>
-    <loc>https://example.org/projet-marcar/plan-de-ville/</loc>
-  </url><url>
-    <loc>https://example.org/sitemap/</loc>
-  </url><url>
-    <loc>https://example.org/projet-marcar/plan-du-terrain/</loc>
-  </url><url>
-    <loc>https://example.org/protected/</loc>
   </url><url>
     <loc>https://example.org/accueil/actions-aupr%C3%A8s-du-foyer-de-l-esp%C3%A9rance-de-2014-%C3%A0-ce-jour/dipl%C3%B4mes-2019/</loc>
   </url><url>
@@ -114,24 +98,12 @@
   </url><url>
     <loc>https://example.org/accueil/manifestations/repas-de-soutien-2018/</loc>
   </url><url>
-    <loc>https://example.org/accueil/manifestations/repas-de-soutien-2022/</loc>
-  </url><url>
-    <loc>https://example.org/projet-marcar/situation-g%C3%A9ographique/</loc>
-  </url><url>
     <loc>https://example.org/accueil/manifestations/soir%C3%A9e-de-soutien-2010/</loc>
-  </url><url>
-    <loc>https://example.org/accueil/manifestations/photos-soir%C3%A9e-2012/</loc>
   </url><url>
     <loc>https://example.org/accueil/manifestations/soir%C3%A9e-de-soutien-2012/</loc>
   </url><url>
     <loc>https://example.org/accueil/manifestations/soir%C3%A9e-de-soutien-2014/</loc>
   </url><url>
-    <loc>https://example.org/enfants-kara-togo-ekt/status/</loc>
-  </url><url>
     <loc>https://example.org/enfants-kara-suisse-eks/statuts/</loc>
-  </url><url>
-    <loc>https://example.org/protected/index-comefrom-https-enfantskara-jimdofree-comenfants-kara-suisse-eksrapports-protege/</loc>
-  </url><url>
-    <loc>https://example.org/protected/index-comefrom-https-enfantskara-jimdofree-comenfants-kara-togo-ektrapports/</loc>
   </url>
 </urlset>

@@ -19,3 +19,4 @@
 - Privilegier un site Hugo autonome, avec les ressources distantes rapatriees localement quand c'est pertinent.
 - Les images du contenu sont relocalisees dans `static/media/jimdo`.
 - Les documents telechargeables rapatries sont relocalises dans `static/downloads`.
+- Exclure de la sortie Hugo les pages techniques, les pages protegees et les feuilles vides sans contenu editorial exploitable.
