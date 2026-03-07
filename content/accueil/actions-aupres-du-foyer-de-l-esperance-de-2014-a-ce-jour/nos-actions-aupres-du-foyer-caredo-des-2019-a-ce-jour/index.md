@@ -10,6 +10,7 @@ aliases:
 # Le Foyer Caredo
 
 Consciente que l’aide aux autres organisations qu’elle soutient a permis à celles-ci d’atteindre une situation stable , l’association Enfants-Kara Suisse s’est approchée du Foyer Caredo. Celui-ci héberge une quarantaine d’enfants orphelins ou défavorisés. Il est géré par Mme Koffi Assomtiba Gnanta depuis plusieurs années avec de petits moyens. Dès 2019, EK CH fournit une aide pour améliorer les conditions de vie des enfants, notamment pour l’habillement et la nourriture. Plus concrètement, le versement d’une somme mensuelle de 300'000 CFA (env. 500 CHF) allégera les soucis de fonctionnement du Foyer.
+
 - ![](/images/i1fbdf462b6653b06-7d91975f11.jpg)
 - ![](/images/i83dafe05e2753806-b3cb22ba3b.jpg)
 

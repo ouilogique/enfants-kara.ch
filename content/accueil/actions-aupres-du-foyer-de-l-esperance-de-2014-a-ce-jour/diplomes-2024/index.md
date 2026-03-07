@@ -17,4 +17,5 @@ Toujours célébrée après 9 ans, la remise des diplômes a eu lieu le 11 mai 2
 - ![](/images/i063eaadd241a4db8-b086bc6330.jpg)
 - ![](/images/i09ddb17bb2aebe80-089d45b9fb.jpg)
 - ![](/images/i7d1b0c873af1df3b-088d2384dd.jpg)
+
 Sur la photo de droite, ce n'est pas un tableau mais un miroir qui a été remis à la diplômée en Coiffure. Deux kits ont été remis à deux Carreleurs et un kit à un Couturier.

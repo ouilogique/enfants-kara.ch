@@ -20,6 +20,7 @@ Après la construction des nouveaux dortoirs pour les filles (2014), suite à un
 - ![](/images/i4cc0e517241ed03f-355f7e0e86.jpg)
 - ![](/images/i532bbcbfd25d6c2e-2a498fb4d7.jpg)
 - ![](/images/i3cab0441e62bb11d-e69a266a2b.jpg)
+
 **Cliquez sur une image pour l'agrandir.**
 
 **Tapez Escape pour revenir au format initial.**\

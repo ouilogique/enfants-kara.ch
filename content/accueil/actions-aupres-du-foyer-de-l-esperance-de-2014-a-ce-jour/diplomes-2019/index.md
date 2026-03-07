@@ -15,6 +15,7 @@ Malgré la menace du COVID19, une brève cérémonie de remise des diplômes et 
 - ![](/images/i216b431800e3287d-fe9b5e0b5d.jpg)
 - ![](/images/i4ca523a3d3e8cf38-31359a05e6.jpg)
 - ![](/images/if4309a0df3cb3111-0b66065c3c.jpg)
+
 De nouveaux contrats d'étudiants ont été signés, démontrant la nécessité des formations.
 
 ![](/images/if7dc411588db8bf6-90e9846b00.jpg)
