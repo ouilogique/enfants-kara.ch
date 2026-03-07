@@ -11,7 +11,7 @@ aliases:
 
 « Mieux vaut apprendre à un jeune enfant à pêcher<br>que de lui donner du poisson dans un plat. »
 
-![](/media/jimdo/i541a646335de8f34-d421125c8c.jpg)
+![](/images/i541a646335de8f34-d421125c8c.jpg)
 
 Un enfant de la rue, orphelin, démuni ou victime de la traite est protégé dans le cercle des personnes de bonne volonté qui l'accueillent à bras ouverts pour l'éduquer, le former et lui apprendre à construire son avenir à travers un métier de son choix.
 
@@ -26,7 +26,7 @@ Les organes dirigeants de l'institution sont:
   - 2 représentants des patrons
   - 1 représentant des éventuels parrains/marraines ou parenté des apprenants
 
-![Dirigeants de FE](/media/jimdo/i5ca053f369b5ef8e-9a0f00a85a.jpg)
+![Dirigeants de FE](/images/i5ca053f369b5ef8e-9a0f00a85a.jpg)
 
 Dirigeants de FE
 

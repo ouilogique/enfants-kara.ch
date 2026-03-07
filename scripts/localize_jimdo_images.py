@@ -18,7 +18,7 @@ IMAGE_PATTERN = re.compile(r"https://(?:image\.jimcdn\.com|assets\.jimstatic\.co
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Download Jimdo images locally and rewrite Markdown links.")
     parser.add_argument("--content", type=Path, default=Path("content"))
-    parser.add_argument("--static", type=Path, default=Path("static/media/jimdo"))
+    parser.add_argument("--static", type=Path, default=Path("static/images"))
     parser.add_argument("--timeout", type=int, default=30)
     return parser.parse_args()
 
@@ -68,7 +68,7 @@ def main() -> None:
         text = md_file.read_text(encoding="utf-8")
         for url in IMAGE_PATTERN.findall(text):
             if url not in urls:
-                urls[url] = f"/media/jimdo/{file_name_for_url(url)}"
+                urls[url] = f"/images/{file_name_for_url(url)}"
 
     if not urls:
         print(f"No remote Jimdo images found in {content_root}; keeping existing files in {static_root}")

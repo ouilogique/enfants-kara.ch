@@ -8,14 +8,14 @@ aliases:
 
 # Le Foyer de l'Espérance
 
-![Locaux administratifs](/media/jimdo/i703cb7051f850815-9867fed547.jpg)
+![Locaux administratifs](/images/i703cb7051f850815-9867fed547.jpg)
 
 Locaux administratifs
 
-![Dortoirs](/media/jimdo/if4e129ea47fc440e-6c9e437d13.jpg)
+![Dortoirs](/images/if4e129ea47fc440e-6c9e437d13.jpg)
 
 Dortoirs
 
-![L'apatam ou coin de discussions](/media/jimdo/i6738e1ec607434b9-345a8be824.jpg)
+![L'apatam ou coin de discussions](/images/i6738e1ec607434b9-345a8be824.jpg)
 
 L'apatam ou coin de discussions

@@ -25,38 +25,38 @@ C’est dans cette justification qu'à été sollicité le poste à soudure (die
 
 L'inauguration a eu lieu en juillet 2017 en présence de Mme la présidente Rose Balmer, du représentant d'EK au Togo M. K. Bini et des hautes autorités locales.
 
-![](/media/jimdo/if72e25ef95bdada7-76a4b37e03.jpg)
+![](/images/if72e25ef95bdada7-76a4b37e03.jpg)
 
-![](/media/jimdo/if10c9ea29f1fa775-baaf849836.jpg)
+![](/images/if10c9ea29f1fa775-baaf849836.jpg)
 
-![](/media/jimdo/i351d5a5df22d1376-015543d59f.jpg)
+![](/images/i351d5a5df22d1376-015543d59f.jpg)
 
-![](/media/jimdo/ie907e3ea5a8b693e-99b70235c1.jpg)
+![](/images/ie907e3ea5a8b693e-99b70235c1.jpg)
 
-![](/media/jimdo/i1c285a6cc1606a73-76053ae147.jpg)
+![](/images/i1c285a6cc1606a73-76053ae147.jpg)
 
-![](/media/jimdo/ic5655365a146499b-191f537102.jpg)
+![](/images/ic5655365a146499b-191f537102.jpg)
 
-![](/media/jimdo/i055214258d881f59-fceca19fe3.jpg)
+![](/images/i055214258d881f59-fceca19fe3.jpg)
 
-![](/media/jimdo/idfb408c42a176388-952d504793.jpg)
+![](/images/idfb408c42a176388-952d504793.jpg)
 
-![](/media/jimdo/i3582de401c2e9038-923afc542e.jpg)
+![](/images/i3582de401c2e9038-923afc542e.jpg)
 
-![](/media/jimdo/ia3f96a59eb5ba9f2-403dae65c9.jpg)
+![](/images/ia3f96a59eb5ba9f2-403dae65c9.jpg)
 
-![](/media/jimdo/i3d61a0abdfedec0a-893cf127d7.jpg)
+![](/images/i3d61a0abdfedec0a-893cf127d7.jpg)
 
-![](/media/jimdo/idd3b5c652de090a5-bb509be87e.jpg)
+![](/images/idd3b5c652de090a5-bb509be87e.jpg)
 
-![](/media/jimdo/i622a6cd39211aa7d-f8c06f41b7.jpg)
+![](/images/i622a6cd39211aa7d-f8c06f41b7.jpg)
 
-![](/media/jimdo/i50b94258a43d6ee7-28e72ae3f7.jpg)
+![](/images/i50b94258a43d6ee7-28e72ae3f7.jpg)
 
-![](/media/jimdo/i836c6d497bcabd83-ea6cb9856f.jpg)
+![](/images/i836c6d497bcabd83-ea6cb9856f.jpg)
 
-![](/media/jimdo/i0aa0d8d64bd3cfd3-a1a74999fb.jpg)
+![](/images/i0aa0d8d64bd3cfd3-a1a74999fb.jpg)
 
-![](/media/jimdo/i5273a19d199e9a5f-52400ce8dd.jpg)
+![](/images/i5273a19d199e9a5f-52400ce8dd.jpg)
 
-![](/media/jimdo/i1a35e3ebd4409d65-192065d48d.jpg)
+![](/images/i1a35e3ebd4409d65-192065d48d.jpg)

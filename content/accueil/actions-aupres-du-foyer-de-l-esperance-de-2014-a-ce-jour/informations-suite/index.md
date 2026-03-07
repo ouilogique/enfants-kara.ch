@@ -9,7 +9,7 @@ aliases:
 
 # Foyer de l'Espérance et Centre de formation
 
-![Le panneau de l'institution sur la RN1](/media/jimdo/i0156b4d2104fd004-9b454d51b0.jpg)
+![Le panneau de l'institution sur la RN1](/images/i0156b4d2104fd004-9b454d51b0.jpg)
 
 Le panneau de l'institution sur la RN1
 

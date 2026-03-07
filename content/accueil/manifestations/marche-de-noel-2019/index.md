@@ -15,12 +15,12 @@ Tous les articles étaient en provenance du Togo grâce à des achats effectués
 
 Au bilan une rentrée d'argent significative pour les comptes de l'Association.
 
-![](/media/jimdo/i37644801b409d095-7d370a6315.jpg)
+![](/images/i37644801b409d095-7d370a6315.jpg)
 
 Quatre membres du comité surpris sur le stand.
 
 Merci à tous les autres bénévoles invisibles !
 
-![](/media/jimdo/ia61891e422e1397f-57510eb268.jpg)
+![](/images/ia61891e422e1397f-57510eb268.jpg)
 
 **Rendez-vous en décembre 2020**

@@ -20,7 +20,7 @@ DOWNLOAD_PATTERN = re.compile(
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Download Jimdo documents locally and rewrite Markdown links.")
     parser.add_argument("--content", type=Path, default=Path("content"))
-    parser.add_argument("--static", type=Path, default=Path("static/downloads"))
+    parser.add_argument("--static", type=Path, default=Path("static/documents"))
     parser.add_argument("--timeout", type=int, default=30)
     return parser.parse_args()
 
@@ -60,7 +60,7 @@ def main() -> None:
         text = md_file.read_text(encoding="utf-8")
         for match in DOWNLOAD_PATTERN.findall(text):
             remote = normalize_url(match)
-            mapping[match] = f"/downloads/{file_name_for_url(remote)}"
+            mapping[match] = f"/documents/{file_name_for_url(remote)}"
 
     downloaded: dict[str, Path] = {}
     for original, local in mapping.items():

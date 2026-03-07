@@ -26,3 +26,4 @@
 - Quand le libelle de navigation d'origine differe du titre affiche dans la page, conserver ce libelle dans le menu Hugo via `linkTitle`, sans forcer le titre de la page a etre identique.
 - Relocaliser les ressources distantes encore utiles au site dans le projet local et eviter de laisser des URL distantes residuelles dans le contenu livre.
 - Pour les images locales sous `static/media/jimdo`, privilegier une restauration depuis l'historique Git avant tout reteledchargement. Ne pas vider ce dossier lors d'une relance du script si aucun URL distant n'est encore present dans `content/`.
+- Sous `static/`, utiliser des noms de repertoires usuels et explicites. Convention actuelle: `static/images` pour les images et `static/documents` pour les fichiers telechargeables.

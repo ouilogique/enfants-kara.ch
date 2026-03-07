@@ -11,14 +11,14 @@ aliases:
 
 Cérémonie du 20 août 2021
 
-![](/media/jimdo/i0eb276d10735e09c-58d25cf242.jpg)
+![](/images/i0eb276d10735e09c-58d25cf242.jpg)
 
-![](/media/jimdo/ie26869cf349545c2-19b6d0fc1b.jpg)
+![](/images/ie26869cf349545c2-19b6d0fc1b.jpg)
 
-![](/media/jimdo/i164d531b6e705f5d-da945657ac.jpg)
+![](/images/i164d531b6e705f5d-da945657ac.jpg)
 
-![](/media/jimdo/id8b44cc89ca69d34-9b72d1e843.jpg)
+![](/images/id8b44cc89ca69d34-9b72d1e843.jpg)
 
-![](/media/jimdo/i28a7d664fc36e977-2e66ba3333.jpg)
+![](/images/i28a7d664fc36e977-2e66ba3333.jpg)
 
-![](/media/jimdo/i780bda2fe5c91542-ff7a0a7fdb.jpg)
+![](/images/i780bda2fe5c91542-ff7a0a7fdb.jpg)
