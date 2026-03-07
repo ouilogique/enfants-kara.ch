@@ -35,7 +35,7 @@
   >
     {{ $rootPages := site.Home.Pages.ByWeight }}
     {{ with $sectionImage }}
-      <div class="page-background" aria-hidden="true" style="--page-bg-image: url('{{ . | absURL }}');"></div>
+      <div class="page-background" aria-hidden="true" style="--page-bg-image: url('{{ . | relURL }}');"></div>
     {{ end }}
     <div class="app shell">
       <div class="sidepane">

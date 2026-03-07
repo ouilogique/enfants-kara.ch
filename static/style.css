@@ -790,9 +790,11 @@ body.is-home .home {
 
 .document-card {
   display: grid;
+  align-items: start;
   justify-items: start;
   gap: 0.8rem;
   padding: 1.2rem;
+  text-align: left;
   border-radius: 1.25rem;
   background: rgba(255, 250, 246, 0.44);
   border: 1px solid rgba(255, 255, 255, 0.38);
@@ -801,7 +803,9 @@ body.is-home .home {
 
 .document-card h3,
 .document-card p {
+  width: 100%;
   margin: 0;
+  text-align: left;
 }
 
 .document-card h3 {
