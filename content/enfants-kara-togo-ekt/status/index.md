@@ -6,7 +6,3 @@ draft: false
 aliases:
   - "/enfants-kara-togo-ekt/status/index.html"
 ---
-
-# Status
-
-Contenu a completer.

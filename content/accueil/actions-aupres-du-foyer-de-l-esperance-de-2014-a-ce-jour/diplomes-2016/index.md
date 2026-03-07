@@ -18,14 +18,14 @@ Menuiserie 5 diplômes
 
 Maçonnerie 12 diplômes
 
-![](https://image.jimcdn.com/app/cms/image/transf/none/path/s2989e56b0cc176fb/image/i4d82503fee98e245/version/1467038460/image.jpg)
+![](/media/jimdo/i4d82503fee98e245-e69dd29853.jpg)
 
-![](https://image.jimcdn.com/app/cms/image/transf/none/path/s2989e56b0cc176fb/image/iaba36fb27c530eea/version/1467038460/image.jpg)
+![](/media/jimdo/iaba36fb27c530eea-d2e8244bee.jpg)
 
-![](https://image.jimcdn.com/app/cms/image/transf/none/path/s2989e56b0cc176fb/image/id01935a8adfb2a97/version/1467038455/image.jpg)
+![](/media/jimdo/id01935a8adfb2a97-b1ff8cccd1.jpg)
 
-![](https://image.jimcdn.com/app/cms/image/transf/none/path/s2989e56b0cc176fb/image/iae20e4aa0efb5a3f/version/1467038458/image.jpg)
+![](/media/jimdo/iae20e4aa0efb5a3f-290c93661b.jpg)
 
-![](https://image.jimcdn.com/app/cms/image/transf/none/path/s2989e56b0cc176fb/image/if7df2a3e719b36f8/version/1467038458/image.jpg)
+![](/media/jimdo/if7df2a3e719b36f8-0b691f7c57.jpg)
 
-![](https://image.jimcdn.com/app/cms/image/transf/none/path/s2989e56b0cc176fb/image/i9b95d0b9f77612bb/version/1467038458/image.jpg)
+![](/media/jimdo/i9b95d0b9f77612bb-6639ebc36f.jpg)

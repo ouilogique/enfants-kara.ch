@@ -6,7 +6,3 @@ draft: false
 aliases:
   - "/enfants-kara-togo-ekt/assemblées-générales/index.html"
 ---
-
-# Assemblées générales
-
-Contenu a completer.

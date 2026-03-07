@@ -20,10 +20,10 @@ Ferronnerie 2 diplômes
 
 Electricité bâtiment 1 diplôme
 
-![](https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/s2989e56b0cc176fb/image/i2b655cea73e24e36/version/1467036200/image.jpg)
+![](/media/jimdo/i2b655cea73e24e36-eb3e4f31f3.jpg)
 
-![](https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/s2989e56b0cc176fb/image/icfe79f2ef3480a91/version/1467036202/image.jpg)
+![](/media/jimdo/icfe79f2ef3480a91-0991b3fe66.jpg)
 
-![](https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/s2989e56b0cc176fb/image/ie15c75fa3a1cb7ac/version/1467036202/image.jpg)
+![](/media/jimdo/ie15c75fa3a1cb7ac-c03b1a5b7a.jpg)
 
-![](https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/s2989e56b0cc176fb/image/ib888f38fa8b7d5b8/version/1467036202/image.jpg)
+![](/media/jimdo/ib888f38fa8b7d5b8-68f8aad0e2.jpg)

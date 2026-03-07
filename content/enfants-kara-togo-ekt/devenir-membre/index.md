@@ -6,7 +6,3 @@ draft: false
 aliases:
   - "/enfants-kara-togo-ekt/devenir-membre/index.html"
 ---
-
-# Devenir membre
-
-Contenu a completer.

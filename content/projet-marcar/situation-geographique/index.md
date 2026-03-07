@@ -6,7 +6,4 @@ draft: false
 aliases:
   - "/projet-marcar/situation-géographique/index.html"
 ---
-
-# Situation géographique
-
-Contenu a completer.
+![Situation géographique](/media/jimdo/if58e2fce4344744d-6be1919ae2.jpg)

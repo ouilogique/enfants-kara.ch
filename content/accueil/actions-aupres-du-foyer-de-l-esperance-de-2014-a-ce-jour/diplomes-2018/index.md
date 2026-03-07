@@ -10,16 +10,16 @@ aliases:
 
 A l'occasion de leur séjour au Togo, Rose Balmer, présidente et son mari Claude Balmer, trésorier, ont assisté à la remise des diplômes de la volée 2018. Ils ont pu apprécier la reconnaissance des hautes autorités locales pour le soutien au développement des infrastructures du Foyer et du Centre de formation. Ils ont également noté la joie des diplômants à la réception des kits professionnels.
 
-![](https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/s2989e56b0cc176fb/image/i33791f3ecac0968b/version/1535029605/image.jpg)
+![](/media/jimdo/i33791f3ecac0968b-4ab6ebc156.jpg)
 
-![](https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/s2989e56b0cc176fb/image/i52b325a1acec9ce3/version/1535029892/image.jpg)
+![](/media/jimdo/i52b325a1acec9ce3-77c55e0266.jpg)
 
-![](https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/s2989e56b0cc176fb/image/i6085373bf669577b/version/1535029892/image.jpg)
+![](/media/jimdo/i6085373bf669577b-f9e9bb7cd3.jpg)
 
-![](https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/s2989e56b0cc176fb/image/id93f84d1acbf948b/version/1535029892/image.jpg)
+![](/media/jimdo/id93f84d1acbf948b-6c62be6d86.jpg)
 
-![](https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/s2989e56b0cc176fb/image/i97fb79e109a76c8d/version/1535029903/image.jpg)
+![](/media/jimdo/i97fb79e109a76c8d-7921b9de14.jpg)
 
-![](https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/s2989e56b0cc176fb/image/i8087daca47c4f621/version/1535029905/image.jpg)
+![](/media/jimdo/i8087daca47c4f621-f7f63d999d.jpg)
 
-![](https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/s2989e56b0cc176fb/image/i2bf67e2ceb6e34ab/version/1535029905/image.jpg)
+![](/media/jimdo/i2bf67e2ceb6e34ab-351c2ecb76.jpg)

@@ -6,7 +6,4 @@ draft: false
 aliases:
   - "/projet-marcar/plan-de-ville/index.html"
 ---
-
-# Plan de ville
-
-Contenu a completer.
+![Plan de ville](/media/jimdo/i1842232d2e5f8142-4dcee1de83.jpg)

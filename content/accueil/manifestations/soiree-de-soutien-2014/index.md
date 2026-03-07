@@ -8,6 +8,6 @@ aliases:
 
 # Soirée de soutien 2014
 
-![](https://image.jimcdn.com/app/cms/image/transf/dimension=480x10000:format=jpg/path/s2989e56b0cc176fb/image/if872b5d7b4d6e583/version/1409441288/image.jpg)
+![](/media/jimdo/if872b5d7b4d6e583-282a6b3fd8.jpg)
 
-![](https://image.jimcdn.com/app/cms/image/transf/dimension=480x10000:format=jpg/path/s2989e56b0cc176fb/image/ib9b58585d4360285/version/1409441879/image.jpg)
+![](/media/jimdo/ib9b58585d4360285-0746863772.jpg)

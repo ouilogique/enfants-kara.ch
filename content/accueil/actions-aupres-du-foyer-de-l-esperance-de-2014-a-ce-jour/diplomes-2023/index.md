@@ -10,14 +10,14 @@ aliases:
 
 Cérémonie du 18 mai 2023
 
-![](https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/s2989e56b0cc176fb/image/ibe5d4ad6fbc9766d/version/1716823172/image.jpg)
+![](/media/jimdo/ibe5d4ad6fbc9766d-c80fee5777.jpg)
 
-![](https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/s2989e56b0cc176fb/image/idc865183a1ab9eea/version/1716823174/image.jpg)
+![](/media/jimdo/idc865183a1ab9eea-0918950c0c.jpg)
 
-![](https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/s2989e56b0cc176fb/image/i219c703c62308e1e/version/1716823174/image.jpg)
+![](/media/jimdo/i219c703c62308e1e-0a073dc7b7.jpg)
 
-![](https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/s2989e56b0cc176fb/image/i7c9e7bfe07e8c7b6/version/1716823172/image.jpg)
+![](/media/jimdo/i7c9e7bfe07e8c7b6-82e6e3b3d6.jpg)
 
-![](https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/s2989e56b0cc176fb/image/i02ddc77002e7c550/version/1716823172/image.jpg)
+![](/media/jimdo/i02ddc77002e7c550-d944021618.jpg)
 
-![](https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/s2989e56b0cc176fb/image/i4a1daf3ad9e939aa/version/1716823172/image.jpg)
+![](/media/jimdo/i4a1daf3ad9e939aa-d0bcfe9906.jpg)
