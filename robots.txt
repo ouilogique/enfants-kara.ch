@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /enfants-kara.ch/
+
+Sitemap: https://enfants-kara.ch/sitemap.xml

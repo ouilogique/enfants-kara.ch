@@ -18,6 +18,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title | plainify }} | {{ site.Title }}{{ end }}</title>
     {{ with .Params.description }}<meta name="description" content="{{ . }}">{{ else }}{{ with site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}{{ end }}
+    <link rel="canonical" href="{{ .Permalink }}">
     <link rel="icon" type="image/svg+xml" href="{{ `favicon.svg` | relURL }}">
     <link rel="preload" as="image" href="{{ `images/bill-wegener-7MD4DR9jbP0-unsplash.jpg` | relURL }}">
     {{ range $key, $image := $sectionImageMap }}
