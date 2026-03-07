@@ -3,5 +3,5 @@
 -   Site de démo
     https://nichub.github.io/enfants-kara.ch/
 
--   Site de officiel
+-   Site officiel
     https://enfants-kara.ch/
