@@ -223,13 +223,15 @@ setupLightbox();
 let isNavigating = false;
 
 function getHomeHref() {
-    const footerHomeLink = document.querySelector(".nav-footer-center a.nav-link[href]");
-    if (footerHomeLink) return footerHomeLink.getAttribute("href");
+    const brandLink = document.querySelector(".brand[href]");
+    if (brandLink) return brandLink.getAttribute("href");
     return "/";
 }
 
 function normalizePath(pathname) {
-    return pathname.replace(/\/index\.html$/, "/");
+    const normalized = pathname.replace(/\/index\.html$/, "/");
+    if (normalized === "") return "/";
+    return normalized.endsWith("/") ? normalized : `${normalized}/`;
 }
 
 function isHomePage() {
@@ -249,6 +251,36 @@ function replayLogoAnimation() {
 
 function smoothScrollToTop() {
     window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+function getSidebarNavigationTargets() {
+    const seen = new Set();
+    const links = Array.from(document.querySelectorAll(".tree a[href]"));
+
+    return links
+        .map((link) => {
+            const url = new URL(link.href, window.location.href);
+            return {
+                href: link.href,
+                path: normalizePath(url.pathname)
+            };
+        })
+        .filter((item) => {
+            if (seen.has(item.path)) return false;
+            seen.add(item.path);
+            return true;
+        });
+}
+
+function getAdjacentNavigationTarget(delta) {
+    const targets = getSidebarNavigationTargets();
+    const currentPath = normalizePath(window.location.pathname);
+    const currentIndex = targets.findIndex((item) => item.path === currentPath);
+
+    if (currentIndex < 0) return null;
+
+    const target = targets[currentIndex + delta];
+    return target ? target.href : null;
 }
 
 document.addEventListener("keydown", (event) => {
@@ -271,9 +303,6 @@ document.addEventListener("keydown", (event) => {
     const tag = (event.target.tagName || "").toLowerCase();
     if (tag === "input" || tag === "textarea" || event.target.isContentEditable) return;
 
-    const prevLink = document.querySelector(".nav-page-home .pagination-link");
-    const nextLink = document.querySelector(".nav-page-next .pagination-link");
-
     if (event.key === "Escape") {
         event.preventDefault();
         if (isHomePage()) {
@@ -283,13 +312,17 @@ document.addEventListener("keydown", (event) => {
         }
         isNavigating = true;
         window.location.href = getHomeHref();
-    } else if (event.key === "ArrowLeft" && prevLink && prevLink.getAttribute("href")) {
+    } else if (event.key === "ArrowLeft") {
+        const prevHref = getAdjacentNavigationTarget(-1);
+        if (!prevHref) return;
         event.preventDefault();
         isNavigating = true;
-        window.location.href = prevLink.getAttribute("href");
-    } else if (event.key === "ArrowRight" && nextLink && nextLink.getAttribute("href")) {
+        window.location.href = prevHref;
+    } else if (event.key === "ArrowRight") {
+        const nextHref = getAdjacentNavigationTarget(1);
+        if (!nextHref) return;
         event.preventDefault();
         isNavigating = true;
-        window.location.href = nextLink.getAttribute("href");
+        window.location.href = nextHref;
     }
 });
