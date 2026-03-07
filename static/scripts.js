@@ -1,40 +1,219 @@
 function targetBlank() {
-    const _a = document.getElementsByTagName("a");
-    const _siteHost = location.host.replace(/^www\./i, "");
-    const internalRegex = new RegExp(_siteHost, "i");
+    const links = document.getElementsByTagName("a");
+    const siteHost = location.host.replace(/^www\./i, "");
+    const internalRegex = new RegExp(siteHost, "i");
 
-    for (let i = 0; i < _a.length; i++) {
-        let href = _a[i].href;
+    for (let i = 0; i < links.length; i++) {
+        const href = links[i].href;
         let isExternal = false;
 
         if (/^mailto:/i.test(href)) {
-            // Si le lien commence par mailto: il est forcement externe
             isExternal = true;
         } else if (location.protocol === "file:") {
-            // Si on est en protocole file://
-            // tous les liens http/https et protocol-relative sont externes
             isExternal = /^(https?:)?\/\//i.test(href);
         } else {
-            // Logique normale pour http/https
-            // Un lien est externe s'il a un host et que ce host ne correspond pas au site actuel
-            let linkHost = _a[i].host;
+            const linkHost = links[i].host;
             isExternal = linkHost && !internalRegex.test(linkHost);
         }
 
         if (isExternal) {
-            // Attribue `_blank` a l'attribut `target`.
-            _a[i].setAttribute("target", "_blank");
+            links[i].setAttribute("target", "_blank");
 
-            // Ajoute `noopener` a l'attribut `rel`.
-            const rel = (_a[i].getAttribute("rel") || "").trim();
+            const rel = (links[i].getAttribute("rel") || "").trim();
             const relParts = rel ? rel.split(/\s+/) : [];
             if (!relParts.includes("noopener")) relParts.push("noopener");
-            _a[i].setAttribute("rel", relParts.join(" ").trim());
+            links[i].setAttribute("rel", relParts.join(" ").trim());
         }
-        // console.log(`${String(isExternal).padEnd(5)} ${_siteHost} ${href}`);
     }
 }
+
+function isImageHref(href) {
+    return /\.(avif|gif|jpe?g|png|svg|webp)(?:[?#].*)?$/i.test(href || "");
+}
+
+function getDirectElementChild(parent, selector) {
+    return Array.from(parent.children).find((child) => child.matches(selector)) || null;
+}
+
+function getStandaloneMedia(node) {
+    if (node.childElementCount !== 1) return null;
+
+    const directImage = getDirectElementChild(node, "img");
+    if (directImage) return { img: directImage, anchor: null };
+
+    const directAnchor = getDirectElementChild(node, "a[href]");
+    if (!directAnchor || directAnchor.childElementCount !== 1 || !isImageHref(directAnchor.getAttribute("href"))) {
+        return null;
+    }
+
+    const linkedImage = getDirectElementChild(directAnchor, "img");
+    if (!linkedImage) return null;
+
+    return { img: linkedImage, anchor: directAnchor };
+}
+
+function enhanceContentMedia() {
+    const contents = document.querySelectorAll(".content");
+
+    contents.forEach((content) => {
+        const lists = content.querySelectorAll("ul, ol");
+        lists.forEach((list) => {
+            const items = Array.from(list.children).filter((child) => child.tagName === "LI");
+            if (items.length < 2) return;
+
+            const mediaItems = items.map((item) => getStandaloneMedia(item));
+            if (mediaItems.some((item) => !item)) return;
+
+            list.classList.add("image-gallery");
+            items.forEach((item, index) => {
+                item.classList.add("gallery-item");
+                item.dataset.galleryIndex = String(index);
+
+                const media = mediaItems[index];
+                media.img.classList.add("gallery-image");
+                if (media.anchor) media.anchor.classList.add("gallery-link");
+            });
+        });
+
+        Array.from(content.children).forEach((child) => {
+            const media = getStandaloneMedia(child);
+            if (!media) return;
+
+            child.classList.add("media-block");
+            media.img.classList.add("gallery-image");
+            if (media.anchor) media.anchor.classList.add("gallery-link");
+        });
+    });
+}
+
+const lightboxState = {
+    root: null,
+    image: null,
+    caption: null,
+    close: null,
+    prev: null,
+    next: null,
+    count: null,
+    opener: null,
+    items: [],
+    index: 0,
+    isOpen: false
+};
+
+function getLightboxItems(trigger) {
+    const gallery = trigger.closest(".image-gallery");
+    const scope = gallery ? gallery.querySelectorAll(".gallery-image") : [trigger];
+
+    return Array.from(scope).map((img) => {
+        const anchor = img.closest("a[href]");
+        const src = anchor && isImageHref(anchor.getAttribute("href")) ? anchor.href : (img.currentSrc || img.src);
+        const caption = img.getAttribute("alt") || "";
+        return { img, src, caption };
+    });
+}
+
+function updateLightbox() {
+    const item = lightboxState.items[lightboxState.index];
+    if (!item) return;
+
+    lightboxState.image.src = item.src;
+    lightboxState.image.alt = item.caption;
+    lightboxState.caption.textContent = item.caption;
+    lightboxState.caption.hidden = !item.caption;
+    lightboxState.count.textContent = lightboxState.items.length > 1
+        ? item.caption
+            ? `${lightboxState.index + 1} / ${lightboxState.items.length}`
+            : `${lightboxState.index + 1} / ${lightboxState.items.length}`
+        : "";
+    lightboxState.count.hidden = lightboxState.items.length <= 1;
+    lightboxState.prev.hidden = lightboxState.items.length <= 1;
+    lightboxState.next.hidden = lightboxState.items.length <= 1;
+}
+
+function openLightbox(trigger) {
+    lightboxState.items = getLightboxItems(trigger);
+    lightboxState.index = lightboxState.items.findIndex((item) => item.img === trigger);
+    lightboxState.opener = trigger;
+
+    if (lightboxState.index < 0) lightboxState.index = 0;
+
+    updateLightbox();
+    lightboxState.root.hidden = false;
+    lightboxState.root.setAttribute("aria-hidden", "false");
+    document.body.classList.add("has-lightbox");
+    lightboxState.isOpen = true;
+    lightboxState.close.focus();
+}
+
+function closeLightbox() {
+    if (!lightboxState.isOpen) return;
+
+    lightboxState.root.hidden = true;
+    lightboxState.root.setAttribute("aria-hidden", "true");
+    lightboxState.image.removeAttribute("src");
+    lightboxState.caption.textContent = "";
+    lightboxState.count.textContent = "";
+    document.body.classList.remove("has-lightbox");
+    lightboxState.isOpen = false;
+
+    if (lightboxState.opener) {
+        lightboxState.opener.focus();
+    }
+}
+
+function stepLightbox(delta) {
+    if (!lightboxState.isOpen || lightboxState.items.length <= 1) return;
+
+    lightboxState.index = (lightboxState.index + delta + lightboxState.items.length) % lightboxState.items.length;
+    updateLightbox();
+}
+
+function setupLightbox() {
+    lightboxState.root = document.getElementById("site-lightbox");
+    if (!lightboxState.root) return;
+
+    lightboxState.image = lightboxState.root.querySelector(".lightbox-image");
+    lightboxState.caption = lightboxState.root.querySelector(".lightbox-caption");
+    lightboxState.close = lightboxState.root.querySelector(".lightbox-close");
+    lightboxState.prev = lightboxState.root.querySelector(".lightbox-prev");
+    lightboxState.next = lightboxState.root.querySelector(".lightbox-next");
+    lightboxState.count = lightboxState.root.querySelector(".lightbox-count");
+
+    const images = document.querySelectorAll(".content .gallery-image");
+    images.forEach((img) => {
+        const anchor = img.closest("a[href]");
+        img.classList.add("is-lightboxable");
+        img.setAttribute("tabindex", "0");
+        img.setAttribute("role", "button");
+        img.setAttribute("aria-label", "Agrandir l'image");
+
+        img.addEventListener("click", () => openLightbox(img));
+        img.addEventListener("keydown", (event) => {
+            if (event.key === "Enter" || event.key === " ") {
+                event.preventDefault();
+                openLightbox(img);
+            }
+        });
+
+        if (anchor && isImageHref(anchor.getAttribute("href"))) {
+            anchor.addEventListener("click", (event) => {
+                event.preventDefault();
+                openLightbox(img);
+            });
+        }
+    });
+
+    lightboxState.close.addEventListener("click", closeLightbox);
+    lightboxState.prev.addEventListener("click", () => stepLightbox(-1));
+    lightboxState.next.addEventListener("click", () => stepLightbox(1));
+    lightboxState.root.addEventListener("click", (event) => {
+        if (event.target === lightboxState.root) closeLightbox();
+    });
+}
+
 targetBlank();
+enhanceContentMedia();
+setupLightbox();
 
 // Navigation au clavier entre pages.
 let isNavigating = false;
@@ -59,7 +238,6 @@ function replayLogoAnimation() {
     const logoTargets = document.querySelectorAll(".cls-site-logo, .spin");
     logoTargets.forEach((el) => {
         el.style.animation = "none";
-        // Force reflow to restart CSS animation.
         void el.offsetWidth;
         el.style.animation = "";
     });
@@ -70,21 +248,29 @@ function smoothScrollToTop() {
 }
 
 document.addEventListener("keydown", (event) => {
+    if (lightboxState.isOpen) {
+        if (event.key === "Escape") {
+            event.preventDefault();
+            closeLightbox();
+        } else if (event.key === "ArrowLeft") {
+            event.preventDefault();
+            stepLightbox(-1);
+        } else if (event.key === "ArrowRight") {
+            event.preventDefault();
+            stepLightbox(1);
+        }
+        return;
+    }
+
     if (isNavigating) return;
 
-    // Leave if user is typing in an editable area.
     const tag = (event.target.tagName || "").toLowerCase();
     if (tag === "input" || tag === "textarea" || event.target.isContentEditable) return;
-
-    // Otherwise assign keyboard shortcuts to prev-next buttons.
-    const prevKeys = ["ArrowLeft"];
-    const nextKeys = ["ArrowRight"];
-    const homeKeys = ["Escape"];
 
     const prevLink = document.querySelector(".nav-page-home .pagination-link");
     const nextLink = document.querySelector(".nav-page-next .pagination-link");
 
-    if (homeKeys.includes(event.key)) {
+    if (event.key === "Escape") {
         event.preventDefault();
         if (isHomePage()) {
             smoothScrollToTop();
@@ -93,18 +279,13 @@ document.addEventListener("keydown", (event) => {
         }
         isNavigating = true;
         window.location.href = getHomeHref();
-        return;
-    }
-    else if (prevKeys.includes(event.key) && prevLink && prevLink.getAttribute("href")) {
+    } else if (event.key === "ArrowLeft" && prevLink && prevLink.getAttribute("href")) {
         event.preventDefault();
         isNavigating = true;
         window.location.href = prevLink.getAttribute("href");
-        return;
-    }
-    else if (nextKeys.includes(event.key) && nextLink && nextLink.getAttribute("href")) {
+    } else if (event.key === "ArrowRight" && nextLink && nextLink.getAttribute("href")) {
         event.preventDefault();
         isNavigating = true;
         window.location.href = nextLink.getAttribute("href");
-        return;
     }
 });

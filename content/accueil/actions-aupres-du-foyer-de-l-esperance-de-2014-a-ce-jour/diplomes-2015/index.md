@@ -20,10 +20,7 @@ Ferronnerie 2 diplômes
 
 Electricité bâtiment 1 diplôme
 
-![](/images/i2b655cea73e24e36-eb3e4f31f3.jpg)
-
-![](/images/icfe79f2ef3480a91-0991b3fe66.jpg)
-
-![](/images/ie15c75fa3a1cb7ac-c03b1a5b7a.jpg)
-
-![](/images/ib888f38fa8b7d5b8-68f8aad0e2.jpg)
+- ![](/images/i2b655cea73e24e36-eb3e4f31f3.jpg)
+- ![](/images/icfe79f2ef3480a91-0991b3fe66.jpg)
+- ![](/images/ie15c75fa3a1cb7ac-c03b1a5b7a.jpg)
+- ![](/images/ib888f38fa8b7d5b8-68f8aad0e2.jpg)

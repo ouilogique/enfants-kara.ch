@@ -21,19 +21,15 @@ Le Centre de formation du Foyer de l'Espérance fonctionne grâce à l'encadreme
 - Forge et soudure
 - Couture et tissage
 
-![Atelier de couture](/images/i81d03ac01b9c88ed-a6c591ba02.jpg)
+&ZeroWidthSpace;
 
-![Atelier de coutuer (repassage)](/images/i780e1031fa5536fc-6abd70a291.jpg)
-
-![Maçonnerie](/images/iaaffc81795f2f0e1-8a0fdf45fe.jpg)
-
-![Ferronnerie](/images/i514248c4c15ea9fe-4578a21dcd.jpg)
-
-![Ferronnerie](/images/i745dbad50087e7bc-3873dd0efe.jpg)
-
-![Menuiserie](/images/i747d3689c05d43c2-c6e97140d0.jpg)
-
-![Menuiserie](/images/ia775a7f01f3e425e-14c9ba040b.jpg)
+- ![Atelier de couture](/images/i81d03ac01b9c88ed-a6c591ba02.jpg)
+- ![Atelier de coutuer (repassage)](/images/i780e1031fa5536fc-6abd70a291.jpg)
+- ![Maçonnerie](/images/iaaffc81795f2f0e1-8a0fdf45fe.jpg)
+- ![Ferronnerie](/images/i514248c4c15ea9fe-4578a21dcd.jpg)
+- ![Ferronnerie](/images/i745dbad50087e7bc-3873dd0efe.jpg)
+- ![Menuiserie](/images/i747d3689c05d43c2-c6e97140d0.jpg)
+- ![Menuiserie](/images/ia775a7f01f3e425e-14c9ba040b.jpg)
 
 **Cliquez sur une image pour l'agrandir.**
 

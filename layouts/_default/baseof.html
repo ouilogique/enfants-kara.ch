@@ -25,5 +25,15 @@
         {{ block "main" . }}{{ end }}
       </main>
     </div>
+    <div class="lightbox" id="site-lightbox" hidden aria-hidden="true">
+      <button class="lightbox-nav lightbox-prev" type="button" aria-label="Image precedente">&#8249;</button>
+      <button class="lightbox-nav lightbox-next" type="button" aria-label="Image suivante">&#8250;</button>
+      <button class="lightbox-close" type="button" aria-label="Fermer l'image">&times;</button>
+      <figure class="lightbox-figure">
+        <img class="lightbox-image" alt="">
+        <figcaption class="lightbox-caption"></figcaption>
+      </figure>
+      <p class="lightbox-count" aria-live="polite"></p>
+    </div>
   </body>
 </html>
