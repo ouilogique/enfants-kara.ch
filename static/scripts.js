@@ -256,8 +256,19 @@ function smoothScrollToTop() {
 function getSidebarNavigationTargets() {
     const seen = new Set();
     const links = Array.from(document.querySelectorAll(".tree a[href]"));
+    const targets = [];
 
-    return links
+    const homeHref = getHomeHref();
+    const homePath = normalizePath(new URL(homeHref, window.location.href).pathname);
+    const homeTitle = (document.querySelector(".brand-name")?.textContent || "Accueil").trim();
+    targets.push({
+        href: new URL(homeHref, window.location.href).href,
+        path: homePath,
+        label: homeTitle
+    });
+    seen.add(homePath);
+
+    return targets.concat(links
         .map((link) => {
             const url = new URL(link.href, window.location.href);
             return {
@@ -270,7 +281,7 @@ function getSidebarNavigationTargets() {
             if (seen.has(item.path)) return false;
             seen.add(item.path);
             return true;
-        });
+        }));
 }
 
 function getAdjacentNavigationTarget(delta) {

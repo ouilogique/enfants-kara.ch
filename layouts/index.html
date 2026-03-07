@@ -4,6 +4,16 @@
       <p class="eyebrow">Solidarite et accompagnement</p>
       <h1>{{ .Title | safeHTML }}</h1>
       {{ with .Params.description }}<p class="dek">{{ . }}</p>{{ end }}
+      <nav class="page-nav" aria-label="Navigation entre pages">
+        <a class="page-nav-link is-prev" data-page-nav="prev" href="" hidden>
+          <span class="page-nav-kicker">Page précédente</span>
+          <span class="page-nav-title"></span>
+        </a>
+        <a class="page-nav-link is-next" data-page-nav="next" href="" hidden>
+          <span class="page-nav-kicker">Page suivante</span>
+          <span class="page-nav-title"></span>
+        </a>
+      </nav>
     </header>
     <div class="content">
       {{ .Content }}
