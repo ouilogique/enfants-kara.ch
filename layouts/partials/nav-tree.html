@@ -12,7 +12,7 @@
     {{- $children := .Pages.ByWeight -}}
     <details class="branch" {{ if $isActive }}open{{ end }}>
       <summary class="branch-summary">
-        <a class="branch-link {{ if $isActive }}is-active{{ end }}" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+        <a class="branch-link {{ if $isActive }}is-active{{ end }}" href="{{ .RelPermalink }}">{{ .LinkTitle | safeHTML }}</a>
       </summary>
       {{ if gt (len $children) 0 }}
         <div class="branch-children">
@@ -21,6 +21,6 @@
       {{ end }}
     </details>
   {{- else -}}
-    <a class="leaf {{ if $isActive }}is-active{{ end }}" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+    <a class="leaf {{ if $isActive }}is-active{{ end }}" href="{{ .RelPermalink }}">{{ .LinkTitle | safeHTML }}</a>
   {{- end -}}
 {{- end -}}
