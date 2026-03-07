@@ -737,6 +737,56 @@ body.is-home .home {
   background: rgba(255, 248, 240, 0.6);
 }
 
+.document-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0 0;
+}
+
+.document-card {
+  display: grid;
+  justify-items: start;
+  gap: 0.8rem;
+  padding: 1.2rem;
+  border-radius: 1.25rem;
+  background: rgba(255, 250, 246, 0.44);
+  border: 1px solid rgba(255, 255, 255, 0.38);
+  box-shadow: var(--shadow-soft);
+}
+
+.document-card h3,
+.document-card p {
+  margin: 0;
+}
+
+.document-card h3 {
+  color: var(--accent-deep);
+  font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 1.35rem;
+  line-height: 1.08;
+}
+
+.document-card-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.document-card-icon img {
+  width: 2.5rem;
+  margin: 0;
+  box-shadow: none;
+}
+
+.document-card-link {
+  font-weight: 700;
+}
+
 .listing {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(16.5rem, 1fr));
