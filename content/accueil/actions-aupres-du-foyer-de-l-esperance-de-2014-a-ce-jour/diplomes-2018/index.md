@@ -1,5 +1,6 @@
 ---
 title: "Juillet 2018"
+linkTitle: "Diplômés 2018"
 weight: 120
 draft: false
 aliases:

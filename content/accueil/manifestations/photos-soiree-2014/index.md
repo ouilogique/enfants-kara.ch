@@ -1,5 +1,6 @@
 ---
 title: "Photos soirée 2014"
+linkTitle: "Photos soirée 2014"
 weight: 100
 draft: false
 aliases:

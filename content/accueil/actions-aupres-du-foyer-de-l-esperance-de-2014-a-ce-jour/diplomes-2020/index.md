@@ -1,5 +1,6 @@
 ---
 title: "Remise des diplômes et kits, session 2020"
+linkTitle: "Diplômés 2020"
 weight: 140
 draft: false
 aliases:

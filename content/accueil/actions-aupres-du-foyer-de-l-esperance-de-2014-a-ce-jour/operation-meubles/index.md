@@ -1,5 +1,6 @@
 ---
 title: "Des meubles pour les chambres !"
+linkTitle: "Opération \"Meubles\""
 weight: 70
 draft: false
 aliases:

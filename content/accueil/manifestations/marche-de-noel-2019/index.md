@@ -1,5 +1,6 @@
 ---
 title: "Marché de Noël 2019"
+linkTitle: "Marché de Noël 2019"
 weight: 20
 draft: false
 aliases:

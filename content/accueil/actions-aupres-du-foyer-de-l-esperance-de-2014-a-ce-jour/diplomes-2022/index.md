@@ -1,5 +1,6 @@
 ---
 title: "Remise des diplômes et kits, session 2022"
+linkTitle: "Diplômes 2022"
 weight: 160
 draft: false
 aliases:

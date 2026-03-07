@@ -1,5 +1,6 @@
 ---
 title: "Construction d'ateliers pour la mécanique"
+linkTitle: "2017 Ateliers"
 weight: 210
 draft: false
 aliases:

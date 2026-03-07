@@ -1,5 +1,6 @@
 ---
 title: "Juillet 2015"
+linkTitle: "Nos visites au Foyer"
 weight: 230
 draft: false
 aliases:

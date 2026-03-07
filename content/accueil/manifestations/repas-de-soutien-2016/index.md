@@ -1,5 +1,6 @@
 ---
 title: "Repas de soutien 2016"
+linkTitle: "Repas de soutien 2016"
 weight: 80
 draft: false
 aliases:

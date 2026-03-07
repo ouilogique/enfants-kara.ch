@@ -1,5 +1,6 @@
 ---
 title: "Foyer de l'Espérance et Centre de formation"
+linkTitle: "Informations (suite)"
 weight: 30
 draft: false
 aliases:

@@ -1,5 +1,6 @@
 ---
 title: "Electrification des bâtiments"
+linkTitle: "Electrification"
 weight: 80
 draft: false
 aliases:

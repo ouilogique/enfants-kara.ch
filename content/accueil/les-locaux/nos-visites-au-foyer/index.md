@@ -1,5 +1,6 @@
 ---
 title: "Foyer Ste Marguerite (juillet 2015)"
+linkTitle: "Nos visites au foyer"
 weight: 10
 draft: false
 aliases:

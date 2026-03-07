@@ -1,5 +1,6 @@
 ---
 title: "Remise des diplômes et kits, session 2024"
+linkTitle: "Diplômés 2024"
 weight: 180
 draft: false
 aliases:

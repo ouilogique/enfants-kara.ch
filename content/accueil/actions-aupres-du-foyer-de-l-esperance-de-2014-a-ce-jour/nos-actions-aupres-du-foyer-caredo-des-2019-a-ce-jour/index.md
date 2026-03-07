@@ -1,5 +1,6 @@
 ---
 title: "Le Foyer Caredo"
+linkTitle: "Nos actions auprès du Foyer Caredo dès 2019 à ce jour"
 weight: 220
 draft: false
 aliases:

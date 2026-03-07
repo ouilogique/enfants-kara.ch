@@ -1,5 +1,6 @@
 ---
 title: "Marché de Noël 2022"
+linkTitle: "Marché de Noël 2022"
 weight: 10
 draft: false
 aliases:
