@@ -5,14 +5,14 @@
       <h1>{{ .Title | safeHTML }}</h1>
       {{ with .Params.description }}<p class="dek">{{ . }}</p>{{ end }}
       <nav class="page-nav" aria-label="Navigation entre pages">
-        <a class="page-nav-link is-prev" data-page-nav="prev" href="" hidden>
+        <button class="page-nav-link is-prev" data-page-nav="prev" type="button" hidden>
           <span class="page-nav-kicker">Page précédente</span>
           <span class="page-nav-title"></span>
-        </a>
-        <a class="page-nav-link is-next" data-page-nav="next" href="" hidden>
+        </button>
+        <button class="page-nav-link is-next" data-page-nav="next" type="button" hidden>
           <span class="page-nav-kicker">Page suivante</span>
           <span class="page-nav-title"></span>
-        </a>
+        </button>
       </nav>
     </header>
     <div class="content">
@@ -20,14 +20,14 @@
     </div>
     {{ $pages := .Pages.ByWeight }}
     {{ if gt (len $pages) 0 }}
-      <section class="listing">
+      <div class="listing">
         {{ range $pages }}
           <article class="card">
             <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle | safeHTML }}</a></h2>
             {{ with .Params.description }}<p>{{ . }}</p>{{ end }}
           </article>
         {{ end }}
-      </section>
+      </div>
     {{ end }}
   </section>
 {{ end }}
