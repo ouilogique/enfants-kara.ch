@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="{{ site.Language.Lang | default `fr` }}">
+  {{ $sectionImageMap := dict
+    "accueil" "images/jannik-v6ttXWuuKdo-unsplash.jpg"
+    "enfants-kara-suisse-eks" "images/antoine-demare-5OhSEgbUQwo-unsplash.jpg"
+    "enfants-kara-togo-ekt" "images/tobie-eniafe-7EZfQdvDAl8-unsplash.jpg"
+    "projet-marcar" "images/stijn-kleerebezem-bsk8f6BVSHc-unsplash.jpg"
+  }}
   {{ $sectionImage := "" }}
   {{ if not .IsHome }}
     {{ $rootSection := .FirstSection }}
     {{ if $rootSection }}
-      {{ $sectionImageMap := dict
-        "accueil" "images/jannik-v6ttXWuuKdo-unsplash.jpg"
-        "enfants-kara-suisse-eks" "images/antoine-demare-5OhSEgbUQwo-unsplash.jpg"
-        "enfants-kara-togo-ekt" "images/tobie-eniafe-7EZfQdvDAl8-unsplash.jpg"
-        "projet-marcar" "images/stijn-kleerebezem-bsk8f6BVSHc-unsplash.jpg"
-      }}
       {{ $sectionImage = index $sectionImageMap $rootSection.Section }}
     {{ end }}
   {{ end }}
@@ -19,6 +19,10 @@
     <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title | plainify }} | {{ site.Title }}{{ end }}</title>
     {{ with .Params.description }}<meta name="description" content="{{ . }}">{{ else }}{{ with site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}{{ end }}
     <link rel="icon" type="image/svg+xml" href="{{ `favicon.svg` | relURL }}">
+    <link rel="preload" as="image" href="{{ `images/bill-wegener-7MD4DR9jbP0-unsplash.jpg` | relURL }}">
+    {{ range $key, $image := $sectionImageMap }}
+      <link rel="preload" as="image" href="{{ $image | relURL }}">
+    {{ end }}
     <link rel="stylesheet" href="{{ `style.css` | relURL }}">
     <script src="{{ `scripts.js` | relURL }}" defer></script>
   </head>
