@@ -1,5 +1,5 @@
 ---
-title: "Le Foyer Ste Marguerite"
+title: "Le Foyer Ste-Marguerite"
 linkTitle: "Le Foyer Ste-Marguerite"
 weight: 20
 draft: false
@@ -7,7 +7,7 @@ aliases:
   - "/accueil/le-foyer-ste-marguerite/index.html"
 ---
 
-# Le Foyer Ste Marguerite
+# Le Foyer Ste-Marguerite
 
 ![](/images/i6d640fdc2d91e3d8-340331714b.png)
 

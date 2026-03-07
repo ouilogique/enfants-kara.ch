@@ -27,3 +27,4 @@
 - Relocaliser les ressources distantes encore utiles au site dans le projet local et eviter de laisser des URL distantes residuelles dans le contenu livre.
 - Pour les images locales sous `static/media/jimdo`, privilegier une restauration depuis l'historique Git avant tout reteledchargement. Ne pas vider ce dossier lors d'une relance du script si aucun URL distant n'est encore present dans `content/`.
 - Sous `static/`, utiliser des noms de repertoires usuels et explicites. Convention actuelle: `static/images` pour les images et `static/documents` pour les fichiers telechargeables.
+- Pour les essais de theming, privilegier des directions visuelles chaleureuses; la piste retenue actuellement est `Terre & lumiere` (tons sable, terracotta, ivoire, brun doux, avec une presence editoriale sobre).

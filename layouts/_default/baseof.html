@@ -7,12 +7,16 @@
     {{ with .Params.description }}<meta name="description" content="{{ . }}">{{ else }}{{ with site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}{{ end }}
     <link rel="icon" type="image/svg+xml" href="{{ `favicon.svg` | relURL }}">
     <link rel="stylesheet" href="{{ `style.css` | relURL }}">
+    <script src="{{ `scripts.js` | relURL }}" defer></script>
   </head>
-  <body>
+  <body class="{{ if .IsHome }}is-home{{ else if .IsSection }}is-section{{ else }}is-page{{ end }}">
     {{ $rootPages := site.Home.Pages.ByWeight }}
     <div class="app shell">
       <aside class="sidebar" aria-label="Navigation du site">
-        <a class="brand" href="{{ `` | relURL }}">{{ site.Title }}</a>
+        <a class="brand" href="{{ `` | relURL }}">
+          <span class="brand-kicker">Association</span>
+          <span class="brand-name">{{ site.Title }}</span>
+        </a>
         <nav class="tree">
           {{ partial "nav-tree.html" (dict "nodes" $rootPages "current" .) }}
         </nav>

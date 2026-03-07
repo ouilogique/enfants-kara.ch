@@ -1,7 +1,6 @@
 {{ define "main" }}
   <article class="page">
     <header class="page-header">
-      <p class="breadcrumb"><a href="{{ `` | relURL }}">Accueil</a></p>
       <h1>{{ .Title }}</h1>
       {{ with .Params.description }}<p class="dek">{{ . }}</p>{{ end }}
     </header>
