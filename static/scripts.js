@@ -27,6 +27,33 @@ function targetBlank() {
     }
 }
 
+function getSitePathPrefix() {
+    const homeHref = getHomeHref();
+    const homeUrl = new URL(homeHref, window.location.href);
+    const normalized = homeUrl.pathname.replace(/\/$/, "");
+    return normalized === "/" ? "" : normalized;
+}
+
+function rewriteRootRelativeAssetUrls() {
+    const prefix = getSitePathPrefix();
+    if (!prefix) return;
+
+    const rootScopedPattern = /^\/(images|documents|downloads|media|style\.css|scripts\.js|favicon\.svg|logo-association-enfants-kara\.svg)(\/|$)/;
+
+    document.querySelectorAll("[src], [href]").forEach((node) => {
+        const attr = node.hasAttribute("src") ? "src" : "href";
+        const value = node.getAttribute(attr);
+        if (!value || !rootScopedPattern.test(value)) return;
+        node.setAttribute(attr, `${prefix}${value}`);
+    });
+
+    document.querySelectorAll("[style*='--page-bg-image']").forEach((node) => {
+        const style = node.getAttribute("style");
+        if (!style) return;
+        node.setAttribute("style", style.replace(/url\('\/(images\/[^']+)'\)/g, `url('${prefix}/$1')`));
+    });
+}
+
 function isImageHref(href) {
     return /\.(avif|gif|jpe?g|png|svg|webp)(?:[?#].*)?$/i.test(href || "");
 }
@@ -215,6 +242,7 @@ function setupLightbox() {
     });
 }
 
+rewriteRootRelativeAssetUrls();
 targetBlank();
 enhanceContentMedia();
 setupLightbox();

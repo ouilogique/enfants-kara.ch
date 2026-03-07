@@ -1,0 +1,9 @@
+{{- $dest := .Destination -}}
+{{- if hasPrefix $dest "/" -}}
+  {{- $dest = $dest | relURL -}}
+{{- end -}}
+<img
+  src="{{ $dest }}"
+  alt="{{ .Text }}"
+  {{- with .Title }} title="{{ . }}"{{ end -}}
+>
