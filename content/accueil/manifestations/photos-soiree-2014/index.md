@@ -1,5 +1,6 @@
 ---
 title: "Photos soirée 2014"
+weight: 100
 draft: false
 aliases:
   - "/accueil/manifestations/photos-soirée-2014/index.html"

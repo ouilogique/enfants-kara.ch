@@ -1,5 +1,6 @@
 ---
 title: "Repas de soutien 2016"
+weight: 80
 draft: false
 aliases:
   - "/accueil/manifestations/repas-de-soutien-2016/index.html"

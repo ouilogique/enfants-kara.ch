@@ -1,5 +1,6 @@
 ---
 title: "Remise des diplômes et kits, session 2021"
+weight: 150
 draft: false
 aliases:
   - "/accueil/actions-auprès-du-foyer-de-l-espérance-de-2014-à-ce-jour/diplômes-2021/index.html"

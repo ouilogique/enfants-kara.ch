@@ -1,5 +1,6 @@
 ---
 title: "Des meubles pour les chambres !"
+weight: 70
 draft: false
 aliases:
   - "/accueil/actions-auprès-du-foyer-de-l-espérance-de-2014-à-ce-jour/opération-meubles/index.html"

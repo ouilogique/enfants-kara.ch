@@ -1,5 +1,6 @@
 ---
 title: "Foyer Ste Marguerite (juillet 2015)"
+weight: 10
 draft: false
 aliases:
   - "/accueil/les-locaux/nos-visites-au-foyer/index.html"

@@ -1,5 +1,6 @@
 ---
 title: "Soirée de soutien 2010"
+weight: 30
 draft: false
 aliases:
   - "/accueil/manifestations/soirée-de-soutien-2010/index.html"

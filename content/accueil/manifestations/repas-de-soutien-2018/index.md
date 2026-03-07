@@ -1,5 +1,6 @@
 ---
 title: "Repas de soutien 2018"
+weight: 90
 draft: false
 aliases:
   - "/accueil/manifestations/repas-de-soutien-2018/index.html"

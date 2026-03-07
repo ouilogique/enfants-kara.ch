@@ -1,5 +1,6 @@
 ---
 title: "Juillet 2018"
+weight: 120
 draft: false
 aliases:
   - "/accueil/actions-auprès-du-foyer-de-l-espérance-de-2014-à-ce-jour/diplômés-2018/index.html"

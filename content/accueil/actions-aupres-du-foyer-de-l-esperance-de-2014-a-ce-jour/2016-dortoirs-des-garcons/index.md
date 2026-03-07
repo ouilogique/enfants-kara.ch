@@ -1,5 +1,6 @@
 ---
 title: "2016 Dortoirs des garçons"
+weight: 200
 draft: false
 aliases:
   - "/accueil/actions-auprès-du-foyer-de-l-espérance-de-2014-à-ce-jour/2016-dortoirs-des-garçons/index.html"

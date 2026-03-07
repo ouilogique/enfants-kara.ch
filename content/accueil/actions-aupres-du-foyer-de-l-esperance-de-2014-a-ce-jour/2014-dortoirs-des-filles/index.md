@@ -1,5 +1,6 @@
 ---
 title: "Foyer de l'Espérance 2014"
+weight: 190
 draft: false
 aliases:
   - "/accueil/actions-auprès-du-foyer-de-l-espérance-de-2014-à-ce-jour/2014-dortoirs-des-filles/index.html"

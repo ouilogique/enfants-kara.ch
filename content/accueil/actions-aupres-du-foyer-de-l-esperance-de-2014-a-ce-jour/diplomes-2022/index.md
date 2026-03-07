@@ -1,5 +1,6 @@
 ---
 title: "Remise des diplômes et kits, session 2022"
+weight: 160
 draft: false
 aliases:
   - "/accueil/actions-auprès-du-foyer-de-l-espérance-de-2014-à-ce-jour/diplômes-2022/index.html"

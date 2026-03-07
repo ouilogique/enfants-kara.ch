@@ -1,5 +1,6 @@
 ---
 title: "Remise des diplômes et kits, session 2020"
+weight: 140
 draft: false
 aliases:
   - "/accueil/actions-auprès-du-foyer-de-l-espérance-de-2014-à-ce-jour/diplômés-2020/index.html"

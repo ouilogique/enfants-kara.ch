@@ -1,5 +1,6 @@
 ---
 title: "Diplômés 2015"
+weight: 100
 draft: false
 aliases:
   - "/accueil/actions-auprès-du-foyer-de-l-espérance-de-2014-à-ce-jour/diplômés-2015/index.html"

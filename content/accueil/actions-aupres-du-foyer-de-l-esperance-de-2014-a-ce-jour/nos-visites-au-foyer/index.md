@@ -1,5 +1,6 @@
 ---
 title: "Juillet 2015"
+weight: 230
 draft: false
 aliases:
   - "/accueil/actions-auprès-du-foyer-de-l-espérance-de-2014-à-ce-jour/nos-visites-au-foyer/index.html"

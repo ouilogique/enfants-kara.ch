@@ -1,5 +1,6 @@
 ---
 title: "Le Foyer Caredo"
+weight: 220
 draft: false
 aliases:
   - "/accueil/actions-auprès-du-foyer-de-l-espérance-de-2014-à-ce-jour/nos-actions-auprès-du-foyer-caredo-dès-2019-à-ce-jour/index.html"

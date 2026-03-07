@@ -1,5 +1,6 @@
 ---
 title: "Photos Soirée 2010"
+weight: 60
 draft: false
 aliases:
   - "/accueil/manifestations/photos-soirée-2010/index.html"

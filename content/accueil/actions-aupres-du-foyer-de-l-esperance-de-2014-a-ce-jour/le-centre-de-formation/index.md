@@ -1,5 +1,6 @@
 ---
 title: "Le Centre de formation"
+weight: 50
 draft: false
 aliases:
   - "/accueil/actions-auprès-du-foyer-de-l-espérance-de-2014-à-ce-jour/le-centre-de-formation/index.html"

@@ -1,5 +1,6 @@
 ---
 title: "Construction d'ateliers pour la mécanique"
+weight: 210
 draft: false
 aliases:
   - "/accueil/actions-auprès-du-foyer-de-l-espérance-de-2014-à-ce-jour/2017-ateliers/index.html"

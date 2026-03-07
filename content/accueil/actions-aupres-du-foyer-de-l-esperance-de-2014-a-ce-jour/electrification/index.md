@@ -1,5 +1,6 @@
 ---
 title: "Electrification des bâtiments"
+weight: 80
 draft: false
 aliases:
   - "/accueil/actions-auprès-du-foyer-de-l-espérance-de-2014-à-ce-jour/electrification/index.html"

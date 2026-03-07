@@ -1,5 +1,6 @@
 ---
 title: "Le Foyer de l'Espérance"
+weight: 40
 draft: false
 aliases:
   - "/accueil/actions-auprès-du-foyer-de-l-espérance-de-2014-à-ce-jour/le-foyer-de-l-espérance/index.html"
