@@ -11,7 +11,7 @@ aliases:
 
 # Il est constitué comme suit :
 
-|                                     |           |             |
+| Fonction                            | Nom       | Prénom      |
 | ----------------------------------- | --------- | ----------- |
 | Président                           | TARO      | Oscar       |
 | Intérimaire                         | MALEKI    | Angele      |
@@ -20,6 +20,3 @@ aliases:
 | Trésorier général                   | EDJEBA    | Daniel      |
 | Coordinateur projets                | KPELEE    | Aloou-Egnim |
 | Resp. organisation et communication | Vacant    |             |
-|                                     |           |             |
-| -----                               | -----     | -----       |
-|                                     |           |             |

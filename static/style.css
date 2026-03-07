@@ -396,6 +396,42 @@ img {
   padding-left: 1.3rem;
 }
 
+.content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  background: rgba(255, 251, 247, 0.9);
+  border: 1px solid rgba(120, 81, 59, 0.18);
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: var(--shadow-soft);
+}
+
+.content thead {
+  background: linear-gradient(180deg, rgba(239, 212, 193, 0.95), rgba(243, 227, 214, 0.9));
+}
+
+.content th,
+.content td {
+  padding: 0.85rem 0.9rem;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid rgba(120, 81, 59, 0.14);
+}
+
+.content th {
+  color: var(--accent-deep);
+  font-weight: 700;
+}
+
+.content tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.content tbody tr:nth-child(even) {
+  background: rgba(255, 248, 240, 0.6);
+}
+
 .listing {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(16.5rem, 1fr));

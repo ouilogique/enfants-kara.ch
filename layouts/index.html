@@ -2,7 +2,7 @@
   <section class="page home">
     <header class="page-header">
       <p class="eyebrow">Solidarite et accompagnement</p>
-      <h1>{{ .Title }}</h1>
+      <h1>{{ .Title | safeHTML }}</h1>
       {{ with .Params.description }}<p class="dek">{{ . }}</p>{{ end }}
     </header>
     <div class="content">

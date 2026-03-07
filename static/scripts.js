@@ -139,7 +139,6 @@ function openLightbox(trigger) {
 
     updateLightbox();
     lightboxState.root.hidden = false;
-    lightboxState.root.setAttribute("aria-hidden", "false");
     document.body.classList.add("has-lightbox");
     lightboxState.isOpen = true;
     lightboxState.close.focus();
@@ -149,7 +148,6 @@ function closeLightbox() {
     if (!lightboxState.isOpen) return;
 
     lightboxState.root.hidden = true;
-    lightboxState.root.setAttribute("aria-hidden", "true");
     lightboxState.image.removeAttribute("src");
     lightboxState.caption.textContent = "";
     lightboxState.count.textContent = "";
@@ -172,7 +170,13 @@ function setupLightbox() {
     lightboxState.root = document.getElementById("site-lightbox");
     if (!lightboxState.root) return;
 
-    lightboxState.image = lightboxState.root.querySelector(".lightbox-image");
+    const mediaHost = lightboxState.root.querySelector(".lightbox-media");
+    const image = document.createElement("img");
+    image.className = "lightbox-image";
+    image.alt = "";
+    mediaHost.appendChild(image);
+
+    lightboxState.image = image;
     lightboxState.caption = lightboxState.root.querySelector(".lightbox-caption");
     lightboxState.close = lightboxState.root.querySelector(".lightbox-close");
     lightboxState.prev = lightboxState.root.querySelector(".lightbox-prev");

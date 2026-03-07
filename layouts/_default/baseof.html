@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}</title>
+    <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title | plainify }} | {{ site.Title }}{{ end }}</title>
     {{ with .Params.description }}<meta name="description" content="{{ . }}">{{ else }}{{ with site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}{{ end }}
     <link rel="icon" type="image/svg+xml" href="{{ `favicon.svg` | relURL }}">
     <link rel="stylesheet" href="{{ `style.css` | relURL }}">
@@ -25,12 +25,12 @@
         {{ block "main" . }}{{ end }}
       </main>
     </div>
-    <div class="lightbox" id="site-lightbox" hidden aria-hidden="true">
+    <div class="lightbox" id="site-lightbox" hidden>
       <button class="lightbox-nav lightbox-prev" type="button" aria-label="Image precedente">&#8249;</button>
       <button class="lightbox-nav lightbox-next" type="button" aria-label="Image suivante">&#8250;</button>
       <button class="lightbox-close" type="button" aria-label="Fermer l'image">&times;</button>
       <figure class="lightbox-figure">
-        <img class="lightbox-image" alt="">
+        <div class="lightbox-media"></div>
         <figcaption class="lightbox-caption"></figcaption>
       </figure>
       <p class="lightbox-count" aria-live="polite"></p>

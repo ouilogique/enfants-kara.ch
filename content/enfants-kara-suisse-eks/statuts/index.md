@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Statuts de l'association Enfants-Kara"
 linkTitle: "Statuts"
 weight: 10
 draft: false
@@ -9,7 +9,7 @@ aliases:
 
 ![](/images/i3cd6a4cbce1f8069-026496f9b9.jpg)
 
-# Statuts de l'association<br>Enfants-Kara
+# Statuts de l'association Enfants-Kara
 
 **Article 1 Buts, siège**
 
