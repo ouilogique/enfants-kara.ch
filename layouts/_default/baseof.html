@@ -12,15 +12,17 @@
   <body class="{{ if .IsHome }}is-home{{ else if .IsSection }}is-section{{ else }}is-page{{ end }}">
     {{ $rootPages := site.Home.Pages.ByWeight }}
     <div class="app shell">
-      <aside class="sidebar" aria-label="Navigation du site">
+      <div class="sidepane">
         <a class="brand" href="{{ `` | relURL }}">
           <span class="brand-kicker">Association</span>
           <span class="brand-name">{{ site.Title }}</span>
         </a>
+        <aside class="sidebar" aria-label="Navigation du site">
         <nav class="tree">
           {{ partial "nav-tree.html" (dict "nodes" $rootPages "current" .) }}
         </nav>
-      </aside>
+        </aside>
+      </div>
       <main class="mainpane">
         {{ block "main" . }}{{ end }}
       </main>

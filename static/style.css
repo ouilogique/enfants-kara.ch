@@ -82,17 +82,22 @@ img {
   z-index: 1;
 }
 
+.sidepane {
+  display: grid;
+  gap: 1rem;
+  align-self: start;
+}
+
 .sidebar,
+.brand,
 .content,
 .card,
 .page-header {
   backdrop-filter: blur(14px);
 }
 
+.brand,
 .sidebar {
-  position: sticky;
-  top: 1rem;
-  align-self: start;
   padding: 1.25rem;
   border-radius: 1.6rem;
   background:
@@ -100,7 +105,13 @@ img {
     linear-gradient(140deg, rgba(255, 255, 255, 0.4), transparent 55%);
   border: 1px solid var(--line);
   box-shadow: var(--shadow);
-  max-height: calc(100vh - 2rem);
+}
+
+.sidebar {
+  position: sticky;
+  top: 6.9rem;
+  align-self: start;
+  max-height: calc(100vh - 7.9rem);
   overflow-y: auto;
   overflow-x: hidden;
   scrollbar-width: thin;
@@ -111,9 +122,6 @@ img {
   display: grid;
   gap: 0.2rem;
   text-decoration: none;
-  margin-bottom: 1.15rem;
-  padding-bottom: 1rem;
-  border-bottom: 1px solid var(--line);
 }
 
 .brand-kicker {
@@ -631,7 +639,20 @@ img {
     grid-template-columns: 1fr;
   }
 
+  .sidepane {
+    display: contents;
+  }
+
+  .brand {
+    order: 1;
+  }
+
+  .mainpane {
+    order: 2;
+  }
+
   .sidebar {
+    order: 3;
     position: static;
     max-height: none;
     overflow: visible;
@@ -653,12 +674,14 @@ img {
   }
 
   .sidebar,
+  .brand,
   .page-header,
   .content,
   .card {
     border-radius: 1.2rem;
   }
 
+  .brand,
   .sidebar,
   .content,
   .card {
