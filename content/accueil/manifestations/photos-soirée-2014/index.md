@@ -2,7 +2,7 @@
 title: "Photos soirée 2014"
 draft: false
 aliases:
-  - "/accueil/manifestations/photos-soire%CC%81e-2014/index.html"
+  - "/accueil/manifestations/photos-soirée-2014/index.html"
 ---
 
 - ![Le chef Hugues N'Gankam aux fourneaux](/media/jimdo/i6cec0aeb088af2ec-dbefdfaea1.jpg)

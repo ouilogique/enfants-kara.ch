@@ -11,7 +11,7 @@ from dataclasses import dataclass
 from html import unescape
 from html.parser import HTMLParser
 from pathlib import Path
-from urllib.parse import SplitResult, quote, unquote, urlsplit, urlunsplit
+from urllib.parse import SplitResult, unquote, urlsplit, urlunsplit
 
 
 SITE_HOSTS = {"enfantskara.jimdofree.com", "www.enfantskara.jimdofree.com"}
@@ -101,6 +101,10 @@ def slugify(value: str) -> str:
     lowered = ascii_only.lower()
     slug = re.sub(r"[^a-z0-9]+", "-", lowered).strip("-")
     return slug or "page"
+
+
+def normalize_path_text(value: str) -> str:
+    return unicodedata.normalize("NFC", value)
 
 
 def collect_html_files(root: Path) -> list[Path]:
@@ -199,6 +203,7 @@ def run_pandoc(fragment: str) -> str:
 
 
 def rewrite_path(path: str) -> str:
+    path = normalize_path_text(unquote(path))
     if path.endswith("/index.html"):
         return path[: -len("index.html")]
     if path == "index.html":
@@ -257,8 +262,7 @@ def build_output_path(html_path: Path, output_root: Path, all_files: set[Path]) 
 def original_alias(html_path: Path) -> str:
     if html_path == Path("index.html"):
         return "/index.html"
-    encoded = quote(unquote(html_path.as_posix()), safe="/")
-    return f"/{encoded}"
+    return f"/{normalize_path_text(html_path.as_posix())}"
 
 
 def format_front_matter(meta: PageMeta, alias: str) -> str:

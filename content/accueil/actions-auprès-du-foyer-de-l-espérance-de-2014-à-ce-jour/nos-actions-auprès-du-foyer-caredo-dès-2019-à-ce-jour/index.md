@@ -2,7 +2,7 @@
 title: "Le Foyer Caredo"
 draft: false
 aliases:
-  - "/accueil/actions-aupre%CC%80s-du-foyer-de-l-espe%CC%81rance-de-2014-a%CC%80-ce-jour/nos-actions-aupre%CC%80s-du-foyer-caredo-de%CC%80s-2019-a%CC%80-ce-jour/index.html"
+  - "/accueil/actions-auprès-du-foyer-de-l-espérance-de-2014-à-ce-jour/nos-actions-auprès-du-foyer-caredo-dès-2019-à-ce-jour/index.html"
 ---
 
 # Le Foyer Caredo

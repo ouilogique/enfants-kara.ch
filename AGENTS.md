@@ -20,3 +20,4 @@
 - Les images du contenu sont relocalisees dans `static/media/jimdo`.
 - Les documents telechargeables rapatries sont relocalises dans `static/downloads`.
 - Exclure de la sortie Hugo les pages techniques, les pages protegees et les feuilles vides sans contenu editorial exploitable.
+- Normaliser en Unicode NFC tout ce qui est controle par le projet, en particulier le contenu texte, les aliases et les chemins generes.

@@ -2,7 +2,7 @@
 title: "Soirée de soutien 2012"
 draft: false
 aliases:
-  - "/accueil/manifestations/soire%CC%81e-de-soutien-2012/index.html"
+  - "/accueil/manifestations/soirée-de-soutien-2012/index.html"
 ---
 
 # Soirée de soutien 2012

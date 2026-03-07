@@ -2,7 +2,7 @@
 title: "Marché de Noël 2019"
 draft: false
 aliases:
-  - "/accueil/manifestations/marche%CC%81-de-noe%CC%88l-2019/index.html"
+  - "/accueil/manifestations/marché-de-noël-2019/index.html"
 ---
 
 # Marché de Noël 2019

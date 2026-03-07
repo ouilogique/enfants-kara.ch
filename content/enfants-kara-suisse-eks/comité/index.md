@@ -2,7 +2,7 @@
 title: "Comité 2017 - 2021"
 draft: false
 aliases:
-  - "/enfants-kara-suisse-eks/comite%CC%81/index.html"
+  - "/enfants-kara-suisse-eks/comité/index.html"
 ---
 
 ![](/media/jimdo/ibac569724a40e6e4-9b23ad94dd.jpg)

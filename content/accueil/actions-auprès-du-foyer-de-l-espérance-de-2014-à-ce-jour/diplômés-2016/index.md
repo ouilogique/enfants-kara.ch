@@ -2,7 +2,7 @@
 title: "Diplômés 2016"
 draft: false
 aliases:
-  - "/accueil/actions-aupre%CC%80s-du-foyer-de-l-espe%CC%81rance-de-2014-a%CC%80-ce-jour/diplo%CC%82me%CC%81s-2016/index.html"
+  - "/accueil/actions-auprès-du-foyer-de-l-espérance-de-2014-à-ce-jour/diplômés-2016/index.html"
 ---
 
 # Diplômés 2016

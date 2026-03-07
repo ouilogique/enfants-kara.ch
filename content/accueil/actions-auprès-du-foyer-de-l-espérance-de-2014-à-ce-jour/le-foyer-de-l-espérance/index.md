@@ -2,7 +2,7 @@
 title: "Le Foyer de l'Espérance"
 draft: false
 aliases:
-  - "/accueil/actions-aupre%CC%80s-du-foyer-de-l-espe%CC%81rance-de-2014-a%CC%80-ce-jour/le-foyer-de-l-espe%CC%81rance/index.html"
+  - "/accueil/actions-auprès-du-foyer-de-l-espérance-de-2014-à-ce-jour/le-foyer-de-l-espérance/index.html"
 ---
 
 # Le Foyer de l'Espérance

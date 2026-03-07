@@ -2,7 +2,7 @@
 title: "Photos Soirée 2010"
 draft: false
 aliases:
-  - "/accueil/manifestations/photos-soire%CC%81e-2010/index.html"
+  - "/accueil/manifestations/photos-soirée-2010/index.html"
 ---
 
 - ![La boutique ...](/media/jimdo/i3eab0c5b6f02d69a-709b283dcd.jpg)

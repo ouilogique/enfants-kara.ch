@@ -2,7 +2,7 @@
 title: "Le Centre de formation"
 draft: false
 aliases:
-  - "/accueil/actions-aupre%CC%80s-du-foyer-de-l-espe%CC%81rance-de-2014-a%CC%80-ce-jour/le-centre-de-formation/index.html"
+  - "/accueil/actions-auprès-du-foyer-de-l-espérance-de-2014-à-ce-jour/le-centre-de-formation/index.html"
 ---
 
 # Le Centre de formation

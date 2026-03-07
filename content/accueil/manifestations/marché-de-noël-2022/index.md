@@ -2,7 +2,7 @@
 title: "Marché de Noël 2022"
 draft: false
 aliases:
-  - "/accueil/manifestations/marche%CC%81-de-noe%CC%88l-2022/index.html"
+  - "/accueil/manifestations/marché-de-noël-2022/index.html"
 ---
 
 # Marché de Noël 2022

@@ -2,7 +2,7 @@
 title: "Photos soirée 2012"
 draft: false
 aliases:
-  - "/accueil/manifestations/photos-soire%CC%81e-2012/index.html"
+  - "/accueil/manifestations/photos-soirée-2012/index.html"
 ---
 
 # Soirée de soutien 2012

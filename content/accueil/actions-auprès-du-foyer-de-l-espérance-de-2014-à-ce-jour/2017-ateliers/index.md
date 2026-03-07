@@ -2,7 +2,7 @@
 title: "Construction d'ateliers pour la mécanique"
 draft: false
 aliases:
-  - "/accueil/actions-aupre%CC%80s-du-foyer-de-l-espe%CC%81rance-de-2014-a%CC%80-ce-jour/2017-ateliers/index.html"
+  - "/accueil/actions-auprès-du-foyer-de-l-espérance-de-2014-à-ce-jour/2017-ateliers/index.html"
 ---
 
 # Construction d'ateliers pour la mécanique

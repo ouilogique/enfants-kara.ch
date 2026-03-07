@@ -2,7 +2,7 @@
 title: "Documents pour l'Assemblée générale 2021"
 draft: false
 aliases:
-  - "/enfants-kara-suisse-eks/assemble%CC%81es-ge%CC%81ne%CC%81rales/index.html"
+  - "/enfants-kara-suisse-eks/assemblées-générales/index.html"
 ---
 
 ## Documents pour l'Assemblée générale 2021
