@@ -1,0 +1,26 @@
+{{- $current := .current -}}
+{{- $nodes := .nodes -}}
+{{- range $nodes -}}
+  {{- $isSection := eq .Kind "section" -}}
+  {{- $isActive := false -}}
+  {{- if $isSection -}}
+    {{- $isActive = hasPrefix $current.RelPermalink .RelPermalink -}}
+  {{- else -}}
+    {{- $isActive = eq $current.RelPermalink .RelPermalink -}}
+  {{- end -}}
+  {{- if $isSection -}}
+    {{- $children := .Pages.ByWeight -}}
+    <details class="branch" {{ if $isActive }}open{{ end }}>
+      <summary class="branch-summary">
+        <a class="branch-link {{ if $isActive }}is-active{{ end }}" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+      </summary>
+      {{ if gt (len $children) 0 }}
+        <div class="branch-children">
+          {{ partial "nav-tree.html" (dict "nodes" $children "current" $current) }}
+        </div>
+      {{ end }}
+    </details>
+  {{- else -}}
+    <a class="leaf {{ if $isActive }}is-active{{ end }}" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+  {{- end -}}
+{{- end -}}

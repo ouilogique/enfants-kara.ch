@@ -9,40 +9,16 @@
   </head>
   <body>
     {{ $rootPages := site.Home.Pages.ByWeight }}
-    {{ $currentTop := .FirstSection }}
-    {{ if and .IsPage .File (eq .File.Dir "about/") }}
-      {{ $currentTop = . }}
-    {{ end }}
-    <header class="site-header">
-      <div class="shell">
+    <div class="app shell">
+      <aside class="sidebar" aria-label="Navigation du site">
         <a class="brand" href="{{ `` | relURL }}">{{ site.Title }}</a>
-        <nav class="topnav" aria-label="Navigation principale">
-          {{ range $rootPages }}
-            {{ $isActive := false }}
-            {{ if eq .Kind "section" }}
-              {{ $isActive = hasPrefix $.RelPermalink .RelPermalink }}
-            {{ else }}
-              {{ $isActive = eq $.RelPermalink .RelPermalink }}
-            {{ end }}
-            <a class="{{ if $isActive }}is-active{{ end }}" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
-          {{ end }}
+        <nav class="tree">
+          {{ partial "nav-tree.html" (dict "nodes" $rootPages "current" .) }}
         </nav>
-      </div>
-      {{ with $currentTop }}
-        {{ $children := where .Pages "Parent.RelPermalink" .RelPermalink }}
-        {{ if and (eq .Kind "section") (gt (len $children) 0) }}
-          <div class="shell">
-            <nav class="subnav" aria-label="Navigation secondaire">
-              {{ range $children.ByWeight }}
-                <a class="{{ if eq $.RelPermalink .RelPermalink }}is-active{{ end }}" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
-              {{ end }}
-            </nav>
-          </div>
-        {{ end }}
-      {{ end }}
-    </header>
-    <main class="shell">
-      {{ block "main" . }}{{ end }}
-    </main>
+      </aside>
+      <main class="mainpane">
+        {{ block "main" . }}{{ end }}
+      </main>
+    </div>
   </body>
 </html>
