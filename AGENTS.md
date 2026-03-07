@@ -23,3 +23,4 @@
 - Normaliser en Unicode NFC tout ce qui est controle par le projet, en particulier le contenu texte, les aliases et les chemins generes.
 - Le menu du site doit refleter directement la structure des fichiers sous `content/`, avec navigation recursive pour les niveaux imbriques.
 - L'ordre de navigation ne doit pas etre alphabetique quand le site d'origine definissait un autre ordre; conserver cet ordre via les `weight`, y compris pour les pages de niveau 3.
+- Relocaliser les ressources distantes encore utiles au site dans le projet local et eviter de laisser des URL distantes residuelles dans le contenu livre.

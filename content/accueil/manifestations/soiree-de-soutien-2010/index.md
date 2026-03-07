@@ -16,6 +16,6 @@ aliases:
 
 **La chanteuse Vicky Bila, nous fera l’honneur de ses chansons**
 
-**Reservation :** Soutien enfants-kara ([\[email protected\]](https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=cubitusblanc@gmail.com))
+**Reservation :** Soutien enfants-kara ([email protected])
 
 ![](/media/jimdo/icd85776f08a65fe8-205321105f.jpg)
