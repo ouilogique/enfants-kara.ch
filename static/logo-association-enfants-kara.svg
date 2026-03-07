@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title desc">
+  <title id="title">Monogramme Association Enfants-Kara</title>
+  <desc id="desc">Les initiales E, A et K, tracees dans un style calligraphique evocant une peinture rupestre.</desc>
+  <defs>
+    <linearGradient id="ek-fill" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f1c89a"/>
+      <stop offset="40%" stop-color="#ce7a46"/>
+      <stop offset="100%" stop-color="#7d3318"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke="url(#ek-fill)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M10 74C12 58 15 40 19 22M19 22C23 39 26 57 28 74M14 54C18 53 21 53 25 54" stroke-width="6.8"/>
+    <path d="M38 22C35 34 35 50 37 74M39 24C47 23 52 23 58 24M39 47C46 45 50 45 55 46M39 72C48 71 53 71 59 72" stroke-width="7"/>
+    <path d="M70 22C71 33 71 47 71 73M72 48C77 39 81 31 86 22M72 48C78 55 82 63 88 74" stroke-width="7.4"/>
+    <path d="M15 21C17 19 19 18 22 18M80 74C82 76 84 77 87 77" stroke-width="3" opacity="0.85"/>
+  </g>
+</svg>
