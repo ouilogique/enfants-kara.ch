@@ -1,6 +1,7 @@
 ---
 title: "Organisation de l'Association"
 linkTitle: "Enfants-Kara Suisse (EKS)"
+weight: 30
 draft: false
 aliases:
   - "/enfants-kara-suisse-eks/index.html"

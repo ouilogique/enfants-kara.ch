@@ -65,4 +65,5 @@ exec hugo server \
   --baseURL "${BASE_URL}" \
   --port "${PORT}" \
   --appendPort=false \
+  --noBuildLock \
   --disableFastRender

@@ -8,7 +8,7 @@
       {{ .Content }}
     </div>
     <section class="listing">
-      {{ range site.Sections.ByTitle }}
+      {{ range site.Home.Pages.ByWeight }}
         <article class="card">
           <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
           {{ with .Params.description }}<p>{{ . }}</p>{{ end }}

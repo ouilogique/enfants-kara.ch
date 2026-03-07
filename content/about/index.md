@@ -1,5 +1,7 @@
 ---
 title: "Mentions légales"
+linkTitle: "about"
+weight: 10
 draft: false
 aliases:
   - "/about/index.html"

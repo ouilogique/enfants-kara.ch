@@ -65,8 +65,23 @@ img {
   gap: 0.9rem;
 }
 
-.topnav a {
+.topnav a,
+.subnav a {
   text-decoration: none;
+}
+
+.topnav a.is-active,
+.subnav a.is-active {
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.subnav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.85rem;
+  padding: 0 0 1rem;
+  border-top: 1px solid var(--line);
 }
 
 .page {

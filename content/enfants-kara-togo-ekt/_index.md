@@ -1,6 +1,7 @@
 ---
 title: "Enfants-Kara Togo (EKT)"
 linkTitle: "Enfants-Kara Togo (EKT)"
+weight: 40
 draft: false
 aliases:
   - "/enfants-kara-togo-ekt/index.html"
