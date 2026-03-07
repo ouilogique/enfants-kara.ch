@@ -19,6 +19,14 @@
   --shadow-soft: 0 12px 30px rgba(91, 54, 33, 0.08);
 }
 
+@view-transition {
+  navigation: auto;
+}
+
+::view-transition-group(page-bg) {
+  animation-duration: 0s;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -42,6 +50,7 @@ body {
 }
 
 .page-background {
+  view-transition-name: page-bg;
   position: fixed;
   inset: 0;
   z-index: 0;
