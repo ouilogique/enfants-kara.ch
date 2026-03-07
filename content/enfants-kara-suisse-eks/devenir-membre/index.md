@@ -19,13 +19,12 @@ Merci d'avance quel que soit votre choix !
 
 Merci de faire le versement selon les coordonnées bancaires suivantes, en mentionnant "Cotisation 20XX" :
 
-IBAN: CH23 0900 0000 1754 5294 4 La Poste, Suisse
+    IBAN: CH23 0900 0000 1754 5294 4 La Poste, Suisse
 
-CCP: 17-545294-4 La Poste suisse\
-Enfants-Kara\
-CH-1264 St-Cergue
-
-Suisse
+    CCP: 17-545294-4 La Poste suisse
+    Enfants-Kara
+    CH-1264 St-Cergue
+    Suisse
 
 Vous pouvez aussi nous demander l'envoi à votre adresse postale d'un bulletin de versement en utilisant le message électronique qui suit :
 

@@ -11,16 +11,15 @@ aliases:
 
 # Il est constitué comme suit :
 
-| | | |
-|-------------------------------------|-----------|-------------|
-| Président | TARO | Oscar |
-| Intérimaire | Maleki | Angele |
-| Secrétaire général | TCHATANAO | Joël |
-| Secrétaire générale adj. | TARO | Chantal |
-| Trésorier général | EDJEBA | Daniel |
-| Coordinateur projets | KPELEE | Aloou-Egnim |
-| Resp. organisation et communication | Vacant | |
-
-| | | |
-|-----|-----|-----|
-| | | |
+|                                     |           |             |
+| ----------------------------------- | --------- | ----------- |
+| Président                           | TARO      | Oscar       |
+| Intérimaire                         | MALEKI    | Angele      |
+| Secrétaire général                  | TCHATANAO | Joël        |
+| Secrétaire générale adj.            | TARO      | Chantal     |
+| Trésorier général                   | EDJEBA    | Daniel      |
+| Coordinateur projets                | KPELEE    | Aloou-Egnim |
+| Resp. organisation et communication | Vacant    |             |
+|                                     |           |             |
+| -----                               | -----     | -----       |
+|                                     |           |             |
