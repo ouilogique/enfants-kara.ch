@@ -49,10 +49,11 @@ jobs:
         env:
           HUGO_CACHEDIR: ${{ github.workspace }}/.cache/hugo
         run: |
+          [ -f static/CNAME ] && HUGO_ENV=production || HUGO_ENV=dev-github
           hugo \
             --gc \
             --minify \
-            --environment dev-github
+            --environment $HUGO_ENV
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
