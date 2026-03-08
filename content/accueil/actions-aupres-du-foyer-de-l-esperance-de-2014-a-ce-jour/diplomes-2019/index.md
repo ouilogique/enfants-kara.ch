@@ -5,6 +5,7 @@ weight: 130
 draft: false
 aliases:
   - "/accueil/actions-auprès-du-foyer-de-l-espérance-de-2014-à-ce-jour/diplômes-2019/index.html"
+description: "Cérémonie de remise des diplômes et kits de la session 2019 au Foyer de l'Espérance, organisée malgré la menace du COVID-19."
 ---
 
 # Remise des diplômes et kits, session 2019

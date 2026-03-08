@@ -5,6 +5,7 @@ weight: 30
 draft: false
 aliases:
   - "/enfants-kara-suisse-eks/index.html"
+description: "Organisation de l'association Enfants-Kara Suisse (EKS) : comité, statuts et procès-verbaux des assemblées générales."
 ---
 
 # Organisation de l'Association

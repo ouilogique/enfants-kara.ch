@@ -5,6 +5,7 @@ weight: 80
 draft: false
 aliases:
   - "/accueil/actions-auprès-du-foyer-de-l-espérance-de-2014-à-ce-jour/electrification/index.html"
+description: "Raccordement au réseau électrique du Foyer de l'Espérance début 2021 et projet d'installation intérieure soutenu par Enfants-Kara."
 ---
 
 # Electrification des bâtiments

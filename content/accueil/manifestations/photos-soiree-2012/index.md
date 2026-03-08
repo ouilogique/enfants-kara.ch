@@ -5,6 +5,7 @@ weight: 70
 draft: false
 aliases:
   - "/accueil/manifestations/photos-soirée-2012/index.html"
+description: "Photos de la soirée de soutien 2012 d'Enfants-Kara : cuisine, animations et prestations musicales."
 ---
 
 # Soirée de soutien 2012

@@ -5,6 +5,7 @@ weight: 70
 draft: false
 aliases:
   - "/accueil/actions-auprès-du-foyer-de-l-espérance-de-2014-à-ce-jour/opération-meubles/index.html"
+description: "Action Flash pour financer la fabrication de meubles dans les nouveaux dortoirs des filles du Foyer de l'Espérance en 2014."
 ---
 
 # Des meubles pour les chambres !

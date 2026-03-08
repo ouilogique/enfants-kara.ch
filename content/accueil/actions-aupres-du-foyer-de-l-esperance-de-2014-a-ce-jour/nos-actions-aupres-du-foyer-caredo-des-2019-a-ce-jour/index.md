@@ -5,6 +5,7 @@ weight: 220
 draft: false
 aliases:
   - "/accueil/actions-auprès-du-foyer-de-l-espérance-de-2014-à-ce-jour/nos-actions-auprès-du-foyer-caredo-dès-2019-à-ce-jour/index.html"
+description: "Aide d'Enfants-Kara au Foyer Caredo depuis 2019 : soutien mensuel pour 40 enfants orphelins et projets de formation et d'autonomie."
 ---
 
 # Le Foyer Caredo

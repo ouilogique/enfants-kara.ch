@@ -5,6 +5,7 @@ weight: 60
 draft: false
 aliases:
   - "/enfants-kara-suisse-eks/contact/index.html"
+description: "Coordonnées de l'association Enfants-Kara : adresse postale au Mont-sur-Lausanne, téléphone et fax."
 ---
 
 # Contact

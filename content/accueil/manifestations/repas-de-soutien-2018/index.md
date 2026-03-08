@@ -5,6 +5,7 @@ weight: 90
 draft: false
 aliases:
   - "/accueil/manifestations/repas-de-soutien-2018/index.html"
+description: "Repas de soutien du 7 octobre 2018 d'Enfants-Kara au Refuge des Bas-Monts à Belmont-sur-Lausanne."
 ---
 
 # Repas de soutien 2018

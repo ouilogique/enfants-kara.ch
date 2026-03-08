@@ -5,6 +5,7 @@ weight: 120
 draft: false
 aliases:
   - "/accueil/actions-auprès-du-foyer-de-l-espérance-de-2014-à-ce-jour/diplômés-2018/index.html"
+description: "Cérémonie de remise des diplômes et kits professionnels de la volée 2018 au Foyer de l'Espérance, en présence de Rose et Claude Balmer."
 ---
 
 # Juillet 2018

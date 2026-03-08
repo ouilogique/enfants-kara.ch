@@ -5,6 +5,7 @@ weight: 10
 draft: false
 aliases:
   - "/accueil/actions-auprès-du-foyer-de-l-espérance-de-2014-à-ce-jour/préambule/index.html"
+description: "Historique de la transition d'Enfants-Kara du Foyer Ste-Marguerite vers le Foyer de l'Espérance, décidée en Assemblée Générale extraordinaire en novembre 2013."
 ---
 
 ## Changement

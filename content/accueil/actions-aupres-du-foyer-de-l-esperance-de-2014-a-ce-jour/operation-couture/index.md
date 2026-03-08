@@ -5,6 +5,7 @@ weight: 60
 draft: false
 aliases:
   - "/accueil/actions-auprès-du-foyer-de-l-espérance-de-2014-à-ce-jour/opération-couture/index.html"
+description: "Action Flash de janvier 2014 pour remplacer les 10 machines à coudre disparues du Foyer de l'Espérance en juillet 2013."
 ---
 
 # Désolation

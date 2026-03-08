@@ -5,6 +5,7 @@ weight: 40
 draft: false
 aliases:
   - "/enfants-kara-suisse-eks/devenir-membre/index.html"
+description: "Rejoignez l'association Enfants-Kara : modalités d'adhésion, cotisation annuelle et coordonnées bancaires."
 ---
 
 # Devenir membre

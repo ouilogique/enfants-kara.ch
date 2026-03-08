@@ -5,6 +5,7 @@ weight: 40
 draft: false
 aliases:
   - "/accueil/actions-auprès-du-foyer-de-l-espérance-de-2014-à-ce-jour/index.html"
+description: "Historique et actions d'Enfants-Kara auprès du Foyer de l'Espérance à Tigbada depuis 2014 : constructions, formations et remises de kits professionnels."
 ---
 
 # Le Foyer de l'Espérance et son Centre de formation

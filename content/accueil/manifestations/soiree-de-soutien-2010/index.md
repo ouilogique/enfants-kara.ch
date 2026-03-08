@@ -5,6 +5,7 @@ weight: 30
 draft: false
 aliases:
   - "/accueil/manifestations/soirée-de-soutien-2010/index.html"
+description: "Soirée de soutien 2010 d'Enfants-Kara avec la chanteuse Vicky Bila, au profit des enfants du Togo."
 ---
 
 # Soirée de soutien 2010

@@ -5,6 +5,7 @@ weight: 40
 draft: false
 aliases:
   - "/enfants-kara-togo-ekt/index.html"
+description: "Enfants-Kara Togo (EKT), section togolaise de l'association : comité local, statuts et assemblées générales."
 ---
 
 # Enfants-Kara Togo (EKT)

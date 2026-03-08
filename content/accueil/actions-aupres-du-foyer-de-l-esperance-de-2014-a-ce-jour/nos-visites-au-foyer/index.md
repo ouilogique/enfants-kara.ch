@@ -5,6 +5,7 @@ weight: 230
 draft: false
 aliases:
   - "/accueil/actions-auprès-du-foyer-de-l-espérance-de-2014-à-ce-jour/nos-visites-au-foyer/index.html"
+description: "Visite de juillet 2015 au Foyer de l'Espérance par Rose Balmer, présidente d'Enfants-Kara, avec photos des dortoirs et ateliers."
 ---
 
 # Juillet 2015

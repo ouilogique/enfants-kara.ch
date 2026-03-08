@@ -5,6 +5,7 @@ weight: 10
 draft: false
 aliases:
   - "/accueil/les-locaux/nos-visites-au-foyer/index.html"
+description: "Photos du Foyer Ste-Marguerite prises lors de visites entre 2009 et 2015, montrant l'évolution des locaux et la vie quotidienne."
 ---
 
 # Foyer Ste Marguerite (juillet 2015)

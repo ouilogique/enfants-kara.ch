@@ -5,6 +5,7 @@ weight: 50
 draft: false
 aliases:
   - "/accueil/manifestations/index.html"
+description: "Manifestations organisées par Enfants-Kara : soirées de soutien biennales, repas africains annuels et stands aux marchés de Noël."
 ---
 
 Enfants-Kara organise tous les deux ans une soirée de soutien. Convivialité, chants et danses sont les maîtres-mots de la manifestation.

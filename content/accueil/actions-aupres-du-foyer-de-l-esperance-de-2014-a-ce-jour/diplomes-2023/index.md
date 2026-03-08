@@ -5,6 +5,7 @@ weight: 170
 draft: false
 aliases:
   - "/accueil/actions-auprès-du-foyer-de-l-espérance-de-2014-à-ce-jour/diplômes-2023/index.html"
+description: "Cérémonie de remise des diplômes et kits professionnels de la session 2023 au Foyer de l'Espérance, le 18 mai 2023."
 ---
 
 # Remise des diplômes et kits, session 2023

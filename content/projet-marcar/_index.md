@@ -5,6 +5,7 @@ weight: 50
 draft: false
 aliases:
   - "/projet-marcar/index.html"
+description: "Projet Marcar : utilisation d'un terrain de 7,3 hectares à Blitta au profit de l'orphelinat Caredo — agriculture, formation et développement durable."
 ---
 
 # 1. Proposition de projet pour l’utilisation d'un terrain à Blitta

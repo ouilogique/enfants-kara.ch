@@ -5,6 +5,7 @@ weight: 100
 draft: false
 aliases:
   - "/accueil/manifestations/photos-soirée-2014/index.html"
+description: "Photos de la soirée de soutien 2014 d'Enfants-Kara par Christian Balmer : cuisine, décoration et performances musicales."
 ---
 
 - ![Le chef Hugues N'Gankam aux fourneaux](images/i6cec0aeb088af2ec-dbefdfaea1.jpg)

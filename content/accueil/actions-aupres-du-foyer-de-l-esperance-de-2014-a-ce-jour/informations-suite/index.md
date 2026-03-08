@@ -5,6 +5,7 @@ weight: 30
 draft: false
 aliases:
   - "/accueil/actions-auprès-du-foyer-de-l-espérance-de-2014-à-ce-jour/informations-suite/index.html"
+description: "Fonctionnement du Foyer de l'Espérance : recrutement des jeunes en difficulté, conditions d'accueil, alimentation et formation dans les métiers manuels."
 ---
 
 # Foyer de l'Espérance et Centre de formation

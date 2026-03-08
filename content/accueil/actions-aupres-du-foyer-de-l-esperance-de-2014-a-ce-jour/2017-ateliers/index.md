@@ -5,6 +5,7 @@ weight: 210
 draft: false
 aliases:
   - "/accueil/actions-auprès-du-foyer-de-l-espérance-de-2014-à-ce-jour/2017-ateliers/index.html"
+description: "Financement de la construction d'ateliers de mécanique au Foyer de l'Espérance en 2017, inaugurés en juillet après approbation en Assemblée Générale."
 ---
 
 # Construction d'ateliers pour la mécanique

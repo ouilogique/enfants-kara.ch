@@ -5,6 +5,7 @@ weight: 20
 draft: false
 aliases:
   - "/accueil/manifestations/marché-de-noël-2019/index.html"
+description: "Participation d'Enfants-Kara au Marché de Noël 2019 avec vente de produits togolais : gingembre, thés, cafés et bibelots artisanaux."
 ---
 
 # Marché de Noël 2019

@@ -5,6 +5,7 @@ weight: 20
 draft: false
 aliases:
   - "/accueil/actions-auprès-du-foyer-de-l-espérance-de-2014-à-ce-jour/informations/index.html"
+description: "Présentation officielle du Foyer de l'Espérance : structure, buts, conditions d'admission et bilan depuis sa création en 2005."
 ---
 
 # Foyer de l'Espérance et Centre de formation

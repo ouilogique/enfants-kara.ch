@@ -4,6 +4,7 @@ weight: 110
 draft: false
 aliases:
   - "/accueil/actions-auprès-du-foyer-de-l-espérance-de-2014-à-ce-jour/diplômés-2016/index.html"
+description: "Deuxième remise de kits professionnels aux diplômés 2016 du Foyer de l'Espérance : couture, menuiserie et maçonnerie."
 ---
 
 # Diplômés 2016

@@ -5,6 +5,7 @@ weight: 10
 draft: false
 aliases:
   - "/enfants-kara-togo-ekt/comité/index.html"
+description: "Comité local d'Enfants-Kara Togo (EKT) 2025, présidé par Oscar Taro, en charge des actions sur le terrain."
 ---
 
 # Comité EKT 2025

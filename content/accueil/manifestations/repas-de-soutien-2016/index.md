@@ -5,6 +5,7 @@ weight: 80
 draft: false
 aliases:
   - "/accueil/manifestations/repas-de-soutien-2016/index.html"
+description: "Photos du repas de soutien 2016 d'Enfants-Kara : raclette, grillades et moments de convivialité entre membres et sympathisants."
 ---
 
 # Repas de soutien 2016

@@ -5,6 +5,7 @@ weight: 50
 draft: false
 aliases:
   - "/enfants-kara-suisse-eks/faire-un-don/index.html"
+description: "Soutenez les projets d'Enfants-Kara au Togo par un don : réfectoire, énergie solaire, eau potable et matériel de formation."
 ---
 
 # Dons

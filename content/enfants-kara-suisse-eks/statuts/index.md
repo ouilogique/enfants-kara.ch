@@ -5,6 +5,7 @@ weight: 10
 draft: false
 aliases:
   - "/enfants-kara-suisse-eks/statuts/index.html"
+description: "Statuts officiels de l'association Enfants-Kara, en vigueur depuis le 29 mars 2012 : buts, organisation et fonctionnement."
 ---
 
 ![](images/i3cd6a4cbce1f8069-026496f9b9.jpg)

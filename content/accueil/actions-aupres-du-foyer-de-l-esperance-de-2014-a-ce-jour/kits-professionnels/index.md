@@ -4,6 +4,7 @@ weight: 90
 draft: false
 aliases:
   - "/accueil/actions-auprès-du-foyer-de-l-espérance-de-2014-à-ce-jour/kits-professionnels/index.html"
+description: "Contenu détaillé des kits d'outillage offerts aux diplômés du Foyer de l'Espérance par Enfants-Kara, pour sept métiers : couture, maçonnerie, menuiserie et plus."
 ---
 
 # Kits professionnels

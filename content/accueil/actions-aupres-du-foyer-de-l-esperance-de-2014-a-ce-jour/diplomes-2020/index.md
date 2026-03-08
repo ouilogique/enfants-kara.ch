@@ -5,6 +5,7 @@ weight: 140
 draft: false
 aliases:
   - "/accueil/actions-auprès-du-foyer-de-l-espérance-de-2014-à-ce-jour/diplômés-2020/index.html"
+description: "Remise des diplômes et kits professionnels de la session 2020 au Foyer de l'Espérance, avec une vingtaine de nouveaux diplômés formés."
 ---
 
 # Remise des diplômes et kits, session 2020

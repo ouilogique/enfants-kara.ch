@@ -5,6 +5,7 @@ weight: 10
 draft: false
 aliases:
   - "/accueil/manifestations/marché-de-noël-2022/index.html"
+description: "Retour d'Enfants-Kara au Marché de Noël 2022 après deux ans d'interruption, grâce au dévouement des bénévoles de l'association."
 ---
 
 # Marché de Noël 2022

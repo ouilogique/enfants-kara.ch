@@ -5,6 +5,7 @@ weight: 10
 draft: false
 aliases:
   - "/accueil/le-togo/index.html"
+description: "Présentation géographique, démographique et historique du Togo : situation, population, langues, économie et chronologie politique."
 ---
 
 ![](images/i9f7b85dc3fda7dbc-dfd2516480.gif)

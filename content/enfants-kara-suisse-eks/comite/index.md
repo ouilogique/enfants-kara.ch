@@ -5,6 +5,7 @@ weight: 20
 draft: false
 aliases:
   - "/enfants-kara-suisse-eks/comité/index.html"
+description: "Composition du comité d'Enfants-Kara Suisse avec la présidente Rose Balmer et les membres actifs de l'association."
 ---
 
 ![](images/ibac569724a40e6e4-9b23ad94dd.jpg)

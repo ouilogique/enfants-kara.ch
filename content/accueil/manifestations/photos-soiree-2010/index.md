@@ -5,6 +5,7 @@ weight: 60
 draft: false
 aliases:
   - "/accueil/manifestations/photos-soirée-2010/index.html"
+description: "Photos de la soirée de soutien 2010 d'Enfants-Kara : boutique, repas africain, danses et animations."
 ---
 
 - ![La boutique ...](images/i3eab0c5b6f02d69a-709b283dcd.jpg)

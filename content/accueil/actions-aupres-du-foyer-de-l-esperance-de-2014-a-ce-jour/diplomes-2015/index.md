@@ -4,6 +4,7 @@ weight: 100
 draft: false
 aliases:
   - "/accueil/actions-auprès-du-foyer-de-l-espérance-de-2014-à-ce-jour/diplômés-2015/index.html"
+description: "Première remise de kits professionnels aux diplômés du Foyer de l'Espérance au printemps 2015 : couture, maçonnerie, ferronnerie et électricité."
 ---
 
 # Diplômés 2015

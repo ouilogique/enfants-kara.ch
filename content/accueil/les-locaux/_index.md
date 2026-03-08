@@ -5,6 +5,7 @@ weight: 30
 draft: false
 aliases:
   - "/accueil/les-locaux/index.html"
+description: "Description des locaux du Foyer Ste-Marguerite construits en 2005 : bâtiments, superficie, équipements et conditions de vie des enfants accueillis."
 ---
 
 # Les locaux du Foyer Ste&#8209;Marguerite

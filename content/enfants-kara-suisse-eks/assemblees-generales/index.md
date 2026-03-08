@@ -5,6 +5,7 @@ weight: 30
 draft: false
 aliases:
   - "/enfants-kara-suisse-eks/assemblées-générales/index.html"
+description: "Procès-verbaux des assemblées générales d'Enfants-Kara Suisse : documents officiels des sessions 2022, 2023 et 2024."
 ---
 
 

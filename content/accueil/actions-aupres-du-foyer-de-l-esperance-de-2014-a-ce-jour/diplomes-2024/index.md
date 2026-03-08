@@ -5,6 +5,7 @@ weight: 180
 draft: false
 aliases:
   - "/accueil/actions-auprès-du-foyer-de-l-espérance-de-2014-à-ce-jour/diplômés-2024/index.html"
+description: "Cérémonie de remise des diplômes et kits professionnels de la session 2024 au Foyer de l'Espérance, le 11 mai 2024."
 ---
 
 # Remise des diplômes et kits, session 2024

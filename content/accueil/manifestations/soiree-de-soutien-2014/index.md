@@ -5,6 +5,7 @@ weight: 50
 draft: false
 aliases:
   - "/accueil/manifestations/soirée-de-soutien-2014/index.html"
+description: "Soirée de soutien 2014 organisée par Enfants-Kara au profit des foyers d'accueil au Togo."
 ---
 
 # Soirée de soutien 2014

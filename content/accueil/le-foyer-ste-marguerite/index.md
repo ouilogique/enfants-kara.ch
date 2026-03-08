@@ -5,6 +5,7 @@ weight: 20
 draft: false
 aliases:
   - "/accueil/le-foyer-ste-marguerite/index.html"
+description: "Historique du soutien d'Enfants-Kara au Foyer Ste-Marguerite depuis 2001, géré par l'ODPE, et évolution vers l'aide à la formation professionnelle."
 ---
 
 # Le Foyer Ste&#8209;Marguerite
