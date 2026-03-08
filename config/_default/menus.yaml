@@ -1,0 +1,16 @@
+main:
+  - name: Accueil
+    url: /accueil/
+    weight: 10
+  - name: Enfants-Kara Suisse (EKS)
+    url: /enfants-kara-suisse-eks/
+    weight: 20
+  - name: Enfants-Kara Togo (EKT)
+    url: /enfants-kara-togo-ekt/
+    weight: 30
+  - name: Projet MarCar
+    url: /projet-marcar/
+    weight: 40
+  - name: Remerciements
+    url: /remerciements/
+    weight: 50
