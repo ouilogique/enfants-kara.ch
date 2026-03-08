@@ -8,8 +8,6 @@ aliases:
 description: "Cérémonie de remise des diplômes et kits de la session 2019 au Foyer de l'Espérance, organisée malgré la menace du COVID-19."
 ---
 
-# Remise des diplômes et kits, session 2019
-
 Malgré la menace du COVID19, une brève cérémonie de remise des diplômes et des kits associés a pu être organisées. Toutes les règles sanitaires ont été scrupuleusement appliquées.
 
 - ![](images/i9f4fae1f0cf6e021-04d99090ad.jpg)

@@ -8,8 +8,6 @@ aliases:
 description: "Rejoignez l'association Enfants-Kara : modalités d'adhésion, cotisation annuelle et coordonnées bancaires."
 ---
 
-# Devenir membre
-
 Si vous le souhaitez, vous pouvez devenir membre.
 
 Votre cotisation nous permettra de compter sur un apport financier fixe. Il nous permettra d'assurer la continuité de notre action.

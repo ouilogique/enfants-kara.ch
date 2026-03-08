@@ -8,8 +8,6 @@ aliases:
 description: "Financement de la construction d'ateliers de mécanique au Foyer de l'Espérance en 2017, inaugurés en juillet après approbation en Assemblée Générale."
 ---
 
-# Construction d'ateliers pour la mécanique
-
 Réunis en Assemblée Générale annuelle le 26 janvier, les membres présents de l'Association Enfants-Kara ont accepté un financement de 9'224'000 CFA (env. 15'000 CHF) pour la construction d'ateliers pour la mécanique dont la description suit.
 
 L'aspect de la contribution à la durabilité du Foyer et de son Centre de formation a séduit les votants. En effet, on peut s'attendre à un apport financier bienvenu par la facturation des prestations effectuées.

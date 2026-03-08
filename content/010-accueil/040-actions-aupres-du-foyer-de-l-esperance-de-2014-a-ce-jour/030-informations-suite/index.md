@@ -8,8 +8,6 @@ aliases:
 description: "Fonctionnement du Foyer de l'Espérance : recrutement des jeunes en difficulté, conditions d'accueil, alimentation et formation dans les métiers manuels."
 ---
 
-# Foyer de l'Espérance et Centre de formation
-
 ![Le panneau de l'institution sur la RN1](images/i0156b4d2104fd004-9b454d51b0.jpg)
 
 Le panneau de l'institution sur la RN1

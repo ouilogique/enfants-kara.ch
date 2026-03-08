@@ -7,8 +7,6 @@ aliases:
 description: "Contenu détaillé des kits d'outillage offerts aux diplômés du Foyer de l'Espérance par Enfants-Kara, pour sept métiers : couture, maçonnerie, menuiserie et plus."
 ---
 
-# Kits professionnels
-
 Lors d'une visite au Centre de formation, l'idée d'offrir un kit d'outillage professionnel à chacun des apprenants a été émise. Cette idée a conquis la Direction qui a établi la liste ci-après. Enfants-Kara s'est engagée pour une action annuelle et espère donner ainsi l'impulsion nécessaire à ces jeunes adultes pour se présenter sur le marché du travail soit en indépendant, soit auprès d'un patron.
 
 **Couture**

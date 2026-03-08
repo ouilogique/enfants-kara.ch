@@ -8,8 +8,6 @@ aliases:
 description: "Photos de la soirée de soutien 2012 d'Enfants-Kara : cuisine, animations et prestations musicales."
 ---
 
-# Soirée de soutien 2012
-
 - ![On se relaie ...](images/ia158d714fde1d3f9-693bdfaeca.jpg)
 - ![... à la boutique !](images/i3eacf449df0495cf-75c7607c9e.jpg)
 - ![](images/i1cf21264da3199f5-6dae69b969.jpg)

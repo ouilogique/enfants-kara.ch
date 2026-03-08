@@ -8,8 +8,6 @@ aliases:
 description: "Présentation officielle du Foyer de l'Espérance : structure, buts, conditions d'admission et bilan depuis sa création en 2005."
 ---
 
-# Foyer de l'Espérance et Centre de formation
-
 « Mieux vaut apprendre à un jeune enfant à pêcher\
 que de lui donner du poisson dans un plat. »
 {.text-align-center .font-weight-bold .font-style-italic}

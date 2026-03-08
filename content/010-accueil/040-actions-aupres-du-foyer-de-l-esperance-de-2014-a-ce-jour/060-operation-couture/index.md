@@ -8,8 +8,6 @@ aliases:
 description: "Action Flash de janvier 2014 pour remplacer les 10 machines à coudre disparues du Foyer de l'Espérance en juillet 2013."
 ---
 
-# Désolation
-
 ![](images/i2f6505a79d6ad728-19aa09b57f.gif)
 
 C'est le sentiment qu'ont eu les enseignants et les élèves en couture du Centre de formation en découvrant la disparition de leurs outils d'apprentissage ce matin de juillet 2013.

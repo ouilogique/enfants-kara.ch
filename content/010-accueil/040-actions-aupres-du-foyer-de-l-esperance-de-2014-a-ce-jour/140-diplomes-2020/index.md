@@ -8,8 +8,6 @@ aliases:
 description: "Remise des diplômes et kits professionnels de la session 2020 au Foyer de l'Espérance, avec une vingtaine de nouveaux diplômés formés."
 ---
 
-# Remise des diplômes et kits, session 2020
-
 Comme en 2019, la cérémonie de remise des diplômes s'est faite dans le strict respect des mesures sanitaires imposées par la Covid.
 
 C'est à nouveau une vingtaine de nouveaux professionnels qui ont reçus les maintenant habituels kits d'outillage.

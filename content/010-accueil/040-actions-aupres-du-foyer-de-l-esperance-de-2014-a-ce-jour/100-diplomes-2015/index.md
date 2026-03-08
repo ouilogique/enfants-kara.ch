@@ -7,8 +7,6 @@ aliases:
 description: "Première remise de kits professionnels aux diplômés du Foyer de l'Espérance au printemps 2015 : couture, maçonnerie, ferronnerie et électricité."
 ---
 
-# Diplômés 2015
-
 Les kits ont été remis pour la première fois lors de la remise des diplômes de fin de formation au printemps 2015. Ils ont été accueillis avec joie et l'association a été chaleureusement remerciée pour cette initiative.
 
 La répartition entre les différents métiers se présente ainsi :

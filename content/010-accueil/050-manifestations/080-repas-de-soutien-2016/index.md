@@ -8,8 +8,6 @@ aliases:
 description: "Photos du repas de soutien 2016 d'Enfants-Kara : raclette, grillades et moments de convivialité entre membres et sympathisants."
 ---
 
-# Repas de soutien 2016
-
 Cliquez sur une image pour l'agrandir.
 
 - ![](images/ia171e1f86f115395-3d2ce7a936.jpg)

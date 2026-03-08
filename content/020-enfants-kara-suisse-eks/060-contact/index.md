@@ -8,8 +8,6 @@ aliases:
 description: "Coordonnées de l'association Enfants-Kara : adresse postale au Mont-sur-Lausanne, téléphone et fax."
 ---
 
-# Contact
-
 Association Enfants-Kara\
 c/o Balmer Claude\
 Chemin du Verger 17\

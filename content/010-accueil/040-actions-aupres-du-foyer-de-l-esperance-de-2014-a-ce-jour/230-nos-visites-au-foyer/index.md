@@ -8,8 +8,6 @@ aliases:
 description: "Visite de juillet 2015 au Foyer de l'Espérance par Rose Balmer, présidente d'Enfants-Kara, avec photos des dortoirs et ateliers."
 ---
 
-# Juillet 2015
-
 Visite de Rose Balmer, présidente de l'Association.
 
 A l'occasion de son séjour annuel au Togo, Mme la Présidente a rendu visite au Foyer de l'Espérance et aux ateliers du Centre de Formation. Après les discours et danses de bienvenue, elle a pu visiter les dortoirs des filles, dortoirs entièrement reconstruits en 2014. La visite s'est poursuivie dans les ateliers de formation.

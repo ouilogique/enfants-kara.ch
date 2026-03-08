@@ -8,8 +8,6 @@ aliases:
 description: "Photos du Foyer Ste-Marguerite prises lors de visites entre 2009 et 2015, montrant l'évolution des locaux et la vie quotidienne."
 ---
 
-# Foyer Ste Marguerite (juillet 2015)
-
 - ![](images/i015046d16437b8cf-9e77b3bac3.jpg)
 - ![](images/i1f3d0c4e209da688-4d6070c688.jpg)
 - ![](images/i1f0f44ff1de482ec-a2e6c2daab.jpg)

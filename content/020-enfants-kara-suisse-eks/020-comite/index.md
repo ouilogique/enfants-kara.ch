@@ -10,8 +10,6 @@ description: "Composition du comité d'Enfants-Kara Suisse avec la présidente R
 
 ![](images/ibac569724a40e6e4-9b23ad94dd.jpg)
 
-# Comité 2017 - 2021
-
 Il est constitué comme suit :
 
 | Fonction                       | Prénom         | Nom       |

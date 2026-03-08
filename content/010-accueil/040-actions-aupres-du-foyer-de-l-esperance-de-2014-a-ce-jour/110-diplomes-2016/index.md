@@ -7,8 +7,6 @@ aliases:
 description: "Deuxième remise de kits professionnels aux diplômés 2016 du Foyer de l'Espérance : couture, menuiserie et maçonnerie."
 ---
 
-# Diplômés 2016
-
 Les kits ont été remis pour la second fois lors de la remise des diplômes de fin de formation au printemps 2016. C'est toujours avec beaucoup de gratitude qu'ils ont été accueillis.
 
 La répartition entre les différents métiers se présente ainsi :

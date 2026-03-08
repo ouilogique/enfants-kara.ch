@@ -8,8 +8,6 @@ aliases:
 description: "Projet Marcar : utilisation d'un terrain de 7,3 hectares à Blitta au profit de l'orphelinat Caredo — agriculture, formation et développement durable."
 ---
 
-# 1. Proposition de projet pour l’utilisation d'un terrain à Blitta
-
 ## 1.1. Orphelinat de Caredo
 
 Sur Google maps, chercher « caredo, togo » (**C**entre d’**A**ccueil et de **R**éinsertion des **E**nfants **D**esherités et **O**rphelins) qui dirige automatiquement vers l’orphelinat. Cela permet de situer le centre (coordonnées Google : 8.34951, 1.01483, cf annexes).

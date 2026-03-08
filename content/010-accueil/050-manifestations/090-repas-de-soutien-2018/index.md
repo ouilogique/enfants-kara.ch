@@ -8,8 +8,6 @@ aliases:
 description: "Repas de soutien du 7 octobre 2018 d'Enfants-Kara au Refuge des Bas-Monts à Belmont-sur-Lausanne."
 ---
 
-# Repas de soutien 2018
-
 7 octobre 2018 au Refuge des Bas-Monts
 
 sur la commune de Belmont s/Lausanne

@@ -7,8 +7,6 @@ aliases:
 description: "Photos des locaux du Foyer de l'Espérance : dortoirs, espace commun et bâtiments administratifs soutenus par Enfants-Kara."
 ---
 
-# Le Foyer de l'Espérance
-
 ![Locaux administratifs](images/i703cb7051f850815-9867fed547.jpg)
 
 Locaux administratifs

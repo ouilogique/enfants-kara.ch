@@ -7,8 +7,6 @@ aliases:
 description: "Le Centre de formation du Foyer de l'Espérance : métiers enseignés, encadrement bénévole et insertion professionnelle des jeunes diplômés."
 ---
 
-# Le Centre de formation
-
 ![Les Formateurs](images/i0da2d6a4696f4cc2-0bffdaed4f.jpg)
 
 Les Formateurs

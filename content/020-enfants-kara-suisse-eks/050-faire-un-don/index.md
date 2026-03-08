@@ -8,8 +8,6 @@ aliases:
 description: "Soutenez les projets d'Enfants-Kara au Togo par un don : réfectoire, énergie solaire, eau potable et matériel de formation."
 ---
 
-# Dons
-
 Vous souhaitez faire un don ?
 
 Sachez qu'il sera le bienvenu et versé dans son intégralité au profit des adolescents. (Les membres du comité assument les frais de fonctionnement de l'association.)

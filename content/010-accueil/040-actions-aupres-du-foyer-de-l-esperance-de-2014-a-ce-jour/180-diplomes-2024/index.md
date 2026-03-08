@@ -8,8 +8,6 @@ aliases:
 description: "Cérémonie de remise des diplômes et kits professionnels de la session 2024 au Foyer de l'Espérance, le 11 mai 2024."
 ---
 
-# Remise des diplômes et kits, session 2024
-
 Toujours célébrée après 9 ans, la remise des diplômes a eu lieu le 11 mai 2024 au Foyer de l'Espérance, en présence des représentants locaux et de membres du comité d'Enfants-Kara.
 
 - ![](images/i2503670fcafb2437-e6cf686f8a.jpg)

@@ -8,8 +8,6 @@ aliases:
 description: "Cérémonie de remise des diplômes et kits professionnels de la session 2022 au Foyer de l'Espérance, le 27 avril 2022."
 ---
 
-# Remise des diplômes et kits, session 2022
-
 Cérémonie du 27 avril 2022
 
 - ![](images/id6a4272c825b5f8a-172465be18.jpg)
