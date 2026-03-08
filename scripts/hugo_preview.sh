@@ -3,6 +3,10 @@
 ###
 # Usage:
 # bash scripts/hugo_preview.sh
+#
+# Windows Installation
+# winget install Hugo.Hugo.Extended
+# winget install -e --id PedroAlbanese.QREncode
 ##
 
 set -euo pipefail
