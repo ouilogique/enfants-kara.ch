@@ -1,4 +1,5 @@
 ---
+date: 2026-03-09
 title: "Association Enfants-Kara"
 description: "Association Enfants-Kara — accompagner des enfants et des jeunes au Togo avec un engagement concret, durable et profondément humain."
 aliases:

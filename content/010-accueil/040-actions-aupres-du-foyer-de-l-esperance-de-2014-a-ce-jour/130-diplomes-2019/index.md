@@ -1,4 +1,5 @@
 ---
+date: 2026-03-09
 title: "Remise des diplômes et kits, session 2019"
 url: "/accueil/actions-aupres-du-foyer-de-l-esperance-de-2014-a-ce-jour/diplomes-2019/"
 linkTitle: "Diplômes 2019"

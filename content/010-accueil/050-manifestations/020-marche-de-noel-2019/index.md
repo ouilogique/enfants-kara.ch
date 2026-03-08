@@ -1,4 +1,5 @@
 ---
+date: 2026-03-09
 title: "Marché de Noël 2019"
 url: "/accueil/manifestations/marche-de-noel-2019/"
 linkTitle: "Marché de Noël 2019"

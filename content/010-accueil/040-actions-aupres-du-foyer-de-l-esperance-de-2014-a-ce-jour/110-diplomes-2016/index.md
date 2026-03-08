@@ -1,4 +1,5 @@
 ---
+date: 2026-03-09
 title: "Diplômés 2016"
 url: "/accueil/actions-aupres-du-foyer-de-l-esperance-de-2014-a-ce-jour/diplomes-2016/"
 draft: false

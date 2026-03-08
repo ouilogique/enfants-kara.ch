@@ -1,4 +1,5 @@
 ---
+date: 2026-03-09
 title: "Organisation de l'Association"
 url: "/enfants-kara-suisse-eks/"
 linkTitle: "Enfants-Kara Suisse (EKS)"

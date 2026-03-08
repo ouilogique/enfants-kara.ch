@@ -1,4 +1,5 @@
 ---
+date: 2026-03-09
 title: "Le Foyer Ste&#8209;Marguerite"
 url: "/accueil/le-foyer-ste-marguerite/"
 linkTitle: "Le Foyer Ste&#8209;Marguerite"

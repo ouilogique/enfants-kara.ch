@@ -1,4 +1,5 @@
 ---
+date: 2026-03-09
 title: "Foyer Ste Marguerite (juillet 2015)"
 url: "/accueil/les-locaux/nos-visites-au-foyer/"
 linkTitle: "Nos visites au foyer"

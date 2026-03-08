@@ -1,4 +1,5 @@
 ---
+date: 2026-03-09
 title: "Enfants-Kara Togo (EKT)"
 url: "/enfants-kara-togo-ekt/"
 linkTitle: "Enfants-Kara Togo (EKT)"

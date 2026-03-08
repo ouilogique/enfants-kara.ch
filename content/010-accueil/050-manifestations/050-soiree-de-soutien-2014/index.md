@@ -1,4 +1,5 @@
 ---
+date: 2026-03-09
 title: "Soirée de soutien 2014"
 url: "/accueil/manifestations/soiree-de-soutien-2014/"
 linkTitle: "Soirée de soutien 2014"

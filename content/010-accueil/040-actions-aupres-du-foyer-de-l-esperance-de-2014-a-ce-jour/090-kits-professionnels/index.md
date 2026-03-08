@@ -1,4 +1,5 @@
 ---
+date: 2026-03-09
 title: "Kits professionnels"
 url: "/accueil/actions-aupres-du-foyer-de-l-esperance-de-2014-a-ce-jour/kits-professionnels/"
 draft: false

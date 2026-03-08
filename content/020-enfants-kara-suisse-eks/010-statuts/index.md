@@ -1,4 +1,5 @@
 ---
+date: 2026-03-09
 title: "Statuts de l'association Enfants-Kara"
 url: "/enfants-kara-suisse-eks/statuts/"
 linkTitle: "Statuts"

@@ -1,4 +1,5 @@
 ---
+date: 2026-03-09
 title: "1. Proposition de projet pour l’utilisation d’un terrain à Blitta"
 url: "/projet-marcar/"
 linkTitle: "Projet MarCar"

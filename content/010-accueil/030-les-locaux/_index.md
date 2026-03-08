@@ -1,4 +1,5 @@
 ---
+date: 2026-03-09
 title: "Les locaux du Foyer Ste&#8209;Marguerite"
 url: "/accueil/les-locaux/"
 linkTitle: "Les Locaux"

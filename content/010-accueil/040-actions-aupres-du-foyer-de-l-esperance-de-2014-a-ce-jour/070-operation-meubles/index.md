@@ -1,4 +1,5 @@
 ---
+date: 2026-03-09
 title: “Des meubles pour les chambres !”
 url: "/accueil/actions-aupres-du-foyer-de-l-esperance-de-2014-a-ce-jour/operation-meubles/"
 linkTitle: "Opération “Meubles”"

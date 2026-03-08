@@ -1,4 +1,5 @@
 ---
+date: 2026-03-09
 title: "Contact"
 url: "/enfants-kara-suisse-eks/contact/"
 linkTitle: "Contact"

@@ -1,4 +1,5 @@
 ---
+date: 2026-03-09
 title: "Le Foyer Caredo"
 url: "/accueil/actions-aupres-du-foyer-de-l-esperance-de-2014-a-ce-jour/nos-actions-aupres-du-foyer-caredo-des-2019-a-ce-jour/"
 linkTitle: "Nos actions auprès du Foyer Caredo dès 2019 à ce jour"

@@ -1,4 +1,5 @@
 ---
+date: 2026-03-09
 title: "Devenir membre"
 url: "/enfants-kara-suisse-eks/devenir-membre/"
 linkTitle: "Devenir membre"

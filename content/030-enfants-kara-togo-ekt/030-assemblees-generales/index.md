@@ -1,4 +1,5 @@
 ---
+date: 2026-03-09
 title: "Assemblées générales"
 url: "/enfants-kara-togo-ekt/assemblees-generales/"
 linkTitle: "Assemblées générales"

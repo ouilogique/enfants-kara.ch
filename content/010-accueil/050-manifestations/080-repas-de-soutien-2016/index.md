@@ -1,4 +1,5 @@
 ---
+date: 2026-03-09
 title: "Repas de soutien 2016"
 url: "/accueil/manifestations/repas-de-soutien-2016/"
 linkTitle: "Repas de soutien 2016"

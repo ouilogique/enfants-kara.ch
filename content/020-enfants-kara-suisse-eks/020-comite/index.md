@@ -1,4 +1,5 @@
 ---
+date: 2026-03-09
 title: "Comité 2017 - 2021"
 url: "/enfants-kara-suisse-eks/comite/"
 linkTitle: "Comité"

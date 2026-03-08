@@ -1,4 +1,5 @@
 ---
+date: 2026-03-09
 title: "Comité EKT 2025"
 url: "/enfants-kara-togo-ekt/comite/"
 linkTitle: "Comité"

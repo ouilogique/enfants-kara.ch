@@ -1,4 +1,5 @@
 ---
+date: 2026-03-09
 title: "Le Centre de formation"
 url: "/accueil/actions-aupres-du-foyer-de-l-esperance-de-2014-a-ce-jour/le-centre-de-formation/"
 draft: false
