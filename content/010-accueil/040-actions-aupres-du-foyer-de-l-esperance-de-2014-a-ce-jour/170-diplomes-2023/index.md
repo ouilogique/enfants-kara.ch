@@ -8,7 +8,7 @@ aliases:
 description: "Cérémonie de remise des diplômes et kits professionnels de la session 2023 au Foyer de l'Espérance, le 18 mai 2023."
 ---
 
-Cérémonie du 18 mai 2023
+## Cérémonie du 18 mai 2023
 
 - ![](images/ibe5d4ad6fbc9766d-c80fee5777.jpg)
 - ![](images/idc865183a1ab9eea-0918950c0c.jpg)

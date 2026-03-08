@@ -23,11 +23,11 @@ Le centre a une cuisine, des dortoirs (filles et garçons), une salle commune, q
 
 En annexe, vous trouverez la position par rapport à l’orphelinat de Caredo du terrain récemment acheté à Blitta, ainsi que les mensurations de celui-ci.
 
-Blitta se trouve à environ 17 \[km\] de Tigbada et Sotouboua à 9 \[km\]. Blitta est une ville d’environ 55’000 habitants et Sotouboua une ville de 22’000 habitants.
+Blitta se trouve à environ 17 [km] de Tigbada et Sotouboua à 9 [km]. Blitta est une ville d’environ 55’000 habitants et Sotouboua une ville de 22’000 habitants.
 
-C’est un immense terrain de 7 hectares, 32 ares et 59 centiares, ce qui fait 73’259 \[m²\]. Un terrain de football fait 6’400\[m2\], on a donc une surface de onze terrains de football. Il a été acheté à l’époque pour que Caredo puisse faire des cultures. Enfin, cette année (2024), on devrait terminer l’inscription de celui-ci au registre foncier, au nom de l’association EKT. Après presque quatre années de procédure, nous touchons au but. Ce n’est pas encore complètement terminé, mais ce n’est plus qu’une question de temps; les difficultés sont derrière nous.
+C’est un immense terrain de 7 hectares, 32 ares et 59 centiares, ce qui fait 73’259 [m²]. Un terrain de football fait 6’400[m2], on a donc une surface de onze terrains de football. Il a été acheté à l’époque pour que Caredo puisse faire des cultures. Enfin, cette année (2024), on devrait terminer l’inscription de celui-ci au registre foncier, au nom de l’association EKT. Après presque quatre années de procédure, nous touchons au but. Ce n’est pas encore complètement terminé, mais ce n’est plus qu’une question de temps; les difficultés sont derrière nous.
 
-Aujourd’hui, on trouve sur ce terrain du maïs, du sorgho, des arachides, qui occupent environ 200-300 \[m²\]. Il y a quelques arbres : 5 nérés, 6 karités et 2 manguiers.
+Aujourd’hui, on trouve sur ce terrain du maïs, du sorgho, des arachides, qui occupent environ 200-300 [m²]. Il y a quelques arbres : 5 nérés, 6 karités et 2 manguiers.
 
 · Le néré est connu sous le nom de Parkia biglobosa, également connu sous le nom de "néré africain" ou "dawadawa" dans certaines régions d'Afrique de l'Ouest. C'est un arbre tropical largement répandu en Afrique subsaharienne, apprécié pour ses fruits comestibles, ses graines riches en protéines et ses diverses utilisations dans l'alimentation et la médecine traditionnelle africaine. Il est utilisé comme arôme d’assaisonnement des repas obtenu après transformation de ses graines.
 
@@ -37,7 +37,7 @@ Aujourd’hui, on trouve sur ce terrain du maïs, du sorgho, des arachides, qui 
 
 Ce terrain n’est pas équipé. Il n’y a pas d’eau, ni électricité. Il y a une rivière assez éloignée du terrain. Le manque d’eau est un problème pour la culture. Il n’y a pas de « route » d’accès, uniquement une piste. Actuellement, des bidons sont remplis d’eau et acheminés manuellement.
 
-Au moment des cultures, les labours sont fait par des journaliers, payés 6 à 7’000 FCFA pour un labour de 50\[m2\] (1 CHF vaut environ 650 FCFA). Les enfants de Caredo font les récoltes.
+Au moment des cultures, les labours sont fait par des journaliers, payés 6 à 7’000 FCFA pour un labour de 50[m2] (1 CHF vaut environ 650 FCFA). Les enfants de Caredo font les récoltes.
 
 # 2. Projets
 

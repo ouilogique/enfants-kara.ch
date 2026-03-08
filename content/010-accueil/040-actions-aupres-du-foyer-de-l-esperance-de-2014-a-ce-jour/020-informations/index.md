@@ -30,6 +30,7 @@ Les organes dirigeants de l'institution sont:
 ![Dirigeants de FE](images/i5ca053f369b5ef8e-9a0f00a85a.jpg)
 
 Dirigeants de FE
+{ .text-align-center .caption}
 
 ## But et objectifs
 

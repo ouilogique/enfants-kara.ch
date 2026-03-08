@@ -10,6 +10,7 @@ description: "Le Centre de formation du Foyer de l'Espérance : métiers enseign
 ![Les Formateurs](images/i0da2d6a4696f4cc2-0bffdaed4f.jpg)
 
 Les Formateurs
+{ .text-align-center .caption}
 
 Le Centre de formation du Foyer de l'Espérance fonctionne grâce à l'encadrement bénévole de patrons issus des secteurs suivants :
 
@@ -30,9 +31,9 @@ Le Centre de formation du Foyer de l'Espérance fonctionne grâce à l'encadreme
 - ![Menuiserie](images/i747d3689c05d43c2-c6e97140d0.jpg)
 - ![Menuiserie](images/ia775a7f01f3e425e-14c9ba040b.jpg)
 
-**Cliquez sur une image pour l'agrandir.**
-
-**Tapez Escape pour revenir au format initial.**
+Cliquez sur une image pour l'agrandir.\
+Tapez Escape pour revenir au format initial.
+{ .text-align-center .caption}
 
 ## Amélioration des conditions de vie
 

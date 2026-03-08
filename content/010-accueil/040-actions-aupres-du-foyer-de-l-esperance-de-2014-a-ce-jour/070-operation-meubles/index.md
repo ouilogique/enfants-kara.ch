@@ -1,7 +1,7 @@
 ---
 title: “Des meubles pour les chambres !”
 url: "/accueil/actions-aupres-du-foyer-de-l-esperance-de-2014-a-ce-jour/operation-meubles/"
-linkTitle: “Opération “Meubles””
+linkTitle: "Opération “Meubles”"
 draft: false
 aliases:
   - "/accueil/actions-auprès-du-foyer-de-l-espérance-de-2014-à-ce-jour/opération-meubles/index.html"

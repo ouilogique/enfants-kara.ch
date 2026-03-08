@@ -1,7 +1,7 @@
 ---
 title: “Désolation”
 url: "/accueil/actions-aupres-du-foyer-de-l-esperance-de-2014-a-ce-jour/operation-couture/"
-linkTitle: “Opération “Couture””
+linkTitle: "Opération “Couture”"
 draft: false
 aliases:
   - "/accueil/actions-auprès-du-foyer-de-l-espérance-de-2014-à-ce-jour/opération-couture/index.html"

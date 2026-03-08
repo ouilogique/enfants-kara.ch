@@ -11,6 +11,7 @@ description: "Fonctionnement du Foyer de l'Espérance : recrutement des jeunes e
 ![Le panneau de l'institution sur la RN1](images/i0156b4d2104fd004-9b454d51b0.jpg)
 
 Le panneau de l'institution sur la RN1
+{ .text-align-center .caption}
 
 Pendant la scolarité obligatoire, beaucoup d'élèves abandonnent leurs études. Trop souvent, le niveau scolaire atteint est trop bas (illettrisme) et les adolescents ont de la peine à retourner à la terre ou à commencer un apprentissage, faute de trouver des patrons voulant d'eux. Ils partent en ville ou à la capitale à la recherche de l’Eldorado, ignorant qu’ils seront à la merci de toutes les arnaques possibles dont celle de la traite. Les jeunes apprenants du FE sont essentiellement (80% des inscrits) des orphelins et démunis.
 

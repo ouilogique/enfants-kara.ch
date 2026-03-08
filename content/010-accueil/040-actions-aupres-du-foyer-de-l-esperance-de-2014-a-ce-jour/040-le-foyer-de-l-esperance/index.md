@@ -10,11 +10,14 @@ description: "Photos des locaux du Foyer de l'Espérance : dortoirs, espace comm
 ![Locaux administratifs](images/i703cb7051f850815-9867fed547.jpg)
 
 Locaux administratifs
+{ .text-align-center .caption}
 
 ![Dortoirs](images/if4e129ea47fc440e-6c9e437d13.jpg)
 
 Dortoirs
+{ .text-align-center .caption}
 
 ![L'apatam ou coin de discussions](images/i6738e1ec607434b9-345a8be824.jpg)
 
 L'apatam ou coin de discussions
+{ .text-align-center .caption}
