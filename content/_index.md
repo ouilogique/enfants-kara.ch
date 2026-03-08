@@ -2,14 +2,14 @@
 
 ###
 #
-# Rendu de la page d'accueil
+# Rendu de la page d’accueil
 # Ce fichier ne contient pas de corps Markdown : tout le contenu visuel
-# vient des params ci-dessous et des templates Hugo.
+# vient du champ `params` ci-dessous et des templates Hugo.
 #
 # Chaîne de rendu :
 # - content/_index.md → détecté par Hugo comme racine du site (/)
 # - layouts/index.html → template prioritaire pour la homepage ;
-#   injecte l'image hero, le logo et les textes issus de .Params
+#   injecte l’image “hero”, le logo et les textes issus de .Params
 # - layouts/_default/baseof.html → fournit le squelette HTML complet
 #   (head, sidebar de navigation, lightbox)
 #
@@ -17,7 +17,7 @@
 # - description → injectée comme <meta name="description"> et balises Open Graph/Twitter
 # - &nbsp; dans les params est rendu tel quel grâce à safeHTML
 # - Le bouton CTA (Call To Action) pointe automatiquement vers la 1ère section (par weight)
-# - L'image de fond hero est définie dans layouts/index.html
+# - L’image de fond “hero” est définie dans layouts/index.html
 #
 ##
 
