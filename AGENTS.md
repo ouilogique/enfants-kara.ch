@@ -1,32 +1,109 @@
-# Memoire de projet
+# Mémoire de projet — enfants-kara.ch
 
 ## But du fichier
-- Ce fichier sert de memoire persistante pour les sessions futures sur ce projet.
-- Il doit contenir uniquement les instructions durables dont l'assistant a besoin pour reprendre le travail efficacement.
-- Il ne doit pas contenir les details temporaires, les notes de travail jetables, ni les informations faciles a redecouvrir.
+Mémoire persistante pour les sessions futures. Ne contenir que les conventions, décisions et préférences durables. Mettre à jour à chaque nouvelle instruction persistante de l'utilisateur.
 
-## Regle de maintenance
-- Mettre ce fichier a jour a chaque fois que l'utilisateur donne une instruction qui restera utile dans de futures sessions.
-- Ne consigner que les preferences, contraintes, conventions et decisions persistantes.
-- Garder une structure simple et concise.
+---
 
-## Instructions persistantes actuelles
-- Maintenir ce fichier a jour a chaque nouvelle instruction persistante donnee par l'utilisateur.
-- Utiliser ce fichier comme source principale de contexte a relire au debut des futures sessions sur ce projet.
-- Le projet consiste a migrer un site miroir Jimdo vers une structure compatible Hugo.
-- Privilegier une sortie directement exploitable par Hugo, notamment dans `content/`.
-- Avant une operation importante ou ambigue, indiquer brievement si la consigne utilisateur peut etre optimisee ou resserree.
-- Privilegier un site Hugo autonome, avec les ressources distantes rapatriees localement quand c'est pertinent.
-- Les images du contenu sont relocalisees dans `static/media/jimdo`.
-- Les documents telechargeables rapatries sont relocalises dans `static/downloads`.
-- Exclure de la sortie Hugo les pages techniques, les pages protegees et les feuilles vides sans contenu editorial exploitable.
-- Normaliser en Unicode NFC tout ce qui est controle par le projet, en particulier le contenu texte, les aliases et les chemins generes.
-- Le menu du site doit refleter directement la structure des fichiers sous `content/`, avec navigation recursive pour les niveaux imbriques.
-- L'ordre de navigation ne doit pas etre alphabetique quand le site d'origine definissait un autre ordre; conserver cet ordre via les `weight`, y compris pour les pages de niveau 3.
-- Quand le libelle de navigation d'origine differe du titre affiche dans la page, conserver ce libelle dans le menu Hugo via `linkTitle`, sans forcer le titre de la page a etre identique.
-- Sur les pages de niveau 1, interpreter aussi le HTML simple de `linkTitle` dans les liens listes vers les pages de niveau 2.
-- Relocaliser les ressources distantes encore utiles au site dans le projet local et eviter de laisser des URL distantes residuelles dans le contenu livre.
-- Pour les images locales sous `static/media/jimdo`, privilegier une restauration depuis l'historique Git avant tout reteledchargement. Ne pas vider ce dossier lors d'une relance du script si aucun URL distant n'est encore present dans `content/`.
-- Sous `static/`, utiliser des noms de repertoires usuels et explicites. Convention actuelle: `static/images` pour les images et `static/documents` pour les fichiers telechargeables.
-- Pour les essais de theming, privilegier des directions visuelles chaleureuses; la piste retenue actuellement est `Terre & lumiere` (tons sable, terracotta, ivoire, brun doux, avec une presence editoriale sobre).
-- Autoriser du HTML simple dans `title` du front matter pour le titre affiche des pages (par ex. `<br>`), tout en gardant la balise HTML `<title>` du document en texte brut.
+## Contexte du projet
+Site Hugo de l'association Enfants-Kara (aide aux enfants et jeunes au Togo depuis 2001).
+La migration depuis Jimdo est **terminée**. Le projet est en phase de maintenance et d'évolution.
+
+- Repo : `/Users/nico/Downloads/us.sitesucker.mac.sitesucker-pro/enfants-kara.ch`
+- Branche principale : `hugo`
+- Démo GitHub Pages : `https://nichub.github.io/enfants-kara.ch/`
+- Site officiel : `https://enfants-kara.ch/`
+
+---
+
+## Structure des fichiers clés
+
+```
+config/
+  _default/config.yaml     — config de base (langue, titre, params globaux)
+  dev-local/config.yaml    — dev local (sans baseURL)
+  dev-github/config.yaml   — demo GitHub Pages
+  production/config.yaml   — production enfants-kara.ch
+content/                   — contenu Markdown (50 fichiers)
+layouts/
+  _default/baseof.html     — squelette HTML, sidebar nav, lightbox, fonds par section
+  _default/single.html     — template page simple
+  _default/list.html       — template section (liste les pages enfants)
+  index.html               — page d'accueil (hero)
+  partials/nav-tree.html   — navigation récursive par poids
+  partials/page-header.html — en-tête de page avec titre et nav prev/next
+  _markup/render-image.html — rendu Markdown image (URL relatives)
+  _markup/render-link.html  — rendu Markdown lien (URL relatives, target externe)
+  shortcodes/document-card.html — carte PDF téléchargeable
+  shortcodes/note.html     — commentaire invisible dans le contenu
+static/
+  images/                  — images (fonds Unsplash, logos)
+  documents/               — fichiers téléchargeables (PDF PV AG)
+  style.css                — feuille de style principale (~1300 lignes)
+  scripts.js               — JS vanilla : lightbox, nav prev/next, View Transitions
+scripts/
+  hugo_preview.sh          — serveur de développement local avec QR code
+  get_ip_of_default_interface.sh — détection IP multi-plateforme
+.github/workflows/hugo.yaml — CI/CD GitHub Actions → GitHub Pages
+```
+
+---
+
+## Sections du site
+
+| Dossier                            | URL                        | Image de fond                                      |
+|------------------------------------|----------------------------|----------------------------------------------------|
+| `content/_index.md`                | `/`                        | `bill-wegener-7MD4DR9jbP0-unsplash.jpg`            |
+| `content/010-accueil/`             | `/accueil/`                | `felicia-montenegro-EEbLJlfCnSI-unsplash.jpg`      |
+| `content/020-enfants-kara-suisse-eks/` | `/enfants-kara-suisse-eks/` | `bill-wegener-hs98_9hzTcU-unsplash.jpg`       |
+| `content/030-enfants-kara-togo-ekt/`   | `/enfants-kara-togo-ekt/`  | `tobie-eniafe-7EZfQdvDAl8-unsplash.jpg`       |
+| `content/040-projet-marcar/`       | `/projet-marcar/`          | `stijn-kleerebezem-bsk8f6BVSHc-unsplash.jpg`       |
+| `content/050-remerciements/`       | `/remerciements/`          | `bill-wegener-7MD4DR9jbP0-unsplash.jpg`            |
+
+---
+
+## Conventions importantes
+
+### Contenu et front matter
+- Unicode NFC pour tout le contenu texte, aliases et chemins.
+- HTML simple autorisé dans `title` du front matter (ex. `<br>`), mais pas dans la balise `<title>` HTML.
+- `linkTitle` à utiliser quand le libellé de nav diffère du titre de page.
+- Interpréter `linkTitle` avec `safeHTML` dans les listings et la nav.
+- `goldmark.renderer.unsafe: true` activé — HTML brut autorisé dans le Markdown.
+
+### Navigation
+- Ordre via préfixes numériques des dossiers (`010-`, `020-`…) → trié par `File.Path`, pas alphabétique.
+- Navigation récursive dans la sidebar (`nav-tree.html`) : `<details>` pour les sections, `<a>` pour les pages.
+- Prev/next entre pages via `scripts.js`.
+
+### Ressources statiques
+- Images : `static/images/`
+- Documents téléchargeables : `static/documents/`
+- Pas d'URL distantes résiduelles dans le contenu livré.
+- Preload uniquement l'image de fond de la section courante (voir `baseof.html`).
+
+### Style visuel
+- Thème "Terre & lumière" : tons sable (`#f3e4d2`), terracotta (`#b5562d`), ivoire, brun doux.
+- Police : Georgia serif (dans `style.css`).
+- CSS View Transitions activées pour la navigation.
+- Animations d'apparition en cascade sur les éléments de page.
+
+### Shortcodes disponibles
+- `{{< document-card href="..." img="..." alt="..." title="..." desc="..." >}}` — carte PDF.
+- `{{< note >}}...{{< /note >}}` — commentaire invisible dans le contenu.
+
+### Environnements de build
+- `dev-local` : `hugo server --environment dev-local` (IP auto, port 1313, QR code via `scripts/hugo_preview.sh`)
+- `dev-github` : baseURL GitHub Pages (CI auto sur push `hugo`)
+- `production` : baseURL `https://enfants-kara.ch/` (détection via `static/CNAME`)
+- Minification activée en CI (`hugo --gc --minify`).
+
+### Robots.txt
+- Production : allow all (via `partials/prod/robots.txt`)
+- Dev : disallow all (via `partials/dev/robots.txt`)
+- Sélection automatique selon `hugo.Environment`.
+
+---
+
+## Règle générale
+Avant toute opération importante ou ambiguë, indiquer brièvement si la consigne peut être optimisée ou resserrée.
