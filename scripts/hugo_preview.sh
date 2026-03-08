@@ -36,4 +36,5 @@ hugo server                 \
     --baseURL=$BASE_URL     \
     --bind=$IP              \
     --port=$PORT            \
-    --appendPort=true
+    --appendPort=true       \
+    --openBrowser
