@@ -447,27 +447,33 @@ body.is-home .sidepane {
     min-width: 3.5rem;
     min-height: 3.5rem;
     padding: 0.6rem;
-    color: inherit;
+    color: rgba(255, 251, 246, 0.5);
     text-decoration: none;
-    font-size: 2em;
+    font-size: 3em;
     line-height: 1;
     opacity: 0.94;
-    border-radius: 999px;
-    background: rgba(42, 20, 11, 0.12);
-    box-shadow:
-        0 8px 24px rgba(20, 8, 4, 0.22),
-        0 0 0 1px rgba(255, 244, 235, 0.2),
-        0 0 1.4rem rgba(255, 244, 235, 0.34),
-        0 0 2.8rem rgba(255, 244, 235, 0.16);
+}
+
+.footer-mark {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width:  1.5em;
+    height: 1.5em;
+    line-height: 1;
+    font-family: "Times New Roman", serif;
+    font-weight: 900;
     text-shadow:
-        0 0 0.55rem rgba(255, 244, 235, 0.68),
-        0 0 1.3rem rgba(255, 244, 235, 0.34);
+        0 0 0.9rem rgba(255, 244, 235, 0.96),
+        0 0 1.8rem rgba(255, 244, 235, 0.78),
+        0 0 3.2rem rgba(255, 244, 235, 0.5),
+        0 0 5rem rgba(255, 244, 235, 0.28),
+        0 0 7rem rgba(255, 244, 235, 0.16);
 }
 
 .site-footer a:hover,
 .site-footer a:focus-visible {
     color: #fffdf9;
-    background: rgba(42, 20, 11, 0.18);
     text-decoration: none;
     outline: none;
 }
@@ -544,6 +550,9 @@ body.is-home .page {
     font-family: var(--font-serif);
     line-height: 1.02;
     font-size: clamp(2.5rem, 6vw, 4.9rem);
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    overflow-wrap: anywhere;
 }
 
 .dek {
@@ -1056,14 +1065,19 @@ body.is-home .listing {
     position: absolute;
     top: 1rem;
     right: 1rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     width: 3rem;
     height: 3rem;
+    padding: 0;
     border: 0;
     border-radius: 999px;
     background: rgba(255, 248, 240, 0.16);
     color: #fff7f0;
     font-size: 2rem;
     line-height: 1;
+    text-align: center;
     cursor: pointer;
 }
 
@@ -1179,6 +1193,8 @@ body.is-home .listing {
 
     .page-header h1 {
         font-size: clamp(2.2rem, 12vw, 3.4rem);
+        line-height: 1.04;
+        text-wrap: balance;
     }
 
     body::after {
@@ -1278,5 +1294,6 @@ body.is-home .listing {
         .lightbox {
             backdrop-filter: none;
         }
+
     }
 }
