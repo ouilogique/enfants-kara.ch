@@ -666,6 +666,10 @@ body.is-home .home {
     color: #fff7f0;
 }
 
+.home-hero-content > * {
+    min-width: 0;
+}
+
 .home-hero-brand {
     position: absolute;
     top: clamp(1.25rem, 3vw, 2.2rem);
@@ -700,21 +704,27 @@ body.is-home .home {
     color: #fffaf5;
     font-size: clamp(3.2rem, 8vw, 6.8rem);
     line-height: 0.92;
+    font-weight: 800;
+    overflow-wrap: anywhere;
 }
 
 .home-hero-lead,
 .home-hero-curiosity {
     margin: 0;
     max-width: 36rem;
+    overflow-wrap: anywhere;
 }
 
 .home-hero-lead {
     font-size: clamp(1.05rem, 2vw, 1.35rem);
+    font-weight: 600;
     color: rgba(255, 244, 235, 0.95);
 }
 
 .home-hero-curiosity {
-    font-size: 1rem;
+    font-size: clamp(1.05rem, 2vw, 1.35rem);
+    font-weight: 600;
+    font-style: italic;
     color: rgba(255, 236, 224, 0.84);
 }
 
@@ -724,13 +734,16 @@ body.is-home .home {
     justify-content: center;
     width: fit-content;
     min-width: 12rem;
+    max-width: 100%;
     min-height: 3.25rem;
     margin-top: 0.35rem;
-    padding: 0.8rem 1.4rem;
+    padding: 0.8rem 2.4rem;
     border-radius: 999px;
     text-decoration: none;
     text-align: center;
-    font-weight: 700;
+    font-weight: 800;
+    white-space: normal;
+    overflow-wrap: anywhere;
     color: #fffaf5;
     background: linear-gradient(180deg, #c86e42 0%, #a34a26 100%);
     box-shadow: 0 16px 28px rgba(37, 15, 8, 0.28);
@@ -1214,9 +1227,56 @@ body.is-home .listing {
         align-content: end;
     }
 
+    .home-hero-content h1 {
+        max-width: min(100%, 11ch);
+        font-size: clamp(2.35rem, 13vw, 3.9rem);
+        line-height: 0.96;
+        text-wrap: balance;
+    }
+
+    .home-hero-lead,
+    .home-hero-curiosity {
+        max-width: 100%;
+        font-size: clamp(1rem, 4.8vw, 1.15rem);
+        line-height: 1.5;
+        text-wrap: pretty;
+    }
+
+    .home-hero-button {
+        width: 100%;
+        min-width: 0;
+        padding-inline: 1.1rem;
+    }
+
     .home-hero-brand {
         top: 1.25rem;
         left: 1.25rem;
         right: 1.25rem;
+    }
+}
+
+@supports (-moz-appearance: none) {
+    @media (hover: none) and (pointer: coarse) {
+        html {
+            scroll-behavior: auto;
+        }
+
+        .page-background {
+            position: absolute;
+        }
+
+        body::before,
+        body::after {
+            display: none;
+        }
+
+        .sidebar,
+        .brand,
+        .content,
+        .card,
+        .page-header,
+        .lightbox {
+            backdrop-filter: none;
+        }
     }
 }

@@ -30,7 +30,7 @@ params:
   eyebrow: "Bienvenue"
   hero_title: "Association Enfants-Kara"
   hero_lead: "Une association qui accompagne des enfants et des&nbsp;jeunes au Togo avec un engagement concret, durable et&nbsp;profondément humain."
-  hero_curiosity: "Derrière chaque action se cache une histoire, un visage et un avenir à&nbsp;découvrir."
-  hero_button: "Venez à la rencontre des&nbsp;Enfants-Kara"
+  hero_curiosity: "Derrière chaque action se cache une histoire, un&nbsp;visage et un&nbsp;avenir à&nbsp;découvrir."
+  hero_button: "À la rencontre des&nbsp;Enfants-Kara"
 bgImage: "images/bill-wegener-7MD4DR9jbP0-unsplash.jpg"
 ---
