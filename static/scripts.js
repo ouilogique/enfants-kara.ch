@@ -1,31 +1,3 @@
-function targetBlank() {
-    const links = document.getElementsByTagName("a");
-    const siteHost = location.host.replace(/^www\./i, "");
-    const internalRegex = new RegExp(siteHost, "i");
-
-    for (let i = 0; i < links.length; i++) {
-        const href = links[i].href;
-        let isExternal = false;
-
-        if (/^mailto:/i.test(href)) {
-            isExternal = true;
-        } else if (location.protocol === "file:") {
-            isExternal = /^(https?:)?\/\//i.test(href);
-        } else {
-            const linkHost = links[i].host;
-            isExternal = linkHost && !internalRegex.test(linkHost);
-        }
-
-        if (isExternal) {
-            links[i].setAttribute("target", "_blank");
-
-            const rel = (links[i].getAttribute("rel") || "").trim();
-            const relParts = rel ? rel.split(/\s+/) : [];
-            if (!relParts.includes("noopener")) relParts.push("noopener");
-            links[i].setAttribute("rel", relParts.join(" ").trim());
-        }
-    }
-}
 
 
 function isImageHref(href) {
@@ -216,7 +188,6 @@ function setupLightbox() {
     });
 }
 
-targetBlank();
 enhanceContentMedia();
 setupLightbox();
 
