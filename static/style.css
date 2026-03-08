@@ -105,7 +105,7 @@ body {
     color: var(--ink);
     font-family: var(--font-serif);
     font-size: 1.2rem;
-    line-height: 1.7;
+    line-height: 1.4;
     background:
         radial-gradient(circle at top left, rgba(255, 232, 205, 0.54) 0, transparent 28rem),
         radial-gradient(circle at right 12% top 8%, rgba(214, 153, 110, 0.24) 0, transparent 22rem),
