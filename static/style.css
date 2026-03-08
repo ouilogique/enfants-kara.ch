@@ -134,8 +134,16 @@ a:hover {
   color: var(--accent);
 }
 
-.text-center {
+.content .text-align-center {
   text-align: center;
+}
+
+.content .font-weight-bold {
+  font-weight: bold;
+}
+
+.content .font-style-italic {
+  font-style: italic;
 }
 
 img {

@@ -10,5 +10,8 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+    parser:
+      attribute:
+        block: true
 params:
   description: "Association Enfants-Kara — Soutien aux enfants et jeunes au Togo depuis 2001."

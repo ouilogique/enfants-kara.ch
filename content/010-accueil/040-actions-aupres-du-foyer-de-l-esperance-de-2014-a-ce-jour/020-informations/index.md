@@ -10,9 +10,9 @@ description: "Présentation officielle du Foyer de l'Espérance : structure, but
 
 # Foyer de l'Espérance et Centre de formation
 
-<div class="text-center">
-« Mieux vaut apprendre à un jeune enfant à pêcher<br>que de lui donner du poisson dans un plat. »
-</div>
+« Mieux vaut apprendre à un jeune enfant à pêcher\
+que de lui donner du poisson dans un plat. »
+{.text-align-center .font-weight-bold .font-style-italic}
 
 ![](images/i541a646335de8f34-d421125c8c.jpg)
 
