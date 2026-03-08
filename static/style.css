@@ -550,8 +550,6 @@ body.is-home .page {
     font-family: var(--font-serif);
     line-height: 1.02;
     font-size: clamp(2.5rem, 6vw, 4.9rem);
-    hyphens: auto;
-    -webkit-hyphens: auto;
     overflow-wrap: anywhere;
 }
 
@@ -1195,6 +1193,8 @@ body.is-home .listing {
         font-size: clamp(2.2rem, 12vw, 3.4rem);
         line-height: 1.04;
         text-wrap: balance;
+        hyphens: auto;
+        -webkit-hyphens: auto;
     }
 
     body::after {
