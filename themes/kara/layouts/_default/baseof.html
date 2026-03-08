@@ -30,6 +30,7 @@
     <meta name="twitter:title" content="{{ $ogTitle | safeHTML }}">
     <meta name="twitter:description" content="{{ $ogDesc | safeHTML }}">
     <meta name="twitter:image" content="{{ $ogImage }}">
+    <meta name="dcterms.modified" content="{{ now.Format "2006-01-02T15:04:05-07:00" }}">
     <link rel="icon" type="image/svg+xml" href="{{ `favicon.svg` | relURL }}">
     {{ if .IsHome }}
       <link rel="preload" as="image" href="{{ site.Home.Params.bgImage | relURL }}">

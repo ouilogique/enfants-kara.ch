@@ -1,4 +1,5 @@
 theme: kara
+timeZone: "Europe/Zurich"
 languageCode: "fr-CH"
 title: "Enfants-Kara"
 defaultContentLanguage: "fr"
