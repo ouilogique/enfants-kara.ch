@@ -14,11 +14,10 @@ A l'occasion de son séjour annuel au Togo, Mme la Présidente a rendu visite au
 
 Joie d'accueillir la représentante des donateurs, reconnaissance envers eux pour leur soutien ont été les maîtres-mots de la journée.
 
-**Cliquez sur une image pour l'agrandir.**
-
-**Flèches gauche-droite pour changer de photo.**
-
-**Tapez Escape pour revenir au format initial.**
+Cliquez sur une image pour l'agrandir.\
+Flèches gauche-droite pour changer de photo.\
+Tapez Escape pour revenir au format initial.
+{ .text-align-center .caption}
 
 - ![](images/iaf643db58c6dd83b-4be8ee1b26.jpg)
 - ![](images/i00b0f67490087188-dcab03648b.jpg)

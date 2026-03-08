@@ -32,6 +32,7 @@ Le Centre de formation du Foyer de l'Espérance fonctionne grâce à l'encadreme
 - ![Menuiserie](images/ia775a7f01f3e425e-14c9ba040b.jpg)
 
 Cliquez sur une image pour l'agrandir.\
+Flèches gauche-droite pour changer de photo.\
 Tapez Escape pour revenir au format initial.
 { .text-align-center .caption}
 

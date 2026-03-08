@@ -33,9 +33,10 @@ Caisse complète d'outillage (tournevis, clés, pinces, etc.), chaussures de sé
 
 Scies, rabots, ciseaux à bois, marteau, équerre, tenaille, mètre, chaussures de sécurité, tenue, sac à outillage
 
-**Cliquez sur une image pour l'agrandir.**
-
-**Tapez Escape pour revenir au format initial.**
+Cliquez sur une image pour l'agrandir.\
+Flèches gauche-droite pour changer de photo.\
+Tapez Escape pour revenir au format initial.
+{ .text-align-center .caption}
 
 - ![](images/iffdf768b43e84bc8-400a76cd1c.jpg)
 - ![](images/if0eea9202807b088-940eac6b20.jpg)

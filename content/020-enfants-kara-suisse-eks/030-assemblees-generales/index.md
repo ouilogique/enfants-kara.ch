@@ -8,12 +8,12 @@ aliases:
 description: "Procès-verbaux des assemblées générales d'Enfants-Kara Suisse : documents officiels des sessions 2022, 2023 et 2024."
 ---
 
-{{/*
+{{< comment >}}
 
     ⚠️ Chaque document-card doit rester sur une seule ligne
     car Hugo ne parse pas les shortcodes multi-lignes.
 
-*/}}
+{{< /comment >}}
 
 <div class="document-grid">
   {{< document-card href="/documents/PV-AG-EK-2022-87f086053a.pdf" img="/images/pdf-9b35d9d12e.png" alt="PDF du PV AG EK 2022" title="PV AG EK 2022.pdf" desc="Document Adobe Acrobat 255.9 KB" >}}
