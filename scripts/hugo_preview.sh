@@ -18,7 +18,7 @@ BASE_URL="http://$IP"
 FULL_URL="$BASE_URL:$PORT"
 
 if command -v qrencode >/dev/null 2>&1; then
-    qrencode -t UTF8 "$FULL_URL"
+    qrencode -t ANSI "$FULL_URL"
 else
     echo -e "\n\nINSTALL QRENCODE TO SEE THE QR CODE OF THE URL."
 fi
