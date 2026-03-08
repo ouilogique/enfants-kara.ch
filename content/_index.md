@@ -17,7 +17,7 @@
 # - description → injectée comme <meta name="description"> et balises Open Graph/Twitter
 # - &nbsp; dans les params est rendu tel quel grâce à safeHTML
 # - Le bouton CTA (Call To Action) pointe automatiquement vers la 1ère section (par weight)
-# - L’image de fond “hero” est définie dans layouts/index.html
+# - L’image de fond “hero” est définie dans bgImage ci-dessous
 #
 ##
 
@@ -32,4 +32,5 @@ params:
   hero_lead: "Une association qui accompagne des enfants et des&nbsp;jeunes au Togo avec un engagement concret, durable et&nbsp;profondément humain."
   hero_curiosity: "Derrière chaque action se cache une histoire, un visage et un avenir à&nbsp;découvrir."
   hero_button: "Venez à la rencontre des&nbsp;Enfants-Kara"
+bgImage: "images/bill-wegener-7MD4DR9jbP0-unsplash.jpg"
 ---

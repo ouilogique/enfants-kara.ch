@@ -9,7 +9,7 @@
   {{ $ogTitle := site.Title }}
   {{ if not .IsHome }}{{ $ogTitle = printf "%s | %s" (.Title | plainify) site.Title }}{{ end }}
   {{ $ogDesc := or .Params.description site.Params.description }}
-  {{ $ogImage := `images/bill-wegener-7MD4DR9jbP0-unsplash.jpg` | absURL }}
+  {{ $ogImage := site.Home.Params.bgImage | absURL }}
   {{ if and (not .IsHome) $sectionImage }}{{ $ogImage = $sectionImage | absURL }}{{ end }}
   {{ $ogType := "website" }}
   {{ if .IsPage }}{{ $ogType = "article" }}{{ end }}
@@ -32,7 +32,7 @@
     <meta name="twitter:image" content="{{ $ogImage }}">
     <link rel="icon" type="image/svg+xml" href="{{ `favicon.svg` | relURL }}">
     {{ if .IsHome }}
-      <link rel="preload" as="image" href="{{ `images/bill-wegener-7MD4DR9jbP0-unsplash.jpg` | relURL }}">
+      <link rel="preload" as="image" href="{{ site.Home.Params.bgImage | relURL }}">
     {{ else if $sectionImage }}
       <link rel="preload" as="image" href="{{ $sectionImage | relURL }}">
     {{ end }}
