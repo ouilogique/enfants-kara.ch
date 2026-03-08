@@ -1,6 +1,6 @@
 {{- $dest := .Destination -}}
 {{- if hasPrefix $dest "/" -}}
-  {{- $dest = $dest | relURL -}}
+  {{- $dest = strings.TrimPrefix "/" $dest | relURL -}}
 {{- end -}}
 <img
   src="{{ $dest }}"
