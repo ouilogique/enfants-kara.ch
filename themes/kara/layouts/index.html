@@ -1,5 +1,4 @@
 {{ define "main" }}
-  {{ $entryPage := index (sort site.Home.Pages "File.Path") 0 }}
   <section class="page home">
     <header class="home-hero">
       <img
@@ -18,11 +17,8 @@
             <span class="brand-name">{{ site.Title | safeHTML }}</span>
           </span>
         </a>
-        <p class="eyebrow">{{ .Params.eyebrow | safeHTML }}</p>
-        <h1>{{ .Params.hero_title | safeHTML }}</h1>
-        <p class="home-hero-lead">{{ .Params.hero_lead | safeHTML }}</p>
-        <p class="home-hero-curiosity">{{ .Params.hero_curiosity | safeHTML }}</p>
-        <a class="home-hero-button" href="{{ with $entryPage }}{{ .RelPermalink }}{{ else }}{{ `` | relURL }}{{ end }}">{{ .Params.hero_button | safeHTML }}</a>
+        <h1>{{ .Title | safeHTML }}</h1>
+        <div class="home-hero-text">{{ .Content }}</div>
       </div>
     </header>
     <footer class="site-footer home-footer">

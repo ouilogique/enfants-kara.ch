@@ -715,6 +715,11 @@ body.is-home .home {
     overflow-wrap: anywhere;
 }
 
+.home-hero-text {
+    display: grid;
+    gap: 1rem;
+}
+
 .home-hero-lead,
 .home-hero-curiosity {
     margin: 0;
@@ -735,7 +740,11 @@ body.is-home .home {
     color: rgba(255, 236, 224, 0.84);
 }
 
-.home-hero-button {
+p.home-hero-button {
+    margin: 0;
+}
+
+p.home-hero-button a {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -757,8 +766,13 @@ body.is-home .home {
     transition: transform 180ms ease, box-shadow 180ms ease, background-color 180ms ease;
 }
 
-.home-hero-button:hover,
-.home-hero-button:focus-visible {
+p.home-hero-button a:visited {
+    color: #fffaf5;
+    text-decoration: none;
+}
+
+p.home-hero-button a:hover,
+p.home-hero-button a:focus-visible {
     color: #fffdf9;
     transform: translateY(-2px);
     box-shadow: 0 20px 32px rgba(37, 15, 8, 0.36);
