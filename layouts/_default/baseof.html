@@ -1,16 +1,9 @@
 <!DOCTYPE html>
 <html lang="{{ site.Language.Lang | default `fr` }}">
-  {{ $sectionImageMap := dict
-    "010-accueil" "images/felicia-montenegro-EEbLJlfCnSI-unsplash.jpg"
-    "020-enfants-kara-suisse-eks" "images/bill-wegener-hs98_9hzTcU-unsplash.jpg"
-    "030-enfants-kara-togo-ekt" "images/tobie-eniafe-7EZfQdvDAl8-unsplash.jpg"
-    "040-projet-marcar" "images/stijn-kleerebezem-bsk8f6BVSHc-unsplash.jpg"
-  }}
   {{ $sectionImage := "" }}
   {{ if not .IsHome }}
-    {{ $rootSection := .FirstSection }}
-    {{ if $rootSection }}
-      {{ $sectionImage = index $sectionImageMap $rootSection.Section }}
+    {{ with .FirstSection }}
+      {{ $sectionImage = .Params.bgImage }}
     {{ end }}
   {{ end }}
   {{ $ogTitle := site.Title }}

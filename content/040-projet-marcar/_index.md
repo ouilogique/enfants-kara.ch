@@ -3,6 +3,7 @@ title: "1. Proposition de projet pour l’utilisation d’un terrain à Blitta"
 url: "/projet-marcar/"
 linkTitle: "Projet MarCar"
 draft: false
+bgImage: "images/stijn-kleerebezem-bsk8f6BVSHc-unsplash.jpg"
 aliases:
   - "/projet-marcar/index.html"
 description: "Projet Marcar : utilisation d'un terrain de 7,3 hectares à Blitta au profit de l'orphelinat Caredo — agriculture, formation et développement durable."
