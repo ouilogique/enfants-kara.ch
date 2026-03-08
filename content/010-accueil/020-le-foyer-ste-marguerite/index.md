@@ -16,6 +16,6 @@ Depuis 2012, grâce aux efforts de chacun et à vos dons, le foyer est en bonne 
 
 Savoir plus sur Kara :
 
--   [Kara (Togo)](http://fr.wikipedia.org/wiki/Kara_(Togo))
+-   [Kara (Togo)](https://fr.wikipedia.org/wiki/Kara_(Togo))
 -   [Kara et sites](http://www.togo-confidentiel.com/texte/Info&Service/Kara_et_sites.htm)
--   [Région de la Kara](http://fr.wikipedia.org/wiki/R%C3%A9gion_de_la_Kara)
+-   [Région de la Kara](https://fr.wikipedia.org/wiki/R%C3%A9gion_de_la_Kara)

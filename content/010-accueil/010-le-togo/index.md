@@ -20,11 +20,11 @@ La base de l'alimentation des habitants du pays est constituée de manioc, de ma
 
 La capitale, Lomé, se trouve au sud du pays en bord de mer et a vu de ce fait s'y développer un important port, seul port en eau profonde de la sous-région, doté d'une zone franche. Elle concentre une grande partie de la population (environ 800'000 habitants en 2010) et est le centre économique et politique du pays. Elle possède un aéroport international, connecté avec les principales capitales du monde. Une particularité à relever : un bon quart de la ville se trouve au Ghana !
 
-Plus de statistiques : [Statistiques mondiales, fiche Togo](http://www.statistiques-mondiales.com/togo.htm)
+Plus de statistiques : [Statistiques mondiales, fiche Togo](https://www.statistiques-mondiales.com/togo.htm)
 
-Site officiel du Togo : [Republic of Togo](http://www.republicoftogo.com/)
+Site officiel du Togo : [Republic of Togo](https://www.republicoftogo.com/)
 
-Voir aussi : [Lomé](http://fr.wikipedia.org/wiki/Lomé)
+Voir aussi : [Lomé](https://fr.wikipedia.org/wiki/Lomé)
 
 ![](images/i678f7c1fa41f5d67-9b624e04ba.jpg)
 
