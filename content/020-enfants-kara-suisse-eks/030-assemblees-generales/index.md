@@ -16,7 +16,7 @@ description: "Procès-verbaux des assemblées générales d'Enfants-Kara Suisse 
 {{< /note >}}
 
 <div class="document-grid">
-  {{< document-card href="/documents/PV-AG-EK-2022-87f086053a.pdf" img="/images/pdf-9b35d9d12e.png" alt="PDF du PV AG EK 2022" title="PV AG EK 2022.pdf" desc="Document Adobe Acrobat 255.9 KB" >}}
-  {{< document-card href="/documents/PV-AG-EK-2023-7114860277.pdf" img="/images/pdf-9b35d9d12e.png" alt="PDF du PV AG EK 2023" title="PV AG EK 2023.pdf" desc="Document Adobe Acrobat 327.9 KB" >}}
-  {{< document-card href="/documents/PV-AG-EK-2024-bf3a0d4d83.pdf" img="/images/pdf-9b35d9d12e.png" alt="PDF du PV AG EK 2024" title="PV AG EK 2024.pdf" desc="Document Adobe Acrobat 305.6 KB" >}}
+  {{< document-card href="/documents/PV-AG-EK-2022-87f086053a.pdf" img="/images/logo-pdf.png" alt="PDF du PV AG EK 2022" title="PV AG EK 2022.pdf" desc="Document Adobe Acrobat 255.9 KB" >}}
+  {{< document-card href="/documents/PV-AG-EK-2023-7114860277.pdf" img="/images/logo-pdf.png" alt="PDF du PV AG EK 2023" title="PV AG EK 2023.pdf" desc="Document Adobe Acrobat 327.9 KB" >}}
+  {{< document-card href="/documents/PV-AG-EK-2024-bf3a0d4d83.pdf" img="/images/logo-pdf.png" alt="PDF du PV AG EK 2024" title="PV AG EK 2024.pdf" desc="Document Adobe Acrobat 305.6 KB" >}}
 </div>
