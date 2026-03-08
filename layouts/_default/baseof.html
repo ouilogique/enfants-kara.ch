@@ -23,19 +23,19 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ $ogTitle }}</title>
-    {{ with $ogDesc }}<meta name="description" content="{{ . }}">{{ end }}
+    <title>{{ $ogTitle | safeHTML }}</title>
+    {{ with $ogDesc }}<meta name="description" content="{{ . | safeHTML }}">{{ end }}
     <link rel="canonical" href="{{ .Permalink }}">
-    <meta property="og:title" content="{{ $ogTitle }}">
-    <meta property="og:description" content="{{ $ogDesc }}">
+    <meta property="og:title" content="{{ $ogTitle | safeHTML }}">
+    <meta property="og:description" content="{{ $ogDesc | safeHTML }}">
     <meta property="og:url" content="{{ .Permalink }}">
     <meta property="og:type" content="{{ $ogType }}">
     <meta property="og:image" content="{{ $ogImage }}">
-    <meta property="og:site_name" content="{{ site.Title }}">
+    <meta property="og:site_name" content="{{ site.Title | safeHTML }}">
     <meta property="og:locale" content="fr_CH">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="{{ $ogTitle }}">
-    <meta name="twitter:description" content="{{ $ogDesc }}">
+    <meta name="twitter:title" content="{{ $ogTitle | safeHTML }}">
+    <meta name="twitter:description" content="{{ $ogDesc | safeHTML }}">
     <meta name="twitter:image" content="{{ $ogImage }}">
     <link rel="icon" type="image/svg+xml" href="{{ `favicon.svg` | relURL }}">
     {{ if .IsHome }}
@@ -61,7 +61,7 @@
           </span>
           <span class="brand-copy">
             <span class="brand-kicker">Association</span>
-            <span class="brand-name">{{ site.Title }}</span>
+            <span class="brand-name">{{ site.Title | safeHTML }}</span>
           </span>
         </a>
         <aside class="sidebar" aria-label="Navigation du site">
