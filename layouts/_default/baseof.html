@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="{{ site.Language.Lang | default `fr` }}">
   {{ $sectionImageMap := dict
-    "accueil" "images/felicia-montenegro-EEbLJlfCnSI-unsplash.jpg"
-    "enfants-kara-suisse-eks" "images/bill-wegener-hs98_9hzTcU-unsplash.jpg"
-    "enfants-kara-togo-ekt" "images/tobie-eniafe-7EZfQdvDAl8-unsplash.jpg"
-    "projet-marcar" "images/stijn-kleerebezem-bsk8f6BVSHc-unsplash.jpg"
+    "010-accueil" "images/felicia-montenegro-EEbLJlfCnSI-unsplash.jpg"
+    "020-enfants-kara-suisse-eks" "images/bill-wegener-hs98_9hzTcU-unsplash.jpg"
+    "030-enfants-kara-togo-ekt" "images/tobie-eniafe-7EZfQdvDAl8-unsplash.jpg"
+    "040-projet-marcar" "images/stijn-kleerebezem-bsk8f6BVSHc-unsplash.jpg"
   }}
   {{ $sectionImage := "" }}
   {{ if not .IsHome }}
@@ -49,7 +49,7 @@
   <body
     class="{{ if .IsHome }}is-home{{ else if .IsSection }}is-section{{ else }}is-page{{ end }}"
   >
-    {{ $rootPages := site.Home.Pages.ByWeight }}
+    {{ $rootPages := sort site.Home.Pages "File.Path" }}
     {{ with $sectionImage }}
       <div class="page-background" aria-hidden="true" style="--page-bg-image: url('{{ . | relURL }}');"></div>
     {{ end }}

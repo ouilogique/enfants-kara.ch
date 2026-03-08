@@ -1,5 +1,5 @@
 {{ define "main" }}
-  {{ $entryPage := index site.Home.Pages.ByWeight 0 }}
+  {{ $entryPage := index (sort site.Home.Pages "File.Path") 0 }}
   <section class="page home">
     <header class="home-hero">
       <img

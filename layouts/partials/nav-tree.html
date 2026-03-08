@@ -4,12 +4,12 @@
   {{- $isSection := eq .Kind "section" -}}
   {{- $isActive := false -}}
   {{- if $isSection -}}
-    {{- $isActive = hasPrefix $current.RelPermalink .RelPermalink -}}
+    {{- $isActive = or (.IsAncestor $current) (eq . $current) -}}
   {{- else -}}
-    {{- $isActive = eq $current.RelPermalink .RelPermalink -}}
+    {{- $isActive = eq . $current -}}
   {{- end -}}
   {{- if $isSection -}}
-    {{- $children := .Pages.ByWeight -}}
+    {{- $children := sort .Pages "File.Path" -}}
     <details class="branch" {{ if $isActive }}open{{ end }}>
       <summary class="branch-summary">
         <a class="branch-link {{ if $isActive }}is-active{{ end }}" href="{{ .RelPermalink }}">{{ .LinkTitle | safeHTML }}</a>
