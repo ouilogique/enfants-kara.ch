@@ -771,10 +771,6 @@ body.is-home .home {
   hyphens: auto;
 }
 
-.content h1:first-child {
-  display: none;
-}
-
 .content h2,
 .content h3,
 .content h4 {
