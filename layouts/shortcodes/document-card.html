@@ -1,0 +1,9 @@
+{{/* Usage: {{< document-card href="..." img="..." alt="..." title="..." desc="..." >}} — doit rester sur une seule ligne */}}
+<article class="document-card">
+  <a class="document-card-icon" href="{{ .Get "href" | relURL }}">
+    <img src="{{ .Get "img" | relURL }}" alt="{{ .Get "alt" }}">
+  </a>
+  <h3>{{ .Get "title" }}</h3>
+  {{ with .Get "desc" }}<p>{{ . }}</p>{{ end }}
+  <p><a class="document-card-link" href="{{ .Get "href" | relURL }}" download>Télécharger</a></p>
+</article>
