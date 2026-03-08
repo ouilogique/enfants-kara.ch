@@ -1,69 +1,35 @@
-#!/bin/zsh
+#!/usr/bin/env bash
+
+###
+# Usage:
+# bash scripts/hugo_preview.sh
+##
 
 set -euo pipefail
 
-PORT="${1:-1313}"
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+PROJECT_DIR="$(cd "$SCRIPT_DIR/.." && pwd)"
+IP="$(bash "$SCRIPT_DIR/get_ip_of_default_interface.sh")"
 
-if ! command -v hugo >/dev/null 2>&1; then
-  echo "hugo introuvable dans le PATH." >&2
-  exit 1
-fi
+rm -rf "$PROJECT_DIR/public"
 
-if ! command -v route >/dev/null 2>&1; then
-  echo "route introuvable." >&2
-  exit 1
-fi
+PORT="1313"
+BASE_URL="http://$IP"
+FULL_URL="$BASE_URL:$PORT"
 
-if ! command -v ipconfig >/dev/null 2>&1; then
-  echo "ipconfig introuvable." >&2
-  exit 1
-fi
-
-if ! command -v ifconfig >/dev/null 2>&1; then
-  echo "ifconfig introuvable." >&2
-  exit 1
-fi
-
-DEFAULT_IFACE="$(
-  route -n get default 2>/dev/null | awk '/interface:/{print $2; exit}'
-)"
-
-if [[ -z "${DEFAULT_IFACE}" ]]; then
-  echo "Impossible de determiner l'interface par defaut." >&2
-  exit 1
-fi
-
-LAN_IP="$(ipconfig getifaddr "${DEFAULT_IFACE}" 2>/dev/null || true)"
-
-if [[ -z "${LAN_IP}" ]]; then
-  LAN_IP="$(
-    ifconfig "${DEFAULT_IFACE}" 2>/dev/null | awk '/inet /{print $2; exit}'
-  )"
-fi
-
-if [[ -z "${LAN_IP}" ]]; then
-  echo "Impossible de recuperer l'adresse IP de ${DEFAULT_IFACE}." >&2
-  exit 1
-fi
-
-BASE_URL="http://${LAN_IP}:${PORT}/"
-
-echo "Interface par defaut : ${DEFAULT_IFACE}"
-echo "URL locale : ${BASE_URL}"
-echo
-
-if command -v qrencode >/dev/null 2>&1; then
-  qrencode -t ANSIUTF8 "${BASE_URL}"
-  echo
+if command -v qrencode- >/dev/null 2>&1; then
+    qrencode -t UTF8 "$FULL_URL"
 else
-  echo "qrencode introuvable, QR code non affiche."
-  echo
+    echo -e "\n\nINSTALL QRENCODE TO SEE THE QR CODE OF THE URL."
 fi
 
-exec hugo server \
-  --bind 0.0.0.0 \
-  --baseURL "${BASE_URL}" \
-  --port "${PORT}" \
-  --appendPort=false \
-  --noBuildLock \
-  --disableFastRender
+echo -e "\n\n$FULL_URL\n\n"
+
+hugo server                 \
+    -D                      \
+    --gc                    \
+    --disableFastRender     \
+    --baseURL=$BASE_URL     \
+    --bind=$IP              \
+    --port=$PORT            \
+    --appendPort=true
