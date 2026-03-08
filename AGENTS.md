@@ -25,22 +25,11 @@ config/
   dev-github/config.yaml   — demo GitHub Pages
   production/config.yaml   — production enfants-kara.ch
 content/                   — contenu Markdown (50 fichiers)
-layouts/
-  _default/baseof.html     — squelette HTML, sidebar nav, lightbox, fonds par section
-  _default/single.html     — template page simple
-  _default/list.html       — template section (liste les pages enfants)
-  index.html               — page d'accueil (hero)
-  partials/nav-tree.html   — navigation récursive par poids
-  partials/page-header.html — en-tête de page avec titre et nav prev/next
-  _markup/render-image.html — rendu Markdown image (URL relatives)
-  _markup/render-link.html  — rendu Markdown lien (URL relatives, target externe)
-  shortcodes/document-card.html — carte PDF téléchargeable
-  shortcodes/note.html     — commentaire invisible dans le contenu
+themes/kara/               — thème actif (voir section Thème ci-dessous)
 static/
-  images/                  — images (fonds Unsplash, logos)
+  images/                  — images de contenu (fonds Unsplash, logos)
   documents/               — fichiers téléchargeables (PDF PV AG)
-  style.css                — feuille de style principale (~1300 lignes)
-  scripts.js               — JS vanilla : lightbox, nav prev/next, View Transitions
+  favicon.svg              — favicon (identité de l'asso, indépendant du thème)
 scripts/
   hugo_preview.sh          — serveur de développement local avec QR code
   get_ip_of_default_interface.sh — détection IP multi-plateforme
@@ -76,11 +65,18 @@ scripts/
 - Navigation récursive dans la sidebar (`nav-tree.html`) : `<details>` pour les sections, `<a>` pour les pages.
 - Prev/next entre pages via `scripts.js`.
 
+### Thème Hugo
+- Thème actif : `kara` (déclaré dans `config/_default/config.yaml` : `theme: kara`)
+- Structure : `themes/kara/layouts/`, `themes/kara/static/` (CSS + JS), `themes/kara/theme.toml`
+- Pour tester une variante : créer `themes/autre/` et changer `theme: kara` → `theme: autre`
+- Les layouts (`_default/`, `_markup/`, `partials/`, `shortcodes/`) sont **dans le thème**, pas à la racine.
+
 ### Ressources statiques
-- Images : `static/images/`
+- Images de contenu : `static/images/` (hors thème — restent lors d'un changement de thème)
 - Documents téléchargeables : `static/documents/`
+- CSS/JS du thème : `themes/kara/static/style.css` et `scripts.js`
 - Pas d'URL distantes résiduelles dans le contenu livré.
-- Preload uniquement l'image de fond de la section courante (voir `baseof.html`).
+- Preload uniquement l'image de fond de la section courante (voir `themes/kara/layouts/_default/baseof.html`).
 
 ### Style visuel
 - Thème "Terre & lumière" : tons sable (`#f3e4d2`), terracotta (`#b5562d`), ivoire, brun doux.
@@ -99,8 +95,8 @@ scripts/
 - Minification activée en CI (`hugo --gc --minify`).
 
 ### Robots.txt
-- Production : allow all (via `partials/prod/robots.txt`)
-- Dev : disallow all (via `partials/dev/robots.txt`)
+- Production : allow all (via `themes/kara/layouts/partials/prod/robots.txt`)
+- Dev : disallow all (via `themes/kara/layouts/partials/dev/robots.txt`)
 - Sélection automatique selon `hugo.Environment`.
 
 ---
