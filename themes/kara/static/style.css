@@ -619,6 +619,7 @@ body.is-home .page {
 
 .page-nav-link {
     appearance: none;
+    user-select: none;
     display: grid;
     gap: 0.22rem;
     width: 100%;
@@ -791,6 +792,7 @@ p.home-hero-button {
 
 p.home-hero-button a {
     display: inline-flex;
+    user-select: none;
     align-items: center;
     justify-content: center;
     width: fit-content;
