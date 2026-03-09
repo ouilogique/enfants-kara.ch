@@ -1,0 +1,15 @@
+{{/*
+  nav-pages-flat.html
+  Input  : slice de pages (sections et/ou feuilles)
+  Output : slice plate ordonnée — chaque section précède ses enfants (récursif)
+*/}}
+{{- $result := slice -}}
+{{- range . -}}
+  {{- $result = $result | append . -}}
+  {{- if eq .Kind "section" -}}
+    {{- range (partial "nav-pages-flat.html" (sort .Pages "File.Path")) -}}
+      {{- $result = $result | append . -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $result -}}

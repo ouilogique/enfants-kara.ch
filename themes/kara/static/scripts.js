@@ -200,16 +200,9 @@ function getHomeHref() {
     return "/";
 }
 
-function normalizePath(pathname) {
-    const normalized = pathname.replace(/\/index\.html$/, "/");
-    if (normalized === "") return "/";
-    return normalized.endsWith("/") ? normalized : `${normalized}/`;
-}
-
 function isHomePage() {
-    const currentPath = normalizePath(window.location.pathname);
-    const homePath = normalizePath(new URL(getHomeHref(), window.location.href).pathname);
-    return currentPath === homePath;
+    const homePath = new URL(getHomeHref(), window.location.href).pathname.replace(/\/$/, "");
+    return window.location.pathname.replace(/\/$/, "") === homePath;
 }
 
 function replayLogoAnimation() {
@@ -225,75 +218,14 @@ function smoothScrollToTop() {
     window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
-function getSidebarNavigationTargets() {
-    const seen = new Set();
-    const links = Array.from(document.querySelectorAll(".tree a[href]"));
-    const targets = [];
-
-    const homeHref = getHomeHref();
-    const homePath = normalizePath(new URL(homeHref, window.location.href).pathname);
-    const homeTitle = (document.querySelector(".brand-name")?.textContent || "Accueil").trim();
-    targets.push({
-        href: new URL(homeHref, window.location.href).href,
-        path: homePath,
-        label: homeTitle
-    });
-    seen.add(homePath);
-
-    return targets.concat(links
-        .map((link) => {
-            const url = new URL(link.href, window.location.href);
-            return {
-                href: link.href,
-                path: normalizePath(url.pathname),
-                label: (link.textContent || "").trim()
-            };
-        })
-        .filter((item) => {
-            if (seen.has(item.path)) return false;
-            seen.add(item.path);
-            return true;
-        }));
-}
-
-function getAdjacentNavigationTarget(delta) {
-    const targets = getSidebarNavigationTargets();
-    const currentPath = normalizePath(window.location.pathname);
-    const currentIndex = targets.findIndex((item) => item.path === currentPath);
-
-    if (currentIndex < 0) return null;
-
-    const target = targets[currentIndex + delta];
-    return target ? target.href : null;
-}
-
 function setupPageNavigation() {
-    const targets = getSidebarNavigationTargets();
-    const currentPath = normalizePath(window.location.pathname);
-    const currentIndex = targets.findIndex((item) => item.path === currentPath);
-    if (currentIndex < 0) return;
-
-    const prev = targets[currentIndex - 1] || null;
-    const next = targets[currentIndex + 1] || null;
-
-    [
-        { selector: '[data-page-nav="prev"]', target: prev },
-        { selector: '[data-page-nav="next"]', target: next }
-    ].forEach(({ selector, target }) => {
-        const link = document.querySelector(selector);
-        if (!link || !target) return;
-
-        const title = link.querySelector(".page-nav-title");
-        link.dataset.href = target.href;
-        link.onclick = () => {
+    document.querySelectorAll('.page-nav-link[data-href]').forEach((btn) => {
+        btn.addEventListener('click', () => {
             if (isNavigating) return;
             isNavigating = true;
             sessionStorage.setItem('ek-nav', '1');
-            window.location.href = target.href;
-        };
-        if (title) title.textContent = target.label;
-        link.setAttribute("aria-label", target.label);
-        link.hidden = false;
+            window.location.href = btn.dataset.href;
+        });
     });
 }
 
@@ -330,14 +262,14 @@ document.addEventListener("keydown", (event) => {
         sessionStorage.setItem('ek-nav', '1');
         window.location.href = getHomeHref();
     } else if (event.key === "ArrowLeft") {
-        const prevHref = getAdjacentNavigationTarget(-1);
+        const prevHref = document.querySelector('[data-page-nav="prev"]')?.dataset.href;
         if (!prevHref) return;
         event.preventDefault();
         isNavigating = true;
         sessionStorage.setItem('ek-nav', '1');
         window.location.href = prevHref;
     } else if (event.key === "ArrowRight") {
-        const nextHref = getAdjacentNavigationTarget(1);
+        const nextHref = document.querySelector('[data-page-nav="next"]')?.dataset.href;
         if (!nextHref) return;
         event.preventDefault();
         isNavigating = true;

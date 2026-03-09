@@ -1,14 +1,39 @@
+{{- $allPages := slice site.Home -}}
+{{- range partial "nav-pages-flat.html" (sort site.Home.Pages "File.Path") -}}
+  {{- $allPages = $allPages | append . -}}
+{{- end -}}
+
+{{- $currentIndex := -1 -}}
+{{- range $i, $p := $allPages -}}
+  {{- if eq $p.RelPermalink $.RelPermalink -}}
+    {{- $currentIndex = $i -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $prevPage := false -}}
+{{- $nextPage := false -}}
+{{- if gt $currentIndex 0 -}}
+  {{- $prevPage = index $allPages (sub $currentIndex 1) -}}
+{{- end -}}
+{{- if and (ge $currentIndex 0) (lt $currentIndex (sub (len $allPages) 1)) -}}
+  {{- $nextPage = index $allPages (add $currentIndex 1) -}}
+{{- end -}}
+
 <header class="page-header">
   <h1>{{ .Title | safeHTML }}</h1>
   {{ with .Params.description }}<p class="dek">{{ . }}</p>{{ end }}
   <nav class="page-nav" aria-label="Navigation entre pages">
-    <button class="page-nav-link is-prev" data-page-nav="prev" type="button" hidden>
+    {{ if $prevPage }}
+    <button class="page-nav-link is-prev" data-page-nav="prev" data-href="{{ $prevPage.RelPermalink }}" type="button">
       <span class="page-nav-kicker">Page précédente</span>
-      <span class="page-nav-title"></span>
+      <span class="page-nav-title">{{ $prevPage.LinkTitle | safeHTML }}</span>
     </button>
-    <button class="page-nav-link is-next" data-page-nav="next" type="button" hidden>
+    {{ end }}
+    {{ if $nextPage }}
+    <button class="page-nav-link is-next" data-page-nav="next" data-href="{{ $nextPage.RelPermalink }}" type="button">
       <span class="page-nav-kicker">Page suivante</span>
-      <span class="page-nav-title"></span>
+      <span class="page-nav-title">{{ $nextPage.LinkTitle | safeHTML }}</span>
     </button>
+    {{ end }}
   </nav>
 </header>
