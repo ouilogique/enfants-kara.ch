@@ -13,7 +13,7 @@ description: "Présentation officielle du Foyer de l'Espérance : structure, but
 que de lui donner du poisson dans un plat. »
 {.text-align-center .font-weight-bold .font-style-italic}
 
-![](images/i541a646335de8f34-d421125c8c.jpg)
+![Logo du Foyer de l’Espérance](images/i541a646335de8f34-d421125c8c.jpg)
 
 Un enfant de la rue, orphelin, démuni ou victime de la traite est protégé dans le cercle des personnes de bonne volonté qui l'accueillent à bras ouverts pour l'éduquer, le former et lui apprendre à construire son avenir à travers un métier de son choix.
 

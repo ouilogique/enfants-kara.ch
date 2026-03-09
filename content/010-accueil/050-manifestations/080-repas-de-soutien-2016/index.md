@@ -14,10 +14,10 @@ Flèches gauche-droite pour changer de photo.\
 Tapez Escape pour revenir au format initial.
 { .text-align-center .caption}
 
-- ![](images/ia171e1f86f115395-3d2ce7a936.jpg)
-- ![](images/iaa334181a4c30e3a-a5c2c02144.jpg)
-- ![](images/i0b41128cbfc1922d-5f698bc7db.jpg)
-- ![](images/i0f02733389c41674-f782d9292b.jpg)
+- ![Affiche du repas de soutien 2016](images/ia171e1f86f115395-3d2ce7a936.jpg)
+- ![Invitation au repas de soutien 2016](images/iaa334181a4c30e3a-a5c2c02144.jpg)
+- ![Programme du repas de soutien 2016](images/i0b41128cbfc1922d-5f698bc7db.jpg)
+- ![Plan d’accès au repas de soutien](images/i0f02733389c41674-f782d9292b.jpg)
 - ![On a raclé ...](images/iad55d1bb00ac0a96-a63085f580.jpg)
 - ![On a grillé ...](images/i68eb1c64a639f94a-21ed1204aa.jpg)
 - ![On s'est régalé !](images/idb0ac82eca6156ed-de34dd1a18.jpg)

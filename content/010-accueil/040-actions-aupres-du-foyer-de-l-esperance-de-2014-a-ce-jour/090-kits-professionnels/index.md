@@ -39,12 +39,12 @@ Flèches gauche-droite pour changer de photo.\
 Tapez Escape pour revenir au format initial.
 { .text-align-center .caption}
 
-- ![](images/iffdf768b43e84bc8-400a76cd1c.jpg)
-- ![](images/if0eea9202807b088-940eac6b20.jpg)
-- ![](images/ia288124298524a83-43fe99c5a0.jpg)
-- ![](images/i1eb04fd77ac9d8bb-fcad5439c6.jpg)
-- ![](images/i42ac86d550a5f343-20c080e302.jpg)
-- ![](images/i79ec51eb3307909f-d56f9aa388.jpg)
-- ![](images/i7257d748e6bb56c7-72e6aaafb4.jpg)
-- ![](images/id3b0057d7d572e0a-94d9c01ef4.jpg)
-- ![](images/i39452f5e9f1b2634-042c565a3e.jpg)
+- ![Brouettes et outils de maçonnerie](images/iffdf768b43e84bc8-400a76cd1c.jpg)
+- ![Sac de kit professionnel](images/if0eea9202807b088-940eac6b20.jpg)
+- ![Tables et marteaux fabriqués](images/ia288124298524a83-43fe99c5a0.jpg)
+- ![Caisse à outils d’électricien](images/i1eb04fd77ac9d8bb-fcad5439c6.jpg)
+- ![Outils et brouettes emballés](images/i42ac86d550a5f343-20c080e302.jpg)
+- ![Poste de soudure emballé](images/i79ec51eb3307909f-d56f9aa388.jpg)
+- ![Petit outillage professionnel](images/i7257d748e6bb56c7-72e6aaafb4.jpg)
+- ![Outils de menuiserie](images/id3b0057d7d572e0a-94d9c01ef4.jpg)
+- ![Ciseaux à bois et rabots](images/i39452f5e9f1b2634-042c565a3e.jpg)

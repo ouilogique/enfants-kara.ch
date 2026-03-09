@@ -13,6 +13,6 @@ En juillet 2013, grâce à un séjour dans la région de Kara, Rose et Claude Ba
 
 Le Foyer de l'Espérance et son Centre de formation se trouvent dans le village de Tigbada, à côté de la Nationale 1 à 120 km de Kara et à 7 km au sud de la ville de Sotouboua, canton de Tchébébé.
 
-- ![](images/i5850a40329323dcd-28850a86f3.gif)
-- ![](images/i683a35109fe8ef53-ce88493969.jpg)
-- ![](images/i8f3dfc40bcd348be-8e001f41f2.jpg)
+- ![Carte du Togo avec Tigbada](images/i5850a40329323dcd-28850a86f3.gif)
+- ![Plan du terrain du Foyer de l’Espérance](images/i683a35109fe8ef53-ce88493969.jpg)
+- ![Photo de groupe devant le Foyer de l’Espérance](images/i8f3dfc40bcd348be-8e001f41f2.jpg)

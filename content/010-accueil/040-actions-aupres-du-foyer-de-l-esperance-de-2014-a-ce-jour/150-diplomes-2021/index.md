@@ -11,10 +11,10 @@ description: "Cérémonie de remise des diplômes et kits professionnels de la s
 
 ## Cérémonie du 20 août 2021
 
-- ![](images/i0eb276d10735e09c-58d25cf242.jpg)
-- ![](images/ie26869cf349545c2-19b6d0fc1b.jpg)
-- ![](images/i164d531b6e705f5d-da945657ac.jpg)
-- ![](images/id8b44cc89ca69d34-9b72d1e843.jpg)
-- ![](images/i28a7d664fc36e977-2e66ba3333.jpg)
-- ![](images/i780bda2fe5c91542-ff7a0a7fdb.jpg)
+- ![Public réuni pour la cérémonie](images/i0eb276d10735e09c-58d25cf242.jpg)
+- ![Remise d’un diplôme](images/ie26869cf349545c2-19b6d0fc1b.jpg)
+- ![Kits professionnels alignés](images/i164d531b6e705f5d-da945657ac.jpg)
+- ![Brouette avec outils](images/id8b44cc89ca69d34-9b72d1e843.jpg)
+- ![Outils et matériel au sol](images/i28a7d664fc36e977-2e66ba3333.jpg)
+- ![Remise de mobilier](images/i780bda2fe5c91542-ff7a0a7fdb.jpg)
 

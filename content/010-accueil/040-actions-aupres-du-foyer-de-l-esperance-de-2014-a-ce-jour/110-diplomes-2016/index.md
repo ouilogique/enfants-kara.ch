@@ -18,9 +18,9 @@ Menuiserie 5 diplômes
 
 Maçonnerie 12 diplômes
 
-- ![](images/i4d82503fee98e245-e69dd29853.jpg)
-- ![](images/iaba36fb27c530eea-d2e8244bee.jpg)
-- ![](images/id01935a8adfb2a97-b1ff8cccd1.jpg)
-- ![](images/iae20e4aa0efb5a3f-290c93661b.jpg)
-- ![](images/if7df2a3e719b36f8-0b691f7c57.jpg)
-- ![](images/i9b95d0b9f77612bb-6639ebc36f.jpg)
+- ![Remise d’un document](images/i4d82503fee98e245-e69dd29853.jpg)
+- ![Remise d’une brouette](images/iaba36fb27c530eea-d2e8244bee.jpg)
+- ![Diplômés avec leurs outils](images/id01935a8adfb2a97-b1ff8cccd1.jpg)
+- ![Diplômées avec machines à coudre](images/iae20e4aa0efb5a3f-290c93661b.jpg)
+- ![Groupe avec brouettes et outils](images/if7df2a3e719b36f8-0b691f7c57.jpg)
+- ![Réunion autour d’une table](images/i9b95d0b9f77612bb-6639ebc36f.jpg)

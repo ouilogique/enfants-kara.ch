@@ -9,7 +9,7 @@ aliases:
 description: "Composition du comité d'Enfants-Kara Suisse avec la présidente Rose Balmer et les membres actifs de l'association."
 ---
 
-![](images/ibac569724a40e6e4-9b23ad94dd.jpg)
+![Logo de l’association Enfants-Kara](images/ibac569724a40e6e4-9b23ad94dd.jpg)
 
 Il est constitué comme suit :
 

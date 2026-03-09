@@ -15,11 +15,11 @@ Après la construction des nouveaux dortoirs pour les filles (2014), suite à un
 - ![Pièces pour chaises](images/i3b06a86b8dd8529e-ed33d71028.jpg)
 - ![Chaises](images/i7979fa0649a75775-647348f492.jpg)
 - ![Tables](images/i7552ef80d35726a7-8171c10ccf.jpg)
-- ![](images/i78d2e7cbf65c5ed4-0bd33a2282.jpg)
-- ![](images/i9b80ff59c61aa01f-9d385bc63b.jpg)
-- ![](images/i4cc0e517241ed03f-355f7e0e86.jpg)
-- ![](images/i532bbcbfd25d6c2e-2a498fb4d7.jpg)
-- ![](images/i3cab0441e62bb11d-e69a266a2b.jpg)
+- ![Élèves assis autour d’une table](images/i78d2e7cbf65c5ed4-0bd33a2282.jpg)
+- ![Élèves devant une table](images/i9b80ff59c61aa01f-9d385bc63b.jpg)
+- ![Deux élèves autour d’une table](images/i4cc0e517241ed03f-355f7e0e86.jpg)
+- ![Élève à sa table](images/i532bbcbfd25d6c2e-2a498fb4d7.jpg)
+- ![Deux élèves assis à une table](images/i3cab0441e62bb11d-e69a266a2b.jpg)
 
 Cliquez sur une image pour l'agrandir.\
 Flèches gauche-droite pour changer de photo.\

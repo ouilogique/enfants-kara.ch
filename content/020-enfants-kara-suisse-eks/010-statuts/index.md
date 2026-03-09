@@ -9,7 +9,7 @@ aliases:
 description: "Statuts officiels de l'association Enfants-Kara, en vigueur depuis le 29 mars 2012 : buts, organisation et fonctionnement."
 ---
 
-![](images/i3cd6a4cbce1f8069-026496f9b9.jpg)
+![Logo de l’association Enfants-Kara](images/i3cd6a4cbce1f8069-026496f9b9.jpg)
 
 **Article 1 Buts, siège**
 

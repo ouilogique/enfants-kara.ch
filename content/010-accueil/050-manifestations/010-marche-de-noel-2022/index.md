@@ -11,5 +11,5 @@ description: "Retour d'Enfants-Kara au Marché de Noël 2022 après deux ans d'i
 
 Enfin, après deux ans d'annulation, le marché de Noël a réouvert ses locaux. Quel plaisir, malgré le travail important nécessaire, d'installer nos tréteaux. Comme d'hab, les bénévoles s'y sont succédés. Qu'ils en soient remerciés. !
 
-- ![](images/i70c2c48cc807087b-ea06ab5820.jpg)
-- ![](images/i162582b5e55aa473-15ca4225d0.jpg)
+- ![Stand d’artisanat au marché de Noël](images/i70c2c48cc807087b-ea06ab5820.jpg)
+- ![Stand d’Enfants-Kara au marché de Noël](images/i162582b5e55aa473-15ca4225d0.jpg)
