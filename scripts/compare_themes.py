@@ -50,6 +50,20 @@ def build_themes():
     run(["git", "checkout", current])
 
 
+# --- Kill old instances ---
+import signal
+result = subprocess.run(
+    ["pgrep", "-f", "compare_themes.py"],
+    capture_output=True, text=True
+)
+for pid in result.stdout.splitlines():
+    pid = int(pid.strip())
+    if pid != os.getpid():
+        try:
+            os.kill(pid, signal.SIGTERM)
+        except ProcessLookupError:
+            pass
+
 # --- Build ---
 if "--build" in sys.argv:
     build_themes()
