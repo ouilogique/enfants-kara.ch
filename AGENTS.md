@@ -63,7 +63,13 @@ scripts/
 ### Navigation
 - Ordre via préfixes numériques des dossiers (`010-`, `020-`…) → trié par `File.Path`, pas alphabétique.
 - Navigation récursive dans la sidebar (`nav-tree.html`) : `<details>` pour les sections, `<a>` pour les pages.
-- Prev/next entre pages via `scripts.js`.
+- Prev/next entre pages généré par Hugo (`nav-pages-flat.html` + `page-header.html`) :
+  liens `<a href>` natifs (fonctionnent sans JS). `scripts.js` intercepte uniquement
+  le clic pour poser le flag des transitions fluides.
+- Sur la page d'accueil : lien `<a data-page-nav="next" hidden>` dans `index.html`
+  pour la navigation clavier (ArrowRight).
+- Les fichiers dans `content/` avec `build.render: never` doivent aussi avoir
+  `build.list: never` pour ne pas polluer la liste des pages.
 
 ### Thème Hugo
 - Thème actif : `kara` (déclaré dans `config/_default/config.yaml` : `theme: kara`)
