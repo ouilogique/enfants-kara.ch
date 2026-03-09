@@ -44,4 +44,7 @@ for i, entry in enumerate(builds):
     subprocess.Popen(["open", url])
 
 print("\nCtrl+C pour arrêter\n")
-threading.Event().wait()
+try:
+    threading.Event().wait()
+except KeyboardInterrupt:
+    pass
