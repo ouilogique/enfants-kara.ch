@@ -1,12 +1,12 @@
 ---
 date: 2026-03-09
-title: "Le Foyer Ste&#8209;Marguerite"
-url: "/accueil/le-foyer-ste-marguerite/"
-linkTitle: "Le Foyer Ste&#8209;Marguerite"
+title: "Le Foyer Ste‑Marguerite"
+url: "/accueil/le-foyer-Ste‑Marguerite/"
+linkTitle: "Le Foyer Ste‑Marguerite"
 draft: false
 aliases:
-  - "/accueil/le-foyer-ste-marguerite/index.html"
-description: "Historique du soutien d'Enfants-Kara au Foyer Ste-Marguerite depuis 2001, géré par l'ODPE, et évolution vers l'aide à la formation professionnelle."
+  - "/accueil/le-foyer-Ste‑Marguerite/index.html"
+description: "Historique du soutien d'Enfants-Kara au Foyer Ste‑Marguerite depuis 2001, géré par l'ODPE, et évolution vers l'aide à la formation professionnelle."
 ---
 
 Initialement géré par une ONG (Organisation Non Gouvernementale), l'Organisation pour le Développement par la Promotion de l'Enfance, ou ODPE fondée par des Togolais qui cotisent en fonction de leurs moyens, le foyer a commencé son action, mais l'argent a vite manqué. L’association Enfants-Kara a donc vu le jour en Suisse le 31 octobre 2001 pour compléter le budget de fonctionnement de l'institution.

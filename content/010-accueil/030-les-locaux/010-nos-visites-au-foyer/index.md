@@ -1,12 +1,12 @@
 ---
 date: 2026-03-09
-title: "Foyer Ste Marguerite (juillet 2015)"
+title: "Foyer Ste‑Marguerite (juillet 2015)"
 url: "/accueil/les-locaux/nos-visites-au-foyer/"
 linkTitle: "Nos visites au foyer"
 draft: false
 aliases:
   - "/accueil/les-locaux/nos-visites-au-foyer/index.html"
-description: "Photos du Foyer Ste-Marguerite prises lors de visites entre 2009 et 2015, montrant l'évolution des locaux et la vie quotidienne."
+description: "Photos du Foyer Ste‑Marguerite prises lors de visites entre 2009 et 2015, montrant l'évolution des locaux et la vie quotidienne."
 ---
 
 - ![Enfants et jeunes dans une salle de classe](images/i015046d16437b8cf-9e77b3bac3.jpg)
@@ -14,7 +14,7 @@ description: "Photos du Foyer Ste-Marguerite prises lors de visites entre 2009 e
 - ![Discussion pendant la visite](images/i1f0f44ff1de482ec-a2e6c2daab.jpg)
 - ![Accueil avec les enfants dans la cour](images/i6ed5dd7486f7fd53-a9a6deab4d.jpg)
 
-# Foyer Ste Marguerite (juillet 2013)
+# Foyer Ste‑Marguerite (juillet 2013)
 
 - ![Groupe d’enfants devant le bâtiment](images/i2db3741661350092-08ed93f4a3.jpg)
 - ![Enfants en cercle devant le foyer](images/i5d80fa0905ab4108-1a1230f9f6.jpg)
@@ -22,7 +22,7 @@ description: "Photos du Foyer Ste-Marguerite prises lors de visites entre 2009 e
 - ![Danse d’accueil au foyer](images/i07661b25f9c45cab-52513fc338.jpg)
 - ![Accueil au foyer](images/i49c96363d7fd1869-6c3d8e5f0f.jpg)
 
-# Foyer Ste&#8209;Marguerite et les achats au marché à Kara (avril 2012)
+# Foyer Ste‑Marguerite et les achats au marché à Kara (avril 2012)
 
 - ![Stand de marché coloré](images/ic78458af24d0e509-142a38b50f.jpg)
 - ![Bénévoles sur un stand du marché](images/i13535d95a9a9d02a-620e6cf6b2.jpg)
@@ -47,7 +47,7 @@ description: "Photos du Foyer Ste-Marguerite prises lors de visites entre 2009 e
 - ![Groupe devant le bâtiment et le bois](images/ice1618c1ef32451f-20506c24cd.jpg)
 - ![Enfants dans la cour](images/i7fa62f7663c65fe9-88db6f2fbc.jpg)
 
-# Foyer Ste&#8209;Marguerite (janvier 2009)
+# Foyer Ste‑Marguerite (janvier 2009)
 
 - ![Visiteur regardant la cour](images/i0f70d502ef81a3b3-d97eb3171b.jpg)
 - ![Visite dans le jardin du foyer](images/i65d40a8de5f8869b-a46fc74b29.jpg)
@@ -79,7 +79,7 @@ description: "Photos du Foyer Ste-Marguerite prises lors de visites entre 2009 e
 - ![Accueil d’enfants dans la cour](images/i3377713e852edecb-f95f53980e.jpg)
 - ![Enfants assis devant un bâtiment](images/i62816221504caf35-a84570ce52.jpg)
 
-# Foyer Ste&#8209;Marguerite (janvier 2008)
+# Foyer Ste‑Marguerite (janvier 2008)
 
 - ![Arbre en fleurs dans la cour](images/iba9e9b2a3b34d651-c454b3ae80.jpg)
 - ![Réunion du comité autour d’une table](images/i8b5d747260d1e1a2-4dda0b7757.jpg)

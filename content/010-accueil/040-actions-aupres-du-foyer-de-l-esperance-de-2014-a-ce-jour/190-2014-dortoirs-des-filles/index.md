@@ -19,7 +19,7 @@ Constructions achevées en août 2014:
 - 2 "douches garçons"
 - 2 "latrines garçons"
 
-La progression des travaux a été suivi par M. Kilim BINI, précédemment notre représentant au foyer Ste Marguerite. Il nous en a fait le rapport d'avancement toutes les 2 semaines. Une inauguration solennelle a eu lieu en août 2014 en présence de notables locaux.
+La progression des travaux a été suivi par M. Kilim BINI, précédemment notre représentant au foyer Ste‑Marguerite. Il nous en a fait le rapport d'avancement toutes les 2 semaines. Une inauguration solennelle a eu lieu en août 2014 en présence de notables locaux.
 
 ![Les nouveaux dortoirs (10 chambres doubles)](images/i2e95ff53b9727535-afc408ef78.jpg)
 
