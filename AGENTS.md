@@ -23,7 +23,7 @@ config/
   _default/config.yaml     — config de base (langue, titre, params globaux)
   dev-local/config.yaml    — dev local (sans baseURL)
   dev-github/config.yaml   — demo GitHub Pages
-  production/config.yaml   — production enfants-kara.ch
+  prod-github/config.yaml  — production enfants-kara.ch
 content/                   — contenu Markdown (50 fichiers)
 themes/kara/               — thème actif (voir section Thème ci-dessous)
 static/
@@ -91,7 +91,7 @@ scripts/
 ### Environnements de build
 - `dev-local` : `hugo server --environment dev-local` (IP auto, port 1313, QR code via `scripts/hugo_preview.sh`)
 - `dev-github` : baseURL GitHub Pages (CI auto sur push `hugo`)
-- `production` : baseURL `https://enfants-kara.ch/` (détection via `static/CNAME`)
+- `prod-github` : baseURL `https://enfants-kara.ch/` (détection via `static/CNAME`)
 - Minification activée en CI (`hugo --gc --minify`).
 
 ### Robots.txt
