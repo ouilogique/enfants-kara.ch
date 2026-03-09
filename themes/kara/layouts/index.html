@@ -1,4 +1,6 @@
 {{ define "main" }}
+  {{- $nextPage := index (partial "nav-pages-flat.html" (sort site.Home.Pages "File.Path")) 0 -}}
+  {{ if $nextPage }}<a data-page-nav="next" href="{{ $nextPage.RelPermalink }}" hidden></a>{{ end }}
   <section class="page home">
     <header class="home-hero">
       <img
