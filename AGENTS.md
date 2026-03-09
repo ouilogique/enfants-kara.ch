@@ -141,5 +141,6 @@ Cinq thèmes Hugo testés comme alternatives au thème `kara`. Conclusion : aucu
 
 ---
 
-## Règle générale
-Avant toute opération importante ou ambiguë, indiquer brièvement si la consigne peut être optimisée ou resserrée.
+## Règles générales
+- Avant toute opération importante ou ambiguë, indiquer brièvement si la consigne peut être optimisée ou resserrée.
+- **Ne jamais créer un commit sans validation explicite de l'utilisateur.** Préparer le travail, puis demander confirmation avant de committer.
