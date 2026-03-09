@@ -24,16 +24,16 @@
   {{ with .Params.description }}<p class="dek">{{ . }}</p>{{ end }}
   <nav class="page-nav" aria-label="Navigation entre pages">
     {{ if $prevPage }}
-    <button class="page-nav-link is-prev" data-page-nav="prev" data-href="{{ $prevPage.RelPermalink }}" type="button">
+    <a class="page-nav-link is-prev" data-page-nav="prev" href="{{ $prevPage.RelPermalink }}">
       <span class="page-nav-kicker">Page précédente</span>
       <span class="page-nav-title">{{ $prevPage.LinkTitle | safeHTML }}</span>
-    </button>
+    </a>
     {{ end }}
     {{ if $nextPage }}
-    <button class="page-nav-link is-next" data-page-nav="next" data-href="{{ $nextPage.RelPermalink }}" type="button">
+    <a class="page-nav-link is-next" data-page-nav="next" href="{{ $nextPage.RelPermalink }}">
       <span class="page-nav-kicker">Page suivante</span>
       <span class="page-nav-title">{{ $nextPage.LinkTitle | safeHTML }}</span>
-    </button>
+    </a>
     {{ end }}
   </nav>
 </header>

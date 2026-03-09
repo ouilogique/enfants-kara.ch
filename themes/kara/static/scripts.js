@@ -219,12 +219,13 @@ function smoothScrollToTop() {
 }
 
 function setupPageNavigation() {
-    document.querySelectorAll('.page-nav-link[data-href]').forEach((btn) => {
-        btn.addEventListener('click', () => {
+    document.querySelectorAll('.page-nav-link[href]').forEach((link) => {
+        link.addEventListener('click', (e) => {
             if (isNavigating) return;
+            e.preventDefault();
             isNavigating = true;
             sessionStorage.setItem('ek-nav', '1');
-            window.location.href = btn.dataset.href;
+            window.location.href = link.href;
         });
     });
 }
@@ -262,14 +263,14 @@ document.addEventListener("keydown", (event) => {
         sessionStorage.setItem('ek-nav', '1');
         window.location.href = getHomeHref();
     } else if (event.key === "ArrowLeft") {
-        const prevHref = document.querySelector('[data-page-nav="prev"]')?.dataset.href;
+        const prevHref = document.querySelector('[data-page-nav="prev"]')?.href;
         if (!prevHref) return;
         event.preventDefault();
         isNavigating = true;
         sessionStorage.setItem('ek-nav', '1');
         window.location.href = prevHref;
     } else if (event.key === "ArrowRight") {
-        const nextHref = document.querySelector('[data-page-nav="next"]')?.dataset.href;
+        const nextHref = document.querySelector('[data-page-nav="next"]')?.href;
         if (!nextHref) return;
         event.preventDefault();
         isNavigating = true;
