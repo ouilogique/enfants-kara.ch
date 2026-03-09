@@ -383,9 +383,16 @@ body.is-home .sidepane {
     border-radius: 999px;
 }
 
-.tree {
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
     display: grid;
     gap: 0.12rem;
+}
+
+.tree li {
+    display: contents;
 }
 
 .branch {
@@ -433,6 +440,7 @@ body.is-home .sidepane {
 }
 
 .branch-children {
+    list-style: none;
     display: grid;
     gap: 0.08rem;
     margin: 0.08rem 0 0.3rem 1.05rem;
@@ -611,10 +619,20 @@ body.is-home .page {
     position: relative;
     z-index: 1;
     margin-top: 1.15rem;
+}
+
+.page-nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 0.85rem;
     width: 100%;
+}
+
+.page-nav-list li {
+    display: contents;
 }
 
 .page-nav-link {
@@ -1280,9 +1298,8 @@ body.is-home .listing {
         gap: 0.75rem;
     }
 
-    .page-nav {
+    .page-nav-list {
         grid-template-columns: 1fr;
-        max-width: none;
     }
 
     .page-nav-link,

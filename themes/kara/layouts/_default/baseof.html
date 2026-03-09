@@ -51,17 +51,19 @@
     <div class="app shell">
       <div class="sidepane">
         <a class="brand" href="{{ `` | relURL }}">
-          <span class="brand-mark" aria-hidden="true">
+          <div class="brand-mark" aria-hidden="true">
             <img src="{{ `images/logo-association-enfants-kara.png` | relURL }}" alt="">
-          </span>
-          <span class="brand-copy">
+          </div>
+          <div class="brand-copy">
             <span class="brand-kicker">Association</span>
             <span class="brand-name">{{ site.Title | safeHTML }}</span>
-          </span>
+          </div>
         </a>
         <aside class="sidebar" aria-label="Navigation du site">
         <nav class="tree">
-          {{ partial "nav-tree.html" (dict "nodes" $rootPages "current" .) }}
+          <ul class="nav-list">
+            {{ partial "nav-tree.html" (dict "nodes" $rootPages "current" .) }}
+          </ul>
         </nav>
         </aside>
       </div>

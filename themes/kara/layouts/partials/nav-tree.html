@@ -10,17 +10,17 @@
   {{- end -}}
   {{- if $isSection -}}
     {{- $children := sort .Pages "File.Path" -}}
-    <details class="branch" {{ if $isActive }}open{{ end }}>
+    <li><details class="branch" {{ if $isActive }}open{{ end }}>
       <summary class="branch-summary">
         <a class="branch-link {{ if $isActive }}is-active{{ end }}" href="{{ .RelPermalink }}">{{ .LinkTitle | safeHTML }}</a>
       </summary>
       {{ if gt (len $children) 0 }}
-        <div class="branch-children">
+        <ul class="branch-children">
           {{ partial "nav-tree.html" (dict "nodes" $children "current" $current) }}
-        </div>
+        </ul>
       {{ end }}
-    </details>
+    </details></li>
   {{- else -}}
-    <a class="leaf {{ if $isActive }}is-active{{ end }}" href="{{ .RelPermalink }}">{{ .LinkTitle | safeHTML }}</a>
+    <li><a class="leaf {{ if $isActive }}is-active{{ end }}" href="{{ .RelPermalink }}">{{ .LinkTitle | safeHTML }}</a></li>
   {{- end -}}
 {{- end -}}
