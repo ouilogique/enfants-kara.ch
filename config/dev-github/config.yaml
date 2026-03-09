@@ -1,1 +1,9 @@
 baseURL: "https://nichub.github.io/enfants-kara.ch/"
+
+minify:
+  disableHTML: true
+  disableCSS: true
+  disableJS: true
+  disableJSON: true
+  disableSVG: true
+  disableXML: true
