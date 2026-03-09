@@ -288,6 +288,7 @@ function setupPageNavigation() {
         link.onclick = () => {
             if (isNavigating) return;
             isNavigating = true;
+            sessionStorage.setItem('ek-nav', '1');
             window.location.href = target.href;
         };
         if (title) title.textContent = target.label;
@@ -326,18 +327,21 @@ document.addEventListener("keydown", (event) => {
             return;
         }
         isNavigating = true;
+        sessionStorage.setItem('ek-nav', '1');
         window.location.href = getHomeHref();
     } else if (event.key === "ArrowLeft") {
         const prevHref = getAdjacentNavigationTarget(-1);
         if (!prevHref) return;
         event.preventDefault();
         isNavigating = true;
+        sessionStorage.setItem('ek-nav', '1');
         window.location.href = prevHref;
     } else if (event.key === "ArrowRight") {
         const nextHref = getAdjacentNavigationTarget(1);
         if (!nextHref) return;
         event.preventDefault();
         isNavigating = true;
+        sessionStorage.setItem('ek-nav', '1');
         window.location.href = nextHref;
     }
 });

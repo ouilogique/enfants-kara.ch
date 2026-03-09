@@ -26,6 +26,51 @@
     animation-duration: 0s;
 }
 
+/* Transitions individuelles pour les panneaux */
+.brand       { view-transition-name: panel-brand; }
+.sidebar     { view-transition-name: panel-sidebar; }
+.page-header { view-transition-name: panel-header; }
+.content     { view-transition-name: panel-content; }
+
+/* Pendant une navigation, box-appear est supprimé : c'est la view transition qui anime */
+.no-box-appear .brand,
+.no-box-appear .page-header,
+.no-box-appear .sidebar,
+.no-box-appear .content,
+.no-box-appear .card {
+    animation: none;
+}
+
+/* Brand : identique sur toutes les pages → snap instantané */
+::view-transition-group(panel-brand) {
+    animation-duration: 0s;
+}
+
+/* Sidebar : taille stable, morph rapide */
+::view-transition-old(panel-sidebar),
+::view-transition-new(panel-sidebar) {
+    animation-duration: 160ms;
+}
+
+/* En-tête : taille snap instantané, contenu cross-fade */
+::view-transition-group(panel-header) {
+    animation-duration: 0s;
+}
+::view-transition-old(panel-header) {
+    animation-duration: 180ms;
+}
+::view-transition-new(panel-header) {
+    animation-duration: 300ms;
+}
+
+/* Contenu : variable, cross-fade visible */
+::view-transition-old(panel-content) {
+    animation-duration: 200ms;
+}
+::view-transition-new(panel-content) {
+    animation-duration: 340ms;
+}
+
 @keyframes box-appear {
     from {
         opacity: 0;

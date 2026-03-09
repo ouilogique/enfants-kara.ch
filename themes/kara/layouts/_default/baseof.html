@@ -37,7 +37,8 @@
     {{ else if $sectionImage }}
       <link rel="preload" as="image" href="{{ $sectionImage | relURL }}">
     {{ end }}
-<link rel="stylesheet" href="{{ `style.css` | relURL }}">
+    <script>if(sessionStorage.getItem('ek-nav')){sessionStorage.removeItem('ek-nav');document.documentElement.classList.add('no-box-appear');}</script>
+    <link rel="stylesheet" href="{{ `style.css` | relURL }}">
     <script src="{{ `scripts.js` | relURL }}" defer></script>
   </head>
   <body

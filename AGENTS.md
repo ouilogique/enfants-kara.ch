@@ -94,6 +94,26 @@ scripts/
 - `prod-github` : baseURL `https://enfants-kara.ch/` (détection via `static/CNAME`)
 - Minification activée en CI (`hugo --gc --minify`).
 
+### Transitions de navigation (CSS View Transitions)
+
+La navigation entre pages (flèches clavier, boutons Précédente/Suivante) utilise les CSS View Transitions. Ce mécanisme doit rester intact lors de toute modification du thème.
+
+**Noms des 4 boîtes et leur comportement de transition :**
+| Boîte | Classe CSS | `view-transition-name` | Comportement |
+|---|---|---|---|
+| Logo | `.brand` | `panel-brand` | Snap instantané (identique sur toutes les pages) |
+| Navigation | `.sidebar` | `panel-sidebar` | Morph rapide 160ms |
+| En-tête | `.page-header` | `panel-header` | Taille snap, contenu cross-fade 180→300ms |
+| Contenu | `.content` | `panel-content` | Cross-fade 200→340ms |
+
+**Règle importante :** `box-appear` (animation d'entrée des boîtes) est supprimé pendant la navigation via la classe `no-box-appear` posée sur `<html>` par un script inline dans `<head>` (`baseof.html`). Ce script lit un flag `sessionStorage` (`ek-nav`) posé par `scripts.js` avant chaque navigation.
+
+**À respecter lors de modifications futures :**
+- Tout nouvel élément animé par `box-appear` doit être ajouté à la règle `.no-box-appear` dans `style.css`
+- Tout nouveau chemin de navigation dans `scripts.js` doit poser `sessionStorage.setItem('ek-nav', '1')` avant `window.location.href`
+- Ne pas supprimer les `view-transition-name` des 4 boîtes
+- Ne pas retirer le script inline de `baseof.html`
+
 ### Robots.txt
 - Production : allow all (via `themes/kara/layouts/partials/prod/robots.txt`)
 - Dev : disallow all (via `themes/kara/layouts/partials/dev/robots.txt`)
