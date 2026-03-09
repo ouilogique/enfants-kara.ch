@@ -9,7 +9,7 @@ aliases:
 description: "Cérémonie de remise des diplômes et kits professionnels de la session 2021 au Foyer de l'Espérance, le 20 août 2021."
 ---
 
-## Cérémonie du 20 août 2021
+## Cérémonie du 20 août 2021
 
 - ![](images/i0eb276d10735e09c-58d25cf242.jpg)
 - ![](images/ie26869cf349545c2-19b6d0fc1b.jpg)

@@ -29,14 +29,16 @@ Comment vous le voyez, nous avons besoin de vous. Si vous souhaitez contribuer �
 
 Nos coordonnées bancaires sont les suivantes :
 
-IBAN: CH23 0900 0000 1754 5294 4 La Poste, Suisse
-
-CCP: 17-545294-4 La Poste suisse\
-Enfants-Kara\
-CH-1264 St-Cergue
-
-Suisse
+    IBAN: CH23 0900 0000 1754 5294 4 La Poste, Suisse
+    CCP: 17-545294-4 La Poste suisse
+    Enfants-Kara
+    CH-1264 St-Cergue
+    Suisse
 
 Un grand merci d'avance pour votre contribution.
 
+{{< note >}}
+
 Vous pouvez aussi nous demander l'envoi à votre adresse postale d'un bulletin de versement en utilisant le message électronique qui suit :
+
+{{< /note >}}

@@ -4,7 +4,7 @@
 # Usage:
 # bash scripts/hugo_preview.sh
 #
-# Windows Installation
+# Windows Installation
 # winget install Hugo.Hugo.Extended
 # winget install -e --id PedroAlbanese.QREncode
 ##

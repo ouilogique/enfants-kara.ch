@@ -7,7 +7,10 @@ draft: false
 bgImage: "images/tobie-eniafe-7EZfQdvDAl8-unsplash.jpg"
 aliases:
   - "/enfants-kara-togo-ekt/index.html"
-description: "Enfants-Kara Togo (EKT), section togolaise de l'association : comité local, statuts et assemblées générales."
+description: "Enfants-Kara Togo (EKT), section togolaise de l’association : comité local, statuts et assemblées générales."
 ---
 
-Cette section regroupe les pages institutionnelles d'Enfants-Kara Togo.
+## Procès-verbal de l’Assemblée Générale Constitutive de l’association « Enfants Kara – Togo » tenue à Lomé, le 1er août 2019
+
+-   ![Procès-verbal du 1er août 2019, page 1](images/2019-08-01-pv-001.jpg)
+-   ![Procès-verbal du 1er août 2019, page 2](images/2019-08-01-pv-002.jpg)
