@@ -101,5 +101,25 @@ scripts/
 
 ---
 
+## Tests de thèmes alternatifs (mars 2026)
+
+Cinq thèmes Hugo testés comme alternatives au thème `kara`. Conclusion : aucun ne convient — tous nécessitent trop d'adaptation pour le contenu et la structure de ce site.
+
+| Thème | Navigation | Notes |
+|---|---|---|
+| **PaperMod** | `menu.main` ✓ | Blog-centré, peu adapté à une asso |
+| **Congo** | `menu.main` ✓ | Riche mais complexe, `.Author` cassé sur Hugo 0.157+ |
+| **Anatole** | `menu.main` ✓ | Requiert Dart Sass, look blog |
+| **Hugo Book** | Arborescence fichiers | Nécessite `BookSection: "/"`, look documentation |
+| **Ananke** | `menu.main` ✓ | Générique, peu adapté |
+
+### Conventions établies lors des tests
+- `config/_default/menus.yaml` — navigation portable via `menu.main` (5 sections principales)
+- `scripts/compare_themes.py` — sert tous les builds en parallèle (un port par thème à partir de 8080), option `--build` pour rebuilder depuis chaque branche
+- Shortcodes (`note`, `document-card`) et renderers (`_markup/`) doivent être à la racine `layouts/` pour être disponibles hors thème `kara`
+- `config/compare/config.yaml` — environnement local avec `relativeURLs: true` pour servir sans serveur web
+
+---
+
 ## Règle générale
 Avant toute opération importante ou ambiguë, indiquer brièvement si la consigne peut être optimisée ou resserrée.
