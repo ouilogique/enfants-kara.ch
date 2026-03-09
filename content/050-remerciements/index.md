@@ -16,7 +16,7 @@ description: "Remerciements aux photographes et à toutes les personnes qui sout
 
 ## Photos
 
-Les images de fond de ce site proviennent d'[Unsplash](https://unsplash.com/fr) et sont publiées sous licence libre :
+Les images de fond de ce site proviennent d'[Unsplash](https://unsplash.com/fr) et sont publiées sous licence libre :
 
 - [Bill Wegener](https://unsplash.com/fr/@wegenerb) — [enfants dans une fenêtre](https://unsplash.com/fr/photos/un-groupe-de-jeunes-enfants-debout-dans-une-fenetre-7MD4DR9jbP0)
 - [Bill Wegener](https://unsplash.com/fr/@wegenerb) — [garçon assis](https://unsplash.com/fr/photos/garcon-en-chemise-rouge-a-manches-longues-assis-sur-une-chaise-hs98_9hzTcU)
