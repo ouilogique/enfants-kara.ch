@@ -23,3 +23,7 @@ Les images de fond de ce site proviennent d'[Unsplash](https://unsplash.com/fr) 
 - [Tobie Eniafe](https://unsplash.com/fr/@tobie_eniafe) — [enfants en classe](https://unsplash.com/fr/photos/enfants-a-linterieur-de-la-chambre-ecoutant-une-nonne-sur-un-tableau-blanc-pendant-la-journee-7EZfQdvDAl8)
 - [Stijn Kleerebezem](https://unsplash.com/fr/@stijnkleerebezem) — [garçon écrivant](https://unsplash.com/fr/photos/garcon-ecrivant-sur-le-bloc-notes-bsk8f6BVSHc)
 - [Felicia Montenegro](https://unsplash.com/fr/@feliciamontenegro) — [enfants à table](https://unsplash.com/fr/photos/un-groupe-de-jeunes-enfants-assis-a-une-table-EEbLJlfCnSI)
+
+<footer class="update-note">
+  <p>Date de dernière mise à jour : {{< update-date format="02.01.2006 15:04:05 MST" >}}</p>
+</footer>
