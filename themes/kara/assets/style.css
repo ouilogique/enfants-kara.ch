@@ -3,8 +3,7 @@
     --bg-deep: #e4c7aa;
     --panel-padding: 2.55rem;
     --font-serif: "Georgia", serif;
-    --paper: #fffaf4;
-    --paper-strong: #fffaf4;
+    --paper: rgba(255, 248, 240, 0.8);
     --ink: #2d1f18;
     --muted: #70594c;
     --line: rgba(120, 81, 59, 0.18);
@@ -21,7 +20,7 @@
     --hero-bg: #24150f;
     --hero-overlay: linear-gradient(180deg, rgba(22, 10, 6, 0.1) 0%, rgba(22, 10, 6, 0.85) 100%);
     /* Page header */
-    --header-gradient: linear-gradient(135deg, #8c3f1e, #b5562d 52%, #d9874a 100%);
+    --header-gradient: linear-gradient(135deg, rgba(140, 63, 30, 0.84), rgba(181, 86, 45, 0.8) 52%, rgba(217, 135, 74, 0.74) 100%);
     /* Bouton CTA */
     --btn-gradient: linear-gradient(180deg, #c86e42 0%, #a34a26 100%);
     --btn-gradient-hover: linear-gradient(180deg, #d4794c 0%, #b0542e 100%);
@@ -1034,6 +1033,17 @@ body.is-home .listing {
 .lightbox-nav:focus-visible {
     background: var(--glass-bg-hover);
     outline: none;
+}
+
+@media (min-width: 901px) {
+    .brand,
+    .sidebar,
+    .page-header,
+    .content,
+    .card {
+        -webkit-backdrop-filter: blur(12px);
+        backdrop-filter: blur(12px);
+    }
 }
 
 @media (max-width: 900px) {
