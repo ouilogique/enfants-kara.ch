@@ -1121,6 +1121,19 @@ body.is-home .listing {
         gap: 0.75rem;
     }
 
+    .content table {
+        display: block;
+        max-width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        white-space: nowrap;
+    }
+
+    .content th,
+    .content td {
+        min-width: 7rem;
+    }
+
     .page-nav-list {
         grid-template-columns: 1fr;
     }
