@@ -15,25 +15,27 @@
     --olive: #6f7250;
     --shadow: 0 12px 30px rgba(91, 54, 33, 0.08);
     --shadow-soft: 0 12px 30px rgba(91, 54, 33, 0.08);
-
     /* Texte sur fonds sombres/colorés (page-header, hero, lightbox) */
     --on-dark: #fff7f0;
-
     /* Hero */
     --hero-bg: #24150f;
     --hero-overlay: linear-gradient(180deg, rgba(22, 10, 6, 0.1) 0%, rgba(22, 10, 6, 0.85) 100%);
-
     /* Page header */
     --header-gradient: linear-gradient(135deg, #8c3f1e, #b5562d 52%, #d9874a 100%);
-
     /* Bouton CTA */
     --btn-gradient: linear-gradient(180deg, #c86e42 0%, #a34a26 100%);
     --btn-gradient-hover: linear-gradient(180deg, #d4794c 0%, #b0542e 100%);
-
     /* Overlays sombres (lightbox) et boutons sur fond sombre */
     --overlay-bg: rgba(32, 20, 13, 0.9);
     --glass-bg: rgba(255, 248, 240, 0.16);
     --glass-bg-hover: rgba(255, 248, 240, 0.28);
+    --footer-link: rgba(255, 251, 246, 0.5);
+    --footer-link-hover: #fffdf9;
+    --footer-glow-1: rgba(255, 244, 235, 0.96);
+    --footer-glow-2: rgba(255, 244, 235, 0.78);
+    --footer-glow-3: rgba(255, 244, 235, 0.5);
+    --footer-glow-4: rgba(255, 244, 235, 0.28);
+    --footer-glow-5: rgba(255, 244, 235, 0.16);
 }
 
 * {
@@ -352,7 +354,7 @@ body.is-home .sidepane {
     min-width: 3.5rem;
     min-height: 3.5rem;
     padding: 0.6rem;
-    color: var(--muted);
+    color: var(--footer-link);
     text-decoration: none;
     font-size: 3em;
     line-height: 1;
@@ -366,14 +368,19 @@ body.is-home .sidepane {
     width: 1.5em;
     height: 1.5em;
     line-height: 1;
-    font-family: "Times New Roman", serif;
+    font-family: var(--font-serif);
     font-weight: 900;
-    text-shadow: none;
+    text-shadow:
+        0 0 0.9rem var(--footer-glow-1),
+        0 0 1.8rem var(--footer-glow-2),
+        0 0 3.2rem var(--footer-glow-3),
+        0 0 5rem var(--footer-glow-4),
+        0 0 7rem var(--footer-glow-5);
 }
 
 .site-footer a:hover,
 .site-footer a:focus-visible {
-    color: var(--ink);
+    color: var(--footer-link-hover);
     text-decoration: none;
     outline: none;
 }
