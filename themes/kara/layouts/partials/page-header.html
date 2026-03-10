@@ -12,14 +12,19 @@
 
 {{- $prevPage := false -}}
 {{- $nextPage := false -}}
+{{- $lastPage := false -}}
 {{- if gt $currentIndex 0 -}}
   {{- $prevPage = index $allPages (sub $currentIndex 1) -}}
 {{- end -}}
 {{- if and (ge $currentIndex 0) (lt $currentIndex (sub (len $allPages) 1)) -}}
   {{- $nextPage = index $allPages (add $currentIndex 1) -}}
 {{- end -}}
+{{- if and (ge $currentIndex 0) (lt $currentIndex (sub (len $allPages) 1)) -}}
+  {{- $lastPage = index $allPages (sub (len $allPages) 1) -}}
+{{- end -}}
 
 <header class="page-header">
+  {{ if $lastPage }}<a data-page-nav="last" href="{{ $lastPage.RelPermalink }}" hidden></a>{{ end }}
   <h1>{{ .Title | safeHTML }}</h1>
   {{ with .Params.description }}<p class="dek">{{ . }}</p>{{ end }}
   <nav class="page-nav" aria-label="Navigation entre pages">

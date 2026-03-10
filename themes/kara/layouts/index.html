@@ -1,6 +1,9 @@
 {{ define "main" }}
-  {{- $nextPage := index (partial "nav-pages-flat.html" (sort site.Home.Pages "File.Path")) 0 -}}
+  {{- $flatPages := partial "nav-pages-flat.html" (sort site.Home.Pages "File.Path") -}}
+  {{- $nextPage := index $flatPages 0 -}}
+  {{- $lastPage := index $flatPages (sub (len $flatPages) 1) -}}
   {{ if $nextPage }}<a data-page-nav="next" href="{{ $nextPage.RelPermalink }}" hidden></a>{{ end }}
+  {{ if $lastPage }}<a data-page-nav="last" href="{{ $lastPage.RelPermalink }}" hidden></a>{{ end }}
   <section class="page home">
     <header class="home-hero">
       <img

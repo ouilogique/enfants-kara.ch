@@ -252,7 +252,14 @@ document.addEventListener("keydown", (event) => {
     const tag = (event.target.tagName || "").toLowerCase();
     if (tag === "input" || tag === "textarea" || event.target.isContentEditable) return;
 
-    if (event.key === "Escape") {
+    if (event.key === "Escape" && event.shiftKey) {
+        const lastHref = document.querySelector('[data-page-nav="last"]')?.href;
+        if (!lastHref) return;
+        event.preventDefault();
+        isNavigating = true;
+        sessionStorage.setItem('ek-nav', '1');
+        window.location.href = lastHref;
+    } else if (event.key === "Escape") {
         event.preventDefault();
         if (isHomePage()) {
             smoothScrollToTop();
