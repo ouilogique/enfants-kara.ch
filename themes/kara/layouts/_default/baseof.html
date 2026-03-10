@@ -38,8 +38,12 @@
       <link rel="preload" as="image" href="{{ $sectionImage | relURL }}">
     {{ end }}
     <script>if(sessionStorage.getItem('ek-nav')){sessionStorage.removeItem('ek-nav');document.documentElement.classList.add('no-box-appear');}</script>
-    <link rel="stylesheet" href="{{ `style.css` | relURL }}">
-    <script src="{{ `scripts.js` | relURL }}" defer></script>
+    {{ $css := resources.Get "style.css" }}
+    {{ if site.Params.cacheBust }}{{ $css = $css | fingerprint "md5" }}{{ end }}
+    <link rel="stylesheet" href="{{ $css.RelPermalink }}">
+    {{ $js := resources.Get "scripts.js" }}
+    {{ if site.Params.cacheBust }}{{ $js = $js | fingerprint "md5" }}{{ end }}
+    <script src="{{ $js.RelPermalink }}" defer></script>
   </head>
   <body
     class="{{ if .IsHome }}is-home{{ else if .IsSection }}is-section{{ else }}is-page{{ end }}"

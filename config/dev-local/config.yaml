@@ -1,6 +1,9 @@
 # Environnement de développement local (hugo server --environment dev-local)
 # baseURL non définie : hugo server injecte automatiquement l'adresse locale
 
+params:
+  cacheBust: true
+
 minify:
   disableHTML: true
   disableCSS: true

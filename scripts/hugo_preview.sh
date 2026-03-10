@@ -30,6 +30,8 @@ fi
 echo -e "\n\n$FULL_URL\n\n"
 
 hugo server                 \
+    --environment dev-local \
+    --watch                 \
     -D                      \
     --gc                    \
     --disableFastRender     \
