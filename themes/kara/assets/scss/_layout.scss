@@ -1,0 +1,43 @@
+.shell {
+    width: min(76rem, calc(100% - 2rem));
+    margin: 0 auto;
+}
+
+.app {
+    display: grid;
+    grid-template-columns: minmax(17rem, 21rem) minmax(0, 1fr);
+    gap: 1.75rem;
+    padding: 1.4rem 0 3rem;
+    position: relative;
+    z-index: 1;
+}
+
+body.is-home .shell {
+    width: 100%;
+}
+
+body.is-home .app {
+    grid-template-columns: 1fr;
+    gap: 0;
+    padding: 0;
+}
+
+body.is-home .mainpane {
+    width: 100%;
+}
+
+body.is-home .sidepane {
+    display: none;
+}
+
+.sidepane {
+    display: grid;
+    gap: 1rem;
+    align-self: start;
+    position: relative;
+    z-index: 6;
+}
+
+.mainpane {
+    min-width: 0;
+}

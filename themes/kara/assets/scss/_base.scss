@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: auto;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    color: var(--ink);
+    font-family: var(--font-serif);
+    font-size: 1.2rem;
+    line-height: 1.4;
+    background: linear-gradient(180deg, var(--bg-deep) 0%, var(--bg) 100%);
+    position: relative;
+}
+
+.page-background {
+    position: fixed;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+    background:
+        linear-gradient(180deg, rgba(28, 13, 7, 0.28), rgba(28, 13, 7, 0.42)),
+        var(--page-bg-image);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    color: var(--accent-deep);
+    text-decoration-thickness: 0.08em;
+    text-underline-offset: 0.16em;
+}
+
+a:hover {
+    color: var(--accent);
+}
+
+// Personnalisation manuelle du look dans le Markdown.
+.content .text-align-center {
+    text-align: center;
+}
+
+.content .font-weight-bold {
+    font-weight: bold;
+}
+
+.content .font-style-italic {
+    font-style: italic;
+}
+
+.content .font-variant-small-caps {
+    font-variant: small-caps;
+}
+
+.content .text-transform-uppercase {
+    text-transform: uppercase;
+}
+
+.content .font-size-small {
+    font-size: small;
+}
+
+.content .caption {
+    font-variant: small-caps;
+    font-size: small;
+    text-transform: uppercase;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}

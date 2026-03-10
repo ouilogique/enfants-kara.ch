@@ -1,0 +1,173 @@
+.brand,
+.sidebar {
+    padding: 1.25rem;
+    border-radius: 1.6rem;
+    background: var(--panel-bg);
+    border: 1px solid var(--line);
+    box-shadow: var(--shadow);
+}
+
+.sidebar {
+    position: sticky;
+    top: 6.9rem;
+    align-self: start;
+    max-height: calc(100vh - 7.9rem);
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(138, 59, 27, 0.45) rgba(255, 255, 255, 0.22);
+}
+
+.brand {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    align-items: center;
+    gap: 0.75rem;
+    text-decoration: none;
+}
+
+.brand-copy {
+    display: grid;
+    gap: 0.2rem;
+    min-width: 0;
+}
+
+.brand-mark {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 3.4rem;
+    height: 3.4rem;
+    border-radius: 999px;
+    background: transparent;
+    box-shadow: none;
+}
+
+.brand-mark img {
+    width: 2.55rem;
+    height: 2.55rem;
+    margin: 0;
+    box-shadow: none;
+}
+
+.brand-kicker {
+    color: var(--olive);
+    text-transform: uppercase;
+    font-size: 0.72rem;
+    font-weight: 700;
+}
+
+.brand-name {
+    color: var(--ink);
+    font-family: var(--font-serif);
+    font-size: 1.9rem;
+    line-height: 1;
+}
+
+.sidebar::-webkit-scrollbar {
+    width: 0.7rem;
+}
+
+.sidebar::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.18);
+    border-radius: 999px;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, rgba(181, 86, 45, 0.7), rgba(138, 59, 27, 0.55));
+    border: 2px solid rgba(255, 248, 240, 0.75);
+    border-radius: 999px;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 0.12rem;
+}
+
+.tree li {
+    display: contents;
+}
+
+.branch {
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.branch-summary {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+    padding: 0.42rem 0.52rem;
+    border-radius: 0.9rem;
+    cursor: default;
+    transition: background-color 160ms ease, transform 160ms ease;
+}
+
+.branch-summary::-webkit-details-marker {
+    display: none;
+}
+
+.branch-summary::before {
+    content: "▸";
+    font-size: 0.78rem;
+    color: var(--muted);
+    transition: transform 160ms ease, color 160ms ease;
+}
+
+.branch[open] .branch-summary::before {
+    transform: rotate(90deg);
+    color: var(--accent);
+}
+
+.branch-link,
+.leaf {
+    text-decoration: none;
+}
+
+.branch-link {
+    display: block;
+    flex: 1;
+    color: var(--ink);
+    padding: 0.16rem 0;
+}
+
+.branch-children {
+    list-style: none;
+    display: grid;
+    gap: 0.08rem;
+    margin: 0.08rem 0 0.3rem 1.05rem;
+    padding-left: 0.7rem;
+    border-left: 1px solid rgba(111, 114, 80, 0.2);
+}
+
+.branch-children .branch-children {
+    margin-left: 0.8rem;
+}
+
+.leaf {
+    display: block;
+    padding: 0.35rem 0.65rem;
+    border-radius: 0.75rem;
+    color: var(--muted);
+}
+
+.branch-summary:hover,
+.leaf:hover {
+    background: rgba(181, 86, 45, 0.08);
+}
+
+.branch-link.is-active,
+.leaf.is-active {
+    color: var(--accent-deep);
+    font-weight: 700;
+}
+
+.branch-summary:has(.branch-link.is-active),
+.leaf.is-active {
+    background: linear-gradient(180deg, rgba(239, 212, 193, 0.95), rgba(243, 227, 214, 0.9));
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.75);
+}

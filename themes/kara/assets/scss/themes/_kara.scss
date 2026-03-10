@@ -1,0 +1,49 @@
+// Thème Kara — "Terre & Lumière"
+// Pour créer un autre thème : copier ce fichier, modifier les valeurs,
+// puis changer l'@use dans style.scss.
+
+:root {
+    --bg: #f3e4d2;
+    --bg-deep: #e4c7aa;
+    --panel-alpha: 0.8;
+    --panel-padding: 2.55rem;
+    --font-serif: "Georgia", serif;
+    --paper: #fffaf4;
+    --paper-strong: #fffaf4;
+
+    // Fonds des boîtes (semi-transparents, légèrement cuivrés)
+    --panel-bg: linear-gradient(180deg, rgba(255, 250, 244, var(--panel-alpha)), rgba(247, 232, 215, var(--panel-alpha))),
+                linear-gradient(140deg, rgba(255, 255, 255, calc(var(--panel-alpha) * 0.36)), transparent 55%);
+    --content-bg: rgba(255, 248, 240, var(--panel-alpha));
+    --card-bg: linear-gradient(180deg, rgba(255, 251, 247, var(--panel-alpha)), rgba(248, 236, 225, var(--panel-alpha)));
+    --ink: #2d1f18;
+    --muted: #70594c;
+    --line: rgba(120, 81, 59, 0.18);
+    --line-strong: rgba(120, 81, 59, 0.3);
+    --accent: #b5562d;
+    --accent-deep: #8a3b1b;
+    --accent-soft: #efd4c1;
+    --olive: #6f7250;
+    --shadow: 0 12px 30px rgba(91, 54, 33, 0.08);
+    --shadow-soft: 0 12px 30px rgba(91, 54, 33, 0.08);
+
+    // Texte sur fonds sombres/colorés (page-header, hero, lightbox)
+    --on-dark: #fff7f0;
+
+    // Hero
+    --hero-bg: #24150f;
+    --hero-overlay: linear-gradient(180deg, rgba(22, 10, 6, 0.1) 0%, rgba(22, 10, 6, 0.85) 100%);
+
+    // Page header
+    --header-gradient: linear-gradient(135deg, #8c3f1e, #b5562d 52%, #d9874a 100%);
+    --header-bg: linear-gradient(135deg, rgba(140, 63, 30, var(--panel-alpha)), rgba(186, 103, 63, var(--panel-alpha)) 52%, rgba(221, 167, 116, var(--panel-alpha)) 100%);
+
+    // Bouton CTA
+    --btn-gradient: linear-gradient(180deg, #c86e42 0%, #a34a26 100%);
+    --btn-gradient-hover: linear-gradient(180deg, #d4794c 0%, #b0542e 100%);
+
+    // Overlays sombres (lightbox) et boutons sur fond sombre
+    --overlay-bg: rgba(32, 20, 13, 0.9);
+    --glass-bg: rgba(255, 248, 240, 0.16);
+    --glass-bg-hover: rgba(255, 248, 240, 0.28);
+}

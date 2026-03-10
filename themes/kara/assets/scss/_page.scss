@@ -1,0 +1,196 @@
+.site-footer:not(.home-footer) {
+    grid-column: 2;
+    position: relative;
+    z-index: 6;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    padding: 0.4rem 0 0.2rem;
+    font-size: 0.9rem;
+    color: var(--ink);
+}
+
+.site-footer a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 3.5rem;
+    min-height: 3.5rem;
+    padding: 0.6rem;
+    color: var(--muted);
+    text-decoration: none;
+    font-size: 3em;
+    line-height: 1;
+    opacity: 0.94;
+}
+
+.footer-mark {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.5em;
+    height: 1.5em;
+    line-height: 1;
+    font-family: "Times New Roman", serif;
+    font-weight: 900;
+    text-shadow: none;
+}
+
+.site-footer a:hover,
+.site-footer a:focus-visible {
+    color: var(--ink);
+    text-decoration: none;
+    outline: none;
+}
+
+.home-footer {
+    position: absolute;
+    left: 50%;
+    bottom: max(1.1rem, env(safe-area-inset-bottom, 0px));
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+    font-size: 0.9rem;
+    transform: translateX(-50%);
+    color: rgba(255, 248, 240, 0.98);
+}
+
+.home-footer a:hover,
+.home-footer a:focus-visible {
+    color: var(--on-dark);
+}
+
+.page {
+    padding: 0.2rem 0 3rem;
+}
+
+body.is-home .page {
+    padding: 0;
+}
+
+.page.home {
+    position: relative;
+}
+
+.page-header {
+    margin-bottom: 1.35rem;
+    padding: calc(var(--panel-padding) * 0.6) var(--panel-padding) calc(var(--panel-padding) * 1);
+    border-radius: 1.8rem;
+    background: var(--header-bg);
+    color: var(--on-dark);
+    box-shadow: var(--shadow);
+    position: relative;
+    overflow: hidden;
+}
+
+.page-header::after {
+    content: "";
+    position: absolute;
+    inset: auto -2rem -2rem auto;
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(255, 240, 222, 0.34) 0, transparent 68%);
+    pointer-events: none;
+}
+
+.eyebrow,
+.breadcrumb {
+    margin: 0 0 0.45rem;
+    text-transform: uppercase;
+    font-size: 0.76rem;
+    font-weight: 700;
+    color: rgba(255, 244, 235, 0.82);
+}
+
+.breadcrumb a {
+    color: inherit;
+}
+
+.page-header h1 {
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    font-family: var(--font-serif);
+    line-height: 1.02;
+    font-size: clamp(2.5rem, 6vw, 4.9rem);
+    overflow-wrap: anywhere;
+}
+
+.dek {
+    position: relative;
+    z-index: 1;
+    margin: 0.8rem 0 0;
+    max-width: 44rem;
+    font-size: 1.04rem;
+    color: rgba(255, 244, 235, 0.88);
+}
+
+.page-nav {
+    position: relative;
+    z-index: 1;
+    margin-top: 1.15rem;
+}
+
+.page-nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.85rem;
+    width: 100%;
+}
+
+.page-nav-list li {
+    display: contents;
+}
+
+.page-nav-link {
+    appearance: none;
+    user-select: none;
+    display: grid;
+    gap: 0.22rem;
+    width: 100%;
+    min-height: 5rem;
+    padding: 0.95rem 1rem;
+    border-radius: 1.15rem;
+    font: inherit;
+    text-decoration: none;
+    text-align: left;
+    color: var(--on-dark);
+    background: rgba(255, 248, 240, 0.24);
+    border: 1px solid rgba(255, 244, 235, 0.18);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.14);
+    cursor: pointer;
+    transition: transform 180ms ease, background-color 180ms ease, border-color 180ms ease;
+}
+
+.page-nav-link:hover,
+.page-nav-link:focus-visible {
+    transform: translateY(-2px);
+    background: rgba(255, 248, 240, 0.36);
+    border-color: rgba(255, 244, 235, 0.32);
+    color: var(--on-dark);
+    outline: none;
+}
+
+.page-nav-link[hidden] {
+    display: none;
+}
+
+.page-nav-link.is-next {
+    text-align: right;
+}
+
+.page-nav-kicker {
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    color: rgba(255, 244, 235, 0.78);
+}
+
+.page-nav-title {
+    font-family: var(--font-serif);
+    font-size: 1.15rem;
+    line-height: 1.1;
+}

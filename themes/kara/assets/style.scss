@@ -1,0 +1,12 @@
+// Thème Kara — point d'entrée
+// Pour changer de thème : remplacer 'themes/kara' par 'themes/mon-theme'
+
+@use 'scss/themes/kara';
+@use 'scss/base';
+@use 'scss/layout';
+@use 'scss/nav';
+@use 'scss/page';
+@use 'scss/home';
+@use 'scss/content';
+@use 'scss/components';
+@use 'scss/responsive';
