@@ -1,5 +1,5 @@
 ---
-date: 2026-03-09
+date: 2013-04-15T12:00:00+01:00
 title: "Foyer Ste‑Marguerite (juillet 2015)"
 url: "/accueil/les-locaux/nos-visites-au-foyer/"
 linkTitle: "Nos visites au foyer"

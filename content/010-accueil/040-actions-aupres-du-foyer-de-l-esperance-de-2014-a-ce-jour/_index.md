@@ -1,5 +1,5 @@
 ---
-date: 2026-03-09
+date: 2013-04-15T12:00:00+01:00
 title: "Le Foyer de l'Espérance et son Centre de formation"
 url: "/accueil/actions-aupres-du-foyer-de-l-esperance-de-2014-a-ce-jour/"
 linkTitle: "Actions auprès du Foyer de l'Espérance de 2014 à ce jour"

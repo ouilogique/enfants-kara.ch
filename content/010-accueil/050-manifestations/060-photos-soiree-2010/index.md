@@ -1,5 +1,5 @@
 ---
-date: 2026-03-09
+date: 2013-04-15T12:00:00+01:00
 title: "Photos Soirée 2010"
 url: "/accueil/manifestations/photos-soiree-2010/"
 linkTitle: "Photos Soirée 2010"

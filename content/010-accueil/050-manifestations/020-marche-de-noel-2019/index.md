@@ -1,5 +1,5 @@
 ---
-date: 2026-03-09
+date: 2013-04-15T12:00:00+01:00
 title: "Marché de Noël 2019"
 url: "/accueil/manifestations/marche-de-noel-2019/"
 linkTitle: "Marché de Noël 2019"

@@ -1,5 +1,5 @@
 ---
-date: 2026-03-09
+date: 2013-04-15T12:00:00+01:00
 title: "Association Enfants-Kara"
 description: "Association Enfants-Kara — accompagner des enfants et des jeunes au Togo avec un engagement concret, durable et profondément humain."
 aliases:

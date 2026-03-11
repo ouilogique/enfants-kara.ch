@@ -1,5 +1,5 @@
 ---
-date: 2026-03-09
+date: 2013-04-15T12:00:00+01:00
 title: "Repas de soutien 2018"
 url: "/accueil/manifestations/repas-de-soutien-2018/"
 linkTitle: "Repas de soutien 2018"

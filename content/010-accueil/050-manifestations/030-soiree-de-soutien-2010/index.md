@@ -1,5 +1,5 @@
 ---
-date: 2026-03-09
+date: 2013-04-15T12:00:00+01:00
 title: "Soirée de soutien 2010"
 url: "/accueil/manifestations/soiree-de-soutien-2010/"
 linkTitle: "Soirée de soutien 2010"
