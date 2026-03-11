@@ -27,6 +27,9 @@ jobs:
           wget -O "${RUNNER_TEMP}/hugo.deb" "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb"
           sudo dpkg -i "${RUNNER_TEMP}/hugo.deb"
 
+      - name: Install Dart Sass
+        run: sudo snap install dart-sass
+
       - name: Checkout
         uses: actions/checkout@v5
         with:
@@ -50,7 +53,7 @@ jobs:
           HUGO_CACHEDIR: ${{ github.workspace }}/.cache/hugo
           TZ: "Europe/Zurich"
         run: |
-          export HUGO_ENV=$([ -f static/CNAME ] && echo prod-github || echo dev-github)
+          [ -f static/CNAME ] && HUGO_ENV=prod-github || HUGO_ENV=dev-github
           hugo \
             --gc \
             --minify \
