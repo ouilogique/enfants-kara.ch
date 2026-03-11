@@ -33,6 +33,7 @@ static/
 scripts/
   hugo_preview.sh          — serveur de développement local avec QR code
   get_ip_of_default_interface.sh — détection IP multi-plateforme
+  install_dart_sass.sh     — installe Dart Sass officiel sur Linux (x64/arm64/arm)
 .github/workflows/hugo.yaml — CI/CD GitHub Actions → GitHub Pages
 ```
 
@@ -135,6 +136,9 @@ Requiert Hugo Extended ≥ 0.128 (Dart Sass embarqué — pas d'installation sé
 - `dev-github` : baseURL GitHub Pages (CI auto sur push `hugo`)
 - `prod-github` : baseURL `https://enfants-kara.ch/` (détection via `static/CNAME`)
 - Minification activée en CI (`hugo --gc --minify`).
+- Linux/Ubuntu/Raspberry Pi : `scripts/install_dart_sass.sh` installe Dart Sass
+  officiel depuis GitHub Releases dans `/usr/local/lib/dart-sass` et crée
+  `/usr/local/bin/sass`
 
 ### Transitions de navigation (CSS View Transitions)
 
