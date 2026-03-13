@@ -140,6 +140,21 @@ Requiert Hugo Extended ≥ 0.128 (Dart Sass embarqué — pas d'installation sé
   officiel depuis GitHub Releases dans `/usr/local/lib/dart-sass` et crée
   `/usr/local/bin/sass`
 
+### Installation locale Windows (mars 2026)
+- Hugo : installer `Hugo.Hugo.Extended` via `winget`, vérifier avec `hugo version`
+  et exiger `extended` + version récente (site validé avec `v0.157.0`).
+- Si le lien `C:\Users\Nico\AppData\Local\Microsoft\WinGet\Links\hugo.exe` est cassé,
+  utiliser l'exécutable réel sous
+  `C:\Users\Nico\AppData\Local\Microsoft\WinGet\Packages\Hugo.Hugo.Extended_Microsoft.Winget.Source_8wekyb3d8bbwe\hugo.exe`.
+- Dart Sass : l'installation `npm install -g sass` crée des shims (`sass`, `sass.cmd`,
+  `sass.ps1`) mais Hugo peut échouer sous Windows s'il exécute le shim sans extension.
+- Solution validée : installer le binaire natif Dart Sass depuis GitHub Releases dans
+  `C:\Tools\dart-sass`, puis placer ce dossier avant `npm` dans le `PATH`.
+- Vérification : `where.exe sass` doit lister `C:\Tools\dart-sass\sass.bat` avant
+  `C:\Users\Nico\AppData\Roaming\npm\...`
+- Lancement Windows fiable : `scripts/hugo_preview.ps1` ou double-clic sur
+  `scripts/hugo_preview.cmd`
+
 ### Transitions de navigation (CSS View Transitions)
 
 La navigation entre pages (flèches clavier, boutons Précédente/Suivante) utilise les CSS View Transitions. Ce mécanisme doit rester intact lors de toute modification du thème.
