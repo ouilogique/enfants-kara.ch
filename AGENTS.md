@@ -11,7 +11,7 @@ La migration depuis Jimdo est **terminée**. Le projet est en phase de maintenan
 
 - Repo : `/Users/nico/Downloads/us.sitesucker.mac.sitesucker-pro/enfants-kara.ch`
 - Branche principale : `hugo`
-- Démo GitHub Pages : `https://nichub.github.io/enfants-kara.ch/`
+- Démo GitHub Pages : `https://ouilogique.github.io/enfants-kara.ch/`
 - Site officiel : `https://enfants-kara.ch/`
 
 ---

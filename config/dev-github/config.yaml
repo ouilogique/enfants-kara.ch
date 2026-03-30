@@ -1,4 +1,4 @@
-baseURL: "https://nichub.github.io/enfants-kara.ch/"
+baseURL: "https://ouilogique.github.io/enfants-kara.ch/"
 
 minify:
   disableHTML: true
