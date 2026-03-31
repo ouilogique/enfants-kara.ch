@@ -1,13 +1,14 @@
 #!/usr/bin/env bash
 
-###
-# Usage:
-# bash scripts/hugo_preview.sh
-#
-# Windows Installation
-# winget install Hugo.Hugo.Extended
-# winget install -e --id PedroAlbanese.QREncode
+## @file hugo_preview.sh
+## @brief Starts a local Hugo preview server and prints a QR code for the URL.
 ##
+## Usage:
+## `bash scripts/hugo_preview.sh`
+##
+## Windows installation:
+## `winget install Hugo.Hugo.Extended`
+## `winget install -e --id PedroAlbanese.QREncode`
 
 set -euo pipefail
 
@@ -15,7 +16,18 @@ SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 PROJECT_DIR="$(cd "$SCRIPT_DIR/.." && pwd)"
 IP="$(bash "$SCRIPT_DIR/get_ip_of_default_interface.sh")"
 
-rm -rf "$PROJECT_DIR/public"
+# Retry deleting the output directory because macOS Finder can briefly recreate
+# .DS_Store files while the directory is being removed.
+for ((i = 1; i <= 10; i++)); do
+    if rm -rf "$PROJECT_DIR/public"; then
+        break
+    fi
+    sleep 0.1
+done
+
+if [[ -e "$PROJECT_DIR/public" ]]; then
+    echo "Warning: unable to fully delete $PROJECT_DIR/public before starting Hugo."
+fi
 
 PORT="1313"
 BASE_URL="http://$IP"
