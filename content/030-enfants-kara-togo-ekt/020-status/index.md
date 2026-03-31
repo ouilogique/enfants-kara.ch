@@ -11,8 +11,6 @@ description: "Statuts de l'association Enfants-Kara Togo (EKT), section locale e
 
 {{< note >}}
 
-Ceci est un commentaire pour faire une fausse modif de test. 
-
-retest
+Ceci est un commentaire pour faire une fausse modif de test.
 
 {{< /note >}}
