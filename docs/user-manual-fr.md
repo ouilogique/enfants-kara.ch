@@ -84,3 +84,7 @@ powershell -ExecutionPolicy Bypass -File .\scripts\install_dart_sass.ps1
 -   Double clic sur
     -   ___enfants-kara.ch.code-workspace
     -   scripts\hugo_preview.cmd
+-   Dans VScode, modifier le site
+-   Ouvrir les outils Git (Ctrl+Shift+G)
+-   Cliquer sur + à côté de `Changes`
+-   Cliquer sur `Commit` puis sur `Sync Changes`
