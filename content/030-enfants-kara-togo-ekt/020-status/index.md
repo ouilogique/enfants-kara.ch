@@ -9,6 +9,8 @@ aliases:
 description: "Statuts de l'association Enfants-Kara Togo (EKT), section locale en charge des projets sur le terrain."
 ---
 
-<!--
+{{< note >}}
+
 Ceci est un commentaire pour faire une fausse modif de test. 
- -->
+
+{{< /note >}}
