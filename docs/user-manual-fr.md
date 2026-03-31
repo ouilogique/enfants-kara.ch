@@ -34,41 +34,26 @@ https://ouilogique.github.io/enfants-kara.ch/enfants-kara-togo-ekt/status/
 
 ### Installation des outils sur Windows
 
-Dans un navigateur web, ouvrir https://github.com/signup et se connecter à son compte.
-
 Ouvrir PowerShell 5 avec le raccourci `Win+R` puis en tapant `powershell` et `Enter` dans le dialogue qui apparait.
 
 ```
-winget install -e --id Microsoft.PowerShell             --silent --accept-package-agreements --accept-source-agreements;
-winget install -e --id Git.Git                          --silent --accept-package-agreements --accept-source-agreements;
-winget install -e --id GitHub.cli                       --silent --accept-package-agreements --accept-source-agreements;
-winget install -e --id Microsoft.VisualStudioCode       --silent --accept-package-agreements --accept-source-agreements;
-winget install -e --id Hugo.Hugo.Extended               --silent --accept-package-agreements --accept-source-agreements;
-winget install -e --id PedroAlbanese.QREncode           --silent --accept-package-agreements --accept-source-agreements;
+winget install -e --id Microsoft.PowerShell       --scope machine --silent --accept-package-agreements --accept-source-agreements;
+winget install -e --id Git.Git                    --scope machine --silent --accept-package-agreements --accept-source-agreements;
+winget install -e --id Microsoft.VisualStudioCode --scope machine --silent --accept-package-agreements --accept-source-agreements;
+winget install -e --id Hugo.Hugo.Extended         --scope machine --silent --accept-package-agreements --accept-source-agreements;
+winget install -e --id PedroAlbanese.QREncode     --scope machine --silent --accept-package-agreements --accept-source-agreements;
 ```
 
 Fermer la fenêtre PowerShell 5 et ouvrir la nouvelle version PowerShell 7 avec le raccourci `Win+R` puis en tapant `pwsh` et `Enter` dans le dialogue qui apparait.
 
-```
-git config --global user.name "";
-git config --global user.email "";
-gh auth login --hostname github.com --git-protocol https --web
-```
-
-Lors de la demande d’authentification, le programme demande si on on veut utiliser les même credentials dans git et github. Répondre oui. Copier le code à 8 caractères que le programme affiche pour les utiliser pour l’autentification dans le navigateur.
-
-Réponses :
-    ? Authenticate Git with your GitHub credentials? (Y/n) => Y
-    ! First copy your one-time code: 039A-C55C
-    Press Enter to open https://github.com/login/device in your browser...
-
-Vérifier que l’authentification a fonctionné
+Indiquer vos identifiants pour les commandes git :
 
 ```
-gh auth status
+git config --global user.name "Votre nom utilisateur GitHub";
+git config --global user.email "Votre adresse mail sur GitHub";
 ```
 
-Télécharger le dépôt contenant le site web et installer Dart-Sass
+Télécharger le dépôt contenant le site web et installer Dart-Sass :
 
 ```
 cd $env:USERPROFILE\Documents
@@ -76,6 +61,12 @@ git clone https://github.com/ouilogique/enfants-kara.ch.git
 cd .\enfants-kara.ch\
 powershell -ExecutionPolicy Bypass -File .\scripts\install_dart_sass.ps1
 ```
+
+> Important !
+>
+> Avant la première modification du site, ouvrir https://github.com/signup dans un navigateur web et se connecter à son compte GitHub.
+>
+> VSCode utilisera cette connexion pour vous identifier sur GitHub lors de la première synchronisation.
 
 ## Modifier le site
 
