@@ -68,7 +68,7 @@ powershell -ExecutionPolicy Bypass -File .\scripts\install_dart_sass.ps1
 >
 > VSCode utilisera cette connexion pour vous identifier sur GitHub lors de la première synchronisation.
 
-## Modifier le site
+### Modifier le site
 
 -   Ouvrir l’explorateur Windows
 -   Aller dans le répertoire du site
