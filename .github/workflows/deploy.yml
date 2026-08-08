@@ -2,7 +2,7 @@ name: Build and deploy
 
 on:
   push:
-    branches: [main, hugo]
+    branches: [hugo]
   workflow_dispatch:
 
 permissions:
@@ -70,7 +70,12 @@ jobs:
             --cacheDir "${{ runner.temp }}/.cache/hugo"
 
       - name: Check output
-        run: test -f public/index.html
+        run: |
+          test -d public
+          test -f public/index.html
+          if [[ -f static/CNAME ]]; then
+            cmp -s static/CNAME public/CNAME
+          fi
 
       - name: Save Hugo cache
         uses: actions/cache/save@v6
