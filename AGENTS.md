@@ -133,7 +133,7 @@ Requiert Hugo Extended ≥ 0.128 (Dart Sass embarqué — pas d'installation sé
 
 ### Environnements de build
 - `development` : `hugo server` (IP auto, port 1313, QR code via `scripts/preview.sh`)
-- `staging` : baseURL de la démonstration GitHub Pages
+- `staging` : baseURL de la démonstration GitHub Pages, utilisée par le workflow de déploiement
 - `production` : baseURL `https://enfants-kara.ch/` (détection via `static/CNAME`)
 - Minification activée en CI (`hugo --gc --minify`).
 - Linux/Ubuntu/Raspberry Pi : `scripts/install_dart_sass.sh` installe Dart Sass
@@ -142,7 +142,7 @@ Requiert Hugo Extended ≥ 0.128 (Dart Sass embarqué — pas d'installation sé
 
 ### Installation locale Windows (mars 2026)
 - Hugo : installer `Hugo.Hugo.Extended` via `winget`, vérifier avec `hugo version`
-  et exiger `extended` + version récente (site validé avec `v0.157.0`).
+  et exiger `extended` + version récente (site validé avec `v0.164.0`).
 - Si le lien `C:\Users\Nico\AppData\Local\Microsoft\WinGet\Links\hugo.exe` est cassé,
   utiliser l'exécutable réel sous
   `C:\Users\Nico\AppData\Local\Microsoft\WinGet\Packages\Hugo.Hugo.Extended_Microsoft.Winget.Source_8wekyb3d8bbwe\hugo.exe`.
