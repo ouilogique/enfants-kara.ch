@@ -120,7 +120,6 @@ Write-Host ""
 $hugo = Get-HugoExecutable
 
 & $hugo server `
-    --environment dev-local `
     --watch `
     -D `
     --gc `

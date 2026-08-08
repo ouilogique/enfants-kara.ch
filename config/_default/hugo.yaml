@@ -1,6 +1,6 @@
 theme: kara
 timeZone: "Europe/Zurich"
-languageCode: "fr-CH"
+locale: "fr-CH"
 title: "Enfants-Kara"
 defaultContentLanguage: "fr"
 enableRobotsTXT: true

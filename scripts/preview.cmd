@@ -2,7 +2,7 @@
 setlocal
 
 set "SCRIPT_DIR=%~dp0"
-set "SCRIPT=%SCRIPT_DIR%hugo_preview.ps1"
+set "SCRIPT=%SCRIPT_DIR%preview.ps1"
 set "POWERSHELL_7=%ProgramFiles%\PowerShell\7\pwsh.exe"
 
 if not exist "%SCRIPT%" (

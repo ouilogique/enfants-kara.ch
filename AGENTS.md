@@ -20,10 +20,10 @@ La migration depuis Jimdo est **terminée**. Le projet est en phase de maintenan
 
 ```
 config/
-  _default/config.yaml     — config de base (langue, titre, params globaux)
-  dev-local/config.yaml    — dev local (sans baseURL)
-  dev-github/config.yaml   — demo GitHub Pages
-  prod-github/config.yaml  — production enfants-kara.ch
+  _default/hugo.yaml       — config de base (langue, titre, params globaux)
+  development/hugo.yaml    — développement local (sans baseURL)
+  staging/hugo.yaml        — démo GitHub Pages
+  production/hugo.yaml     — production enfants-kara.ch
 content/                   — contenu Markdown (50 fichiers)
 themes/kara/               — thème actif (voir section Thème ci-dessous)
 static/
@@ -31,10 +31,10 @@ static/
   documents/               — fichiers téléchargeables (PDF PV AG)
   favicon.svg              — favicon (identité de l'asso, indépendant du thème)
 scripts/
-  hugo_preview.sh          — serveur de développement local avec QR code
+  preview.sh               — serveur de développement local avec QR code
   get_ip_of_default_interface.sh — détection IP multi-plateforme
   install_dart_sass.sh     — installe Dart Sass officiel sur Linux (x64/arm64/arm)
-.github/workflows/hugo.yaml — CI/CD GitHub Actions → GitHub Pages
+.github/workflows/deploy.yml — CI/CD GitHub Actions → GitHub Pages
 ```
 
 ---
@@ -73,8 +73,8 @@ scripts/
   `build.list: never` pour ne pas polluer la liste des pages.
 
 ### Thème Hugo
-- Thème actif : `kara` (déclaré dans `config/_default/config.yaml` : `theme: kara`)
-- Structure : `themes/kara/layouts/`, `themes/kara/assets/` (SCSS + JS), `themes/kara/theme.toml`
+- Thème actif : `kara` (déclaré dans `config/_default/hugo.yaml` : `theme: kara`)
+- Structure : `themes/kara/layouts/`, `themes/kara/assets/` (SCSS + JS), `themes/kara/hugo.toml`
 - Les layouts (`_default/`, `_markup/`, `partials/`, `shortcodes/`) sont **dans le thème**, pas à la racine.
 - **Pour créer une variante de thème** : copier `themes/kara/assets/scss/themes/_kara.scss` sous un nouveau nom,
   modifier les tokens CSS, puis changer la première ligne de `style.scss` :
@@ -132,9 +132,9 @@ Requiert Hugo Extended ≥ 0.128 (Dart Sass embarqué — pas d'installation sé
 - `{{< note >}}...{{< /note >}}` — commentaire invisible dans le contenu.
 
 ### Environnements de build
-- `dev-local` : `hugo server --environment dev-local` (IP auto, port 1313, QR code via `scripts/hugo_preview.sh`)
-- `dev-github` : baseURL GitHub Pages (CI auto sur push `hugo`)
-- `prod-github` : baseURL `https://enfants-kara.ch/` (détection via `static/CNAME`)
+- `development` : `hugo server` (IP auto, port 1313, QR code via `scripts/preview.sh`)
+- `staging` : baseURL de la démonstration GitHub Pages
+- `production` : baseURL `https://enfants-kara.ch/` (détection via `static/CNAME`)
 - Minification activée en CI (`hugo --gc --minify`).
 - Linux/Ubuntu/Raspberry Pi : `scripts/install_dart_sass.sh` installe Dart Sass
   officiel depuis GitHub Releases dans `/usr/local/lib/dart-sass` et crée
@@ -152,8 +152,8 @@ Requiert Hugo Extended ≥ 0.128 (Dart Sass embarqué — pas d'installation sé
   `C:\Tools\dart-sass`, puis placer ce dossier avant `npm` dans le `PATH`.
 - Vérification : `where.exe sass` doit lister `C:\Tools\dart-sass\sass.bat` avant
   `C:\Users\Nico\AppData\Roaming\npm\...`
-- Lancement Windows fiable : `scripts/hugo_preview.ps1` ou double-clic sur
-  `scripts/hugo_preview.cmd`
+- Lancement Windows fiable : `scripts/preview.ps1` ou double-clic sur
+  `scripts/preview.cmd`
 
 ### Transitions de navigation (CSS View Transitions)
 
@@ -205,4 +205,3 @@ Cinq thèmes Hugo testés comme alternatives au thème `kara`. Conclusion : aucu
 ## Règles générales
 - Avant toute opération importante ou ambiguë, indiquer brièvement si la consigne peut être optimisée ou resserrée.
 - **Ne jamais créer un commit sans validation explicite de l'utilisateur.** Préparer le travail, puis demander confirmation avant de committer.
-

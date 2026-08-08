@@ -5,4 +5,12 @@
 
 -   Site officiel
     https://enfants-kara.ch/
+
+## Développement local
+
+```bash
+bash ./scripts/preview.sh
+```
+
+La configuration commune se trouve dans `config/_default/`, les variantes dans `config/development/` et `config/production/`, et le thème dans `themes/kara/`. L’environnement facultatif `staging` cible la démonstration GitHub Pages.
     

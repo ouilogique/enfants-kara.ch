@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
-## @file hugo_preview.sh
+## @file preview.sh
 ## @brief Starts a local Hugo preview server and prints a QR code for the URL.
 ##
 ## Usage:
-## `bash scripts/hugo_preview.sh`
+## `bash scripts/preview.sh`
 ##
 ## Windows installation:
 ## `winget install Hugo.Hugo.Extended`
@@ -42,7 +42,6 @@ fi
 echo -e "\n\n$FULL_URL\n\n"
 
 hugo server                 \
-    --environment dev-local \
     --watch                 \
     -D                      \
     --gc                    \
