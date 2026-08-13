@@ -1,38 +1,15 @@
 #!/usr/bin/env bash
 
-###
-#
-# Starts the Hugo development server on the local network.
-# Displays its address and its QR code if qrencode is available.
-#
-# # USAGE
-#   bash scripts/preview.sh [--openBrowser]
-#
-# # OPTIONS
-#   --openBrowser  Opens the preview in the default browser.
-#
-# # DEPENDENCIES
-#   Hugo
-#   qrencode
-#
-# # INSTALLATION — macOS
-#   brew install hugo qrencode
-#
-# # INSTALLATION — UBUNTU
-#   sudo apt install hugo qrencode
-#
-# # INSTALLATION — WINDOWS
-#   winget install Hugo.Hugo.Extended
-#   winget install -e --id PedroAlbanese.QREncode
-#
-##
-
 set -euo pipefail
 
 OPEN_BROWSER=false
+BUILD_DRAFTS=false
 
 while (($# > 0)); do
     case "$1" in
+        --drafts)
+            BUILD_DRAFTS=true
+            ;;
         --openBrowser)
             OPEN_BROWSER=true
             ;;
@@ -52,8 +29,6 @@ PORT="1313"
 BASE_URL="http://$IP"
 FULL_URL="$BASE_URL:$PORT"
 
-# Retry because macOS Finder can briefly recreate .DS_Store files while the
-# generated directory is being removed.
 for ((i = 1; i <= 10; i++)); do
     if rm -rf "$HUGO_DIR"; then
         break
@@ -75,16 +50,14 @@ printf '\n\n%s\n\n\n' "$FULL_URL"
 
 OPTIONS=(
     --watch
-    --gc  #  Run some cleanup tasks after the build.
-    --buildDrafts
+    --gc
+    "--buildDrafts=$BUILD_DRAFTS"
     --disableFastRender
     --baseURL "$BASE_URL"
     --bind "$IP"
     --port "$PORT"
+    "--openBrowser=$OPEN_BROWSER"
 )
 
-if [[ "$OPEN_BROWSER" == true ]]; then
-    OPTIONS+=(--openBrowser)
-fi
-
+cd "$PROJECT_DIR"
 hugo server "${OPTIONS[@]}"
