@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       DART_SASS_VERSION: 1.101.0
-      HUGO_VERSION: 0.164.0
+      HUGO_VERSION: 0.165.0
       TZ: Europe/Zurich
     steps:
       - name: Checkout
@@ -65,16 +65,15 @@ jobs:
         run: |
           hugo build --environment staging \
             --gc \
-            --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/" \
             --cacheDir "${{ runner.temp }}/.cache/hugo"
 
       - name: Check output
         run: |
-          test -d public
-          test -f public/index.html
+          test -d .hugo/public
+          test -f .hugo/public/index.html
           if [[ -f static/CNAME ]]; then
-            cmp -s static/CNAME public/CNAME
+            cmp -s static/CNAME .hugo/public/CNAME
           fi
 
       - name: Save Hugo cache
@@ -87,7 +86,7 @@ jobs:
         uses: actions/upload-pages-artifact@v5
         with:
           include-hidden-files: false
-          path: ./public
+          path: ./.hugo/public
 
   deploy:
     runs-on: ubuntu-latest

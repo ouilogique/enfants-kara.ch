@@ -59,7 +59,7 @@ Télécharger le dépôt contenant le site web et installer Dart-Sass :
 cd $env:USERPROFILE\Documents
 git clone https://github.com/ouilogique/enfants-kara.ch.git
 cd .\enfants-kara.ch\
-powershell -ExecutionPolicy Bypass -File .\scripts\install_dart_sass.ps1
+powershell -ExecutionPolicy Bypass -File .\scripts\maintenance\install_dart_sass.ps1
 ```
 
 > Important !

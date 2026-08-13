@@ -1,6 +1,6 @@
 # Execution:
-#   powershell -ExecutionPolicy Bypass -File .\scripts\install_dart_sass.ps1
-#   powershell -ExecutionPolicy Bypass -File .\scripts\install_dart_sass.ps1 -Force
+#   powershell -ExecutionPolicy Bypass -File .\scripts\maintenance\install_dart_sass.ps1
+#   powershell -ExecutionPolicy Bypass -File .\scripts\maintenance\install_dart_sass.ps1 -Force
 
 param(
     [string]$InstallRoot = "C:\Tools",

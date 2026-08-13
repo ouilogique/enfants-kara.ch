@@ -1,6 +1,6 @@
 public/
 resources/
+/.hugo/
 .DS_Store
 .hugo_build.lock
 .hugo_preview/
-

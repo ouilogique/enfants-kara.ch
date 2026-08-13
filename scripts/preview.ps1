@@ -96,10 +96,10 @@ $ip = Get-LocalIPv4Address
 $resolvedPort = Get-AvailablePort -BindAddress $ip -PreferredPort ([int]$Port)
 $baseUrl = "http://$ip"
 $fullUrl = "${baseUrl}:$resolvedPort"
-$publicDir = Join-Path $ProjectDir "public"
+$hugoDir = Join-Path $ProjectDir ".hugo"
 
-if (Test-Path $publicDir) {
-    Remove-Item -Recurse -Force $publicDir
+if (Test-Path $hugoDir) {
+    Remove-Item -Recurse -Force $hugoDir
 }
 
 $qrencode = Get-Command qrencode -ErrorAction SilentlyContinue

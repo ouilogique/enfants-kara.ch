@@ -5,8 +5,8 @@
 # Avec --build : rebuilde tous les thèmes (toute branche != hugo) avant de servir.
 #
 # Usage:
-#   python3 scripts/serve-build.py           # sert uniquement
-#   python3 scripts/serve-build.py --build   # rebuilde puis sert
+#   python3 scripts/maintenance/compare_themes.py           # sert uniquement
+#   python3 scripts/maintenance/compare_themes.py --build   # rebuilde puis sert
 ##
 
 import functools
@@ -17,7 +17,7 @@ import threading
 from http.server import HTTPServer, SimpleHTTPRequestHandler
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-PROJECT_DIR = os.path.normpath(os.path.join(SCRIPT_DIR, ".."))
+PROJECT_DIR = os.path.normpath(os.path.join(SCRIPT_DIR, "..", ".."))
 BUILDS_DIR = os.path.join(PROJECT_DIR, "builds")
 
 
@@ -73,7 +73,7 @@ if not os.path.isdir(BUILDS_DIR) or not any(
     e.is_dir() for e in os.scandir(BUILDS_DIR)
 ):
     print("Aucun build trouvé dans builds/")
-    print("Lance d'abord : python3 scripts/serve-build.py --build")
+    print("Lance d'abord : python3 scripts/maintenance/compare_themes.py --build")
     sys.exit(1)
 
 builds = sorted([e for e in os.scandir(BUILDS_DIR) if e.is_dir()], key=lambda e: e.name)
