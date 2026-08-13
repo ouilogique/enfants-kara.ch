@@ -5,8 +5,8 @@
 # @brief Synchronise le dossier `.hugo/public/` vers l’hébergement SFTP avec `rclone`.
 #
 # @details
-# Utilise les variables d'environnement suivantes pour l'authentification :
-# - `FTP_SYNC_USER` : nom d'utilisateur SFTP
+# Utilise les variables d’environnement suivantes pour l’authentification :
+# - `FTP_SYNC_USER` : nom d’utilisateur SFTP
 # - `FTP_SYNC_PASSWORD` : mot de passe SFTP en clair
 #
 # @code{.sh}

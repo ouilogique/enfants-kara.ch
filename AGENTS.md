@@ -2,14 +2,14 @@
 
 ## But du fichier
 
-Mémoire persistante pour les sessions futures. Ne contenir que les conventions, décisions et préférences durables. Mettre à jour à chaque nouvelle instruction persistante de l'utilisateur.
+Mémoire persistante pour les sessions futures. Ne contenir que les conventions, décisions et préférences durables. Mettre à jour à chaque nouvelle instruction persistante de l’utilisateur.
 
 ---
 
 ## Contexte du projet
 
-Site Hugo de l'association Enfants-Kara (aide aux enfants et jeunes au Togo depuis 2001).
-La migration depuis Jimdo est **terminée**. Le projet est en phase de maintenance et d'évolution.
+Site Hugo de l’association Enfants-Kara (aide aux enfants et jeunes au Togo depuis 2001).
+La migration depuis Jimdo est **terminée**. Le projet est en phase de maintenance et d’évolution.
 
 -   Repo : `/Users/nico/Downloads/us.sitesucker.mac.sitesucker-pro/enfants-kara.ch`
 -   Branche principale : `main`
@@ -31,7 +31,7 @@ themes/kara/               — thème actif (voir section Thème ci-dessous)
 static/
   images/                  — images de contenu (fonds Unsplash, logos)
   documents/               — fichiers téléchargeables (PDF PV AG)
-  favicon.svg              — favicon (identité de l'asso, indépendant du thème)
+  favicon.svg              — favicon (identité de l’asso, indépendant du thème)
 scripts/
   preview.sh               — serveur de développement local avec QR code
   get_ip_of_default_interface.sh — détection IP multi-plateforme
@@ -73,7 +73,7 @@ scripts/
 -   Prev/next entre pages généré par Hugo (`nav-pages-flat.html` + `page-header.html`) :
     liens `<a href>` natifs (fonctionnent sans JS). `scripts.js` intercepte uniquement
     le clic pour poser le flag des transitions fluides.
--   Sur la page d'accueil : lien `<a data-page-nav="next" hidden>` dans `index.html`
+-   Sur la page d’accueil : lien `<a data-page-nav="next" hidden>` dans `index.html`
     pour la navigation clavier (ArrowRight).
 -   Les fichiers dans `content/` avec `build.render: never` doivent aussi avoir
     `build.list: never` pour ne pas polluer la liste des pages.
@@ -89,32 +89,32 @@ scripts/
 
 ### Ressources statiques
 
--   Images de contenu : `static/images/` (hors thème — restent lors d'un changement de thème)
+-   Images de contenu : `static/images/` (hors thème — restent lors d’un changement de thème)
 -   Documents téléchargeables : `static/documents/`
 -   JS du thème : `themes/kara/assets/scripts.js`
 -   CSS du thème : compilé depuis `themes/kara/assets/style.scss` via Hugo Pipes (`css.Sass`)
 -   **ne pas modifier `style.css`** (conservé pour référence, non utilisé)
--   Pas d'URL distantes résiduelles dans le contenu livré.
--   Preload uniquement l'image de fond de la section courante (voir `themes/kara/layouts/_default/baseof.html`).
+-   Pas d’URL distantes résiduelles dans le contenu livré.
+-   Preload uniquement l’image de fond de la section courante (voir `themes/kara/layouts/_default/baseof.html`).
 
 ### Style visuel
 
--   Thème "Terre & lumière" : tons sable (`#f3e4d2`), terracotta (`#b5562d`), ivoire, brun doux.
+-   Thème “Terre & lumière” : tons sable (`#f3e4d2`), terracotta (`#b5562d`), ivoire, brun doux.
 -   Police : Georgia serif.
 -   Boîtes semi-transparentes (légèrement cuivrées) : opacité contrôlée par `--panel-alpha: 0.8`.
 -   CSS View Transitions activées pour la navigation.
--   Animations d'apparition en cascade sur les éléments de page.
+-   Animations d’apparition en cascade sur les éléments de page.
 
 ### Architecture SCSS (`themes/kara/assets/`)
 
 ```text
-style.scss                    — point d'entrée (liste les @use)
+style.scss                    — point d’entrée (liste les @use)
 scss/themes/_kara.scss        — tokens CSS du thème (couleurs, alpha, fonds, gradients)
 scss/_base.scss               — reset, body, liens, .page-background
 scss/_layout.scss             — grille principale (.shell, .app, .sidepane, .mainpane)
 scss/_nav.scss                — .brand, .sidebar, arbre de navigation
 scss/_page.scss               — .page-header, .page-nav, footer
-scss/_home.scss               — hero page d'accueil
+scss/_home.scss               — hero page d’accueil
 scss/_content.scss            — zone de contenu éditorial, tableaux, galeries
 scss/_components.scss         — .card, .document-card, .listing, .lightbox
 scss/_responsive.scss         — @media queries
@@ -129,7 +129,7 @@ scss/_responsive.scss         — @media queries
 | `--content-bg`               | Fond `.content`                  |
 | `--card-bg`                  | Fond `.card`                     |
 | `--header-bg`                | Fond `.page-header`              |
-| `--accent` / `--accent-deep` | Couleur d'accentuation           |
+| `--accent` / `--accent-deep` | Couleur d’accentuation           |
 | `--bg` / `--bg-deep`         | Fond de page                     |
 
 **Pipeline Hugo Pipes** dans `baseof.html` :
@@ -138,7 +138,7 @@ scss/_responsive.scss         — @media queries
 {{ $css := resources.Get "style.scss" | css.Sass (dict "transpiler" "dartsass") }}
 ```
 
-Requiert Hugo Extended ≥ 0.128 (Dart Sass embarqué — pas d'installation séparée).
+Requiert Hugo Extended ≥ 0.128 (Dart Sass embarqué — pas d’installation séparée).
 
 ### Shortcodes disponibles
 
@@ -160,10 +160,10 @@ Requiert Hugo Extended ≥ 0.128 (Dart Sass embarqué — pas d'installation sé
 -   Hugo : installer `Hugo.Hugo.Extended` via `winget`, vérifier avec `hugo version`
     et exiger `extended` + version récente (site validé avec `v0.165.0`).
 -   Si le lien `C:\Users\Nico\AppData\Local\Microsoft\WinGet\Links\hugo.exe` est cassé,
-    utiliser l'exécutable réel sous
+    utiliser l’exécutable réel sous
     `C:\Users\Nico\AppData\Local\Microsoft\WinGet\Packages\Hugo.Hugo.Extended_Microsoft.Winget.Source_8wekyb3d8bbwe\hugo.exe`.
--   Dart Sass : l'installation `npm install -g sass` crée des shims (`sass`, `sass.cmd`,
-    `sass.ps1`) mais Hugo peut échouer sous Windows s'il exécute le shim sans extension.
+-   Dart Sass : l’installation `npm install -g sass` crée des shims (`sass`, `sass.cmd`,
+    `sass.ps1`) mais Hugo peut échouer sous Windows s’il exécute le shim sans extension.
 -   Solution validée : installer le binaire natif Dart Sass depuis GitHub Releases dans
     `C:\Tools\dart-sass`, puis placer ce dossier avant `npm` dans le `PATH`.
 -   Vérification : `where.exe sass` doit lister `C:\Tools\dart-sass\sass.bat` avant
@@ -184,7 +184,7 @@ La navigation entre pages (flèches clavier, boutons Précédente/Suivante) util
 | En-tête    | `.page-header` | `panel-header`         | Taille snap, contenu cross-fade 180→300ms        |
 | Contenu    | `.content`     | `panel-content`        | Cross-fade 200→340ms                             |
 
-**Règle importante :** `box-appear` (animation d'entrée des boîtes) est supprimé pendant la navigation via la classe `no-box-appear` posée sur `<html>` par un script inline dans `<head>` (`baseof.html`). Ce script lit un flag `sessionStorage` (`ek-nav`) posé par `scripts.js` avant chaque navigation.
+**Règle importante :** `box-appear` (animation d’entrée des boîtes) est supprimé pendant la navigation via la classe `no-box-appear` posée sur `<html>` par un script inline dans `<head>` (`baseof.html`). Ce script lit un flag `sessionStorage` (`ek-nav`) posé par `scripts.js` avant chaque navigation.
 
 **À respecter lors de modifications futures :**
 
@@ -203,7 +203,7 @@ La navigation entre pages (flèches clavier, boutons Précédente/Suivante) util
 
 ## Tests de thèmes alternatifs (mars 2026)
 
-Cinq thèmes Hugo testés comme alternatives au thème `kara`. Conclusion : aucun ne convient — tous nécessitent trop d'adaptation pour le contenu et la structure de ce site.
+Cinq thèmes Hugo testés comme alternatives au thème `kara`. Conclusion : aucun ne convient — tous nécessitent trop d’adaptation pour le contenu et la structure de ce site.
 
 | Thème         | Navigation            | Notes                                                |
 | ------------- | --------------------- | ---------------------------------------------------- |
@@ -225,4 +225,4 @@ Cinq thèmes Hugo testés comme alternatives au thème `kara`. Conclusion : aucu
 ## Règles générales
 
 -   Avant toute opération importante ou ambiguë, indiquer brièvement si la consigne peut être optimisée ou resserrée.
--   **Ne jamais créer un commit sans validation explicite de l'utilisateur.** Préparer le travail, puis demander confirmation avant de committer.
+-   **Ne jamais créer un commit sans validation explicite de l’utilisateur.** Préparer le travail, puis demander confirmation avant de committer.

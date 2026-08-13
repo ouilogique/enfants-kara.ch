@@ -1,5 +1,5 @@
 # Environnement de développement local (hugo server)
-# baseURL non définie : hugo server injecte automatiquement l'adresse locale
+# baseURL non définie : hugo server injecte automatiquement l’adresse locale
 
 params:
   cacheBust: true
