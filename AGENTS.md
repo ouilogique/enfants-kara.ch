@@ -13,7 +13,7 @@ La migration depuis Jimdo est **terminée**. Le projet est en phase de maintenan
 
 -   Repo : `/Users/nico/Downloads/us.sitesucker.mac.sitesucker-pro/enfants-kara.ch`
 -   Branche principale : `main`
--   Démo GitHub Pages : `https://ouilogique.github.io/enfants-kara.ch/`
+-   Démo VPS : `https://demo.ouilogique.ch/enfants-kara/`
 -   Site officiel : `https://enfants-kara.ch/`
 
 ---
@@ -146,6 +146,11 @@ Requiert Hugo Extended ≥ 0.128 (Dart Sass embarqué — pas d’installation s
 -   `{{< note >}}...{{< /note >}}` — commentaire invisible dans le contenu.
 
 ### Environnements de build
+
+-   Push vers le VPS de démonstration : remote `demo` = `ik_vps1_nico:/srv/ouilogique/demo/enfants-kara/repo.git`.
+    Configurer chaque clone avec `git config --local core.sshCommand "ssh -o RemoteCommand=none"`
+    pour éviter le conflit entre la `RemoteCommand` SSH et la commande Git.
+    Ce réglage est local à `.git/config`, non versionné. Procédure complète dans `docs/git-config.md`.
 
 -   `development` : `hugo server` (IP auto, port 1313, QR code via `scripts/preview.sh`)
 -   `staging` : baseURL de la démonstration GitHub Pages, utilisée par le workflow de déploiement

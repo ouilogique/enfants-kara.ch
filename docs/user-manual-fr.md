@@ -8,7 +8,7 @@
 ## Modifier le site depuis github.com
 
 Par exemple, si on veut modifier la page
-https://ouilogique.github.io/enfants-kara.ch/enfants-kara-togo-ekt/status/
+https://demo.ouilogique.ch/enfants-kara/enfants-kara-togo-ekt/status/
 
 -   Se connecter à son compte GitHub (https://github.com/login)
 -   Aller sur la page du dépôt
@@ -28,7 +28,7 @@ https://ouilogique.github.io/enfants-kara.ch/enfants-kara-togo-ekt/status/
 -   Dans le menu en haut de la fenêtre, cliquer sur `Actions`
 -   L’état du build est affiché en live.
     S’il réussit, une icône verte apparait et la modification sera visible en ligne :
-    https://ouilogique.github.io/enfants-kara.ch/enfants-kara-togo-ekt/status/
+    https://demo.ouilogique.ch/enfants-kara/enfants-kara-togo-ekt/status/
 
 ## Modifier le site depuis un ordinateur personnel
 
