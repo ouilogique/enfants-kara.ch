@@ -45,5 +45,3 @@ Pour vérifier la configuration :
 git remote get-url --push demo
 git config --show-origin --get core.sshCommand
 ```
-
-❊
