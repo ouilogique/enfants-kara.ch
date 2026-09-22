@@ -35,8 +35,6 @@ static/
 scripts/
   preview.sh               — serveur de développement local avec QR code
   get_ip_of_default_interface.sh — détection IP multi-plateforme
-  maintenance/
-    install_dart_sass.sh   — installe Dart Sass officiel sur Linux (x64/arm64/arm)
 .github/workflows/deploy.yml — CI/CD GitHub Actions → GitHub Pages
 .hugo/                       — sorties générées (`public/` et `resources/`)
 ```
@@ -81,19 +79,18 @@ scripts/
 ### Thème Hugo
 
 -   Thème actif : `kara` (déclaré dans `config/_default/hugo.yaml` : `theme: kara`)
--   Structure : `themes/kara/layouts/`, `themes/kara/assets/` (SCSS + JS), `themes/kara/hugo.toml`
+-   Structure : `themes/kara/layouts/`, `themes/kara/assets/` (CSS + JS), `themes/kara/hugo.toml`
 -   Les layouts (`_default/`, `_markup/`, `partials/`, `shortcodes/`) sont **dans le thème**, pas à la racine.
--   **Pour créer une variante de thème** : copier `themes/kara/assets/scss/themes/_kara.scss` sous un nouveau nom,
-    modifier les tokens CSS, puis changer la première ligne de `style.scss` :
-    `@use 'scss/themes/kara'` → `@use 'scss/themes/mon-theme'`
+-   **Pour créer une variante de thème** : copier `themes/kara/assets/css/themes/_kara.css` sous un nouveau nom,
+    modifier les tokens CSS, puis remplacer la référence `css/themes/_kara.css` dans
+    `baseof.html` par le nouveau fichier (`resources.Get "css/themes/mon-theme.css"`).
 
 ### Ressources statiques
 
 -   Images de contenu : `static/images/` (hors thème — restent lors d’un changement de thème)
 -   Documents téléchargeables : `static/documents/`
 -   JS du thème : `themes/kara/assets/scripts.js`
--   CSS du thème : compilé depuis `themes/kara/assets/style.scss` via Hugo Pipes (`css.Sass`)
--   **ne pas modifier `style.css`** (conservé pour référence, non utilisé)
+-   CSS du thème : CSS pur assemblé via Hugo Pipes (`resources.Concat`) dans `baseof.html`
 -   Pas d’URL distantes résiduelles dans le contenu livré.
 -   Preload uniquement l’image de fond de la section courante (voir `themes/kara/layouts/_default/baseof.html`).
 
@@ -105,22 +102,22 @@ scripts/
 -   CSS View Transitions activées pour la navigation.
 -   Animations d’apparition en cascade sur les éléments de page.
 
-### Architecture SCSS (`themes/kara/assets/`)
+### Architecture CSS (`themes/kara/assets/`)
 
 ```text
-style.scss                    — point d’entrée (liste les @use)
-scss/themes/_kara.scss        — tokens CSS du thème (couleurs, alpha, fonds, gradients)
-scss/_base.scss               — reset, body, liens, .page-background
-scss/_layout.scss             — grille principale (.shell, .app, .sidepane, .mainpane)
-scss/_nav.scss                — .brand, .sidebar, arbre de navigation
-scss/_page.scss               — .page-header, .page-nav, footer
-scss/_home.scss               — hero page d’accueil
-scss/_content.scss            — zone de contenu éditorial, tableaux, galeries
-scss/_components.scss         — .card, .document-card, .listing, .lightbox
-scss/_responsive.scss         — @media queries
+css/style.css              — point d’entrée (déclare l’ordre des @layer)
+css/themes/_kara.css       — tokens CSS du thème (couleurs, alpha, fonds, gradients) — @layer theme
+css/_base.css              — reset, body, liens, .page-background            — @layer base
+css/_layout.css            — grille principale (.shell, .app, .sidepane, .mainpane) — @layer layout
+css/_nav.css               — .brand, .sidebar, arbre de navigation          — @layer nav
+css/_page.css              — .page-header, .page-nav, footer                — @layer page
+css/_home.css              — hero page d’accueil                            — @layer home
+css/_content.css           — zone de contenu éditorial, tableaux, galeries  — @layer content
+css/_components.css        — .card, .document-card, .listing, .lightbox     — @layer components
+css/_responsive.css        — @media queries                                 — @layer responsive
 ```
 
-**Tokens clés dans `_kara.scss`** (à surcharger pour un thème alternatif) :
+**Tokens clés dans `_kara.css`** (à surcharger pour un thème alternatif) :
 
 | Token                        | Rôle                             |
 | ---------------------------- | -------------------------------- |
@@ -135,10 +132,16 @@ scss/_responsive.scss         — @media queries
 **Pipeline Hugo Pipes** dans `baseof.html` :
 
 ```go-html-template
-{{ $css := resources.Get "style.scss" | css.Sass (dict "transpiler" "dartsass") }}
+{{ $css := slice
+  (resources.Get "css/style.css")
+  (resources.Get "css/themes/_kara.css")
+  ...
+  (resources.Get "css/_responsive.css") | resources.Concat "style.css" }}
 ```
 
-Requiert Hugo Extended ≥ 0.128 (Dart Sass embarqué — pas d’installation séparée).
+CSS pur uniquement — **aucune dépendance Sass/Dart Sass** requise.
+L’ordre des couches est déclaré en tête de `css/style.css` :
+`@layer theme, base, layout, nav, page, home, content, components, responsive;`.
 
 ### Shortcodes disponibles
 
@@ -156,9 +159,6 @@ Requiert Hugo Extended ≥ 0.128 (Dart Sass embarqué — pas d’installation s
 -   `staging` : baseURL de la démonstration GitHub Pages, utilisée par le workflow de déploiement
 -   `production` : baseURL `https://enfants-kara.ch/` (détection via `static/CNAME`)
 -   Le HTML reste lisible en CI ; seules les ressources explicitement minifiées dans les gabarits le sont.
--   Linux/Ubuntu/Raspberry Pi : `scripts/maintenance/install_dart_sass.sh` installe Dart Sass
-    officiel depuis GitHub Releases dans `/usr/local/lib/dart-sass` et crée
-    `/usr/local/bin/sass`
 
 ### Installation locale Windows (mars 2026)
 
@@ -167,12 +167,7 @@ Requiert Hugo Extended ≥ 0.128 (Dart Sass embarqué — pas d’installation s
 -   Si le lien `C:\Users\Nico\AppData\Local\Microsoft\WinGet\Links\hugo.exe` est cassé,
     utiliser l’exécutable réel sous
     `C:\Users\Nico\AppData\Local\Microsoft\WinGet\Packages\Hugo.Hugo.Extended_Microsoft.Winget.Source_8wekyb3d8bbwe\hugo.exe`.
--   Dart Sass : l’installation `npm install -g sass` crée des shims (`sass`, `sass.cmd`,
-    `sass.ps1`) mais Hugo peut échouer sous Windows s’il exécute le shim sans extension.
--   Solution validée : installer le binaire natif Dart Sass depuis GitHub Releases dans
-    `C:\Tools\dart-sass`, puis placer ce dossier avant `npm` dans le `PATH`.
--   Vérification : `where.exe sass` doit lister `C:\Tools\dart-sass\sass.bat` avant
-    `C:\Users\Nico\AppData\Roaming\npm\...`
+-   Aucun compilateur CSS à installer (CSS pur via `resources.Concat`) — pas de Dart Sass.
 -   Lancement Windows fiable : `scripts/preview.ps1` ou double-clic sur
     `scripts/preview.cmd`
 
@@ -193,7 +188,7 @@ La navigation entre pages (flèches clavier, boutons Précédente/Suivante) util
 
 **À respecter lors de modifications futures :**
 
--   Tout nouvel élément animé par `box-appear` doit être ajouté à la règle `.no-box-appear` dans `scss/_base.scss`
+-   Tout nouvel élément animé par `box-appear` doit être ajouté à la règle `.no-box-appear` dans `css/_base.css`
 -   Tout nouveau chemin de navigation dans `scripts.js` doit poser `sessionStorage.setItem('ek-nav', '1')` avant `window.location.href`
 -   Ne pas supprimer les `view-transition-name` des 4 boîtes
 -   Ne pas retirer le script inline de `baseof.html`

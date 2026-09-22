@@ -39,7 +39,19 @@
       <link rel="preload" as="image" href="{{ $sectionImage | relURL }}">
     {{ end }}
     <script>if(sessionStorage.getItem('ek-nav')){sessionStorage.removeItem('ek-nav');document.documentElement.classList.add('no-box-appear');}</script>
-    {{ $css := resources.Get "style.scss" | css.Sass (dict "transpiler" "dartsass") }}
+    {{ $cssFiles := slice
+      (resources.Get "css/style.css")
+      (resources.Get "css/themes/_kara.css")
+      (resources.Get "css/_base.css")
+      (resources.Get "css/_layout.css")
+      (resources.Get "css/_nav.css")
+      (resources.Get "css/_page.css")
+      (resources.Get "css/_home.css")
+      (resources.Get "css/_content.css")
+      (resources.Get "css/_components.css")
+      (resources.Get "css/_responsive.css")
+    }}
+    {{ $css := $cssFiles | resources.Concat "style.css" }}
     {{ if site.Params.cacheBust }}{{ $css = $css | fingerprint "md5" }}{{ end }}
     <link rel="stylesheet" href="{{ $css.RelPermalink }}">
     {{ $js := resources.Get "scripts.js" }}

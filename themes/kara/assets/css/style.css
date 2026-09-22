@@ -1,0 +1,5 @@
+/* Thème Kara — point d’entrée (CSS pur)
+   Pour changer de thème : remplacer 'css/themes/_kara.css' par 'css/themes/mon-theme.css'. */
+
+@layer theme, base, layout, nav, page, home, content, components, responsive;
+

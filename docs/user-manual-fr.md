@@ -53,13 +53,12 @@ git config --global user.name "Votre nom utilisateur GitHub";
 git config --global user.email "Votre adresse mail sur GitHub";
 ```
 
-Télécharger le dépôt contenant le site web et installer Dart-Sass :
+Télécharger le dépôt contenant le site web :
 
 ```
 cd $env:USERPROFILE\Documents
 git clone https://github.com/ouilogique/enfants-kara.ch.git
 cd .\enfants-kara.ch\
-powershell -ExecutionPolicy Bypass -File .\scripts\maintenance\install_dart_sass.ps1
 ```
 
 > Important !

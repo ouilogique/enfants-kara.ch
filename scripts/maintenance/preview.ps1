@@ -52,16 +52,6 @@ function Get-HugoExecutable {
     throw "Hugo executable not found or not runnable. Install Hugo Extended first."
 }
 
-function Prepend-Path([string]$PathEntry) {
-    if (-not (Test-Path $PathEntry)) {
-        return
-    }
-
-    $parts = $env:Path -split ";" | Where-Object { $_ }
-    $filtered = $parts | Where-Object { $_ -ne $PathEntry }
-    $env:Path = ($PathEntry + ";" + ($filtered -join ";")).TrimEnd(";")
-}
-
 function Test-PortAvailable([string]$BindAddress, [int]$CandidatePort) {
     $listener = $null
 
@@ -88,9 +78,6 @@ function Get-AvailablePort([string]$BindAddress, [int]$PreferredPort) {
 
     return $candidate
 }
-
-$dartSassDir = "C:\Tools\dart-sass"
-Prepend-Path $dartSassDir
 
 $ip = Get-LocalIPv4Address
 $resolvedPort = Get-AvailablePort -BindAddress $ip -PreferredPort ([int]$Port)
