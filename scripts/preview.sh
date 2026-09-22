@@ -12,9 +12,10 @@
 #
 # # OPTIONS
 #   --buildDrafts     Include content marked as draft.
-#   --openBrowser     Open the preview in the default browser.
+#   --openBrowser     Open the preview in the default browser (default: on).
 #   --port N          Prefer port N (default: 1313); the next free port is
-#                     used automatically if N is already taken.
+#                     used automatically if N is already taken, scanning at
+#                     most PORT_SCAN_LIMIT ports (default: 10).
 #
 # # DEPENDENCIES
 #   Hugo
@@ -37,9 +38,10 @@ set -euo pipefail
 os_name="$(uname -s 2>/dev/null || printf '%s' 'unknown')"
 
 parse_arguments() {
-    OPEN_BROWSER=false
+    OPEN_BROWSER=true
     BUILD_DRAFTS=false
     PREFERRED_PORT="1313"
+    PORT_SCAN_LIMIT="${PORT_SCAN_LIMIT:-10}"
 
     while (($# > 0)); do
         case "$1" in
@@ -82,38 +84,14 @@ resolve_preview_context() {
     SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
     PROJECT_DIR="$(cd "$SCRIPT_DIR/.." && pwd)"
     HUGO_DIR="$PROJECT_DIR/.hugo"
-    IP="$(bash "$SCRIPT_DIR/get_ip_of_default_interface.sh")"
+    IP="$(bash "$SCRIPT_DIR/network_utils.sh" ip)"
     BASE_URL="http://$IP"
 }
 
-# Returns 0 when the port is free, 1 when it is in use.
-test_port_available() {
-    local candidate_port="$1"
-
-    if is_windows; then
-        # Git Bash cannot rely on /dev/tcp: use Windows PowerShell's TcpListener.
-        if command -v powershell.exe >/dev/null 2>&1; then
-            if powershell.exe -NoProfile -Command "try { \$l = [System.Net.Sockets.TcpListener]::new([System.Net.IPAddress]::Any, $candidate_port); \$l.Start(); \$l.Stop(); exit 0 } catch { exit 1 }" >/dev/null 2>&1; then
-                return 0
-            fi
-            return 1
-        fi
-        # Cannot test: assume the port is free.
-        return 0
-    fi
-
-    # macOS/Linux: use bash's /dev/tcp. If unsupported, assume the port is free.
-    if (exec 3<>"/dev/tcp/127.0.0.1/$candidate_port") 2>/dev/null; then
-        return 1
-    fi
-    return 0
-}
-
+# Prints the first free port starting at PREFERRED_PORT, probed on the bind
+# IP; at most PORT_SCAN_LIMIT ports are tested (network_utils.sh).
 resolve_port() {
-    PORT="$1"
-    while ! test_port_available "$PORT"; do
-        PORT=$((PORT + 1))
-    done
+    PORT="$(bash "$SCRIPT_DIR/network_utils.sh" port "$1" "$PORT_SCAN_LIMIT" "$IP")"
 }
 
 # Locates a runnable Hugo: PATH first, then the WinGet package folder on

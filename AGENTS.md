@@ -34,7 +34,7 @@ static/
   favicon.svg              — favicon (identité de l’asso, indépendant du thème)
 scripts/
   preview.sh               — serveur de développement local avec QR code
-  get_ip_of_default_interface.sh — détection IP multi-plateforme
+  network_utils.sh           — helpers réseau (IP + premier port libre)
 .github/workflows/deploy.yml — CI/CD GitHub Actions → GitHub Pages
 .hugo/                       — sorties générées (`public/` et `resources/`)
 ```
