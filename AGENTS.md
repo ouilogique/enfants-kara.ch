@@ -148,6 +148,16 @@ L’ordre des couches est déclaré en tête de `css/style.css` :
 -   `{{< document-card href="..." img="..." alt="..." title="..." desc="..." >}}` — carte PDF.
 -   `{{< note >}}...{{< /note >}}` — commentaire invisible dans le contenu.
 
+### Version de Hugo
+
+-   **Contrainte durable : la version de Hugo du projet doit correspondre à la
+    version de Hugo installée sur le système.**
+-   Vérif d’abord avec `hugo version` (doit afficher `extended`), puis aligner :
+    -   `HUGO_VERSION` dans `.github/workflows/deploy.yml`
+    -   toute mention de version dans `AGENTS.md` (section « Installation locale Windows »)
+-   Ne pas épingler Hugo à une ancienne version pour « préserver le build » :
+    le projet doit suivre la version du système.
+
 ### Environnements de build
 
 -   Push vers le VPS de démonstration : remote `demo` = `ik_vps1_nico:/srv/ouilogique/demo/enfants-kara/repo.git`.
@@ -163,7 +173,7 @@ L’ordre des couches est déclaré en tête de `css/style.css` :
 ### Installation locale Windows (mars 2026)
 
 -   Hugo : installer `Hugo.Hugo.Extended` via `winget`, vérifier avec `hugo version`
-    et exiger `extended` + version récente (site validé avec `v0.165.0`).
+    et exiger `extended` + version récente (site validé avec `v0.166.0`).
 -   Si le lien `C:\Users\Nico\AppData\Local\Microsoft\WinGet\Links\hugo.exe` est cassé,
     utiliser l’exécutable réel sous
     `C:\Users\Nico\AppData\Local\Microsoft\WinGet\Packages\Hugo.Hugo.Extended_Microsoft.Winget.Source_8wekyb3d8bbwe\hugo.exe`.
