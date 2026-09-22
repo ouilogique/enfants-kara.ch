@@ -1,3 +1,17 @@
-# Garantir des fins de ligne LF pour les scripts shell,
-# y compris sous Windows (Git Bash), où CRLF peut les casser.
+# Fins de ligne : toujours LF, même sous Windows.
+# `text=auto` marque comme texte les fichiers qui le sont (détection automatique),
+# et `eol=lf` force un checkout en LF sur toutes les plateformes.
+* text=auto eol=lf
+
+# Les scripts shell sont critiques sous Windows (Git Bash) : LF obligatoire.
 *.sh text eol=lf
+
+# Fichiers binaires : git ne doit jamais toucher à leurs fins de ligne ni à leur contenu.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.pdf binary
+*.zip binary
