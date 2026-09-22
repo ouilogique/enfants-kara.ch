@@ -1,0 +1,3 @@
+# Garantir des fins de ligne LF pour les scripts shell,
+# y compris sous Windows (Git Bash), où CRLF peut les casser.
+*.sh text eol=lf

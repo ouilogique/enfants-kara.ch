@@ -168,8 +168,10 @@ L’ordre des couches est déclaré en tête de `css/style.css` :
     utiliser l’exécutable réel sous
     `C:\Users\Nico\AppData\Local\Microsoft\WinGet\Packages\Hugo.Hugo.Extended_Microsoft.Winget.Source_8wekyb3d8bbwe\hugo.exe`.
 -   Aucun compilateur CSS à installer (CSS pur via `resources.Concat`) — pas de Dart Sass.
--   Lancement Windows fiable : `scripts/preview.ps1` ou double-clic sur
-    `scripts/preview.cmd`
+-   Lancement fiable sur toutes les plateformes : `scripts/preview.sh` (macOS,
+    Linux et Windows). Sur Windows, lancer le script dans **Git Bash** ou
+    dans le terminal VS Code avec le profil « Git Bash » :
+    `./scripts/preview.sh`
 
 ### Transitions de navigation (CSS View Transitions)
 
