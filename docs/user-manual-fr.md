@@ -73,9 +73,9 @@ cd .\enfants-kara.ch\
 -   Aller dans le répertoire du site
 -   Double clic sur
     -   ___enfants-kara.ch.code-workspace
--   Ouvrir un terminal dans VS Code (Terminal → Nouveau terminal), choisir le
-    profil « Git Bash » s’il n’est pas déjà actif, puis lancer :
-    -   `./scripts/preview.sh`
+-   Double-cliquer sur `scripts/preview-win.cmd` pour lancer la prévisualisation,
+    ou ouvrir un terminal dans VS Code (Terminal → Nouveau terminal) et lancer :
+    -   `.\scripts\preview-win.cmd`
 -   Dans VScode, modifier le site
 -   Ouvrir les outils Git (Ctrl+Shift+G)
 -   Cliquer sur + à côté de `Changes`

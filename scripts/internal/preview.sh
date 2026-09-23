@@ -8,7 +8,8 @@
 # Cross-platform: macOS, Linux and Windows (Git Bash / MSYS / MINGW).
 #
 # # USAGE
-#   ./scripts/preview.sh
+#   ./scripts/preview-mac.command (macOS)
+#   scripts\preview-win.cmd    (Windows)
 #
 # # OPTIONS
 #   --buildDrafts     Include content marked as draft.
@@ -82,7 +83,7 @@ is_windows() {
 
 resolve_preview_context() {
     SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
-    PROJECT_DIR="$(cd "$SCRIPT_DIR/.." && pwd)"
+    PROJECT_DIR="$(cd "$SCRIPT_DIR/../.." && pwd)"
     HUGO_DIR="$PROJECT_DIR/.hugo"
     IP="$(bash "$SCRIPT_DIR/network_utils.sh" ip)"
     BASE_URL="http://$IP"
@@ -168,7 +169,16 @@ start_hugo_server() {
     )
 
     cd "$PROJECT_DIR"
-    "$HUGO_BIN" server "${options[@]}"
+    if is_windows; then
+        # Git Bash does not reliably terminate a native hugo.exe when its
+        # terminal closes. A Windows job object ties Hugo to the launcher.
+        powershell.exe -NoProfile -ExecutionPolicy Bypass -File \
+            "$(cygpath -w "$SCRIPT_DIR/preview-windows.ps1")" \
+            "$(cygpath -w "$HUGO_BIN")" "$(cygpath -w "$PROJECT_DIR")" \
+            server "${options[@]}"
+    else
+        exec "$HUGO_BIN" server "${options[@]}"
+    fi
 }
 
 main() {

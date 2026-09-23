@@ -1,5 +1,5 @@
 @echo off
-rem Ce script est cliquable. Il permet de lancer scripts/preview.sh (Git Bash).
+rem Double-clic ou ligne de commande : lance scripts/internal/preview.sh (Git Bash).
 rem Prerequis : Git for Windows (Git Bash) et Hugo Extended.
 rem Optionnel : qrencode pour afficher le QR code dans le terminal.
 setlocal
@@ -9,7 +9,7 @@ if not exist "%BASH%" set "BASH=%ProgramFiles(x86)%\Git\bin\bash.exe"
 if not exist "%BASH%" set "BASH=%LOCALAPPDATA%\Programs\Git\bin\bash.exe"
 
 if not exist "%BASH%" (
-    echo Git Bash introuvable. Installez Git for Windows pour lancer preview.sh.
+    echo Git Bash introuvable. Installez Git for Windows pour lancer la previsualisation.
     pause
     exit /b 1
 )
@@ -20,7 +20,7 @@ pushd "%~dp0.." || (
     exit /b 1
 )
 
-"%BASH%" scripts/preview.sh %*
+"%BASH%" scripts/internal/preview.sh %*
 set "EXIT_CODE=%ERRORLEVEL%"
 popd
 

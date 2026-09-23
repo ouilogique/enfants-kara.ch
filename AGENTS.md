@@ -33,8 +33,12 @@ static/
   documents/               — fichiers téléchargeables (PDF PV AG)
   favicon.svg              — favicon (identité de l’asso, indépendant du thème)
 scripts/
-  preview.sh               — serveur de développement local avec QR code
-  network_utils.sh           — helpers réseau (IP + premier port libre)
+  preview-mac.command      — lanceur Finder et CLI macOS
+  preview-win.cmd          — lanceur double-clic et CLI Windows
+  internal/
+    preview.sh             — serveur de développement local avec QR code
+    network_utils.sh       — helpers réseau (IP + premier port libre)
+    preview-windows.ps1    — gestion du processus Hugo sous Windows
 .github/workflows/deploy.yml — CI/CD GitHub Actions → GitHub Pages
 .hugo/                       — sorties générées (`public/` et `resources/`)
 ```
@@ -165,7 +169,7 @@ L’ordre des couches est déclaré en tête de `css/style.css` :
     pour éviter le conflit entre la `RemoteCommand` SSH et la commande Git.
     Ce réglage est local à `.git/config`, non versionné. Procédure complète dans `docs/git-config.md`.
 
--   `development` : `hugo server` (IP auto, port 1313, QR code via `scripts/preview.sh`)
+-   `development` : `hugo server` (IP auto, port 1313, QR code via les lanceurs dans `scripts/`)
 -   `staging` : baseURL de la démonstration GitHub Pages, utilisée par le workflow de déploiement
 -   `production` : baseURL `https://enfants-kara.ch/` (détection via `static/CNAME`)
 -   Le HTML reste lisible en CI ; seules les ressources explicitement minifiées dans les gabarits le sont.
@@ -178,10 +182,11 @@ L’ordre des couches est déclaré en tête de `css/style.css` :
     utiliser l’exécutable réel sous
     `C:\Users\Nico\AppData\Local\Microsoft\WinGet\Packages\Hugo.Hugo.Extended_Microsoft.Winget.Source_8wekyb3d8bbwe\hugo.exe`.
 -   Aucun compilateur CSS à installer (CSS pur via `resources.Concat`) — pas de Dart Sass.
--   Lancement fiable sur toutes les plateformes : `scripts/preview.sh` (macOS,
-    Linux et Windows). Sur Windows, lancer le script dans **Git Bash** ou
-    dans le terminal VS Code avec le profil « Git Bash » :
-    `./scripts/preview.sh`
+-   macOS : double-clic sur `scripts/preview-mac.command` ou
+    `./scripts/preview-mac.command` dans le terminal (avec arguments si besoin).
+-   Windows : double-clic sur `scripts/preview-win.cmd` ou
+    `.\scripts\preview-win.cmd` dans le terminal (Git for Windows requis).
+-   Linux : `bash scripts/internal/preview.sh`.
 
 ### Transitions de navigation (CSS View Transitions)
 

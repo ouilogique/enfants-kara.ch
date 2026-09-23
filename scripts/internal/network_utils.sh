@@ -7,13 +7,13 @@
 # Cross-platform: macOS, Linux and Windows (Git Bash / MSYS / MINGW).
 #
 # # USAGE
-#   ./scripts/network_utils.sh            Print the default interface IP.
-#   ./scripts/network_utils.sh ip         Same as above.
-#   ./scripts/network_utils.sh port N [n] Print the first free port starting
+#   bash scripts/internal/network_utils.sh            Print the default interface IP.
+#   bash scripts/internal/network_utils.sh ip         Same as above.
+#   bash scripts/internal/network_utils.sh port N [n] Print the first free port starting
 #                                         at N, probing at most n ports
 #                                         (n defaults to 10). The probe is
 #                                         done against 127.0.0.1 by default.
-#   ./scripts/network_utils.sh port N n IP
+#   bash scripts/internal/network_utils.sh port N n IP
 #                                         Same, probing the given IP address
 #                                         (used when the server binds to a
 #                                         specific interface). Fails when no
