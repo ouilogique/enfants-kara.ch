@@ -14,6 +14,7 @@
 # # OPTIONS
 #   --buildDrafts     Include content marked as draft.
 #   --openBrowser     Open the preview in the default browser (default: on).
+#   --openBrowser=false  Disable automatic browser opening.
 #   --port N          Prefer port N (default: 1313); the next free port is
 #                     used automatically if N is already taken, scanning at
 #                     most PORT_SCAN_LIMIT ports (default: 10).
@@ -49,15 +50,18 @@ parse_arguments() {
             --buildDrafts)
                 BUILD_DRAFTS=true
                 ;;
-            --openBrowser)
+            --openBrowser|--openBrowser=true)
                 OPEN_BROWSER=true
+                ;;
+            --openBrowser=false)
+                OPEN_BROWSER=false
                 ;;
             --port)
                 PREFERRED_PORT="${2:-}"
                 shift
                 ;;
             *)
-                printf 'Unknown option: %s\nAvailable options: --buildDrafts, --openBrowser, --port N\n' "$1" >&2
+                printf 'Unknown option: %s\nAvailable options: --buildDrafts, --openBrowser[=true|false], --port N\n' "$1" >&2
                 exit 2
                 ;;
         esac
