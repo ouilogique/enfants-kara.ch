@@ -4,8 +4,8 @@ locale: "fr-CH"
 title: "Enfants-Kara"
 defaultContentLanguage: "fr"
 enableRobotsTXT: true
-publishDir: .hugo/public
-resourceDir: .hugo/resources
+publishDir: .hugo_nokdrive/public
+resourceDir: .hugo_nokdrive/resources
 disableKinds:
   - taxonomy
   - term

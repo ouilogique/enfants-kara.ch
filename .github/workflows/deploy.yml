@@ -59,10 +59,10 @@ jobs:
 
       - name: Check output
         run: |
-          test -d .hugo/public
-          test -f .hugo/public/index.html
+          test -d .hugo_nokdrive/public
+          test -f .hugo_nokdrive/public/index.html
           if [[ -f static/CNAME ]]; then
-            cmp -s static/CNAME .hugo/public/CNAME
+            cmp -s static/CNAME .hugo_nokdrive/public/CNAME
           fi
 
       - name: Save Hugo cache
@@ -75,7 +75,7 @@ jobs:
         uses: actions/upload-pages-artifact@v5
         with:
           include-hidden-files: false
-          path: ./.hugo/public
+          path: ./.hugo_nokdrive/public
 
   deploy:
     runs-on: ubuntu-latest

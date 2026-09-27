@@ -1,6 +1,7 @@
 public/
 resources/
 /.hugo/
+/.hugo_nokdrive/
 .DS_Store
 .hugo_build.lock
 .hugo_preview/

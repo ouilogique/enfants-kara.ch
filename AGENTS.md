@@ -40,7 +40,7 @@ scripts/
     network_utils.sh       — helpers réseau (IP + premier port libre)
     preview-windows.ps1    — gestion du processus Hugo sous Windows
 .github/workflows/deploy.yml — CI/CD GitHub Actions → GitHub Pages
-.hugo/                       — sorties générées (`public/` et `resources/`)
+.hugo_nokdrive/               — sorties générées (`public/` et `resources/`)
 ```
 
 ---

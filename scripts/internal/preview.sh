@@ -84,7 +84,7 @@ is_windows() {
 resolve_preview_context() {
     SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
     PROJECT_DIR="$(cd "$SCRIPT_DIR/../.." && pwd)"
-    HUGO_DIR="$PROJECT_DIR/.hugo"
+    HUGO_DIR="$PROJECT_DIR/.hugo_nokdrive"
     IP="$(bash "$SCRIPT_DIR/network_utils.sh" ip)"
     BASE_URL="http://$IP"
 }
