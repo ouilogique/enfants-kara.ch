@@ -57,7 +57,11 @@ parse_arguments() {
                 OPEN_BROWSER=false
                 ;;
             --port)
-                PREFERRED_PORT="${2:-}"
+                if (($# < 2)) || [ -z "$2" ]; then
+                    printf 'Option --port requires a port number.\n' >&2
+                    exit 2
+                fi
+                PREFERRED_PORT="$2"
                 shift
                 ;;
             *)
@@ -68,10 +72,6 @@ parse_arguments() {
         shift
     done
 
-    if [ -z "$PREFERRED_PORT" ]; then
-        printf 'Option --port requires a port number.\n' >&2
-        exit 2
-    fi
 }
 
 is_windows() {
