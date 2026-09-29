@@ -177,7 +177,7 @@ L’ordre des couches est déclaré en tête de `css/style.css` :
 ### Installation locale Windows (mars 2026)
 
 -   Hugo : installer `Hugo.Hugo.Extended` via `winget`, vérifier avec `hugo version`
-    et exiger `extended` + version récente (site validé avec `v0.166.0`).
+    et exiger `extended` + version récente (site validé avec `v0.167.0`).
 -   Si le lien `C:\Users\Nico\AppData\Local\Microsoft\WinGet\Links\hugo.exe` est cassé,
     utiliser l’exécutable réel sous
     `C:\Users\Nico\AppData\Local\Microsoft\WinGet\Packages\Hugo.Hugo.Extended_Microsoft.Winget.Source_8wekyb3d8bbwe\hugo.exe`.
