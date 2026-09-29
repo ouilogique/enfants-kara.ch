@@ -172,7 +172,22 @@ L’ordre des couches est déclaré en tête de `css/style.css` :
 -   `development` : `hugo server` (IP auto, port 1313, QR code via les lanceurs dans `scripts/`)
 -   `staging` : baseURL de la démonstration GitHub Pages, utilisée par le workflow de déploiement
 -   `production` : baseURL `https://enfants-kara.ch/` (détection via `static/CNAME`)
--   Le HTML reste lisible en CI ; seules les ressources explicitement minifiées dans les gabarits le sont.
+-   Le HTML reste lisible en CI ; seules les ressources explicitement minifiées dans les gabarits le sont.
+
+### Contrôle de version Hugo sur le VPS de démo
+
+-   **La version attendue par le build de démo ne vient pas du dépôt.** Elle est lue
+    côté serveur dans `/srv/ouilogique/demo/config/projects.json` (`hugo_version`),
+    puis comparée au binaire installé par `scripts/demo.py`. Le pin `HUGO_VERSION`
+    du workflow ne sert qu'à la CI GitHub Pages et n'est pas vérifié par la démo.
+-   Une erreur `Hugo version mismatch` se corrige donc **sur le serveur**, en
+    alignant `hugo_version` sur `hugo version`. Modifier `deploy.yml` seul ne suffit pas.
+-   Chaque montée de version du binaire Hugo sur le VPS impose la même mise à jour
+    dans `projects.json`, pour tous les projets déclarés (au 2026-09-29 : `cnl` est
+    resté à `0.166.0` et échouera à son prochain build).
+-   **Décision : ne pas ajouter de supervision** (`check-demo.py` n'est pas planifié,
+    aucun timer ni cron). L'échec bruyant du build est un signal suffisant.
+    Ne pas reproposer de timer ni de workflow de détection de dérive.
 
 ### Installation locale Windows (mars 2026)
 
