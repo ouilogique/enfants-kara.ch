@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="{{ site.Language.Lang | default `fr` }}">
+{{ partial "head.html" . }}
   {{ $sectionImage := "" }}
   {{ if not .IsHome }}
     {{ with .FirstSection }}
       {{ $sectionImage = .Params.bgImage }}
     {{ end }}
   {{ end }}
-  {{ partial "head.html" . }}
   <body
     class="{{ if .IsHome }}is-home{{ else if .IsSection }}is-section{{ else }}is-page{{ end }}"
   >
