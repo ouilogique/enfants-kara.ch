@@ -10,6 +10,6 @@
     (resources.Get "css/_components.css")
     (resources.Get "css/_responsive.css")
 -}}
-{{- $css := $cssFiles | resources.Concat "style.css" -}}
-{{- if site.Params.cacheBust }}{{ $css = $css | fingerprint "md5" }}{{ end -}}
-<link rel="stylesheet" href="{{ $css.RelPermalink }}">
+{{- $css := $cssFiles | resources.Concat "style.css" | fingerprint "sha256" -}}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+{{- /* Supprime le retour à la ligne final du partial. */ -}}
