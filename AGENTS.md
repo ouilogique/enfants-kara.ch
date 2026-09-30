@@ -73,12 +73,12 @@ scripts/
 -   Ordre via préfixes numériques des dossiers (`010-`, `020-`…) → trié par `File.Path`, pas alphabétique.
 -   Navigation récursive dans la sidebar (`nav-tree.html`) : `<details>` pour les sections, `<a>` pour les pages.
 -   Prev/next entre pages généré par Hugo (`nav-pages-flat.html` + `page-header.html`) :
-    liens `<a href>` natifs (fonctionnent sans JS). `scripts.js` intercepte uniquement
-    le clic pour poser le flag des transitions fluides.
+  liens `<a href>` natifs (fonctionnent sans JS). `scripts.js` intercepte uniquement
+  le clic pour poser le flag des transitions fluides.
 -   Sur la page d’accueil : lien `<a data-page-nav="next" hidden>` dans `index.html`
-    pour la navigation clavier (ArrowRight).
+  pour la navigation clavier (ArrowRight).
 -   Les fichiers dans `content/` avec `build.render: never` doivent aussi avoir
-    `build.list: never` pour ne pas polluer la liste des pages.
+  `build.list: never` pour ne pas polluer la liste des pages.
 
 ### Thème Hugo
 
@@ -86,8 +86,8 @@ scripts/
 -   Structure : `themes/kara/layouts/`, `themes/kara/assets/` (CSS + JS), `themes/kara/hugo.toml`
 -   Les layouts (`_default/`, `_markup/`, `partials/`, `shortcodes/`) sont **dans le thème**, pas à la racine.
 -   **Pour créer une variante de thème** : copier `themes/kara/assets/css/themes/_kara.css` sous un nouveau nom,
-    modifier les tokens CSS, puis remplacer la référence `css/themes/_kara.css` dans
-    `baseof.html` par le nouveau fichier (`resources.Get "css/themes/mon-theme.css"`).
+  modifier les tokens CSS, puis remplacer la référence `css/themes/_kara.css` dans
+  `baseof.html` par le nouveau fichier (`resources.Get "css/themes/mon-theme.css"`).
 
 ### Ressources statiques
 
@@ -143,7 +143,7 @@ css/_responsive.css        — @media queries                                 �
   (resources.Get "css/_responsive.css") | resources.Concat "style.css" }}
 ```
 
-CSS pur uniquement — **aucune dépendance Sass/Dart Sass** requise.
+CSS pur uniquement, sans compilateur externe.
 L’ordre des couches est déclaré en tête de `css/style.css` :
 `@layer theme, base, layout, nav, page, home, content, components, responsive;`.
 
@@ -155,52 +155,52 @@ L’ordre des couches est déclaré en tête de `css/style.css` :
 ### Version de Hugo
 
 -   **Contrainte durable : la version de Hugo du projet doit correspondre à la
-    version de Hugo installée sur le système.**
+  version de Hugo installée sur le système.**
 -   Vérif d’abord avec `hugo version` (doit afficher `extended`), puis aligner :
     -   `HUGO_VERSION` dans `.github/workflows/deploy.yml`
     -   toute mention de version dans `AGENTS.md` (section « Installation locale Windows »)
 -   Ne pas épingler Hugo à une ancienne version pour « préserver le build » :
-    le projet doit suivre la version du système.
+  le projet doit suivre la version du système.
 
 ### Environnements de build
 
 -   Push vers le VPS de démonstration : remote `demo` = `ik_vps1_nico:/srv/ouilogique/demo/enfants-kara/repo.git`.
-    Configurer chaque clone avec `git config --local core.sshCommand "ssh -o RemoteCommand=none"`
-    pour éviter le conflit entre la `RemoteCommand` SSH et la commande Git.
-    Ce réglage est local à `.git/config`, non versionné. Procédure complète dans `docs/git-config.md`.
+  Configurer chaque clone avec `git config --local core.sshCommand "ssh -o RemoteCommand=none"`
+  pour éviter le conflit entre la `RemoteCommand` SSH et la commande Git.
+  Ce réglage est local à `.git/config`, non versionné. Procédure complète dans `docs/git-config.md`.
 
 -   `development` : `hugo server` (IP auto, port 1313, QR code via les lanceurs dans `scripts/`)
--   `staging` : baseURL de la démonstration GitHub Pages, utilisée par le workflow de déploiement
--   `production` : baseURL `https://enfants-kara.ch/` (détection via `static/CNAME`)
+-   `staging` : baseURL de la démonstration sur le VPS
+-   `production` : baseURL `https://enfants-kara.ch/`, utilisée par GitHub Pages
+-   Le domaine personnalisé est configuré dans les paramètres GitHub Pages. Aucun fichier `CNAME` n’est nécessaire avec un workflow GitHub Actions.
 -   Le HTML reste lisible en CI ; seules les ressources explicitement minifiées dans les gabarits le sont.
 
 ### Contrôle de version Hugo sur le VPS de démo
 
 -   **La version attendue par le build de démo ne vient pas du dépôt.** Elle est lue
-    côté serveur dans `/srv/ouilogique/demo/config/projects.json` (`hugo_version`),
-    puis comparée au binaire installé par `scripts/demo.py`. Le pin `HUGO_VERSION`
-    du workflow ne sert qu'à la CI GitHub Pages et n'est pas vérifié par la démo.
+  côté serveur dans `/srv/ouilogique/demo/config/projects.json` (`hugo_version`),
+  puis comparée au binaire installé par `scripts/demo.py`. Le pin `HUGO_VERSION`
+  du workflow ne sert qu'à la CI GitHub Pages et n'est pas vérifié par la démo.
 -   Une erreur `Hugo version mismatch` se corrige donc **sur le serveur**, en
-    alignant `hugo_version` sur `hugo version`. Modifier `deploy.yml` seul ne suffit pas.
+  alignant `hugo_version` sur `hugo version`. Modifier `deploy.yml` seul ne suffit pas.
 -   Chaque montée de version du binaire Hugo sur le VPS impose la même mise à jour
-    dans `projects.json`, pour tous les projets déclarés (au 2026-09-29 : `cnl` est
-    resté à `0.166.0` et échouera à son prochain build).
+  dans `projects.json`, pour tous les projets déclarés.
 -   **Décision : ne pas ajouter de supervision** (`check-demo.py` n'est pas planifié,
-    aucun timer ni cron). L'échec bruyant du build est un signal suffisant.
-    Ne pas reproposer de timer ni de workflow de détection de dérive.
+  aucun timer ni cron). L'échec bruyant du build est un signal suffisant.
+  Ne pas reproposer de timer ni de workflow de détection de dérive.
 
 ### Installation locale Windows (mars 2026)
 
 -   Hugo : installer `Hugo.Hugo.Extended` via `winget`, vérifier avec `hugo version`
-    et exiger `extended` + version récente (site validé avec `v0.167.0`).
+  et exiger `extended` + version récente (site validé avec `v0.167.0`).
 -   Si le lien `C:\Users\Nico\AppData\Local\Microsoft\WinGet\Links\hugo.exe` est cassé,
-    utiliser l’exécutable réel sous
-    `C:\Users\Nico\AppData\Local\Microsoft\WinGet\Packages\Hugo.Hugo.Extended_Microsoft.Winget.Source_8wekyb3d8bbwe\hugo.exe`.
--   Aucun compilateur CSS à installer (CSS pur via `resources.Concat`) — pas de Dart Sass.
+  utiliser l’exécutable réel sous
+  `C:\Users\Nico\AppData\Local\Microsoft\WinGet\Packages\Hugo.Hugo.Extended_Microsoft.Winget.Source_8wekyb3d8bbwe\hugo.exe`.
+-   Aucun compilateur CSS à installer : le CSS pur est assemblé via `resources.Concat`.
 -   macOS : double-clic sur `scripts/preview-mac.command` ou
-    `./scripts/preview-mac.command` dans le terminal (avec arguments si besoin).
+  `./scripts/preview-mac.command` dans le terminal (avec arguments si besoin).
 -   Windows : double-clic sur `scripts/preview-win.cmd` ou
-    `.\scripts\preview-win.cmd` dans le terminal (Git for Windows requis).
+  `.\scripts\preview-win.cmd` dans le terminal (Git for Windows requis).
 -   Linux : `bash scripts/internal/preview.sh`.
 
 ### Transitions de navigation (CSS View Transitions)
@@ -241,7 +241,7 @@ Cinq thèmes Hugo testés comme alternatives au thème `kara`. Conclusion : aucu
 | ------------- | --------------------- | ---------------------------------------------------- |
 | **PaperMod**  | `menu.main` ✓         | Blog-centré, peu adapté à une asso                   |
 | **Congo**     | `menu.main` ✓         | Riche mais complexe, `.Author` cassé sur Hugo 0.157+ |
-| **Anatole**   | `menu.main` ✓         | Requiert Dart Sass, look blog                        |
+| **Anatole**   | `menu.main` ✓         | Look blog                                            |
 | **Hugo Book** | Arborescence fichiers | Nécessite `BookSection: "/"`, look documentation     |
 | **Ananke**    | `menu.main` ✓         | Générique, peu adapté                                |
 

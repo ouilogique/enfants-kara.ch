@@ -50,9 +50,9 @@ jobs:
           key: hugo-${{ github.run_id }}
           restore-keys: hugo-
 
-      - name: Build
+      - name: Build site
         run: |
-          hugo build --environment staging \
+          hugo build --environment production \
             --gc \
             --baseURL "${{ steps.pages.outputs.base_url }}/" \
             --cacheDir "${{ runner.temp }}/.cache/hugo"
@@ -61,9 +61,6 @@ jobs:
         run: |
           test -d .hugo_nokdrive/public
           test -f .hugo_nokdrive/public/index.html
-          if [[ -f static/CNAME ]]; then
-            cmp -s static/CNAME .hugo_nokdrive/public/CNAME
-          fi
 
       - name: Save Hugo cache
         uses: actions/cache/save@v6
