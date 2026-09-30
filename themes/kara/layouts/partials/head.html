@@ -8,6 +8,7 @@
 <meta charset="utf-8">
 <title>{{ $title }}</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+{{ with site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
 {{ hugo.Generator }}
 <meta name="generator-date" content="{{ now.UTC.Format "2006-01-02T15:04:05Z" }}">
 {{ with $description }}<meta name="description" content="{{ . }}">{{ end }}

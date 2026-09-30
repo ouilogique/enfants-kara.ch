@@ -17,6 +17,7 @@ markup:
       attribute:
         block: true
 params:
+  author: Nicolas Jeanmonod
   description: "Association Enfants-Kara — Soutien aux enfants et jeunes au Togo depuis 2001."
   favicon: favicon.svg
   faviconType: image/svg+xml
