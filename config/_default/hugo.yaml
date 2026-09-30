@@ -24,4 +24,6 @@ params:
   openGraphLocale: fr_CH
   productionBaseURL: https://enfants-kara.ch
   allPagesAreArticles: true
+  socialImageAlt: Enfants souriants rassemblés à une fenêtre
+  socialImageAltFromPageTitle: true
   socialImageFromSection: true

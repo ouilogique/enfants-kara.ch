@@ -1,6 +1,7 @@
 {{- $title := partial "head/document-title.html" . -}}
 {{- $description := partial "head/description.html" . -}}
 {{- $socialImage := partial "head/social-image.html" . -}}
+{{- $socialImageAlt := partial "head/social-image-alt.html" . -}}
 {{- $canonicalURL := partial "head/production-url.html" . -}}
 {{- $articleTypes := site.Params.articleTypes | default (slice) -}}
 {{- $isArticle := and .IsPage (or site.Params.allPagesAreArticles (in $articleTypes .Type)) -}}
@@ -20,6 +21,7 @@
 {{ with $description }}<meta property="og:description" content="{{ . }}">{{ end }}
 <meta property="og:url" content="{{ $canonicalURL }}">
 <meta property="og:image" content="{{ $socialImage }}">
+<meta property="og:image:alt" content="{{ $socialImageAlt }}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{{ $title }}">
 {{ with $description }}<meta name="twitter:description" content="{{ . }}">{{ end }}

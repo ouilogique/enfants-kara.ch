@@ -1,0 +1,10 @@
+{{- $socialImageAlt := site.Params.socialImageAlt | default site.Title -}}
+{{- $usePageTitle := and site.Params.socialImageAltFromPageTitle (not .IsHome) -}}
+{{- if and $usePageTitle site.Params.socialImageFromPageResource -}}
+    {{- $usePageTitle = false -}}
+    {{- with .Resources.GetMatch "images/feature*" }}{{ $usePageTitle = true }}{{ end -}}
+{{- end -}}
+{{- if $usePageTitle -}}
+    {{- with .Title }}{{ $socialImageAlt = . }}{{ end -}}
+{{- end -}}
+{{- return $socialImageAlt -}}
