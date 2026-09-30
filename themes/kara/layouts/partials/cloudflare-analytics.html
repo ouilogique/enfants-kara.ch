@@ -1,0 +1,6 @@
+{{- with site.Params.cloudflareWebAnalyticsToken -}}
+    {{- if hugo.IsProduction -}}
+        {{- $settings := dict "token" . | jsonify -}}
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" {{ printf "data-cf-beacon='%s'" $settings | safeHTMLAttr }}></script>
+    {{- end -}}
+{{- end -}}

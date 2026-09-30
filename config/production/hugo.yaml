@@ -1,1 +1,4 @@
 baseURL: "https://enfants-kara.ch/"
+params:
+  # Jeton public Cloudflare Web Analytics. Une valeur vide désactive le beacon.
+  cloudflareWebAnalyticsToken: ""
