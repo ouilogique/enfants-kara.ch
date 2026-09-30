@@ -1,0 +1,15 @@
+{{- $cssFiles := slice
+    (resources.Get "css/style.css")
+    (resources.Get "css/themes/_kara.css")
+    (resources.Get "css/_base.css")
+    (resources.Get "css/_layout.css")
+    (resources.Get "css/_nav.css")
+    (resources.Get "css/_page.css")
+    (resources.Get "css/_home.css")
+    (resources.Get "css/_content.css")
+    (resources.Get "css/_components.css")
+    (resources.Get "css/_responsive.css")
+-}}
+{{- $css := $cssFiles | resources.Concat "style.css" -}}
+{{- if site.Params.cacheBust }}{{ $css = $css | fingerprint "md5" }}{{ end -}}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}">

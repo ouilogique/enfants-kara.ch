@@ -1,0 +1,29 @@
+{{- $title := partial "head/document-title.html" . -}}
+{{- $description := partial "head/description.html" . -}}
+{{- $socialImage := partial "head/social-image.html" . -}}
+{{- $canonicalURL := partial "head/production-url.html" . -}}
+{{- $articleTypes := site.Params.articleTypes | default (slice) -}}
+{{- $isArticle := and .IsPage (or site.Params.allPagesAreArticles (in $articleTypes .Type)) -}}
+<head>
+<meta charset="utf-8">
+<title>{{ $title }}</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{{ hugo.Generator }}
+<meta name="generator-date" content="{{ now.UTC.Format "2006-01-02T15:04:05Z" }}">
+{{ with $description }}<meta name="description" content="{{ . }}">{{ end }}
+<meta property="og:locale" content="{{ site.Params.openGraphLocale | default "fr_CH" }}">
+<meta property="og:type" content="{{ cond $isArticle "article" "website" }}">
+<meta property="og:site_name" content="{{ site.Title }}">
+<meta property="og:title" content="{{ $title }}">
+{{ with $description }}<meta property="og:description" content="{{ . }}">{{ end }}
+<meta property="og:url" content="{{ $canonicalURL }}">
+<meta property="og:image" content="{{ $socialImage }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ $title }}">
+{{ with $description }}<meta name="twitter:description" content="{{ . }}">{{ end }}
+<meta name="twitter:image" content="{{ $socialImage }}">
+<link rel="canonical" href="{{ $canonicalURL }}">
+{{ partial "head/icon.html" . }}
+{{ partial "head/stylesheet.html" . }}
+{{ partial "head/extra.html" . }}
+</head>

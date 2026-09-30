@@ -1,0 +1,14 @@
+{{- $sectionImage := "" -}}
+{{- if not .IsHome -}}
+    {{- with .FirstSection }}{{ $sectionImage = .Params.bgImage }}{{ end -}}
+{{- end -}}
+<meta name="dcterms.modified" content="{{ now.Format "2006-01-02T15:04:05-07:00" }}">
+{{ if .IsHome }}
+<link rel="preload" as="image" href="{{ site.Home.Params.bgImage | relURL }}">
+{{ else if $sectionImage }}
+<link rel="preload" as="image" href="{{ $sectionImage | relURL }}">
+{{ end }}
+<script>if(sessionStorage.getItem('ek-nav')){sessionStorage.removeItem('ek-nav');document.documentElement.classList.add('no-box-appear');}</script>
+{{ $js := resources.Get "scripts.js" }}
+{{ if site.Params.cacheBust }}{{ $js = $js | fingerprint "md5" }}{{ end }}
+<script src="{{ $js.RelPermalink }}" defer></script>

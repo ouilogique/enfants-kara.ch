@@ -6,59 +6,7 @@
       {{ $sectionImage = .Params.bgImage }}
     {{ end }}
   {{ end }}
-  {{ $ogTitle := site.Title }}
-  {{ if not .IsHome }}{{ $ogTitle = printf "%s | %s" (.Title | plainify) site.Title }}{{ end }}
-  {{ $ogDesc := or .Params.description site.Params.description }}
-  {{ $ogImage := site.Home.Params.bgImage | absURL }}
-  {{ if and (not .IsHome) $sectionImage }}{{ $ogImage = $sectionImage | absURL }}{{ end }}
-  {{ $ogType := "website" }}
-  {{ if .IsPage }}{{ $ogType = "article" }}{{ end }}
-  <head>
-    <meta charset="utf-8">
-    <title>{{ $ogTitle | safeHTML }}</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="generator" content="Hugo {{ hugo.Version }}">
-    <meta name="generator-date" content="{{ now.UTC.Format `2006-01-02T15:04:05Z` }}">
-    {{ with $ogDesc }}<meta name="description" content="{{ . | safeHTML }}">{{ end }}
-    <meta property="og:locale" content="fr_CH">
-    <meta property="og:type" content="{{ $ogType }}">
-    <meta property="og:site_name" content="{{ site.Title | safeHTML }}">
-    <meta property="og:title" content="{{ $ogTitle | safeHTML }}">
-    <meta property="og:description" content="{{ $ogDesc | safeHTML }}">
-    <meta property="og:url" content="{{ .Permalink }}">
-    <meta property="og:image" content="{{ $ogImage }}">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="{{ $ogTitle | safeHTML }}">
-    <meta name="twitter:description" content="{{ $ogDesc | safeHTML }}">
-    <meta name="twitter:image" content="{{ $ogImage }}">
-    <link rel="canonical" href="{{ .Permalink }}">
-    <link rel="icon" type="image/svg+xml" href="{{ `favicon.svg` | relURL }}">
-    {{ $cssFiles := slice
-      (resources.Get "css/style.css")
-      (resources.Get "css/themes/_kara.css")
-      (resources.Get "css/_base.css")
-      (resources.Get "css/_layout.css")
-      (resources.Get "css/_nav.css")
-      (resources.Get "css/_page.css")
-      (resources.Get "css/_home.css")
-      (resources.Get "css/_content.css")
-      (resources.Get "css/_components.css")
-      (resources.Get "css/_responsive.css")
-    }}
-    {{ $css := $cssFiles | resources.Concat "style.css" }}
-    {{ if site.Params.cacheBust }}{{ $css = $css | fingerprint "md5" }}{{ end }}
-    <link rel="stylesheet" href="{{ $css.RelPermalink }}">
-    <meta name="dcterms.modified" content="{{ now.Format "2006-01-02T15:04:05-07:00" }}">
-    {{ if .IsHome }}
-      <link rel="preload" as="image" href="{{ site.Home.Params.bgImage | relURL }}">
-    {{ else if $sectionImage }}
-      <link rel="preload" as="image" href="{{ $sectionImage | relURL }}">
-    {{ end }}
-    <script>if(sessionStorage.getItem('ek-nav')){sessionStorage.removeItem('ek-nav');document.documentElement.classList.add('no-box-appear');}</script>
-    {{ $js := resources.Get "scripts.js" }}
-    {{ if site.Params.cacheBust }}{{ $js = $js | fingerprint "md5" }}{{ end }}
-    <script src="{{ $js.RelPermalink }}" defer></script>
-  </head>
+  {{ partial "head.html" . }}
   <body
     class="{{ if .IsHome }}is-home{{ else if .IsSection }}is-section{{ else }}is-page{{ end }}"
   >

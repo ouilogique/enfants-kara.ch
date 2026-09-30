@@ -18,3 +18,9 @@ markup:
         block: true
 params:
   description: "Association Enfants-Kara — Soutien aux enfants et jeunes au Togo depuis 2001."
+  favicon: favicon.svg
+  faviconType: image/svg+xml
+  openGraphLocale: fr_CH
+  productionBaseURL: https://enfants-kara.ch
+  allPagesAreArticles: true
+  socialImageFromSection: true

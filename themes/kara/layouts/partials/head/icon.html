@@ -1,0 +1,3 @@
+{{- with site.Params.favicon }}
+<link {{ printf "rel=%q type=%q" (site.Params.faviconRel | default "icon") site.Params.faviconType | safeHTMLAttr }} href="{{ strings.TrimPrefix "/" . | relURL }}">
+{{- end }}

@@ -1,0 +1,11 @@
+{{- $source := site.Params.socialImage | default site.Home.Params.bgImage | default site.Params.favicon -}}
+{{- if and site.Params.socialImageFromSection (not .IsHome) -}}
+    {{- with .FirstSection -}}
+        {{- with .Params.bgImage }}{{ $source = . }}{{ end -}}
+    {{- end -}}
+{{- end -}}
+{{- $socialImage := strings.TrimPrefix "/" $source | absURL -}}
+{{- if site.Params.socialImageFromPageResource -}}
+    {{- with .Resources.GetMatch "images/feature*" }}{{ $socialImage = .Permalink }}{{ end -}}
+{{- end -}}
+{{- return $socialImage -}}

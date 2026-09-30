@@ -1,0 +1,4 @@
+{{- $basePath := (urls.Parse site.BaseURL).Path -}}
+{{- $pagePath := strings.TrimPrefix $basePath .RelPermalink -}}
+{{- $productionBaseURL := strings.TrimSuffix "/" site.Params.productionBaseURL -}}
+{{- return (printf "%s/%s" $productionBaseURL $pagePath) -}}
