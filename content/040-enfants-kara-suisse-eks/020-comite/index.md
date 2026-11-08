@@ -1,0 +1,30 @@
+---
+date: 2013-04-15T12:00:00+01:00
+title: "Comité 2017 - 2021"
+url: "/enfants-kara-suisse-eks/comite/"
+linkTitle: "Comité"
+draft: false
+aliases:
+  - "/enfants-kara-suisse-eks/comite/index.html"
+description: "Composition du comité d'Enfants-Kara Suisse avec la présidente Rose Balmer et les membres actifs de l'association."
+---
+
+<figure class="gallery-item">
+    <img src="images/ibac569724a40e6e4-9b23ad94dd.jpg" alt="Logo de l’association Enfants-Kara" title="Logo de l’association Enfants-Kara">
+    <figcaption>Logo de l’association Enfants-Kara</figcaption>
+  </figure>
+
+Il est constitué comme suit :
+
+| Fonction                       | Prénom         | Nom       |
+| ------------------------------ | -------------- | --------- |
+| Présidente et membre fondateur | Rose           | BALMER    |
+| Vice-président et Webmaster    | Pierre-Alain   | STEFFEN   |
+| Trésorier et membre fondateur  | Claude         | BALMER    |
+| Secrétaires                    | Irene          | RAYMAKERS |
+|                                | Anouche        | ZELLER    |
+| Vérificateur des comptes       | Bertrand       | MONNOT    |
+| Autres membres du comité       | Denis          | POISAT    |
+|                                | Anne-Françoise | ZELLER    |
+|                                | Christian      | BALMER    |
+| Autres membres fondateurs      | Ellen          | BALMER    |

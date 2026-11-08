@@ -8,9 +8,7 @@ function getDirectElementChild(parent, selector) {
     return Array.from(parent.children).find((child) => child.matches(selector)) || null;
 }
 
-function getStandaloneMedia(node) {
-    if (node.childElementCount !== 1) return null;
-
+function getDirectMedia(node) {
     const directImage = getDirectElementChild(node, "img");
     if (directImage) return { img: directImage, anchor: null };
 
@@ -23,6 +21,24 @@ function getStandaloneMedia(node) {
     if (!linkedImage) return null;
 
     return { img: linkedImage, anchor: directAnchor };
+}
+
+function getStandaloneMedia(node) {
+    if (node.childElementCount === 1) {
+        const media = getDirectMedia(node);
+        if (media) return media;
+
+        // Une figure (image + légende) seule dans un <li> ou dans le contenu.
+        const figure = getDirectElementChild(node, "figure");
+        if (figure) return getDirectMedia(figure);
+    }
+
+    // La figure elle-même, avec son image et sa légende.
+    if (node.tagName === "FIGURE") {
+        return getDirectMedia(node);
+    }
+
+    return null;
 }
 
 function enhanceContentMedia() {

@@ -9,7 +9,7 @@
     {{- $isActive = eq . $current -}}
   {{- end -}}
   {{- if $isSection -}}
-    {{- $children := sort .Pages "File.Path" -}}
+    {{- $children := sort .Pages "Path" -}}
     <li><details class="branch" {{ if $isActive }}open{{ end }}>
       <summary class="branch-summary">
         <a class="branch-link {{ if $isActive }}is-active{{ end }}" href="{{ .RelPermalink }}">{{ .LinkTitle | safeHTML }}</a>

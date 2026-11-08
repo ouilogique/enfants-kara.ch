@@ -10,7 +10,9 @@
   <body
     class="{{ if .IsHome }}is-home{{ else if .IsSection }}is-section{{ else }}is-page{{ end }}"
   >
-    {{ $rootPages := sort site.Home.Pages "File.Path" }}
+    {{/* Trier sur .Path et non .File.Path : les sections créées implicitement
+         (dossier sans _index.md) ont un .File nil, ce qui ferait échouer sort. */}}
+    {{ $rootPages := sort site.Home.Pages "Path" }}
     {{ with $sectionImage }}
       <div class="page-background" aria-hidden="true" style="--page-bg-image: url('{{ . | relURL }}');"></div>
     {{ end }}

@@ -35,8 +35,17 @@
     gap: 0.9rem;
   }
 
-  .content .gallery-item {
+  .content .image-gallery .gallery-item {
     margin: 0;
+  }
+
+  .content figure {
+    margin: 1.5rem 0;
+  }
+
+  .content figcaption {
+    margin-top: 0.4rem;
+    text-align: center;
   }
 
   .content .image-gallery img {

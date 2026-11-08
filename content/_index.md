@@ -4,7 +4,7 @@ title: "Association Enfants-Kara"
 description: "Association Enfants-Kara — accompagner des enfants et des jeunes au Togo avec un engagement concret, durable et profondément humain."
 aliases:
   - "/index.html"
-bgImage: "images/bill-wegener-7MD4DR9jbP0-unsplash.jpg"
+bgImage: "images/content.jpg"
 ---
 
 Une association qui accompagne des enfants et des jeunes au Togo avec un engagement concret, durable et profondément humain.

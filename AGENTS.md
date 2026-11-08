@@ -258,3 +258,123 @@ Cinq thèmes Hugo testés comme alternatives au thème `kara`. Conclusion : aucu
 
 -   Avant toute opération importante ou ambiguë, indiquer brièvement si la consigne peut être optimisée ou resserrée.
 -   **Ne jamais créer un commit sans validation explicite de l’utilisateur.** Préparer le travail, puis demander confirmation avant de committer.
+
+
+---
+
+## Mes modifications
+
+#### Normalisation de la syntaxe
+Renommer tous les fichiers _index.md en index.md. NON car il existe une definition claire à l'utilisation de "_":
+
+      content/
+      ├── branch-bundle-1/
+      │   ├── _index.md
+      │   ├── content-1.md
+      │   ├── content-2.md
+      │   ├── image-1.jpg
+      │   └── image-2.png
+      ├── branch-bundle-2/
+      │   ├── a-leaf-bundle/
+      │   │   └── index.md
+      │   └── _index.md
+      └── _index.md
+      
+_index-md: est utilisé dans des répertoires qui contiennent des sous répertoires et des ressources
+index.md: est utilisé dans des répertoires feuilles (qui n'ont pas de descendants)
+
+#### Enlever toutes les images qui n'appartiennent pas à EK
+- Dans SiteEK\static\images, remplacer
+     bill-wegener-7MD4DR9jbP0-unsplash.jpg par Image104.jpg (content\_index.md) 
+     bill-wegener-7MD4DR9jbP0-unsplash.jpg par IMG_3363.jpg (content\050-remerciements\_index.md) 
+     bill-wegener-hs98_9hzTcU-unsplash.jpg.jpg par Image020_21.jpg (content\020-enfants-kara-suisse-eks\_index.md)
+     felicia-montenegro-EEbLJlfCnSI-unsplash.jpg par Image015_16.jpg (content\010-accueil\_index.md)
+     stijn-kleerebezem-bsk8f6BVSHc-unsplash.jpg par  IMG_3552 .jpg (content\040-projet-marcar)
+
+#### Arborescence du projet
+Restructuration du projet ainsi:
+
+  content/
+    ├── accueil/
+    │   ├── _index.md
+    │   ├── le-togo/
+    │   ├── la-suisse/
+    │   └── images/
+    ├── manifestations/
+    │   ├── _index.md
+    │   ├── marche-noel/
+    │   ├── repas-soiree-soutien/
+    │   └── images/
+    ├── foyers/
+    │   ├── _index.md
+    │   ├── le-foyer-stm-marguerite/
+    │   ├── le-foyer-esperance/
+    │   ├── le-foyer-caredo/
+    │   └── images/
+    ├── enfants-kara-suisse-eks/
+    │   ├── _index.md
+    │   ├── status/
+    │   ├── comite/
+    │   ├── assemblees-generales/
+    │   ├── devenir-membre/
+    │   ├── faire-un-don/
+    │   ├── contact/
+    │   ├── manifestations/
+    │   └── images/
+    ├── enfants-kars-togo-ekt/
+    │   ├── _index.md
+    │   ├── status/
+    │   ├── comite/
+    │   ├── assemblees-generales/
+    │   ├── devenir-membre/
+    │   ├── faire-un-don/
+    │   ├── contact/
+    │   ├── manifestations/
+    │   └── images/
+    ├── projets-en-cours/
+    │   ├── _index.md
+    │   ├── savonnerie/
+    │   ├── verger/
+    │   └── images/
+    ├── remerciements/
+    │   └── _index.md
+    └── _index.md
+
+Avec
+foyers/le-foyer-stm-marguerite/
+    ├── _index.md
+    │   ├── les-locaux/
+    │   ├── nos-visites/
+    │   └── images/
+
+foyers/le-foyer-esperance/
+    ├── _index.md
+    │   ├── preambule/
+    │   ├── informations/
+    │   ├── le-foyer-de-l-esperance/
+    │   ├── le-centre-de-formation/
+    │   ├── actions/
+    │   ├── remise-kits-diplome/
+    │   ├── nos-visites/
+    │   └── images/
+
+foyers/le-foyer-caredo/
+    ├── _index.md
+    │   ├── preambule/
+    │   ├── informations/
+    │   ├── le-foyer-de-l-esperance/
+    │   ├── le-centre-de-formation/
+    │   ├── actions/
+    │   ├── remise-kits-diplome/
+    │   ├── nos-visites/
+    │   └── images/
+
+On trouvera dans _index.md la commande "bgImage" uniquement dans les répertoires "root" comme content, accueil, manifestatios, foyers, eks, ekt, projet et remerciement. Les images doivent se trouver dans static/images
+
+#### Questions
+Je ne comprend pas pourquoi je dois mettre _index.md dans remerciements/ pour afficher la photo demandée par bgImagem sinon on affiche la photo de content/_index.nd
+
+#### Corrections contenu des pages
+- content\050-remerciements: index.md
+
+- content/010-accueil

@@ -6,6 +6,14 @@ defaultContentLanguage: "fr"
 enableRobotsTXT: true
 publishDir: .hugo_nokdrive/public
 resourceDir: .hugo_nokdrive/resources
+ignoreFiles:
+  # Les motifs sont comparés à des chemins absolus, avec le séparateur du système
+  # (antislash sous Windows). On accepte donc les deux séparateurs et on n'ancre
+  # pas au début de la ligne.
+  - '(^|[\\/])content[\\/]templater[\\/].*$'
+  - '(^|[\\/])content[\\/]modele[\\/].*$'
+  - '(^|[\\/])content[\\/]templates[\\/].*$'  # au cas où
+  - '(^|[\\/])content[\\/]\.obsidian[\\/].*$'
 disableKinds:
   - taxonomy
   - term

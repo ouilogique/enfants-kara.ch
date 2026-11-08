@@ -5,3 +5,4 @@ resources/
 .DS_Store
 .hugo_build.lock
 .hugo_preview/
+.obsidian/

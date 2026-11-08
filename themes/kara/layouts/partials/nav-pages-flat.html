@@ -7,7 +7,7 @@
 {{- range . -}}
   {{- $result = $result | append . -}}
   {{- if eq .Kind "section" -}}
-    {{- range (partial "nav-pages-flat.html" (sort .Pages "File.Path")) -}}
+    {{- range (partial "nav-pages-flat.html" (sort .Pages "Path")) -}}
       {{- $result = $result | append . -}}
     {{- end -}}
   {{- end -}}

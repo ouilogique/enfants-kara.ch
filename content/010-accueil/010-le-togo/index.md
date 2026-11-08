@@ -9,11 +9,17 @@ aliases:
 description: "Présentation géographique, démographique et historique du Togo : situation, population, langues, économie et chronologie politique."
 ---
 
-![Drapeau du Togo](images/i9f7b85dc3fda7dbc-dfd2516480.gif)
+<figure class="gallery-item">
+    <img src="images/i9f7b85dc3fda7dbc-dfd2516480.gif" alt="Drapeau du Togo" title="Drapeau du Togo">
+    <figcaption>Drapeau du Togo</figcaption>
+  </figure>
 
 Le Togo se trouve en Afrique de l'Ouest, entre le Ghana à l'ouest, le Bénin à l'est, le Burkina au nord et sur le golfe de Guinée au sud (cf photo 1). Sa superficie est de 56'600 km2, pour environ 700 km de long et 50 à 150 km de large. En 2012, on y recense plus de 6'900'000 habitants. La langue officielle est le français. En plus du français, l'éwé et le kabyè sont enseignés dans le pays (parmi une quarantaine de langues). Par comparaison, la Suisse a une superficie de 41'293 km2 et une population d'un peu plus de 8'000'000 d'habitants (2012). La monnaie du pays est le franc CFA (Taux approximatif 1 CHF = 500 CFA).
 
-![Carte du Togo en Afrique de l’Ouest](images/ib53bd1f23752a077-71008a90a2.png)
+<figure class="gallery-item">
+    <img src="images/ib53bd1f23752a077-71008a90a2.png" alt="Carte du Togo en Afrique de l’Ouest" title="Carte du Togo en Afrique de l’Ouest">
+    <figcaption>Carte du Togo en Afrique de l’Ouest</figcaption>
+  </figure>
 
 C'est un pays au climat tropical humide au sud (forêts) et de plus en plus sec en allant au nord (savanes). Le Togo demeure essentiellement rural. Les exportations de produits agricoles (palmistes, café, cacao, coton) viennent cependant loin derrière celles des phosphates, seule ressource notable du sous-sol. Le Togo est d’ailleurs le cinquième producteur mondial de phosphates.
 
@@ -21,15 +27,22 @@ La base de l'alimentation des habitants du pays est constituée de manioc, de ma
 
 La capitale, Lomé, se trouve au sud du pays en bord de mer et a vu de ce fait s'y développer un important port, seul port en eau profonde de la sous-région, doté d'une zone franche. Elle concentre une grande partie de la population (environ 800'000 habitants en 2010) et est le centre économique et politique du pays. Elle possède un aéroport international, connecté avec les principales capitales du monde. Une particularité à relever : un bon quart de la ville se trouve au Ghana !
 
+Depuis 2012 la population a connu une croissance soutenue et dépasse désormais les 9 millions d'habitants (2024-2026). Le pays continue de diversifier son économie, notamment à travers la "Feuille de route gouvernementale 2020-2025", qui vise à transformer le Togo en un hub logistique et financier majeur en Afrique de l'Ouest. Le Port Autonome de Lomé reste un moteur économique essentiel, renforçant sa position de leader dans la sous-région. Le PIB par habitant a progressé, porté par les investissements dans les infrastructures et la digitalisation des services publics. Le taux de change reste stable autour de 1 CHF ≈ 710 CFA (2026).
+
 Plus de statistiques : [Statistiques mondiales, fiche Togo](https://www.statistiques-mondiales.com/togo.htm)
 
 Site officiel du Togo : [Republic of Togo](https://www.republicoftogo.com/)
 
 Voir aussi : [Lomé](https://fr.wikipedia.org/wiki/Lomé)
 
-![Cérémonie de lever du drapeau](images/i678f7c1fa41f5d67-9b624e04ba.jpg)
+<figure class="gallery-item">
+    <img src="images/i678f7c1fa41f5d67-9b624e04ba.jpg" alt="Cérémonie de lever du drapeau" title="Cérémonie de lever du drapeau">
+    <figcaption>Cérémonie de lever du drapeau</figcaption>
+  </figure>
 
 # Histoire
+
+Sources: [wikipédia](https://wikipedia/)
 
 Dès le **XIème siècle**: présence humaine attestée par la découverte de divers objets.
 
@@ -47,7 +60,10 @@ Dès le **XIème siècle**: présence humaine attestée par la découverte de di
 
 **1922**: le partage est confirmé par l'octroi de mandats de la SDN.
 
-![Panneau électoral de Faure Gnassingbé](images/ic3ee1f17d48f32bb-a0e7da860e.png)
+<figure class="gallery-item">
+    <img src="images/ic3ee1f17d48f32bb-a0e7da860e.png" alt="Panneau électoral de Faure Gnassingbé" title="Panneau électoral de Faure Gnassingbé">
+    <figcaption>Panneau électoral de Faure Gnassingbé</figcaption>
+  </figure>
 
 **1946:** Le pays passe sous la tutelle de l'ONU.
 
@@ -89,8 +105,18 @@ Dès le **XIème siècle**: présence humaine attestée par la découverte de di
 
 **2011:** Annulation par la France de la dette du Togo d'un montant de 100 millions d'euros.
 
-![Femme transportant des briques](images/iec03540ad9066e56-04c0e9c87b.jpg)
+**2015:** Adoption d'une nouvelle Constitution qui marque le passage progressif vers un régime plus parlementaire, bien que le pouvoir reste fortement centralisé autour de la présidence.
 
-# Économie
+**2017:** Création de l'Alliance nationale pour la réconciliation, visant à apaiser les tensions politiques internes.
 
-Au début des années 90, le Togo a commencé un processus de démocratisation. Des tensions sont apparues et ont dégénéré en une crise généralisée. Les différentes ethnies se sont affrontées et le pays s'est trouvé à deux doigts de la guerre civile. L'armée est restée soudée autour du président Eyadéma et a essayé de calmer le jeu. Il s'en est suivi une grève générale de neuf mois pour faire tomber le gouvernement, qui a tenu bon. Le tissu économique du pays a été entièrement détruit. La population est entrée dans une forme d'économie de subsistance. Vers la fin de l'année 94 l'état de siège a été levé. La France, puis la communauté économique européenne, ont érigé des sanctions contre le Togo pour forcer le gouvernement à se "démocratiser". La situation économique s'est très vite dégradée. Il n'y a pratiquement plus de travail, les salaires ne sont pas toujours payés. Le chômage est très important et l'argent est rare et mal partagé. Il n'y a ni assurances sociales universelles, ni caisse de chômage, sauf pour certains privilégiés. Les habitants comptent sur la solidarité du clan pour survivre. Une minorité de personnes accapareraient (détourneraient) la plus grande partie des fonds encore disponibles. L'année 2001 a été proclamée par le gouvernement "année de lutte contre la corruption", pour espérer recevoir de nouveaux fonds du FMI et de l'Europe, mais cet embargo économique a asphyxié le pays. Il n’y a plus eu aucun échange, sauf pour l'aide d'urgence. En 2006 la première tâche du nouveau gouvernement de Gnasingbé Faure a été de définir un protocole d’accord avec les "opposants" togolais afin que la communauté européenne lève ses sanctions économiques. Ce protocole en 22 points fixe les grandes lignes de la nouvelle "réconciliation nationale". Le 20 août 2006, ces propositions sont enfin signées par le président Faure et les principaux représentants des partis politiques, sous l’égide du président burkinabé, Kompaoré Blaise. Le déblocage de cette situation a permi la levée des sanctions économiques européennes et le début d'une nouvelle collaboration entre le Togo et l'UE.
+**2020:** Lancement de la "Feuille de route gouvernementale 2020-2025", un plan ambitieux axé sur l'inclusion sociale, l'amélioration du climat des affaires et la modernisation des infrastructures.
+
+**2021:** Le président Faure Gnassingbé est réélu pour un nouveau mandat, malgré des contestations persistantes de l'opposition.
+
+**2022-2023:** Le Togo renforce sa coopération sécuritaire avec ses voisins du Nord (Burkina Faso, Bénin) pour faire face à la montée des menaces terroristes et des incursions de groupes armés dans la région des Savanes.
+
+**2024:** Poursuite des grands travaux d'infrastructure, notamment dans le domaine du transport et de l'énergie, pour réduire la dépendance énergétique et faciliter le commerce intérieur.
+
+**2025:** Fin du cycle de la Feuille de route 2020-2025. Le bilan met en avant une digitalisation accélérée de l'administration et une extension des couvertures de santé universelle.
+
+**2026:** Le pays s'engage dans une nouvelle phase de développement économique, mettant l'accent sur la transition écologique et l'agro-industrie pour transformer localement les matières premières (coton, cacao, soja) et créer des emplois pour la jeunesse.

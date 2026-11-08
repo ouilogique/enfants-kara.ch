@@ -4,7 +4,7 @@
     <div class="content">
       {{ .Content }}
     </div>
-    {{ $pages := sort .Pages "File.Path" }}
+    {{ $pages := sort .Pages "Path" }}
     {{ if gt (len $pages) 0 }}
       <div class="listing">
         {{ range $pages }}

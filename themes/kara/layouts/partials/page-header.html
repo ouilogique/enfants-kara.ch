@@ -1,5 +1,5 @@
 {{- $allPages := slice site.Home -}}
-{{- range partial "nav-pages-flat.html" (sort site.Home.Pages "File.Path") -}}
+{{- range partial "nav-pages-flat.html" (sort site.Home.Pages "Path") -}}
   {{- $allPages = $allPages | append . -}}
 {{- end -}}
 
