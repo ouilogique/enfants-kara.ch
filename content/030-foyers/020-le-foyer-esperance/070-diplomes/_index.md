@@ -395,7 +395,7 @@ A l'occasion de leur séjour au Togo, Rose Balmer, présidente et son mari Claud
 ---
 # Diplômes 2017
 
-![](images/ClipEK.wmv)
+[Télécharger la vidéo de la cérémonie (WMV, 46 Mo)](images/ClipEK.wmv)
 
 - <figure class="gallery-item">
     <img src="images/6366336.jpg" alt="Réception de la présidente d'EKS par le préfet de Sotouboua" title="Réception de la présidente d'EKS par le préfet de Sotouboua">

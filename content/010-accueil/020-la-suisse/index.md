@@ -17,8 +17,8 @@ description: "Présentation géographique, démographique et historique de la Su
 La Suisse se trouve au cœur de l'Europe, entourée par la France à l'ouest, l'Allemagne au nord, l'Autriche et le Liechtenstein à l'est, et l'Italie au sud. Sa superficie est de 41'293 km², un territoire marqué par la diversité de ses reliefs, dominé par les Alpes au sud et à l'est, et le plateau suisse au centre. En 2024, on y recense environ 8'900'000 habitants. Le pays possède quatre langues nationales : l'allemand, le français, l'italien et le romanche. La monnaie nationale est le franc suisse (CHF).
 
 <figure class="gallery-item">
-    <img src="images/20261025162027.png" alt="482" title="482">
-    <figcaption>482</figcaption>
+    <img src="images/20261025162027.png" alt="Carte de la Suisse au centre de l'Europe" title="Carte de la Suisse au centre de l'Europe">
+    <figcaption>Carte de la Suisse au centre de l'Europe</figcaption>
   </figure>
 
 C'est un pays au climat tempéré, variant selon l'altitude : un climat doux dans le plateau et plus rigoureux en montagne. La Suisse est historiquement connue pour son secteur agricole (fromages, chocolat), mais son économie est aujourd'hui l'une des plus performantes au monde. Elle excelle dans les secteurs de la finance, de l'industrie pharmaceutique et de l'horlogerie de précision.

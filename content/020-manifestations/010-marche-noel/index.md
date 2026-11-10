@@ -17,13 +17,13 @@ Les articles présentés, soigneusement sélectionnés au Togo, nous sont parven
 Le marché s’est déroulé du 11 au 13 décembre. La foule était nombreuse, et les visiteurs, affables et joyeux. Notre stand n’a pas désempli.
 
 - <figure class="gallery-item">
-    <img src="images/IMG_20251211_164956%201.jpg" alt="vue de notre stand" title="vue de notre stand">
-    <figcaption>vue de notre stand</figcaption>
+     <img src="images/IMG_20251211_164956%201.jpg" alt="vue de notre stand" title="vue de notre stand">
+     <figcaption>vue de notre stand</figcaption>
   </figure>
 
 - <figure class="gallery-item">
-    <img src="images/WhatsApp%20Image%202026-02-25%201.jpg" alt="bénévoles (g à d, Claude Balmer, Anouche Zeller, Nathalie Betcha)" title="bénévoles (g à d, Claude Balmer, Anouche Zeller, Nathalie Betcha)">
-    <figcaption>bénévoles (g à d, Claude Balmer, Anouche Zeller, Nathalie Betcha)</figcaption>
+     <img src="images/WhatsApp%20Image%202026-02-25%201.jpg" alt="bénévoles (g à d, Claude Balmer, Anouche Zeller, Nathalie Betcha)" title="bénévoles (g à d, Claude Balmer, Anouche Zeller, Nathalie Betcha)">
+     <figcaption>bénévoles (g à d, Claude Balmer, Anouche Zeller, Nathalie Betcha)</figcaption>
   </figure>
 
 ---
@@ -31,18 +31,18 @@ Le marché s’est déroulé du 11 au 13 décembre. La foule était nombreuse, e
 Le marché s’est déroulé du 12 au 14 décembre dans une ambiance chaleureuse.
 
 - <figure class="gallery-item">
-    <img src="images/WhatsApp%20Image%202025-01-11%20à%2022.27.47_80145306.jpg" alt="Vue du stand Enfants-Kara" title="Vue du stand Enfants-Kara">
-    <figcaption>Vue du stand Enfants-Kara</figcaption>
+     <img src="images/WhatsApp%20Image%202025-01-11%20à%2022.27.47_80145306.jpg" alt="Vue du stand Enfants-Kara" title="Vue du stand Enfants-Kara">
+     <figcaption>Vue du stand Enfants-Kara</figcaption>
   </figure>
 
 - <figure class="gallery-item">
-    <img src="images/DSCF1824.jpg" alt="Famille Balmer au complet (de g à d, Claude, Rose et Déou)" title="Famille Balmer au complet (de g à d, Claude, Rose et Déou)">
-    <figcaption>Famille Balmer au complet (de g à d, Claude, Rose et Déou)</figcaption>
+     <img src="images/DSCF1824.jpg" alt="Famille Balmer au complet (de g à d, Claude, Rose et Déou)" title="Famille Balmer au complet (de g à d, Claude, Rose et Déou)">
+     <figcaption>Famille Balmer au complet (de g à d, Claude, Rose et Déou)</figcaption>
   </figure>
 
 - <figure class="gallery-item">
-    <img src="images/WhatsApp%20Image%202024-12-13%20à%2017.05.54_5fefc2cb%202.jpg" alt="Madame la présidente d'EKS, Rose Balmer" title="Madame la présidente d'EKS, Rose Balmer">
-    <figcaption>Madame la présidente d'EKS, Rose Balmer</figcaption>
+     <img src="images/WhatsApp%20Image%202024-12-13%20à%2017.05.54_5fefc2cb%202.jpg" alt="Madame la présidente d'EKS, Rose Balmer" title="Madame la présidente d'EKS, Rose Balmer">
+     <figcaption>Madame la présidente d'EKS, Rose Balmer</figcaption>
   </figure>
 
 - <figure class="gallery-item">
@@ -60,13 +60,13 @@ Le marché s’est déroulé du 15 au 17 décembre. Retour d'Enfants-Kara au Mar
 Quel plaisir, malgré le travail important nécessaire, d'installer nos tréteaux. Comme d'habitude les bénévoles s'y sont succédés. Qu'ils en soient remerciés. !
 
 - <figure class="gallery-item">
-    <img src="images/i70c2c48cc807087b-ea06ab5820.jpg" alt="Stand d’artisanat au marché de Noël" title="Stand d’artisanat au marché de Noël">
-    <figcaption>Stand d’artisanat au marché de Noël</figcaption>
+     <img src="images/i70c2c48cc807087b-ea06ab5820.jpg" alt="Stand d’artisanat au marché de Noël" title="Stand d’artisanat au marché de Noël">
+     <figcaption>Stand d’artisanat au marché de Noël</figcaption>
   </figure>
 
 - <figure class="gallery-item">
-    <img src="images/i162582b5e55aa473-15ca4225d0.jpg" alt="Stand d’Enfants-Kara au marché de Noël" title="Stand d’Enfants-Kara au marché de Noël">
-    <figcaption>Stand d’Enfants-Kara au marché de Noël</figcaption>
+     <img src="images/i162582b5e55aa473-15ca4225d0.jpg" alt="Stand d’Enfants-Kara au marché de Noël" title="Stand d’Enfants-Kara au marché de Noël">
+     <figcaption>Stand d’Enfants-Kara au marché de Noël</figcaption>
   </figure>
 
 ---
@@ -78,15 +78,15 @@ Tous les articles étaient en provenance du Togo grâce à des achats effectués
 Au bilan une rentrée d'argent significative pour les comptes de l'Association.
 
 <figure class="gallery-item">
-  <img src="images/i37644801b409d095-7d370a6315.jpg" alt="Membres du comité sur le stand" title="Membres du comité sur le stand">
-  <figcaption>Membres du comité sur le stand</figcaption>
+   <img src="images/i37644801b409d095-7d370a6315.jpg" alt="Membres du comité sur le stand" title="Membres du comité sur le stand">
+   <figcaption>Membres du comité sur le stand</figcaption>
 </figure>
 
 Quatre membres du comité surpris sur le stand, de gauche à droite, Steffen Pierre-Alain, Zeller Anouche, Balmer Claude et Balmer Rose. Merci à tous les autres bénévoles invisibles !
 
 <figure class="gallery-item">
-  <img src="images/ia61891e422e1397f-57510eb268.jpg" alt="Bénévoles derrière les produits du stand" title="Bénévoles derrière les produits du stand">
-  <figcaption>Bénévoles derrière les produits du stand</figcaption>
+   <img src="images/ia61891e422e1397f-57510eb268.jpg" alt="Bénévoles derrière les produits du stand" title="Bénévoles derrière les produits du stand">
+   <figcaption>Bénévoles derrière les produits du stand</figcaption>
 </figure>
 
 Rose Balmer et Anouche Zeller derrière des boissons, cacahouètes, gingembre caramélisé, café et autres.

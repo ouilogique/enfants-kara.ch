@@ -30,6 +30,8 @@ Pour mener à bien ces actions, EKS a créé l’ONG Enfants-Kara Togo (EKT) le 
 Sur Google maps, chercher « caredo, togo » qui dirige automatiquement vers le foyer. Cela permet de le situer aux coordonnées Google : 8.34951, 1.01483.
 
 Blitta est une petite ville située au centre du Togo sur la Nationale N1.
+Blitta se trouve à environ 17 [km] de Tigbada et à 9 [km] de Sotouboua.
+Blitta est une ville d’environ 55’000 habitants et Sotouboua une ville de 22’000 habitants.
 
 <figure class="gallery-item">
     <img src="images/if58e2fce4344744d-6be1919ae2.jpg" alt="Situation géographique" title="Situation géographique">
