@@ -1,0 +1,14 @@
+{{- /*
+  Rendu des titres.
+
+  Le caractère 🔴 (U+1F534) est remplacé par une sphère dessinée en CSS
+  (classe .emoji-sphere, définie dans css/_content.css). La police emoji du
+  système dessine en effet un simple disque rouge cerclé de noir, alors que
+  le rendu attendu est une sphère rouge avec dégradé et reflet.
+
+  Avantage : le rendu est identique sur tous les systèmes et ne dépend
+  d'aucune police emoji. Le markdown conserve le vrai caractère 🔴, donc
+  Obsidian et l'édition du contenu ne changent pas.
+*/ -}}
+{{- $text := replace .Text "🔴" `<span class="emoji-sphere" role="img" aria-label="sphère rouge"></span>` -}}
+<h{{ .Level }}{{ with .Anchor }} id="{{ . }}"{{ end }}>{{ $text | safeHTML }}</h{{ .Level }}>

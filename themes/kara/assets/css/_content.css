@@ -144,6 +144,26 @@
     background: rgba(255, 248, 240, 0.6);
   }
 
+  /* Sphère rouge des titres (remplace 🔴, voir _markup/render-heading.html).
+     La police emoji du système dessine un disque rouge cerclé de noir ;
+     ce rendu CSS donne une vraie sphère, identique partout. */
+  .emoji-sphere {
+    display: inline-block;
+    width: 0.9em;
+    height: 0.9em;
+    margin-right: 0.15em;
+    border-radius: 50%;
+    /* centre la sphère sur la hauteur des capitales (≈ 0.35 em au-dessus
+       de la ligne de base), comme le faisait le caractère 🔴 */
+    vertical-align: -0.1em;
+    background:
+      radial-gradient(circle at 68% 30%, #ff96a2 0%, #f4616f 18%, #e43c4c 42%, #c22a3b 70%, #8b1220 100%);
+    box-shadow:
+      inset -0.05em -0.06em 0.12em rgba(70, 0, 10, 0.35),
+      inset 0.02em 0.02em 0.05em rgba(255, 255, 255, 0.28),
+      0 0.015em 0.06em rgba(60, 10, 20, 0.25);
+  }
+
   .update-note {
     margin-top: 2.2rem;
     padding-top: 1rem;
