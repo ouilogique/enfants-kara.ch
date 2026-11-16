@@ -156,4 +156,64 @@
     box-shadow: 0 20px 32px rgba(37, 15, 8, 0.36);
     background: var(--btn-gradient-hover);
   }
+
+  /* Fenêtre « prochaine manifestation », en haut à droite de l'accueil.
+     Alimentée par partials/home-event.html ; rien n'est rendu si les lignes
+     correspondantes de la page Manifestations sont vides. */
+  .home-event {
+    position: absolute;
+    top: clamp(1.25rem, 3vw, 2.2rem);
+    right: clamp(1.25rem, 3vw, 2.2rem);
+    z-index: 2;
+    display: grid;
+    gap: 0.35rem;
+    max-width: min(24rem, calc(100% - 2 * clamp(1.25rem, 3vw, 2.2rem)));
+    padding: 1rem 1.15rem;
+    border: 1px solid rgba(255, 240, 230, 0.28);
+    border-radius: 1rem;
+    background: var(--btn-gradient);
+    box-shadow: 0 18px 32px rgba(37, 15, 8, 0.28);
+    color: var(--on-dark);
+    text-align: left;
+  }
+
+  .home-event-title {
+    margin: 0;
+    color: var(--on-dark);
+    font-size: clamp(1rem, 1.6vw, 1.2rem);
+    line-height: 1.25;
+    text-wrap: balance;
+  }
+
+  .home-event-detail p {
+    margin: 0;
+    color: rgba(255, 244, 235, 0.92);
+    font-size: 0.95rem;
+    line-height: 1.4;
+  }
+
+  .home-event-link {
+    justify-self: start;
+    margin-top: 0.2rem;
+    color: var(--on-dark);
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+  }
+
+  .home-event-link:hover,
+  .home-event-link:focus-visible {
+    color: #ffd9c6;
+  }
+
+  /* Sur écran étroit, la fenêtre passe sous le logo pour ne pas le chevaucher. */
+  @media (max-width: 720px) {
+    .home-event {
+      top: calc(clamp(1.25rem, 3vw, 2.2rem) + 3.9rem);
+      left: clamp(1.25rem, 3vw, 2.2rem);
+      right: clamp(1.25rem, 3vw, 2.2rem);
+      max-width: none;
+    }
+  }
 }
