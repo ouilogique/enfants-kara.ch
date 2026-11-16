@@ -25,7 +25,7 @@ L'association marque également sa présence sur divers marchés d'été ou de N
 
 Toutes nos activités sont annoncées et mises à jour régulièrement sur notre page "Manifestations".
 
-# Prochaine date à retenir: 10-12 décembre 2026
+# 🔴 Prochaine date à retenir: 10-12 décembre 2026
 Au Centre socioculturel de Pôle Sud, avenue Jean-Jacques Mercier 3, Lausanne
 
 <figure class="gallery-item">

@@ -1,7 +1,7 @@
 ---
 date: 2026-11-02
 title: Nos visites
-url: "/foyer/le-foyer-caredo/nos-visites/"
+url: "/foyers/le-foyer-caredo/nos-visites/"
 linkTitle: "Nos visites au Foyer"
 draft: false
 aliases:
@@ -22,13 +22,12 @@ Pour illustrer ces actions, nous pourrions publier chaque mois quelques photos, 
   </figure>
 
 
-# Foyer Caredo (juillet 2026)
-L'année 2026 a permis la création de la savonnerie sur le terrain de Yaloumbé. Pour 
+# 🔴 Foyer Caredo (juillet 2026)
+L'année 2026 a permis la création de la savonnerie sur le terrain de Yaloumbé.
 
 
 ---
-
-# Foyer Caredo (juillet 2025)
+# 🔴 Foyer Caredo (juillet 2025)
 
 - <figure class="gallery-item">
     <img src="images/IMG_3381.jpg" alt="Distribution de biscuits de Suisse" title="Distribution de biscuits de Suisse">
@@ -40,7 +39,7 @@ L'année 2026 a permis la création de la savonnerie sur le terrain de Yaloumbé
   </figure>
 
 ---
-# Foyer Caredo (juillet 2024)
+# 🔴 Foyer Caredo (juillet 2024)
 La visite de Rose, Déou et Claude Balmer au foyer Caredo sera également l’occasion de planter les arbres du futur verger.
 
 - <figure class="gallery-item">
@@ -52,7 +51,7 @@ La visite de Rose, Déou et Claude Balmer au foyer Caredo sera également l’oc
     <figcaption>Encadrement des enfants avec M. Kpéléé à droite</figcaption>
   </figure>
 
-#
+<!-- séparateur de galerie -->
 Il faut parcourir plusieurs kilomètres avant d’atteindre le terrain, le triporteur chargé de jeunes arbres destinés à donner vie au futur verger. Manguiers, palmiers à huile, orangers, pamplemoussiers et citronniers font partie des essences choisies.
 
 Malgré la distance et les difficultés du trajet, chacun avance avec enthousiasme, en pensant déjà à voir ces arbres grandir et porter leurs fruits. La première étape prévoit la plantation de 150 arbres. Comme il faudra patienter quelque temps avant les premières récoltes, il a été décidé de commencer par le verger, avant d’entreprendre la construction de la future savonnerie.
@@ -75,11 +74,11 @@ Malgré la distance et les difficultés du trajet, chacun avance avec enthousias
   </figure>
 
 ---
-# Foyer Caredo (juillet 2021)
+# 🔴 Foyer Caredo (juillet 2021)
 
 <figure class="gallery-item">
     <img src="images/IMG-20210126-WA0008.jpg" alt="Achats de vivres" title="Achats de vivres">
     <figcaption>Achats de vivres</figcaption>
   </figure>
 
----
+

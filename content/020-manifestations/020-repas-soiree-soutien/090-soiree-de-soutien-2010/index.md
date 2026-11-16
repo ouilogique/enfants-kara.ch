@@ -1,12 +1,12 @@
 ---
 date: 2013-04-15T12:00:00+01:00
-title: "Soirée de soutien 2010"
-url: "/manifestations/soiree-de-soutien-2010/"
-linkTitle: "Soirée de soutien 2010"
+title: Soirée de soutien 2010
+url: /manifestations/soiree-de-soutien-2010/
+linkTitle: Soirée de soutien 2010
 draft: false
 aliases:
-  - "/manifestations/soirée-de-soutien-2010/index.html"
-description: "Soirée de soutien 2010 d'Enfants-Kara avec la chanteuse Vicky Bila, au profit des enfants du Togo."
+  - /manifestations/soiree-de-soutien-2010/index.html
+description: Soirée de soutien 2010 d'Enfants-Kara avec la chanteuse Vicky Bila, au profit des enfants du Togo.
 ---
 # 🔴 Soirée 2010
 Cette soirée s’est tenue le 1ᵉʳ octobre 2010 dans la grande salle du Mont-sur-Lausanne. Au programme : un repas et plusieurs spectacles.

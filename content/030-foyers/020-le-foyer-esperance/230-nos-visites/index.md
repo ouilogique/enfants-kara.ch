@@ -10,10 +10,6 @@ description: Toutes nos visites au foyer Espérance
 ---
 
 
-Cliquez sur une image pour l'agrandir.\
-Flèches gauche-droite pour changer de photo.\
-Tapez Escape pour revenir au format initial.
-
 # 🔴 Visite octobre 2026
 Claude et Rose Balmer ont fait une visite éclair au centre au mois d'octobre 2026.
 
@@ -42,6 +38,7 @@ Claude et Rose Balmer ont fait une visite éclair au centre au mois d'octobre 20
     <figcaption>Vue sur le potager</figcaption>
   </figure>
 
+---
 # 🔴 Visite novembre 2025
 Rose et Claude Balmer ont rencontré les maîtres d’apprentissage afin d’échanger avec eux sur le déroulement des formations. Ils ont pu recueillir leurs témoignages, prendre connaissance de leurs préoccupations et entendre leurs doléances. Ces discussions leur ont également permis de mieux comprendre la situation actuelle, de mesurer les besoins et les attentes, et de prendre en compte les nouvelles demandes exprimées.
 
@@ -60,6 +57,7 @@ Rose et Claude Balmer ont rencontré les maîtres d’apprentissage afin d’éc
     <figcaption>Les maitres d'apprentissage</figcaption>
   </figure>
 
+---
 # 🔴 Visite juillet 2024
 Lors de leur visite au foyer de l’Espérance, en juillet 2024, Claude et Rose Balmer ont rencontré les maîtres d’apprentissage ainsi que plusieurs apprentis. Cette rencontre leur a permis d’échanger des informations, de faire le point sur les formations et de mieux connaître les expériences et les besoins de chacun.
 
@@ -95,6 +93,7 @@ Au mois de mai 2024 s'est déroulé la cérémonie de remise des kits d'outillag
     <figcaption>Certificat de fin d'apprentissage</figcaption>
   </figure>
 
+---
 # 🔴 Visite juillet 2023
 Le comité d’EKT, accompagné de représentants d’EKS, a effectué une visite de courtoisie au foyer de l’Espérance. Cette rencontre a été l’occasion d’échanger avec les membres du foyer et les maîtres d’apprentissage, de prendre de leurs nouvelles et de renforcer les liens entre les différentes équipes.
 
@@ -132,6 +131,7 @@ La construction des dortoirs s’est accompagnée de celle des douches et des la
     <figcaption>Tout se termine par un repas convivial au restaurant</figcaption>
   </figure>
 
+---
 # 🔴 Remise des kits 2022
 L’année de la Covid, aucun représentant d’EKS n’a pu être présent. La fête s’est donc déroulée dans un format plus modeste que les années précédentes.
 
@@ -155,6 +155,7 @@ L’année de la Covid, aucun représentant d’EKS n’a pu être présent. La 
     <figcaption>Tout se termine avec une verrée</figcaption>
   </figure>
 
+---
 # 🔴 Remise des kits 2021
 La pandémie de Covid-19 nous a empêchés d’être présents. Nous avons reçu une vidéo de cette cérémonie:
 
@@ -164,9 +165,11 @@ La pandémie de Covid-19 nous a empêchés d’être présents. Nous avons reçu
   <a href="images/REMISE_KITS_2021.mp4">Télécharger le fichier</a>.
 </video>
 
+---
 # 🔴 2020
 On est en pleine crise du Covid, toutes les actions sont suspendues.
 
+---
 # 🔴 Visite juillet 2016
 
 - <figure class="gallery-item">
@@ -189,6 +192,7 @@ On est en pleine crise du Covid, toutes les actions sont suspendues.
     <figcaption>Remise symbolique d'un kit par Claude Balmer</figcaption>
   </figure>
 
+---
 # 🔴 Visite 2015
 
 Visite de Rose Balmer, présidente de l'Association.

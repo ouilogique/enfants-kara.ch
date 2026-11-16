@@ -8,15 +8,14 @@ aliases:
   - /foyers/le-foyer-esperance/actions/2017-ateliers/index.html
 description: Financement de la construction d'ateliers de mécanique au Foyer de l'Espérance en 2017, inaugurés en juillet après approbation en Assemblée Générale.
 ---
-
+# 🔴 Ateliers de mécanique
 Réunis en Assemblée Générale annuelle le 26 janvier, les membres présents de l'Association Enfants-Kara ont accepté un financement de 9'224'000 CFA (env. 15'000 CHF) pour la construction d'ateliers pour la mécanique dont la description suit.
 
 L'aspect de la contribution à la durabilité du Foyer et de son Centre de formation a séduit les votants. En effet, on peut s'attendre à un apport financier bienvenu par la facturation des prestations effectuées.
 
 L'exécution de la construction sera supervisée depuis la Suisse par M. P.A. Steffen, membre du comité, avec l'aide du représentant local d'EK, M. K. Bini.
 
-# DESCRIPTION DU PROJET (document original)
-
+# Description du projet
 Pourquoi cet atelier au Foyer de l’Espérance de Tigbada?
 
 Le Foyer de l’Espérance de Tigbada est en bordure de la Nationale N° 1 ; lorsque les véhicules gros porteurs sont en pannes, le point de repère pour s’immobiliser est le Foyer de l’espérance de Tigbada afin d’aller en ville pour trouver les artisans qui peuvent intervenir. Concernant les motos qui sont en panne ou ont crevé dans les environs de Tidgada, les utilisateurs de ces engins sont obligés de les traîner jusqu’à Tchébébé.
@@ -75,6 +74,7 @@ L'inauguration a eu lieu en juillet 2017 en présence de Mme la présidente Rose
     <figcaption>Escalier en béton</figcaption>
   </figure>
 
+# Inauguration des nouveaux locaux
 - <figure class="gallery-item">
     <img src="images/i3d61a0abdfedec0a-893cf127d7.jpg" alt="Photo de groupe à l’inauguration" title="Photo de groupe à l’inauguration">
     <figcaption>Photo de groupe à l’inauguration</figcaption>
@@ -101,8 +101,8 @@ L'inauguration a eu lieu en juillet 2017 en présence de Mme la présidente Rose
   </figure>
 
 - <figure class="gallery-item">
-    <img src="images/i0aa0d8d64bd3cfd3-a1a74999fb.jpg" alt="Prise de parole au micro" title="Prise de parole au micro">
-    <figcaption>Prise de parole au micro</figcaption>
+    <img src="images/i0aa0d8d64bd3cfd3-a1a74999fb.jpg" alt="Prise de parole de la présidente d'EKS" title="Prise de parole de la présidente d'EKS">
+    <figcaption>Prise de parole de la présidente d'EKS</figcaption>
   </figure>
 
 - <figure class="gallery-item">

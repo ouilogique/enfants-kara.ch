@@ -8,7 +8,7 @@ aliases:
   - /manifestations/repas-de-soutien-2025/index.html
 description: Repas de soutien 2025 d'Enfants-Kara au Refuge des Bas-Monts à Belmont-sur-Lausanne.
 ---
-# 🔴 Repas de soutient 2025
+# 🔴 Repas de soutien 2025
 Cette journée s'est déroulée au refuge des Bas-Monts se trouvant sur la commune de Belmont s/Lausanne.
 
 ![](images/IMG_2737.jpg)

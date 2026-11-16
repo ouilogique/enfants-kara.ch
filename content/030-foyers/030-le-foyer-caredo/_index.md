@@ -45,5 +45,5 @@ Le point rouge donne sa position approximative dans le Togo.
     <img src="images/i1842232d2e5f8142-4dcee1de83.jpg" alt="Plan de ville" title="Plan de ville">
     <figcaption>Plan de ville</figcaption>
   </figure>
-L'orphelinat est situé vers le point rouge sur cette vue d'avion. La nationale 1 se trouve vers le coin bas à gauche.
+L'orphelinat est situé vers le point rouge sur cette vue d'avion. La nationale N1 se trouve vers le coin bas à gauche.
 

@@ -56,7 +56,7 @@ En 2026, Claude et Rose ont pu à nouveau se rendre deux fois au Togo, en févri
     <figcaption>Chargement de la marchandise achetée</figcaption>
   </figure>
 
-# 
+<!-- séparateur de galerie -->
 
 - <figure class="gallery-item">
     <img src="images/DSCF0009.jpg" alt="Rose Balmer en face des enfants" title="Rose Balmer en face des enfants">
@@ -294,7 +294,9 @@ Cette année la famille Merlini s'est jointe aux Balmer (Claude et Rose) pour vi
   </figure>
 
 ---
-# 🔴 Foyer Ste-Marguerite, achats au marché de Kara pour le foyer (avril 2012)
+# 🔴 Foyer Ste-Marguerite (avril 2012)
+ Achats au marché de Kara pour le foyer.
+
 - <figure class="gallery-item">
     <img src="images/ic78458af24d0e509-142a38b50f.jpg" alt="Acheteurs en action" title="Acheteurs en action">
     <figcaption>Acheteurs en action</figcaption>
@@ -334,6 +336,8 @@ Cette année la famille Merlini s'est jointe aux Balmer (Claude et Rose) pour vi
     <img src="images/i9081da7acf206057-4b4ba5ccd4.jpg" alt="Boutique au marché de Kara" title="Boutique au marché de Kara">
     <figcaption>Boutique au marché de Kara</figcaption>
   </figure>
+
+# Accueilli au foyer Ste-Marguerite
 
 - <figure class="gallery-item">
     <img src="images/i77b1af1f36dfabd7-5b394fafc8.jpg" alt="Cour intérieure du foyer" title="Cour intérieure du foyer">

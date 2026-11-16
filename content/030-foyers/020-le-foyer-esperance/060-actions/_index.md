@@ -8,6 +8,7 @@ aliases:
   - "/foyers/le-foyer-esperance/actions/_index.html"
 description: "Historique et actions d'Enfants-Kara auprès du Foyer de l'Espérance à Tigbada depuis 2014 : constructions, formations et remises de kits professionnels."
 ---
+
 Dès 2013, EKS fournit au foyer de l'Espérance des aides ponctuelles. Plus particulièrement, construction de bâtiments techniques (ateliers de mécanique), des dortoirs. Amélioration de la structure d'accueil, fourniture de matériel et surtout, pour les apprentis ayant reçu leur diplôme, fourniture d'un kit d'outillage pour démarrer dans la vie professionnelle.
 
 <figure class="gallery-item">

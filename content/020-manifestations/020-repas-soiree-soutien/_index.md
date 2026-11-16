@@ -2,7 +2,7 @@
 date: 2013-04-15T12:00:00+01:00
 title: "Manifestations"
 url: "/manifestations/repas-soiree-soutien/"
-linkTitle: "Repas de soutient, stands"
+linkTitle: "Repas de soutien, stands"
 draft: false
 aliases:
   - "/manifestations/repas-soiree-soutien/_index.html"

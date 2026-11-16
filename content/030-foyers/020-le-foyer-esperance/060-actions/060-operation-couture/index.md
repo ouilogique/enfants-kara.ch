@@ -8,7 +8,7 @@ aliases:
   - /foyers/le-foyer-esperance/actions/operation-couture/index.html
 description: Action Flash de janvier 2014 pour remplacer les 10 machines à coudre disparues du Foyer de l'Espérance en juillet 2013.
 ---
-# Coup dur en juillet 2013
+# 🔴 Coup dur en juillet 2013
 
 <figure class="gallery-item">
     <img src="images/i2f6505a79d6ad728-19aa09b57f.gif" alt="Salle de couture sans machines" title="Salle de couture sans machines">
