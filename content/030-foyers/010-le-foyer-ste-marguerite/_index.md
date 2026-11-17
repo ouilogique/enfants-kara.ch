@@ -29,11 +29,9 @@ Pour en savoir plus sur Kara :
 -   [Kara et sites](http://www.togo-confidentiel.com/texte/Info&Service/Kara_et_sites.htm)
 -   [Région de la Kara](https://fr.wikipedia.org/wiki/R%C3%A9gion_de_la_Kara)
 
-Sur google Maps, l'ODPE se trouve aux coordonnées <9.564232, 1.204682>. C'est le point rouge ci-dessous.
+Sur google Maps, l'ODPE se trouve aux coordonnées <9.564232, 1.204682>. C'est le rectangle rouge ci-dessous.
 
-<figure class="gallery-item">
-    <img src="images/ODPE-Kara.jpg" alt="Le foyer Ste-Marguerite" title="Le foyer Ste-Marguerite">
-    <figcaption>Le foyer Ste-Marguerite</figcaption>
-  </figure>
+![Le foyer Ste-Marguerite](images/20261117154008.png)
+source : © [OpenStreetMap contributors](https://www.openstreetmap.org/copyright)
 
-Il se trouve au nord de l'hôpital Chinois et à l'ouest du lycée technique Hermane Gmaïner
+L'ODPE se trouve au nord de l'hôpital Chinois et à l'ouest du lycée technique Hermane Gmaïner
