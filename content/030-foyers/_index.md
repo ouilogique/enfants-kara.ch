@@ -6,7 +6,7 @@ linkTitle: "Actions dans les différents foyers"
 draft: false
 bgImage: images/foyers.jpg
 aliases:
- - "/foyers/_index.md"
+ - "/foyers/_index.html"
 description: "Les actions d'Enfants-Kara dans les différents foyers."
 ---
 

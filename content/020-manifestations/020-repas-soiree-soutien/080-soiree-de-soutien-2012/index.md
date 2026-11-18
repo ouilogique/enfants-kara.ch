@@ -1,12 +1,12 @@
 ---
 date: 2013-04-15T12:00:00+01:00
-title: "Soirée de soutien 2012"
-url: "/manifestations/soiree-de-soutien-2012/"
-linkTitle: "Soirée de soutien 2012"
+title: Soirée de soutien 2012
+url: /manifestations/soiree-de-soutien-2012/
+linkTitle: Soirée de soutien 2012
 draft: false
 aliases:
-  - "/manifestations/soirée-de-soutien-2012/index.html"
-description: "Soirée de soutien 2012 d'Enfants-Kara. Retrouvez les photos de la soirée dans la section Photos."
+  - /manifestations/soiree-de-soutien-2012/index.html
+description: Soirée de soutien 2012 d'Enfants-Kara. Retrouvez les photos de la soirée dans la section Photos.
 ---
 
 # 🔴 Soirée de soutien 2012
@@ -17,11 +17,8 @@ Cette soirée s'est déroulée en 2012 à la maison Saint-Jean-Cour, au 138 aven
     <figcaption>Apéritif</figcaption>
   </figure>
 
+---
 ### Carte d'invitation envoyé à tous nos membres
-
-Cliquez sur une image pour l'agrandir.\
-Flèches gauche-droite pour changer de photo.\
-Tapez Escape pour revenir au format initial.
 
 - <figure class="gallery-item">
     <img src="images/i753ddae32f4da3f8-677aba7abd.gif" alt="Affiche de la soirée de soutien 2012" title="Affiche de la soirée de soutien 2012">

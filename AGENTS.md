@@ -29,7 +29,7 @@ config/
 content/                   — contenu Markdown (50 fichiers)
 themes/kara/               — thème actif (voir section Thème ci-dessous)
 static/
-  images/                  — images de contenu (fonds Unsplash, logos)
+  images/                  — images de fond et logos de l'association
   documents/               — fichiers téléchargeables (PDF PV AG)
   favicon.svg              — favicon (identité de l’asso, indépendant du thème)
 scripts/
@@ -47,14 +47,16 @@ scripts/
 
 ## Sections du site
 
-| Dossier                                | URL                         | Image de fond                                 |
-| -------------------------------------- | --------------------------- | --------------------------------------------- |
-| `content/_index.md`                    | `/`                         | `bill-wegener-7MD4DR9jbP0-unsplash.jpg`       |
-| `content/010-accueil/`                 | `/accueil/`                 | `felicia-montenegro-EEbLJlfCnSI-unsplash.jpg` |
-| `content/020-enfants-kara-suisse-eks/` | `/enfants-kara-suisse-eks/` | `bill-wegener-hs98_9hzTcU-unsplash.jpg`       |
-| `content/030-enfants-kara-togo-ekt/`   | `/enfants-kara-togo-ekt/`   | `tobie-eniafe-7EZfQdvDAl8-unsplash.jpg`       |
-| `content/040-projet-marcar/`           | `/projet-marcar/`           | `stijn-kleerebezem-bsk8f6BVSHc-unsplash.jpg`  |
-| `content/050-remerciements/`           | `/remerciements/`           | `bill-wegener-7MD4DR9jbP0-unsplash.jpg`       |
+| Dossier                                | URL                         | Image de fond                |
+| -------------------------------------- | --------------------------- | ---------------------------- |
+| `content/_index.md`                    | `/`                         | `images/content.jpg`         |
+| `content/010-accueil/`                 | `/accueil/`                 | `images/accueil.jpg`         |
+| `content/020-manifestations/`          | `/manifestations/`          | `images/manifestations.jpg`  |
+| `content/030-foyers/`                  | `/foyers/`                  | `images/foyers.jpg`          |
+| `content/040-enfants-kara-suisse-eks/` | `/enfants-kara-suisse-eks/` | `images/EKS.jpg`             |
+| `content/050-enfants-kara-togo-ekt/`   | `/enfants-kara-togo-ekt/`   | `images/EKT.jpg`             |
+| `content/060-projets-en-cours/`        | `/projets-en-cours/`        | `images/projets.JPG`         |
+| `content/070-remerciements/`           | `/remerciements/`           | `images/remerciements.JPG`   |
 
 ---
 
@@ -283,13 +285,8 @@ Renommer tous les fichiers _index.md en index.md. NON car il existe une definiti
 _index-md: est utilisé dans des répertoires qui contiennent des sous répertoires et des ressources
 index.md: est utilisé dans des répertoires feuilles (qui n'ont pas de descendants)
 
-#### Enlever toutes les images qui n'appartiennent pas à EK
-- Dans SiteEK\static\images, remplacer
-     bill-wegener-7MD4DR9jbP0-unsplash.jpg par Image104.jpg (content\_index.md) 
-     bill-wegener-7MD4DR9jbP0-unsplash.jpg par IMG_3363.jpg (content\050-remerciements\_index.md) 
-     bill-wegener-hs98_9hzTcU-unsplash.jpg.jpg par Image020_21.jpg (content\020-enfants-kara-suisse-eks\_index.md)
-     felicia-montenegro-EEbLJlfCnSI-unsplash.jpg par Image015_16.jpg (content\010-accueil\_index.md)
-     stijn-kleerebezem-bsk8f6BVSHc-unsplash.jpg par  IMG_3552 .jpg (content\040-projet-marcar)
+#### Images de fond
+Toutes les images de fond sont des photos de l'association, stockées dans `static/images/`.
 
 #### Arborescence du projet
 Restructuration du projet ainsi:

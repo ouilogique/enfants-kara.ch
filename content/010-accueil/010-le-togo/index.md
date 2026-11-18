@@ -16,10 +16,13 @@ description: "Présentation géographique, démographique et historique du Togo 
 
 Le Togo se trouve en Afrique de l'Ouest, entre le Ghana à l'ouest, le Bénin à l'est, le Burkina au nord et sur le golfe de Guinée au sud (cf photo 1). Sa superficie est de 56'600 km2, pour environ 700 km de long et 50 à 150 km de large. En 2012, on y recense plus de 6'900'000 habitants. La langue officielle est le français. En plus du français, l'éwé et le kabyè sont enseignés dans le pays (parmi une quarantaine de langues). Par comparaison, la Suisse a une superficie de 41'293 km2 et une population d'un peu plus de 8'000'000 d'habitants (2012). La monnaie du pays est le franc CFA (Taux approximatif 1 CHF = 500 CFA).
 
+Sources : [Wikipédia, « Togo »](https://fr.wikipedia.org/wiki/Togo)
 <figure class="gallery-item">
     <img src="images/ib53bd1f23752a077-71008a90a2.png" alt="Carte du Togo en Afrique de l’Ouest" title="Carte du Togo en Afrique de l’Ouest">
     <figcaption>Carte du Togo en Afrique de l’Ouest</figcaption>
   </figure>
+
+Crédit : image issue de [Wikipédia, « Togo »](https://fr.wikipedia.org/wiki/Togo), modifiée par Enfants-Kara.
 
 C'est un pays au climat tropical humide au sud (forêts) et de plus en plus sec en allant au nord (savanes). Le Togo demeure essentiellement rural. Les exportations de produits agricoles (palmistes, café, cacao, coton) viennent cependant loin derrière celles des phosphates, seule ressource notable du sous-sol. Le Togo est d’ailleurs le cinquième producteur mondial de phosphates.
 
@@ -40,9 +43,11 @@ Voir aussi : [Lomé](https://fr.wikipedia.org/wiki/Lomé)
     <figcaption>Cérémonie de lever du drapeau</figcaption>
   </figure>
 
+Crédit : image issue de [Wikipédia, « Togo »](https://fr.wikipedia.org/wiki/Togo), modifiée par Enfants-Kara.
+
 # Histoire
 
-Sources: [wikipédia](https://wikipedia/)
+Sources : [Wikipédia, « Togo »](https://fr.wikipedia.org/wiki/Togo)
 
 Dès le **XIème siècle**: présence humaine attestée par la découverte de divers objets.
 
@@ -64,6 +69,8 @@ Dès le **XIème siècle**: présence humaine attestée par la découverte de di
     <img src="images/ic3ee1f17d48f32bb-a0e7da860e.png" alt="Panneau électoral de Faure Gnassingbé" title="Panneau électoral de Faure Gnassingbé">
     <figcaption>Panneau électoral de Faure Gnassingbé</figcaption>
   </figure>
+
+Crédit : image issue de [Wikipédia, « Togo »](https://fr.wikipedia.org/wiki/Togo), modifiée par Enfants-Kara.
 
 **1946:** Le pays passe sous la tutelle de l'ONU.
 

@@ -1,12 +1,12 @@
 ---
 date: 2013-04-15T12:00:00+01:00
-title: "Soirée de soutien 2014"
-url: "/manifestations/soiree-de-soutien-2014/"
-linkTitle: "Soirée de soutien 2014"
+title: Soirée de soutien 2014
+url: /manifestations/soiree-de-soutien-2014/
+linkTitle: Soirée de soutien 2014
 draft: false
 aliases:
-  - "/manifestations/soirée-de-soutien-2014/index.html"
-description: "Soirée de soutien 2014 organisée par Enfants-Kara au profit des foyers d'accueil au Togo."
+  - /manifestations/soiree-de-soutien-2014/index.html
+description: Soirée de soutien 2014 organisée par Enfants-Kara au profit des foyers d'accueil au Togo.
 ---
 # 🔴 Soirée de soutien 2014
 Cette soirée s'est déroulée le samedi 4 octobre à la maison Saint-Jean-Cour, au 138 avenue de Cour, 1007 Lausanne

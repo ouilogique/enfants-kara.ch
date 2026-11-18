@@ -33,17 +33,16 @@ Blitta est une petite ville située au centre du Togo sur la Nationale N1.
 Blitta se trouve à environ 17 [km] de Tigbada et à 9 [km] de Sotouboua.
 Blitta est une ville d’environ 55’000 habitants et Sotouboua une ville de 22’000 habitants.
 
-<figure class="gallery-item">
-    <img src="images/if58e2fce4344744d-6be1919ae2.jpg" alt="Situation géographique" title="Situation géographique">
-    <figcaption>Situation géographique</figcaption>
-  </figure>
-Le point rouge donne sa position approximative dans le Togo.
+![Situation géographique de Blitta](images/20261117155859.png)
+source : © [OpenStreetMap contributors](https://www.openstreetmap.org/copyright)
 
-# Vue aérienne de la ville de Blitta
+La flèche rouge donne sa position approximative dans le Togo.
 
-<figure class="gallery-item">
-    <img src="images/i1842232d2e5f8142-4dcee1de83.jpg" alt="Plan de ville" title="Plan de ville">
-    <figcaption>Plan de ville</figcaption>
-  </figure>
-L'orphelinat est situé vers le point rouge sur cette vue d'avion. La nationale 1 se trouve vers le coin bas à gauche.
+# Vue aérienne du centre Caredo
+Le centre se trouve vers la flèche rouge (coordonnées <8.349257116478647, 1.0148611578112268>).
+
+![Plan de ville](images/20261117155339.png)
+source : © [OpenStreetMap contributors](https://www.openstreetmap.org/copyright)
+
+La nationale N1 se trouve vers le coin bas à gauche.
 

@@ -28,10 +28,6 @@ Caisse complète d'outillage (tournevis, clés, pinces, etc.), chaussures de sé
 ### Menuiserie
 Scies, rabots, ciseaux à bois, marteau, équerre, tenaille, mètre, chaussures de sécurité, tenue, sac à outillage
 
-Cliquez sur une image pour l'agrandir.\
-Flèches gauche-droite pour changer de photo.\
-Tapez Escape pour revenir au format initial.
-
 - <figure class="gallery-item">
     <img src="images/iffdf768b43e84bc8-400a76cd1c.jpg" alt="Brouettes et outils de maçonnerie" title="Brouettes et outils de maçonnerie">
     <figcaption>Brouettes et outils de maçonnerie</figcaption>
@@ -78,7 +74,7 @@ Tapez Escape pour revenir au format initial.
   </figure>
 
 ---
-# Diplômes 2026
+# 🔴 Diplômes 2026
 
 
 - <figure class="gallery-item">
@@ -107,7 +103,7 @@ Tapez Escape pour revenir au format initial.
   </figure>
 
 ---
-# Diplômes 2025
+# 🔴 Diplômes 2025
 
 - <figure class="gallery-item">
     <img src="images/IMG-20250413-WA0006.jpg" alt="Remise du certificat de diplôme" title="Remise du certificat de diplôme">
@@ -150,7 +146,7 @@ Tapez Escape pour revenir au format initial.
 </figure>
 
 ---
-# Diplômes 2024
+# 🔴 Diplômes 2024
 Toujours célébrée après 9 ans, la remise des diplômes a eu lieu le 11 mai 2024 au Foyer de l'Espérance, en présence des représentants locaux et de membres du comité d'Enfants-Kara.
 
 - <figure class="gallery-item">
@@ -186,7 +182,7 @@ Toujours célébrée après 9 ans, la remise des diplômes a eu lieu le 11 mai 2
 Sur la photo de droite, ce n'est pas un tableau mais un miroir qui a été remis à la diplômée en Coiffure. Deux kits ont été remis à deux Carreleurs et un kit à un Couturier.
 
 ---
-# Diplômes 2023
+# 🔴 Diplômes 2023
 
 - <figure class="gallery-item">
     <img src="images/ibe5d4ad6fbc9766d-c80fee5777.jpg" alt="Remise d’outils professionnels" title="Remise d’outils professionnels">
@@ -219,7 +215,7 @@ Sur la photo de droite, ce n'est pas un tableau mais un miroir qui a été remis
   </figure>
 
 ---
-# Diplômes 2022
+# 🔴 Diplômes 2022
 
 - <figure class="gallery-item">
     <img src="images/id6a4272c825b5f8a-172465be18.jpg" alt="Public réuni pour la cérémonie" title="Public réuni pour la cérémonie">
@@ -257,7 +253,7 @@ Sur la photo de droite, ce n'est pas un tableau mais un miroir qui a été remis
   </figure>
 
 ---
-# Diplômes 2021
+# 🔴 Diplômes 2021
 20 août 2021
 
 - <figure class="gallery-item">
@@ -291,7 +287,7 @@ Sur la photo de droite, ce n'est pas un tableau mais un miroir qui a été remis
   </figure>
 
 ---
-# Diplômes 2020
+# 🔴 Diplômes 2020
 Comme en 2019, la cérémonie de remise des diplômes s'est faite dans le strict respect des mesures sanitaires imposées par la Covid.
 C'est à nouveau une vingtaine de nouveaux professionnels qui ont reçus les maintenant habituels kits d'outillage.
 
@@ -311,7 +307,7 @@ C'est à nouveau une vingtaine de nouveaux professionnels qui ont reçus les mai
   </figure>
 
 ---
-# Diplômes 2019
+# 🔴 Diplômes 2019
 Malgré la menace du COVID19, une brève cérémonie de remise des diplômes et des kits associés a pu être organisées. Toutes les règles sanitaires ont été scrupuleusement appliquées.
 
 - <figure class="gallery-item">
@@ -354,7 +350,7 @@ Un brève collation a réuni les participants en tout esprit de convivialité.
   </figure>
 
 ---
-# Diplômes 2018
+# 🔴 Diplômes 2018
 A l'occasion de leur séjour au Togo, Rose Balmer, présidente et son mari Claude Balmer, trésorier, ont assisté à la remise des diplômes de la volée 2018. Ils ont pu apprécier la reconnaissance des hautes autorités locales pour le soutien au développement des infrastructures du Foyer et du Centre de formation. Ils ont également noté la joie des diplômants à la réception des kits professionnels.
 
 - <figure class="gallery-item">
@@ -393,7 +389,7 @@ A l'occasion de leur séjour au Togo, Rose Balmer, présidente et son mari Claud
   </figure>
 
 ---
-# Diplômes 2017
+# 🔴 Diplômes 2017
 
 [Télécharger la vidéo de la cérémonie (WMV, 46 Mo)](images/ClipEK.wmv)
 
@@ -433,7 +429,7 @@ A l'occasion de leur séjour au Togo, Rose Balmer, présidente et son mari Claud
   </figure>
 
 ---
-# Diplômes 2016
+# 🔴 Diplômes 2016
 Les kits ont été remis pour la second fois lors de la remise des diplômes de fin de formation au printemps 2016. C'est toujours avec beaucoup de gratitude qu'ils ont été accueillis.
 
 La répartition entre les différents métiers se présente ainsi :
@@ -441,7 +437,7 @@ La répartition entre les différents métiers se présente ainsi :
 - Menuiserie 5 diplômes
 - Maçonnerie 12 diplômes
 
-#
+<!-- séparateur de galerie -->
 - <figure class="gallery-item">
     <img src="images/i4d82503fee98e245-e69dd29853.jpg" alt="Remise d’un document" title="Remise d’un document">
     <figcaption>Remise d’un document</figcaption>
@@ -473,7 +469,7 @@ La répartition entre les différents métiers se présente ainsi :
   </figure>
 
 ---
-# Diplômes 2015
+# 🔴 Diplômes 2015
 
 Les kits ont été remis pour la première fois lors de la remise des diplômes de fin de formation au printemps 2015. Ils ont été accueillis avec joie et l'association a été chaleureusement remerciée pour cette initiative.
 
@@ -483,7 +479,7 @@ La répartition entre les différents métiers se présente ainsi :
 - Ferronnerie 2 diplômes
 - Electricité bâtiment 1 diplôme
 
-#
+<!-- séparateur de galerie -->
 - <figure class="gallery-item">
     <img src="images/i2b655cea73e24e36-eb3e4f31f3.jpg" alt="Cérémonie de remise des kits" title="Cérémonie de remise des kits">
     <figcaption>Cérémonie de remise des kits</figcaption>

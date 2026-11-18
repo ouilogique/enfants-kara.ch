@@ -1,7 +1,7 @@
 ---
 date: 2013-04-15T12:00:00+01:00
 title: Les locaux du Foyer Ste-Marguerite
-url: /foyers/le-foyer-ste-marguerite/lpreambule/
+url: /foyers/le-foyer-ste-marguerite/preambule/
 linkTitle: Préambules
 draft: false
 aliases:

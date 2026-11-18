@@ -14,13 +14,18 @@ Découvrez les principales actions que l'association Enfants-Kara Togo entrepren
   <img src="images/i47345acee0002839-17e1afcd26.jpg" alt="Elèves studieux" title="Elèves studieux">
   <figcaption>Elèves studieux</figcaption>
 </figure>
-Le 31 octobre 2001, au retour de leur visite au Togo, Rose et Claude Balmer racontent à Jo Murer ce qu’ils ont découvert à Kara. Touchés par la situation des enfants de l’orphelinat de l’ODPE, ils décident ensemble de créer l’association Enfants-Kara, afin de leur apporter soutien et aide.
+Le 31 octobre 2001, de retour d’un voyage au Togo, Rose et Claude Balmer partagent avec Jo Murer et Denis Poisat leurs découvertes à Kara. Profondément touchés par la situation des enfants accueillis à l’orphelinat de l’ODPE, ils décident ensemble de créer l’association Enfants-Kara, afin de leur apporter soutien et assistance.
 
-Depuis ses débuts, l’association s’est développée et a su fédérer autour d’elle un groupe fidèle de cotisants. Leur soutien permet de financer les besoins essentiels des enfants et des jeunes qu’elle accompagne.
+Au fil des années, l’association grandit et rassemble autour d’elle un fidèle réseau de cotisants. Grâce à leur engagement, elle peut répondre aux besoins essentiels des enfants et des jeunes qu’elle accompagne.
 
-En 2013, l’association commence à soutenir le foyer L’Espérance, à Tigbada. En 2018, elle fonde au Togo l’ONG Enfants-Kara Togo (EKT), tandis que l’association prend le nom d’Enfants-Kara Suisse (EKS). Au début de 2019, EKS décide également d’aider le foyer Caredo, à Blitta, et lance la distribution de kits professionnels aux apprentis du foyer L’Espérance.
+Voici les grandes étapes de son parcours :
 
-En 2025, l’achat d’un terrain à Yalloumbé se concrétise. L’année suivante débute le projet de construction d’une savonnerie.
+- **2001** : fondation de l’association Enfants-Kara ([statuts](/enfants-kara-suisse-eks/statuts/)).
+- **2013** : début du soutien au foyer L’Espérance, à Tigbada.
+- **2018** : fondation de l’ONG Enfants-Kara Togo (EKT); l’association devient Enfants-Kara Suisse (EKS).
+- **2019** : début de l’aide au foyer Caredo, à Blitta, et lancement de la distribution des kits professionnels aux nouveaux diplômés du foyer L’Espérance.
+- **2025** : achat d’un terrain à Yaloumbé et lancement du projet de construction d’une savonnerie.
+- **2026** : démarrage de la fabrication de savons.
 
 Nos principaux axes d’action sont :
 - Le foyer de [Ste-Marguerite (ODPE)](/foyers/le-foyer-ste-marguerite/) à Kara

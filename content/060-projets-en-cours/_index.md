@@ -4,7 +4,7 @@ title: "1. Proposition de projet pour l’utilisation d’un terrain à Blitta"
 url: "/projets-en-cours/"
 linkTitle: "Projets en cours"
 draft: false
-bgImage: "images/Projets.JPG"
+bgImage: "images/projets.JPG"
 aliases:
   - "/projets-en-cours/_index.html"
 description: "En plus de notre aide alimentaire, nous travaillons sur deux projets ponctuels: construction d'une savonnerie et plantations d'arbres fruitiers au profit de l'orphelinat Caredo."

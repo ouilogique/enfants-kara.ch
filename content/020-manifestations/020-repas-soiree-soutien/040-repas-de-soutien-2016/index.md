@@ -14,9 +14,6 @@ Ce repas s'est déroulé le samedi 15 octobre 2016 au Refuge des Bas-Monts qui s
 ---
 ### Carte d'invitation envoyé à tous nos membres
 
-Cliquez sur une image pour l'agrandir.\
-Flèches gauche-droite pour changer de photo.\
-Tapez Escape pour revenir au format initial.
 
 - <figure class="gallery-item">
     <img src="images/ia171e1f86f115395-3d2ce7a936.jpg" alt="Invitation au repas de soutien 2016" title="Invitation au repas de soutien 2016">

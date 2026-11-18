@@ -2,14 +2,12 @@
 date: 2013-04-15T12:00:00+01:00
 title: Le Foyer Caredo
 url: /foyers/le-foyer-caredo/actions/
-linkTitle: Nos actions auprès du Foyer Caredo dès 2019 à ce jour
+linkTitle: Nos actions
 draft: false
 aliases:
   - /foyers/le-foyer-caredo/actions/index.html
 description: "Aide d'Enfants-Kara au Foyer Caredo depuis 2018 : soutien mensuel pour 40 enfants orphelins."
 ---
-
-
 
 Dès 2019, EKS fournit une aide pour améliorer les conditions de vie des enfants, notamment pour l’habillement et la nourriture. Plus concrètement, le versement d’une somme mensuelle de 300'000 CFA (env. 500 CHF) allégera les soucis de fonctionnement du Foyer.
 

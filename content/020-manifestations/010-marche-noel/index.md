@@ -17,12 +17,12 @@ Les articles présentés, soigneusement sélectionnés au Togo, nous sont parven
 Le marché s’est déroulé du 11 au 13 décembre. La foule était nombreuse, et les visiteurs, affables et joyeux. Notre stand n’a pas désempli.
 
 - <figure class="gallery-item">
-     <img src="images/IMG_20251211_164956%201.jpg" alt="vue de notre stand" title="vue de notre stand">
+     <img src="images/IMG_20251211_164956_1.jpg" alt="vue de notre stand" title="vue de notre stand">
      <figcaption>vue de notre stand</figcaption>
   </figure>
 
 - <figure class="gallery-item">
-     <img src="images/WhatsApp%20Image%202026-02-25%201.jpg" alt="bénévoles (g à d, Claude Balmer, Anouche Zeller, Nathalie Betcha)" title="bénévoles (g à d, Claude Balmer, Anouche Zeller, Nathalie Betcha)">
+     <img src="images/2026-02-25_1.jpg" alt="bénévoles (g à d, Claude Balmer, Anouche Zeller, Nathalie Betcha)" title="bénévoles (g à d, Claude Balmer, Anouche Zeller, Nathalie Betcha)">
      <figcaption>bénévoles (g à d, Claude Balmer, Anouche Zeller, Nathalie Betcha)</figcaption>
   </figure>
 
@@ -31,7 +31,7 @@ Le marché s’est déroulé du 11 au 13 décembre. La foule était nombreuse, e
 Le marché s’est déroulé du 12 au 14 décembre dans une ambiance chaleureuse.
 
 - <figure class="gallery-item">
-     <img src="images/WhatsApp%20Image%202025-01-11%20à%2022.27.47_80145306.jpg" alt="Vue du stand Enfants-Kara" title="Vue du stand Enfants-Kara">
+     <img src="images/2025-01-11_22.27.47_80145306.jpg" alt="Vue du stand Enfants-Kara" title="Vue du stand Enfants-Kara">
      <figcaption>Vue du stand Enfants-Kara</figcaption>
   </figure>
 
@@ -41,12 +41,12 @@ Le marché s’est déroulé du 12 au 14 décembre dans une ambiance chaleureuse
   </figure>
 
 - <figure class="gallery-item">
-     <img src="images/WhatsApp%20Image%202024-12-13%20à%2017.05.54_5fefc2cb%202.jpg" alt="Madame la présidente d'EKS, Rose Balmer" title="Madame la présidente d'EKS, Rose Balmer">
+     <img src="images/2024-12-13_17.05.54_5fefc2cb_2.jpg" alt="Madame la présidente d'EKS, Rose Balmer" title="Madame la présidente d'EKS, Rose Balmer">
      <figcaption>Madame la présidente d'EKS, Rose Balmer</figcaption>
   </figure>
 
 - <figure class="gallery-item">
-    <img src="images/WhatsApp%20Image%202025-01-11%20à%2022.27.47_3244a56a.jpg" alt="Membres au travail (g à d, Anouche Zeller, Claude Balmer, Doris Fleith, Irène Orthman)" title="Membres au travail (g à d, Anouche Zeller, Claude Balmer, Doris Fleith, Irène Orthman)">
+    <img src="images/2025-01-11_22.27.47_3244a56a.jpg" alt="Membres au travail (g à d, Anouche Zeller, Claude Balmer, Doris Fleith, Irène Orthman)" title="Membres au travail (g à d, Anouche Zeller, Claude Balmer, Doris Fleith, Irène Orthman)">
     <figcaption>Membres au travail (g à d, Anouche Zeller, Claude Balmer, Doris Fleith, Irène Orthman)</figcaption>
   </figure>
 

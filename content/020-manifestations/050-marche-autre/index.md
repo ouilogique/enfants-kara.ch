@@ -13,16 +13,14 @@ L'association ne manque aucune occasion de se faire connaître et déploie régu
 # 🔴 Baulmes 2024
 Le 18 mai 2024, à Baulmes, perchée sur les hauteurs d'Yverdon, que l'association Farafina organise chaque année un marché aux saveurs et couleurs du monde. À travers cet événement, Farafina — qui œuvre pour la santé des enfants au Mali et la richesse des cultures africaines — invite d'autres associations à présenter des produits artisanaux venant directement des pays aidés, créant ainsi un pont solidaire entre les continents.
 
-<figure class="gallery-item">
-    <img src="images/IMG_20240518_102612.jpg" alt="Tente Enfants-Kara" title="Tente Enfants-Kara">
-    <figcaption>Tente Enfants-Kara</figcaption>
+- <figure class="gallery-item">
+     <img src="images/IMG_20240518_102612.jpg" alt="Tente Enfants-Kara" title="Tente Enfants-Kara">
+     <figcaption>Tente Enfants-Kara</figcaption>
   </figure>
 
-Notre tente 
-
-<figure class="gallery-item">
-    <img src="images/IMG-20240518-WA0001.jpg" alt="Assortiment" title="Assortiment">
-    <figcaption>Assortiment</figcaption>
+- <figure class="gallery-item">
+     <img src="images/IMG-20240518-WA0001.jpg" alt="Notre assortiment" title="Notre assortiment">
+     <figcaption>Notre assortiment</figcaption>
   </figure>
 
 Notre assortiment en images.

@@ -19,7 +19,7 @@ description: "Remerciements aux photographes et à toutes les personnes qui sout
 
 ## Photos
 
-Chaque image de ce site est un fragment de voyage, capturé avec passion par les membres d'Enfants-Kara lors de leurs missions au Togo. Nous sommes heureux de partager ces clichés sous licence libre ; nous vous demandons simplement de mentionner l'association Enfants-Kara lors de leur utilisation.
+La plupart des photographies de ce site ont été prises par des membres d'Enfants-Kara lors de leurs voyages et missions, et y sont publiées avec l'accord de leurs auteurs ; les cartes réalisées à partir de données OpenStreetMap sont créditées sur les pages concernées (© OpenStreetMap contributors, données sous licence ODbL) ; quelques images documentaires proviennent de Wikipédia et ont été modifiées par Enfants-Kara, elles sont créditées sur les pages concernées ; les drapeaux et autres documents issus de sources tierces restent la propriété de leurs ayants droit respectifs. Pour toute réutilisation, nous vous demandons de mentionner l'association Enfants-Kara, de respecter le droit d'auteur des photographes et, s'il y a lieu, le droit à l'image des personnes photographiées.
 
 <footer class="update-note">
   <p>Date de dernière mise à jour : {{< update-date format="30.10.2006 15:04:05 MST" >}}</p>
