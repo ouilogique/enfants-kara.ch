@@ -13,8 +13,14 @@
 */ -}}
 {{- $page := site.GetPage "/manifestations" -}}
 {{- if not $page -}}
-  {{- range site.Home.Sections -}}
-    {{- if eq .RelPermalink "/manifestations/" -}}{{- $page = . -}}{{- end -}}
+  {{- /* Avec un baseURL contenant un sous-chemin (GitHub Pages), RelPermalink
+        est préfixé et GetPage "/manifestations" ne trouve pas la page : on
+        identifie donc la section par son url de front matter, indépendante
+        du domaine de publication. */ -}}
+  {{- range $section := site.Home.Sections -}}
+    {{- with $section.Params.url -}}
+      {{- if eq (trim . " /") "manifestations" -}}{{- $page = $section -}}{{- end -}}
+    {{- end -}}
   {{- end -}}
 {{- end -}}
 {{- with $page -}}
