@@ -11,6 +11,7 @@ description: "Prochaine manifestation : le marché de Noël de Pôle Sud.\r
 
   Rendez-vous au Centre socioculturel Pôle Sud, avenue Jean-Jacques-Mercier 3, à Lausanne, pour la 20ᵉ édition de son marché de Noël, du 10 au 12 décembre 2026. Venez nombreux partager avec nous ce moment festif !"
 ---
+
 **Nos événements et manifestations**
 Pour soutenir ses actions et partager la richesse de la culture africaine, Enfants-Kara organise divers événements tout au long de l'année.
 
@@ -25,7 +26,8 @@ L'association marque également sa présence sur divers marchés d'été ou de N
 
 Toutes nos activités sont annoncées et mises à jour régulièrement sur notre page "Manifestations".
 
-# 🔴 Prochaine date à retenir: 10-12 décembre 2026
+## Prochaine date à retenir: 10-12 décembre 2026 {.emoji-sphere}
+
 Au Centre socioculturel de Pôle Sud, avenue Jean-Jacques Mercier 3, Lausanne.
 
 La flèche rouge ci-dessous pointe ce centre.

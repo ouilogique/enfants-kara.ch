@@ -17,6 +17,7 @@ description: "Présentation géographique, démographique et historique de la Su
 La Suisse se trouve au cœur de l'Europe, entourée par la France à l'ouest, l'Allemagne au nord, l'Autriche et le Liechtenstein à l'est, et l'Italie au sud. Sa superficie est de 41'293 km², un territoire marqué par la diversité de ses reliefs, dominé par les Alpes au sud et à l'est, et le plateau suisse au centre. En 2024, on y recense environ 8'900'000 habitants. Le pays possède quatre langues nationales : l'allemand, le français, l'italien et le romanche. La monnaie nationale est le franc suisse (CHF).
 
 Sources : [Wikipédia, « Suisse »](https://fr.wikipedia.org/wiki/Suisse)
+
 <figure class="gallery-item">
     <img src="images/20261025162027.png" alt="Carte de la Suisse au centre de l'Europe" title="Carte de la Suisse au centre de l'Europe">
     <figcaption>Carte de la Suisse au centre de l'Europe</figcaption>
@@ -34,11 +35,11 @@ Plus de statistiques : [Statistiques mondiales, fiche Suisse](https://www.statis
 
 Site officiel : [Confédération Suisse](https://www.admin.ch)
 
-![](images/20261025162251.png)
-Les Dents du Midi
+![Les Dents du Midi](images/20261025162251.png)
 
 Crédit : image issue de [Wikipédia, « Suisse »](https://fr.wikipedia.org/wiki/Suisse), modifiée par Enfants-Kara.
-# Histoire
+
+## Histoire
 
 Sources : [Wikipédia, « Suisse »](https://fr.wikipedia.org/wiki/Suisse)
 

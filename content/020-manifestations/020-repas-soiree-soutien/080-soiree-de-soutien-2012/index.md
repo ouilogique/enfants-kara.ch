@@ -9,7 +9,8 @@ aliases:
 description: Soirée de soutien 2012 d'Enfants-Kara. Retrouvez les photos de la soirée dans la section Photos.
 ---
 
-# 🔴 Soirée de soutien 2012
+## Soirée de soutien 2012 {.emoji-sphere}
+
 Cette soirée s'est déroulée en 2012 à la maison Saint-Jean-Cour, au 138 avenue de Cour, 1007 Lausanne.
 
 <figure class="gallery-item">
@@ -18,6 +19,7 @@ Cette soirée s'est déroulée en 2012 à la maison Saint-Jean-Cour, au 138 aven
   </figure>
 
 ---
+
 ### Carte d'invitation envoyé à tous nos membres
 
 - <figure class="gallery-item">

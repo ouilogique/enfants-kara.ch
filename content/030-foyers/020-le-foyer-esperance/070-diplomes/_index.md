@@ -7,25 +7,33 @@ aliases:
   - "/foyers/le-foyer-esperance/kits-professionnels/index.html"
 description: "Remise à chaque apprenti d'un kit d'outils lors de la remise de leurs diplômes."
 ---
-# Historique
+
+## Historique
+
 Lors d'une visite au Centre de formation, l'idée d'offrir un kit d'outillage professionnel à chacun des apprenants a été émise. Cette idée a conquis la Direction qui a établi la liste ci-après. Enfants-Kara s'est engagée pour une action annuelle et espère donner ainsi l'impulsion nécessaire à ces jeunes adultes pour se présenter sur le marché du travail soit en indépendant, soit auprès d'un patron.
 
 ### Couture
+
 Machine à coudre, fer à repasser, mètre, tenue, sac à outillage, divers tissus, fils et aiguilles
 
 ### Maçonnerie
+
 Brouette, pelle, pioche, truelle, masse, taloche, mètre, chaussures de sécurité, tenue, sac à outillage
 
 ### Ferronnerie
+
 Masse et pince de forgeron, étau, mètre, chaussures de sécurité, tenue, sac à outillage
 
 ### Electricité bâtiment
+
 Voltampèremètre, jeu de tournevis, pince coupante, burin, niveau à bulle, lampe torche, tâteur néon,
 
 ### Mécanique 2 roues
+
 Caisse complète d'outillage (tournevis, clés, pinces, etc.), chaussures de sécurité, tenue, sac à outillage
 
 ### Menuiserie
+
 Scies, rabots, ciseaux à bois, marteau, équerre, tenaille, mètre, chaussures de sécurité, tenue, sac à outillage
 
 - <figure class="gallery-item">
@@ -74,8 +82,8 @@ Scies, rabots, ciseaux à bois, marteau, équerre, tenaille, mètre, chaussures 
   </figure>
 
 ---
-# 🔴 Diplômes 2026
 
+## Diplômes 2026 {.emoji-sphere}
 
 - <figure class="gallery-item">
     <img src="images/20261031203515.jpg" alt="Diplômants avec leurs kits en avant plan" title="Diplômants avec leurs kits en avant plan">
@@ -103,7 +111,8 @@ Scies, rabots, ciseaux à bois, marteau, équerre, tenaille, mètre, chaussures 
   </figure>
 
 ---
-# 🔴 Diplômes 2025
+
+## Diplômes 2025 {.emoji-sphere}
 
 - <figure class="gallery-item">
     <img src="images/IMG-20250413-WA0006.jpg" alt="Remise du certificat de diplôme" title="Remise du certificat de diplôme">
@@ -143,10 +152,13 @@ Scies, rabots, ciseaux à bois, marteau, équerre, tenaille, mètre, chaussures 
 - <figure class="gallery-item">
   <img src="images/20261031200618.png" alt="Signature du contrat d'apprentissage" title="Signature du contrat d'apprentissage">
   <figcaption>Signature du contrat d'apprentissage</figcaption>
+
 </figure>
 
 ---
-# 🔴 Diplômes 2024
+
+## Diplômes 2024 {.emoji-sphere}
+
 Toujours célébrée après 9 ans, la remise des diplômes a eu lieu le 11 mai 2024 au Foyer de l'Espérance, en présence des représentants locaux et de membres du comité d'Enfants-Kara.
 
 - <figure class="gallery-item">
@@ -182,7 +194,8 @@ Toujours célébrée après 9 ans, la remise des diplômes a eu lieu le 11 mai 2
 Sur la photo de droite, ce n'est pas un tableau mais un miroir qui a été remis à la diplômée en Coiffure. Deux kits ont été remis à deux Carreleurs et un kit à un Couturier.
 
 ---
-# 🔴 Diplômes 2023
+
+## Diplômes 2023 {.emoji-sphere}
 
 - <figure class="gallery-item">
     <img src="images/ibe5d4ad6fbc9766d-c80fee5777.jpg" alt="Remise d’outils professionnels" title="Remise d’outils professionnels">
@@ -215,7 +228,8 @@ Sur la photo de droite, ce n'est pas un tableau mais un miroir qui a été remis
   </figure>
 
 ---
-# 🔴 Diplômes 2022
+
+## Diplômes 2022 {.emoji-sphere}
 
 - <figure class="gallery-item">
     <img src="images/id6a4272c825b5f8a-172465be18.jpg" alt="Public réuni pour la cérémonie" title="Public réuni pour la cérémonie">
@@ -253,7 +267,9 @@ Sur la photo de droite, ce n'est pas un tableau mais un miroir qui a été remis
   </figure>
 
 ---
-# 🔴 Diplômes 2021
+
+## Diplômes 2021 {.emoji-sphere}
+
 20 août 2021
 
 - <figure class="gallery-item">
@@ -287,7 +303,9 @@ Sur la photo de droite, ce n'est pas un tableau mais un miroir qui a été remis
   </figure>
 
 ---
-# 🔴 Diplômes 2020
+
+## Diplômes 2020 {.emoji-sphere}
+
 Comme en 2019, la cérémonie de remise des diplômes s'est faite dans le strict respect des mesures sanitaires imposées par la Covid.
 C'est à nouveau une vingtaine de nouveaux professionnels qui ont reçus les maintenant habituels kits d'outillage.
 
@@ -307,7 +325,9 @@ C'est à nouveau une vingtaine de nouveaux professionnels qui ont reçus les mai
   </figure>
 
 ---
-# 🔴 Diplômes 2019
+
+## Diplômes 2019 {.emoji-sphere}
+
 Malgré la menace du COVID19, une brève cérémonie de remise des diplômes et des kits associés a pu être organisées. Toutes les règles sanitaires ont été scrupuleusement appliquées.
 
 - <figure class="gallery-item">
@@ -350,7 +370,9 @@ Un brève collation a réuni les participants en tout esprit de convivialité.
   </figure>
 
 ---
-# 🔴 Diplômes 2018
+
+## Diplômes 2018 {.emoji-sphere}
+
 A l'occasion de leur séjour au Togo, Rose Balmer, présidente et son mari Claude Balmer, trésorier, ont assisté à la remise des diplômes de la volée 2018. Ils ont pu apprécier la reconnaissance des hautes autorités locales pour le soutien au développement des infrastructures du Foyer et du Centre de formation. Ils ont également noté la joie des diplômants à la réception des kits professionnels.
 
 - <figure class="gallery-item">
@@ -389,14 +411,15 @@ A l'occasion de leur séjour au Togo, Rose Balmer, présidente et son mari Claud
   </figure>
 
 ---
-# 🔴 Diplômes 2017
+
+## Diplômes 2017 {.emoji-sphere}
 
 [Télécharger la vidéo de la cérémonie (WMV, 46 Mo)](images/ClipEK.wmv)
 
 - <figure class="gallery-item">
     <img src="images/6366336.jpg" alt="Réception de la présidente d'EKS par le préfet de Sotouboua" title="Réception de la présidente d'EKS par le préfet de Sotouboua">
-	  <figcaption>Réception de la présidente d'EKS par le préfet de Sotouboua</figcaption>
-	</figure>
+      <figcaption>Réception de la présidente d'EKS par le préfet de Sotouboua</figcaption>
+    </figure>
 
 - <figure class="gallery-item">
     <img src="images/6874240.jpg" alt="Présidente d'EKS devant la presse" title="Présidente d'EKS devant la presse">
@@ -429,15 +452,19 @@ A l'occasion de leur séjour au Togo, Rose Balmer, présidente et son mari Claud
   </figure>
 
 ---
-# 🔴 Diplômes 2016
+
+## Diplômes 2016 {.emoji-sphere}
+
 Les kits ont été remis pour la second fois lors de la remise des diplômes de fin de formation au printemps 2016. C'est toujours avec beaucoup de gratitude qu'ils ont été accueillis.
 
 La répartition entre les différents métiers se présente ainsi :
+
 - Couture 6 diplômes
 - Menuiserie 5 diplômes
 - Maçonnerie 12 diplômes
 
 <!-- séparateur de galerie -->
+
 - <figure class="gallery-item">
     <img src="images/i4d82503fee98e245-e69dd29853.jpg" alt="Remise d’un document" title="Remise d’un document">
     <figcaption>Remise d’un document</figcaption>
@@ -469,17 +496,20 @@ La répartition entre les différents métiers se présente ainsi :
   </figure>
 
 ---
-# 🔴 Diplômes 2015
+
+## Diplômes 2015 {.emoji-sphere}
 
 Les kits ont été remis pour la première fois lors de la remise des diplômes de fin de formation au printemps 2015. Ils ont été accueillis avec joie et l'association a été chaleureusement remerciée pour cette initiative.
 
 La répartition entre les différents métiers se présente ainsi :
+
 - Couture 9 diplômes
 - Maçonnerie 3 diplômes
 - Ferronnerie 2 diplômes
 - Electricité bâtiment 1 diplôme
 
 <!-- séparateur de galerie -->
+
 - <figure class="gallery-item">
     <img src="images/i2b655cea73e24e36-eb3e4f31f3.jpg" alt="Cérémonie de remise des kits" title="Cérémonie de remise des kits">
     <figcaption>Cérémonie de remise des kits</figcaption>
@@ -499,4 +529,3 @@ La répartition entre les différents métiers se présente ainsi :
     <img src="images/ib888f38fa8b7d5b8-68f8aad0e2.jpg" alt="Remise d’une brouette" title="Remise d’une brouette">
     <figcaption>Remise d’une brouette</figcaption>
   </figure>
-

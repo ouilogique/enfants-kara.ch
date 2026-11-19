@@ -8,7 +8,9 @@ aliases:
   - /manifestations/repas-de-soutien-2018/index.html
 description: Repas de soutien 2018 d'Enfants-Kara au Refuge des Bas-Monts à Belmont-sur-Lausanne.
 ---
-# 🔴 Repas de soutien 2018
+
+## Repas de soutien 2018 {.emoji-sphere}
+
 Ce repas s'est déroulé le 7 octobre 2018 au Refuge des Bas-Monts qui se trouve sur la commune de Belmont s/Lausanne.
 
 Le repas a commencé vers les 11h par un apéritif, suivi, au choix par une raclette ou une grillade, ou les deux. Le refuge possède plusieurs attractions pour les enfants:
@@ -29,6 +31,7 @@ Le repas a commencé vers les 11h par un apéritif, suivi, au choix par une racl
   </figure>
 
 ---
+
 ### Carte d'invitation envoyé à tous nos membres
 
 Cliquez sur une image pour l'agrandir.\
@@ -55,7 +58,6 @@ Tapez Escape pour revenir au format initial.
     <figcaption>Invitation au repas de soutien 2018</figcaption>
   </figure>
 
- 
 ### Préparation de la salle
 
 - <figure class="gallery-item">

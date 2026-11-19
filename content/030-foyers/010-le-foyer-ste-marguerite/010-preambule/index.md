@@ -8,10 +8,12 @@ aliases:
   - /foyers/le-foyer-ste-marguerite/preambule/index.html
 description: Enfants-Kara a été créé en 2001 pour venir en aide au foyer Ste-Marguerite.
 ---
-# Changement
-Quand l'association Enfants-Kara s'est créée (en 2001), l'ODPE (Organisation pour le Développement par la Promotion de l'Enfance, occupait des locaux qu'elle louait mensuellement. A la fin de 2002, l'ODPE a reçu "en prêt" de la mairie de Kara un terrain pour la construction de bâtiments pour l'hébergement des enfants. L'ODPE a trouvé un financement provenant d'autres associations, et le déménagement s'est fait en 2005.
 
-**Locaux d'habitation**
+## Changement
+
+Quand l'association Enfants-Kara s'est créée (en 2001), l'ODPE (Organisation pour le Développement par la Promotion de l'Enfance), occupait des locaux qu'elle louait mensuellement. A la fin de 2002, l'ODPE a reçu "en prêt" de la mairie de Kara un terrain pour la construction de bâtiments pour l'hébergement des enfants. L'ODPE a trouvé un financement provenant d'autres associations, et le déménagement s'est fait en 2005.
+
+## Locaux d'habitation
 
 <figure class="gallery-item">
     <img src="images/20261107120204.jpg" alt="Anciens locaux" title="Anciens locaux">

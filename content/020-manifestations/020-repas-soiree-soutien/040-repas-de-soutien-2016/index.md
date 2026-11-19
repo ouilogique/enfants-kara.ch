@@ -8,12 +8,14 @@ aliases:
   - "/manifestations/repas-de-soutien-2016/index.html"
 description: "Photos du repas de soutien 2016 d'Enfants-Kara : raclette, grillades et moments de convivialité entre membres et sympathisants."
 ---
-# 🔴 Repas de soutien 2016
+
+## Repas de soutien 2016 {.emoji-sphere}
+
 Ce repas s'est déroulé le samedi 15 octobre 2016 au Refuge des Bas-Monts qui se trouve sur la commune de Belmont s/Lausanne.
 
 ---
-### Carte d'invitation envoyé à tous nos membres
 
+### Carte d'invitation envoyé à tous nos membres
 
 - <figure class="gallery-item">
     <img src="images/ia171e1f86f115395-3d2ce7a936.jpg" alt="Invitation au repas de soutien 2016" title="Invitation au repas de soutien 2016">

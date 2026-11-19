@@ -8,7 +8,9 @@ aliases:
   - /manifestations/soiree-de-soutien-2014/index.html
 description: Soirée de soutien 2014 organisée par Enfants-Kara au profit des foyers d'accueil au Togo.
 ---
-# 🔴 Soirée de soutien 2014
+
+## Soirée de soutien 2014 {.emoji-sphere}
+
 Cette soirée s'est déroulée le samedi 4 octobre à la maison Saint-Jean-Cour, au 138 avenue de Cour, 1007 Lausanne
 
 <figure class="gallery-item">
@@ -19,6 +21,7 @@ Cette soirée s'est déroulée le samedi 4 octobre à la maison Saint-Jean-Cour,
 La soirée s’est ouverte autour d’un apéritif convivial, avant de se poursuivre, vers 20 heures, par le repas. Celui-ci a été ponctué de nouvelles de l’association, de contes et de légendes racontés par le griot sénégalais Lamine Konte, puis des danses entraînantes du groupe brésilien Axé Beabahia. Et, pour clore cette belle rencontre, quelques pas de danse afro-brésilienne ont réuni les convives avant qu’ils ne se quittent.
 
 ---
+
 ### Carte d'invitation envoyé à tous nos membres
 
 Cliquez sur une image pour l'agrandir.\
@@ -43,6 +46,7 @@ Tapez Escape pour revenir au format initial.
   </figure>
 
 ### Quelques moments forts de la soirée en images
+
 - <figure class="gallery-item">
     <img src="images/i6cec0aeb088af2ec-dbefdfaea1.jpg" alt="Le chef Hugues N'Gankam aux fourneaux" title="Le chef Hugues N'Gankam aux fourneaux">
     <figcaption>Le chef Hugues N'Gankam aux fourneaux</figcaption>

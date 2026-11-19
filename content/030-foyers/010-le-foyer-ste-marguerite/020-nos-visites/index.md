@@ -8,7 +8,9 @@ aliases:
   - /foyers/le-foyer-ste-marguerite/nos-visites/index.html
 description: Toutes nos visites au foyer Ste Marguerite
 ---
-# 🔴 Foyer Ste-Marguerite (juillet 2026)
+
+## Foyer Ste-Marguerite (juillet 2026) {.emoji-sphere}
+
 En 2026, Claude et Rose ont pu à nouveau se rendre deux fois au Togo, en février et en octobre. Les deux fois, ils ont acheté des vivres pour le foyer Ste-Marguerite.
 
 ### février
@@ -27,7 +29,6 @@ En 2026, Claude et Rose ont pu à nouveau se rendre deux fois au Togo, en févri
     <img src="images/IMG_4327.jpg" alt="Tout est à distribuer" title="Tout est à distribuer">
     <figcaption>Tout est à distribuer</figcaption>
   </figure>
-
 
 ### octobre
 
@@ -84,10 +85,13 @@ En 2026, Claude et Rose ont pu à nouveau se rendre deux fois au Togo, en févri
   </figure>
 
 ---
-# 🔴 Foyer Ste-Marguerite (juillet 2025)
+
+## Foyer Ste-Marguerite (juillet 2025) {.emoji-sphere}
+
 En 2025 Claude et Rose Balmer ont pu se rendre deux fois au Togo, en février et en novembre. Cela leur a permis de revenir avec plus de marchandises pour les différents marchés prévus.
 
 ### Février
+
 Premier voyage au Togo de Rose et Claude Balmer au Togo.
 
 - <figure class="gallery-item">
@@ -116,6 +120,7 @@ Premier voyage au Togo de Rose et Claude Balmer au Togo.
   </figure>
 
 ### Pâques
+
 A chaque Pâques, Enfants-Kara envoie 500 Frs pour fêter l'évènement. Sur les photos ci-dessous, un repas de fête est donné aux enfants.C'est le seul moment où les enfants reçoivent une "sucrerie" (soda).
 
 - <figure class="gallery-item">
@@ -129,6 +134,7 @@ A chaque Pâques, Enfants-Kara envoie 500 Frs pour fêter l'évènement. Sur les
   </figure>
 
 ### Novembre
+
 C'est la deuxième fois que Rose et Claude retournent au Togo. Ils apportent des habits de Suisse, des vivres, et pour faire plaisir aux enfants, quelques "sucreries" (sodas).
 
 - <figure class="gallery-item">
@@ -142,6 +148,7 @@ C'est la deuxième fois que Rose et Claude retournent au Togo. Ils apportent des
   </figure>
 
 ### Noël
+
 A chaque Noël Enfants-Kara Suisse envoie 500 Frs à l'ODPE pour fêter dignement cette fête avec un repas spécial.
 
 <figure class="gallery-item">
@@ -149,9 +156,10 @@ A chaque Noël Enfants-Kara Suisse envoie 500 Frs à l'ODPE pour fêter dignemen
   <figcaption>Repas de Noël, tous les enfants de l'ODPE réunis sous l'auvent</figcaption>
 </figure>
 
-
 ---
-# 🔴 Foyer Ste-Marguerite (juillet 2024)
+
+## Foyer Ste-Marguerite (juillet 2024) {.emoji-sphere}
+
 - <figure class="gallery-item">
     <img src="images/IMG_1444.jpg" alt="Vue sur les dortoirs filles et garçons" title="Vue sur les dortoirs filles et garçons">
     <figcaption>Vue sur les dortoirs filles et garçons</figcaption>
@@ -184,20 +192,26 @@ A chaque Noël Enfants-Kara Suisse envoie 500 Frs à l'ODPE pour fêter dignemen
 
 ---
 
-# 🔴 Foyer Ste-Marguerite (juillet 2023)
+## Foyer Ste-Marguerite (juillet 2023) {.emoji-sphere}
+
 Pas de photos
 
-# 🔴 Foyer Ste-Marguerite (juillet 2022)
+## Foyer Ste-Marguerite (juillet 2022) {.emoji-sphere}
+
 Pas de visite au Togo à cause du covid.
 
-# 🔴 Foyer Ste-Marguerite (juillet 2021)
+## Foyer Ste-Marguerite (juillet 2021) {.emoji-sphere}
+
 Pas de visite au Togo à cause du covid.
 
-# 🔴 Foyer Ste-Marguerite (juillet 2020)
+## Foyer Ste-Marguerite (juillet 2020) {.emoji-sphere}
+
 Pas de visite au Togo à cause du covid.
 
 ---
-# 🔴 Foyer Ste-Marguerite (juillet 2019)
+
+## Foyer Ste-Marguerite (juillet 2019) {.emoji-sphere}
+
 Cette année la famille Merlini s'est jointe aux Balmer (Claude et Rose) pour visiter le Togo. Ils accompagnent les Balmer lors de la visite de l'ODPE.
 
 - <figure class="gallery-item">
@@ -225,9 +239,10 @@ Cette année la famille Merlini s'est jointe aux Balmer (Claude et Rose) pour vi
     <figcaption>Photo de famille</figcaption>
   </figure>
 
-
 ---
-# 🔴 Foyer Ste-Marguerite (juillet 2018)
+
+## Foyer Ste-Marguerite (juillet 2018) {.emoji-sphere}
+
 - ![](images/20261028120648.jpg)
 - ![](images/20261028120829.jpg)
 - ![](images/20261028120943.jpg)
@@ -236,7 +251,9 @@ Cette année la famille Merlini s'est jointe aux Balmer (Claude et Rose) pour vi
 - ![](images/20261028121309.jpg)
 
 ---
-# 🔴 Foyer Ste-Marguerite (juillet 2017)
+
+## Foyer Ste-Marguerite (juillet 2017) {.emoji-sphere}
+
 - ![](images/4803648.jpg)
 - ![](images/4822784.jpg)
 - ![](images/20261028120133.jpg)
@@ -245,7 +262,9 @@ Cette année la famille Merlini s'est jointe aux Balmer (Claude et Rose) pour vi
 - ![](images/20261028120310.jpg)
 
 ---
-# 🔴 Foyer Ste-Marguerite (juillet 2015)
+
+## Foyer Ste-Marguerite (juillet 2015) {.emoji-sphere}
+
 - <figure class="gallery-item">
     <img src="images/i015046d16437b8cf-9e77b3bac3.jpg" alt="Enfants et jeunes sous l'auvent qui ser aussi de salle de classe" title="Enfants et jeunes sous l'auvent qui ser aussi de salle de classe">
     <figcaption>Enfants et jeunes sous l'auvent qui ser aussi de salle de classe</figcaption>
@@ -267,7 +286,9 @@ Cette année la famille Merlini s'est jointe aux Balmer (Claude et Rose) pour vi
   </figure>
 
 ---
-# 🔴 Foyer Ste-Marguerite (juillet 2013)
+
+## Foyer Ste-Marguerite (juillet 2013) {.emoji-sphere}
+
 - <figure class="gallery-item">
     <img src="images/i2db3741661350092-08ed93f4a3.jpg" alt="Chants de bienvenue" title="Chants de bienvenue">
     <figcaption>Chants de bienvenue</figcaption>
@@ -294,8 +315,10 @@ Cette année la famille Merlini s'est jointe aux Balmer (Claude et Rose) pour vi
   </figure>
 
 ---
-# 🔴 Foyer Ste-Marguerite (avril 2012)
- Achats au marché de Kara pour le foyer.
+
+## Foyer Ste-Marguerite (avril 2012) {.emoji-sphere}
+
+Achats au marché de Kara pour le foyer.
 
 - <figure class="gallery-item">
     <img src="images/ic78458af24d0e509-142a38b50f.jpg" alt="Acheteurs en action" title="Acheteurs en action">
@@ -337,7 +360,7 @@ Cette année la famille Merlini s'est jointe aux Balmer (Claude et Rose) pour vi
     <figcaption>Boutique au marché de Kara</figcaption>
   </figure>
 
-# Accueilli au foyer Ste-Marguerite
+## Accueilli au foyer Ste-Marguerite
 
 - <figure class="gallery-item">
     <img src="images/i77b1af1f36dfabd7-5b394fafc8.jpg" alt="Cour intérieure du foyer" title="Cour intérieure du foyer">
@@ -410,7 +433,9 @@ Cette année la famille Merlini s'est jointe aux Balmer (Claude et Rose) pour vi
   </figure>
 
 ---
-# 🔴 Foyer Ste-Marguerite (janvier 2009)
+
+## Foyer Ste-Marguerite (janvier 2009) {.emoji-sphere}
+
 - <figure class="gallery-item">
     <img src="images/i0f70d502ef81a3b3-d97eb3171b.jpg" alt="Visiteur devant le mur d'enceinte" title="Visiteur devant le mur d'enceinte">
     <figcaption>Visiteur devant le mur d'enceinte</figcaption>
@@ -557,7 +582,9 @@ Cette année la famille Merlini s'est jointe aux Balmer (Claude et Rose) pour vi
   </figure>
 
 ---
-# 🔴 Foyer Ste-Marguerite (janvier 2008)
+
+## Foyer Ste-Marguerite (janvier 2008) {.emoji-sphere}
+
 - <figure class="gallery-item">
     <img src="images/iba9e9b2a3b34d651-c454b3ae80.jpg" alt="Flamboyant en fleur" title="Flamboyant en fleur">
     <figcaption>Flamboyant en fleur</figcaption>

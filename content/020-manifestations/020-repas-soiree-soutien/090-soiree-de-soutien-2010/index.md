@@ -8,37 +8,40 @@ aliases:
   - /manifestations/soiree-de-soutien-2010/index.html
 description: Soirée de soutien 2010 d'Enfants-Kara avec la chanteuse Vicky Bila, au profit des enfants du Togo.
 ---
-# 🔴 Soirée 2010
+
+## Soirée 2010 {.emoji-sphere}
+
 Cette soirée s’est tenue le 1ᵉʳ octobre 2010 dans la grande salle du Mont-sur-Lausanne. Au programme : un repas et plusieurs spectacles.
 
 Le repas, imaginé et préparé par le cuisinier Eric Lamoureux et sa femme Murielle, de l’Auberge communale du Mont, a régalé les invités. Nous avons eu le plaisir d’accueillir Madame Vicky Bila, qui a interprété quelques chansons, ainsi que le groupe de danse de Casimir Nzoulou, qui nous a présenté plusieurs chorégraphies.
 
 ---
+
 ### Carte d'invitation envoyé à tous nos membres
 
 Cliquez sur une image pour l'agrandir.\
 Flèches gauche-droite pour changer de photo.\
 Tapez Escape pour revenir au format initial.
 
- - <figure class="gallery-item">
-     <img src="images/page1.jpg" alt="Invitation au repas de soutien 2010" title="Invitation au repas de soutien 2010">
-     <figcaption>Invitation au repas de soutien 2010</figcaption>
-   </figure>
+- <figure class="gallery-item">
+    <img src="images/page1.jpg" alt="Invitation au repas de soutien 2010" title="Invitation au repas de soutien 2010">
+    <figcaption>Invitation au repas de soutien 2010</figcaption>
+  </figure>
 
- - <figure class="gallery-item">
-     <img src="images/page2.jpg" alt="Invitation au repas de soutien 2010" title="Invitation au repas de soutien 2010">
-     <figcaption>Invitation au repas de soutien 2010</figcaption>
-   </figure>
+- <figure class="gallery-item">
+    <img src="images/page2.jpg" alt="Invitation au repas de soutien 2010" title="Invitation au repas de soutien 2010">
+    <figcaption>Invitation au repas de soutien 2010</figcaption>
+  </figure>
 
- - <figure class="gallery-item">
-     <img src="images/page3.jpg" alt="Invitation au repas de soutien 2010" title="Invitation au repas de soutien 2010">
-     <figcaption>Invitation au repas de soutien 2010</figcaption>
-   </figure>
+- <figure class="gallery-item">
+    <img src="images/page3.jpg" alt="Invitation au repas de soutien 2010" title="Invitation au repas de soutien 2010">
+    <figcaption>Invitation au repas de soutien 2010</figcaption>
+  </figure>
 
- - <figure class="gallery-item">
-     <img src="images/page4.jpg" alt="Invitation au repas de soutien 2010" title="Invitation au repas de soutien 2010">
-     <figcaption>Invitation au repas de soutien 2010</figcaption>
-   </figure>
+- <figure class="gallery-item">
+    <img src="images/page4.jpg" alt="Invitation au repas de soutien 2010" title="Invitation au repas de soutien 2010">
+    <figcaption>Invitation au repas de soutien 2010</figcaption>
+  </figure>
 
 ### La chanteuse Vicky Bila, nous fera l’honneur de ses chansons
 

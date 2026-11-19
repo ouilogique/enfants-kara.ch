@@ -9,29 +9,30 @@ aliases:
   - /projets-en-cours/Verger/index.html
 description: Création d'un Verger
 ---
-# Ancien terrain, maintenant nommé "verger"
+
+## Ancien terrain, maintenant nommé "verger"
+
 Au mois d'avril 2004, après la création de l'ONG Enfants-Kara Togo, l'association fait l'acquisition d'un terrain situé à une dizaine de kilomètres du foyer Caredo. Par la suite ce terrain sera appelé "verger".
 
 - <figure class="gallery-item">
    <img src="images/20261101111644.jpg" alt="Terrain qui deviendra un verger" title="Terrain qui deviendra un verger">
    <figcaption>Terrain qui deviendra un verger</figcaption>
- </figure>
 
+ </figure>
 
 - <figure class="gallery-item">
    <img src="images/20261101111744.jpg" alt="Les premiers arbres plantés dans leur protection" title="Les premiers arbres plantés dans leur protection">
    <figcaption>Les premiers arbres plantés dans leur protection</figcaption>
- </figure>
 
+ </figure>
 
 - <figure class="gallery-item">
    <img src="images/20261101111453.png" alt="Gros plan sur la protection de la plante" title="Gros plan sur la protection de la plante">
    <figcaption>Gros plan sur la protection de la plante</figcaption>
+
  </figure>
 
-
-
-# Plan de l'ancien terrain (depuis nommé verger)
+## Plan de l'ancien terrain (depuis nommé verger)
 
 <figure class="gallery-item">
     <img src="images/i256d62d426008f2b-ed792f239e.jpg" alt="Plan du terrain" title="Plan du terrain">
@@ -61,4 +62,3 @@ On va commencer par planter des arbres, car cela prend du temps pour pousser. On
 Chaque plant d’arbre doit être entouré d'une une protection en osier pour éviter qu’il se fasse manger par les chèvres (ou autres).
 
 Pour 2024, EKS a mis dans le budget la somme de Frs 1’000.- pour l’achat de plants d’arbres, des paniers de protection et pour la plantation, les soins et la surveillance.
-

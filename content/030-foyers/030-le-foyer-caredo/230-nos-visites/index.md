@@ -8,6 +8,7 @@ aliases:
   - "/foyers/le-foyer-caredo/nos-visites/index.html"
 description: "Toutes nos visites au foyer Caredo"
 ---
+
 Enfants-Kara mène, en partenariat avec le foyer Caredo, des actions de long terme. Chaque mois, l’association distribue à chaque enfant du foyer un kit alimentaire. Elle cherche également à développer d’autres sources de financement durables pour le foyer, notamment grâce au maraîchage et à la fabrication de savon.
 
 Pour illustrer ces actions, nous pourrions publier chaque mois quelques photos, comme celles ci-dessous, montrant l’achat des denrées et la distribution des colis alimentaires aux enfants du foyer.
@@ -21,13 +22,13 @@ Pour illustrer ces actions, nous pourrions publier chaque mois quelques photos, 
     <figcaption>Ensemble des enfants ayant reçu les kits alimentaires</figcaption>
   </figure>
 
+## Foyer Caredo (juillet 2026) {.emoji-sphere}
 
-# 🔴 Foyer Caredo (juillet 2026)
 L'année 2026 a permis la création de la savonnerie sur le terrain de Yaloumbé.
 
-
 ---
-# 🔴 Foyer Caredo (juillet 2025)
+
+## Foyer Caredo (juillet 2025) {.emoji-sphere}
 
 - <figure class="gallery-item">
     <img src="images/IMG_3381.jpg" alt="Distribution de biscuits de Suisse" title="Distribution de biscuits de Suisse">
@@ -39,7 +40,9 @@ L'année 2026 a permis la création de la savonnerie sur le terrain de Yaloumbé
   </figure>
 
 ---
-# 🔴 Foyer Caredo (juillet 2024)
+
+## Foyer Caredo (juillet 2024) {.emoji-sphere}
+
 La visite de Rose, Déou et Claude Balmer au foyer Caredo sera également l’occasion de planter les arbres du futur verger.
 
 - <figure class="gallery-item">
@@ -52,6 +55,7 @@ La visite de Rose, Déou et Claude Balmer au foyer Caredo sera également l’oc
   </figure>
 
 <!-- séparateur de galerie -->
+
 Il faut parcourir plusieurs kilomètres avant d’atteindre le terrain, le triporteur chargé de jeunes arbres destinés à donner vie au futur verger. Manguiers, palmiers à huile, orangers, pamplemoussiers et citronniers font partie des essences choisies.
 
 Malgré la distance et les difficultés du trajet, chacun avance avec enthousiasme, en pensant déjà à voir ces arbres grandir et porter leurs fruits. La première étape prévoit la plantation de 150 arbres. Comme il faudra patienter quelque temps avant les premières récoltes, il a été décidé de commencer par le verger, avant d’entreprendre la construction de la future savonnerie.
@@ -74,11 +78,10 @@ Malgré la distance et les difficultés du trajet, chacun avance avec enthousias
   </figure>
 
 ---
-# 🔴 Foyer Caredo (juillet 2021)
+
+## Foyer Caredo (juillet 2021) {.emoji-sphere}
 
 <figure class="gallery-item">
     <img src="images/IMG-20210126-WA0008.jpg" alt="Achats de vivres" title="Achats de vivres">
     <figcaption>Achats de vivres</figcaption>
   </figure>
-
-

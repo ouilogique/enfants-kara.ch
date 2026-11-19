@@ -8,7 +8,9 @@ aliases:
   - /foyers/le-foyer-esperance/actions/2014-dortoirs-des-filles/index.html
 description: Construction des dortoirs, latrines et douches pour les filles du Foyer de l'Espérance en 2014, financée par Enfants-Kara pour CHF 20'000.
 ---
-# 🔴 Dortoir des filles
+
+## Dortoir des filles {.emoji-sphere}
+
 Conformément à la décision des membres d'EK réunis lors de leur Assemblée Générale Extraordinaire du 27 novembre 2013, la construction de dortoirs, latrines et douches pour un montant de CHF 20'000.-, selon devis, a été initialisée en mars 2014.
 
 Constructions achevées en août 2014:

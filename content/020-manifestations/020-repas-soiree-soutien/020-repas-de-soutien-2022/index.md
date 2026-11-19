@@ -8,10 +8,13 @@ aliases:
   - "/manifestations/repas-de-soutien-2022/index.html"
 description: "Repas de soutien à St-Jean"
 ---
-# 🔴 Soirée 2022
+
+## Soirée 2022 {.emoji-sphere}
+
 Cette soirée s'est tenu le 1er octobre 2022 à la maison Saint-Jean-Cour au 138 avenue de Cour à Lausanne. Au programme: un buffet africain, un griot et des musiciens qui vous ferons rêver.
 
 ---
+
 ### Carte d'invitation envoyée à tous nos membres
 
 - <figure class="gallery-item">

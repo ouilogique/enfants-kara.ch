@@ -8,9 +8,10 @@ aliases:
   - /manifestations/marche-mai/_index.html
 description: Au mois de mai se tient le marché annuel du Mont-sur-Lausanne
 ---
+
 Chaque année, la commune du Mont-sur-Lausanne organise une fête villageoise où artisans et associations locales se réunissent pour présenter leurs créations et leurs activités aux habitants. Cette journée de partage et de découverte attire chaque année un grand nombre de riverains, renforçant ainsi les liens et la convivialité au sein de la communauté.
 
-# 🔴 Fête 2026
+## Fête 2026 {.emoji-sphere}
 
 <figure class="gallery-item">
     <img src="images/Fetemai.jpg" alt="Affiche de la fête de mai" title="Affiche de la fête de mai">

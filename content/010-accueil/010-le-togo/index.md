@@ -17,6 +17,7 @@ description: "Présentation géographique, démographique et historique du Togo 
 Le Togo se trouve en Afrique de l'Ouest, entre le Ghana à l'ouest, le Bénin à l'est, le Burkina au nord et sur le golfe de Guinée au sud (cf photo 1). Sa superficie est de 56'600 km2, pour environ 700 km de long et 50 à 150 km de large. En 2012, on y recense plus de 6'900'000 habitants. La langue officielle est le français. En plus du français, l'éwé et le kabyè sont enseignés dans le pays (parmi une quarantaine de langues). Par comparaison, la Suisse a une superficie de 41'293 km2 et une population d'un peu plus de 8'000'000 d'habitants (2012). La monnaie du pays est le franc CFA (Taux approximatif 1 CHF = 500 CFA).
 
 Sources : [Wikipédia, « Togo »](https://fr.wikipedia.org/wiki/Togo)
+
 <figure class="gallery-item">
     <img src="images/ib53bd1f23752a077-71008a90a2.png" alt="Carte du Togo en Afrique de l’Ouest" title="Carte du Togo en Afrique de l’Ouest">
     <figcaption>Carte du Togo en Afrique de l’Ouest</figcaption>
@@ -45,7 +46,7 @@ Voir aussi : [Lomé](https://fr.wikipedia.org/wiki/Lomé)
 
 Crédit : image issue de [Wikipédia, « Togo »](https://fr.wikipedia.org/wiki/Togo), modifiée par Enfants-Kara.
 
-# Histoire
+## Histoire
 
 Sources : [Wikipédia, « Togo »](https://fr.wikipedia.org/wiki/Togo)
 
