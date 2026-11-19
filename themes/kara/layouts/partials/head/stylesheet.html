@@ -12,5 +12,7 @@
 -}}
 {{- $css := $cssFiles | resources.Concat "style.css" -}}
 {{- if site.Params.fingerprintCSS }}{{ $css = $css | fingerprint "sha256" }}{{ end -}}
-<link rel="stylesheet" href="{{ $css.RelPermalink }}"{{ with $css.Data.Integrity }} integrity="{{ . }}"{{ end }}>
+{{- $cssURL := $css.RelPermalink -}}
+{{- if site.Params.cacheBust }}{{ $cssURL = printf "%s?v=%d" $cssURL now.Unix }}{{ end -}}
+<link rel="stylesheet" href="{{ $cssURL }}"{{ with $css.Data.Integrity }} integrity="{{ . }}"{{ end }}>
 {{- /* Supprime le retour à la ligne final du partial. */ -}}
