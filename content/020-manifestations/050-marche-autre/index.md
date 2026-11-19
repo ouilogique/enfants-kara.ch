@@ -10,7 +10,8 @@ description: Marchés dans d'autres lieux
 
 L'association ne manque aucune occasion de se faire connaître et déploie régulièrement son stand lors de différents événements.
 
-# 🔴 Baulmes 2024
+## Baulmes 2024 {.emoji-sphere}
+
 Le 18 mai 2024, à Baulmes, perchée sur les hauteurs d'Yverdon, que l'association Farafina organise chaque année un marché aux saveurs et couleurs du monde. À travers cet événement, Farafina — qui œuvre pour la santé des enfants au Mali et la richesse des cultures africaines — invite d'autres associations à présenter des produits artisanaux venant directement des pays aidés, créant ainsi un pont solidaire entre les continents.
 
 - <figure class="gallery-item">

@@ -16,6 +16,7 @@ Par rapport à la Suisse, les apprentis doivent payer une certaine somme d'argen
   </figure>
 
 ### Les Formateurs
+
 { .text-align-center .caption}
 
 Le Centre de formation du Foyer de l'Espérance fonctionne grâce à l'encadrement bénévole de patrons issus des secteurs suivants :

@@ -9,7 +9,7 @@ aliases:
 description: "Comité local d'Enfants-Kara Togo (EKT) 2025, présidé par Oscar Taro, en charge des actions sur le terrain."
 ---
 
-# Il est constitué comme suit :
+## Il est constitué comme suit :
 
 | Fonction                            | Nom       | Prénom      |
 | ----------------------------------- | --------- | ----------- |

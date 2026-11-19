@@ -7,7 +7,9 @@ aliases:
   - /foyers/le-foyer-esperance/actions/2016-dortoirs-des-garcons/index.html
 description: Construction des dortoirs des garçons au Foyer de l'Espérance en 2016, inaugurée en juillet en présence de Rose Balmer.
 ---
-# 🔴 Dortoirs des garçons
+
+## Dortoirs des garçons {.emoji-sphere}
+
 La construction (dortoirs, latrines, douches) a commencé en novembre 2015.
 
 Elle fait suite à celle réalisée pour les filles en 2014 et est en tous points identique. ([infos](../2014-dortoirs-des-filles/ "Nouvelles constructions")).
@@ -40,6 +42,7 @@ Les travaux se sont achevés en mai 2016 et le bâtiment a été inauguré en ju
   </figure>
 
 <!-- séparateur de galerie -->
+
 - <figure class="gallery-item">
     <img src="images/i64df21a811e6c62f-c0f6faa281.jpg" alt="Public pendant l’inauguration" title="Public pendant l’inauguration">
     <figcaption>Public pendant l’inauguration</figcaption>

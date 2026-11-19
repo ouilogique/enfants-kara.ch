@@ -12,7 +12,6 @@ description: "Présentation officielle du Foyer de l'Espérance : structure, but
 « Mieux vaut apprendre à un jeune enfant à pêcher\
 que de lui donner du poisson dans un plat. »
 
-
 Un enfant de la rue, orphelin, démuni ou victime de la traite est protégé dans le cercle des personnes de bonne volonté qui l'accueillent à bras ouverts pour l'éduquer, le former et lui apprendre à construire son avenir à travers un métier de son choix.
 
 Panneau signalant le foyer de l'Espérance au bord de la nationale RN1
@@ -38,6 +37,7 @@ Panneau signalant le foyer de l'Espérance au bord de la nationale RN1
   </figure>
 
 ## Structure administrative
+
 Les organes dirigeants de l'institution sont:
 
 - Conseil d'administration
@@ -55,6 +55,7 @@ Les organes dirigeants de l'institution sont:
 { .text-align-center .caption}
 
 ## But et objectifs
+
 Contribuer à l'épanouissement socio-économique des jeunes issus des familles pauvres par la formation professionnelle gratuite.
 
 Susciter le goût de la formation chez les jeunes en déperdition scolaire et vicitimes de la traite.
@@ -64,6 +65,7 @@ Assurer une formation professionnelle aux jeunes des deux sexes.
 Favoriser l'accès à la culture générale et au savoir significatif.
 
 ## Conditions d'admission
+
 L'institution est ouverte à tous les jeunes orphelins ou démunis des deux sexes sans distinction de religion ou d'ethnie.
 
 Les frais de formation dans toutes les filières sont gratuits.
@@ -78,4 +80,4 @@ Le recrutement des jeunes se fait essentiellement de bouche à oreille; de rares
 
 La nourriture de tous est assurée par des proches dans la mesure de leurs souvent maigres moyens ou par parrainage.
 
- Le Centre de formation accompagne les jeunes jusqu'à l'obtention du CFA (certificat de fin d'apprentissage), en règle générale après 3 ans d'études et d’expériences pratiques. L'encadrement est assuré par des artisans locaux professionnels et dispense les formations dans les domaines suivants : maçonnerie, électricité en bâtiment, menuiserie, couture et tissage, mécanique des deux roues, forge et soudure. Des ateliers, malheureusement équipés d'un outillage trop élémentaire, sont réservés aux exercices pratiques.
+Le Centre de formation accompagne les jeunes jusqu'à l'obtention du CFA (certificat de fin d'apprentissage), en règle générale après 3 ans d'études et d’expériences pratiques. L'encadrement est assuré par des artisans locaux professionnels et dispense les formations dans les domaines suivants : maçonnerie, électricité en bâtiment, menuiserie, couture et tissage, mécanique des deux roues, forge et soudure. Des ateliers, malheureusement équipés d'un outillage trop élémentaire, sont réservés aux exercices pratiques.

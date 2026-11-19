@@ -47,4 +47,3 @@ EK Togo a conclu début 2021 l’achat d’un terrain que les enfants vont pouvo
 Un triporteur sera acheté début 2022 pour faciliter les déplacements et transports de et vers les cultures.
 
 En 2025, achat d'un nouveau terrain à Yaloumbè pour la construction d'une savonnerie et pour du maraichage.
-

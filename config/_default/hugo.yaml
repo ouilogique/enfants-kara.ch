@@ -25,6 +25,7 @@ markup:
     parser:
       attribute:
         block: true
+        title: true
 params:
   fingerprintCSS: false
   author: Nicolas Jeanmonod

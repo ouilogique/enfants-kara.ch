@@ -8,7 +8,9 @@ aliases:
   - "/foyers/le-foyer-esperance/actions/electrification/index.html"
 description: "Raccordement au réseau électrique du Foyer de l'Espérance début 2021 et projet d'installation intérieure soutenu par Enfants-Kara."
 ---
-# 🔴 Électrification
+
+## Électrification {.emoji-sphere}
+
 Le début de l'année 2021 a vu l'arrivée du réseau électrique sur le campus du Foyer de l'Espérance. Le raccordement d'abonné a été effectué par la compagnie nationale. Dès lors, Enfants-Kara planche sur les installations intérieures des bâtiments. Le projet est à son début. Beaucoup d'informations doivent être échangées pour être sûrs que les équipements proposés conviennent à tous, en particulier aux ateliers.
 
 - <figure class="gallery-item">

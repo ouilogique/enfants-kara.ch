@@ -9,8 +9,8 @@ aliases:
 description: Toutes nos visites au foyer Espérance
 ---
 
+## Visite octobre 2026 {.emoji-sphere}
 
-# 🔴 Visite octobre 2026
 Claude et Rose Balmer ont fait une visite éclair au centre au mois d'octobre 2026.
 
 - <figure class="gallery-item">
@@ -39,7 +39,9 @@ Claude et Rose Balmer ont fait une visite éclair au centre au mois d'octobre 20
   </figure>
 
 ---
-# 🔴 Visite novembre 2025
+
+## Visite novembre 2025 {.emoji-sphere}
+
 Rose et Claude Balmer ont rencontré les maîtres d’apprentissage afin d’échanger avec eux sur le déroulement des formations. Ils ont pu recueillir leurs témoignages, prendre connaissance de leurs préoccupations et entendre leurs doléances. Ces discussions leur ont également permis de mieux comprendre la situation actuelle, de mesurer les besoins et les attentes, et de prendre en compte les nouvelles demandes exprimées.
 
 - <figure class="gallery-item">
@@ -58,7 +60,9 @@ Rose et Claude Balmer ont rencontré les maîtres d’apprentissage afin d’éc
   </figure>
 
 ---
-# 🔴 Visite juillet 2024
+
+## Visite juillet 2024 {.emoji-sphere}
+
 Lors de leur visite au foyer de l’Espérance, en juillet 2024, Claude et Rose Balmer ont rencontré les maîtres d’apprentissage ainsi que plusieurs apprentis. Cette rencontre leur a permis d’échanger des informations, de faire le point sur les formations et de mieux connaître les expériences et les besoins de chacun.
 
 - <figure class="gallery-item">
@@ -94,7 +98,9 @@ Au mois de mai 2024 s'est déroulé la cérémonie de remise des kits d'outillag
   </figure>
 
 ---
-# 🔴 Visite juillet 2023
+
+## Visite juillet 2023 {.emoji-sphere}
+
 Le comité d’EKT, accompagné de représentants d’EKS, a effectué une visite de courtoisie au foyer de l’Espérance. Cette rencontre a été l’occasion d’échanger avec les membres du foyer et les maîtres d’apprentissage, de prendre de leurs nouvelles et de renforcer les liens entre les différentes équipes.
 
 <figure class="gallery-item">
@@ -132,7 +138,9 @@ La construction des dortoirs s’est accompagnée de celle des douches et des la
   </figure>
 
 ---
-# 🔴 Remise des kits 2022
+
+## Remise des kits 2022 {.emoji-sphere}
+
 L’année de la Covid, aucun représentant d’EKS n’a pu être présent. La fête s’est donc déroulée dans un format plus modeste que les années précédentes.
 
 - <figure class="gallery-item">
@@ -156,7 +164,9 @@ L’année de la Covid, aucun représentant d’EKS n’a pu être présent. La 
   </figure>
 
 ---
-# 🔴 Remise des kits 2021
+
+## Remise des kits 2021 {.emoji-sphere}
+
 La pandémie de Covid-19 nous a empêchés d’être présents. Nous avons reçu une vidéo de cette cérémonie:
 
 <video controls preload="metadata" playsinline style="max-width:100%">
@@ -166,11 +176,14 @@ La pandémie de Covid-19 nous a empêchés d’être présents. Nous avons reçu
 </video>
 
 ---
-# 🔴 2020
+
+## 2020 {.emoji-sphere}
+
 On est en pleine crise du Covid, toutes les actions sont suspendues.
 
 ---
-# 🔴 Visite juillet 2016
+
+## Visite juillet 2016 {.emoji-sphere}
 
 - <figure class="gallery-item">
     <img src="images/IMG_0230.jpg" alt="Inspection des kits" title="Inspection des kits">
@@ -193,14 +206,14 @@ On est en pleine crise du Covid, toutes les actions sont suspendues.
   </figure>
 
 ---
-# 🔴 Visite 2015
+
+## Visite 2015 {.emoji-sphere}
 
 Visite de Rose Balmer, présidente de l'Association.
 
 A l'occasion de son séjour annuel au Togo, Mme la Présidente a rendu visite au Foyer de l'Espérance et aux ateliers du Centre de Formation. Après les discours et danses de bienvenue, elle a pu visiter les dortoirs des filles, dortoirs entièrement reconstruits en 2014. La visite s'est poursuivie dans les ateliers de formation.
 
 Joie d'accueillir la représentante des donateurs, reconnaissance envers eux pour leur soutien ont été les maîtres-mots de la journée.
-
 
 - <figure class="gallery-item">
     <img src="images/iaf643db58c6dd83b-4be8ee1b26.jpg" alt="Public assis dans la salle" title="Public assis dans la salle">

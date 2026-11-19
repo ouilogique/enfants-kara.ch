@@ -28,8 +28,8 @@ Voici les grandes étapes de son parcours :
 - **2026** : démarrage de la fabrication de savons.
 
 Nos principaux axes d’action sont :
+
 - Le foyer de [Ste-Marguerite (ODPE)](/foyers/le-foyer-ste-marguerite/) à Kara
 - Le foyer de [l'Espérance](/foyers/le-foyer-esperance/) à Tigbada
 - Le foyer [Caredo](/foyers/le-foyer-caredo/) à Blitta
 - La savonnerie à Yaloumbé
-

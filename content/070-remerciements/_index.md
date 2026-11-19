@@ -10,10 +10,10 @@ description: "Remerciements aux photographes et à toutes les personnes qui sout
 
 ## Site web
 
-- [Pierre-Alain Steffen]() - créateur du premier site Enfants-Kara
+- [Pierre-Alain Steffen](<>) - créateur du premier site Enfants-Kara
 - [Nicolas Jeanmonod](https://jeanmonod.net) — conception et réalisation du second site
 - [Claude](https://claude.ai) (Anthropic) — assistant IA
-- [ChatGPT](https://chatgpt.com) (OpenAI) — assistant IA 
+- [ChatGPT](https://chatgpt.com) (OpenAI) — assistant IA
 - [DuckAI](https://duck.ai) (DuckDuckGo) — assistant IA
 - [Claude Balmer](https://aleph.ch/Balmer) — maintenance du second site Enfants-Kara
 

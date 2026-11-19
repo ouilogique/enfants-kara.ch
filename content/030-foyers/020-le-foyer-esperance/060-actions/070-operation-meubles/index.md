@@ -8,7 +8,9 @@ aliases:
   - "/foyers/le-foyer-esperance/actions/operation-meubles/index.html"
 description: "Action Flash pour financer la fabrication de meubles dans les nouveaux dortoirs des filles du Foyer de l'Espérance en 2014."
 ---
-# 🔴 Chambres à meubler
+
+## Chambres à meubler {.emoji-sphere}
+
 Après la construction des nouveaux dortoirs pour les filles (2014), suite à un souhait de la Direction du Foyer, une "Action flash" a permis de récolter le montant nécessaire pour la construction de meubles pour les chambres. Avec cette somme, les apprenants menuisiers du Centre de formation ont pu fabriquer 10 tables et 20 chaises. Merci aux généreux donateurs et donatrices ainsi qu'à ces constructeurs en formation.
 
 - <figure class="gallery-item">
