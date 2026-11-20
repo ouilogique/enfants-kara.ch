@@ -12,7 +12,7 @@ description: "Coordonnées de l'association Enfants-Kara : adresse postale au Mo
     Association Enfants-Kara
     c/o Balmer Claude
     Chemin du Verger 17
-    CH-1052 Le Mont sur Lausanne
+    CH-1052 Le Mont-sur-Lausanne
     Suisse
 
     Tél:    021 652 8862 (International +41 21 652 8862)

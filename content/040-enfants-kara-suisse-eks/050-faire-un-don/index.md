@@ -15,14 +15,15 @@ Sachez qu'il sera le bienvenu et versé dans son intégralité au profit des ado
 
 Parmi les projets qu'Enfants-Kara et les dirigeants du Foyer de l'Espérance et du Centre de formation souhaitent réaliser :
 
-- la construction d'un réfectoire et d'un espace cuisine communautaires
-- la construction d'une petite centrale solaire pour l'éclairage, la télévision et le petit outillage électrique
-- la construction d'un petit réseau de distribution d'eau et son forage
+- la construction d'une savonnerie
+- la fourniture de biens au centre Caredo
+- la fourniture de kits d'outils aux nouveaux diplômés du foyer l'Espérance
 - le financement annuel de matériaux liés aux divers enseignements (ciment, électrodes de soudure, tissus, etc.)
+- une pensée à Pâques et Noël avec un "repas de fête"
 
-Pour ls orphelinats :
+Pour les orphelinats :
 
-- un soutien tous les 4 mois pour la nourriture et les produits d'hygiène
+- un soutien tous les mois pour la nourriture et les produits d'hygiène
 - etc.
 
 Comment vous le voyez, nous avons besoin de vous. Si vous souhaitez contribuer à l'un des projets en particulier, n'hésitez pas à nous le faire savoir.
@@ -32,7 +33,7 @@ Nos coordonnées bancaires sont les suivantes :
     IBAN: CH23 0900 0000 1754 5294 4 La Poste, Suisse
     CCP: 17-545294-4 La Poste suisse
     Enfants-Kara
-    CH-1264 St-Cergue
+    CH-1052 Le Mont-sur-Lausanne
     Suisse
 
 Un grand merci d'avance pour votre contribution.

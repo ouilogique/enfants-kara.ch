@@ -32,7 +32,11 @@
     {{- end -}}
   {{- end -}}
   {{- if ge $titleIndex 0 -}}
-    {{- $title := trim (replaceRE `^#{1,6}[ \t]*` "" (index $lines $titleIndex)) " \t" -}}
+    {{- $rawTitle := trim (replaceRE `^#{1,6}[ \t]*` "" (index $lines $titleIndex)) " \t" -}}
+    {{- $hasSphere := or (findRE `\.emoji-sphere` $rawTitle) (findRE `🔴` $rawTitle) -}}
+    {{- $title := trim (replaceRE `\s*\{[^}]*\}\s*$` "" $rawTitle) " \t" -}}
+    {{- $title = replace $title "🔴" "" -}}
+    {{- $title = trim $title " \t" -}}
     {{- $detailLines := slice -}}
     {{- $stop := false -}}
     {{- range $i, $line := $lines -}}
@@ -46,9 +50,8 @@
     {{- end -}}
     {{- $detail := trim (delimit $detailLines "\n") " \t\n" -}}
     {{- if and $title $detail -}}
-      {{- $title = replace $title "🔴" `<span class="emoji-sphere" role="img" aria-label="sphère rouge"></span>` -}}
       <aside class="home-event" aria-label="Prochaine manifestation">
-        <h2 class="home-event-title" id="prochaine-manifestation">{{ $title | safeHTML }}</h2>
+        <h2 class="home-event-title{{ if $hasSphere }} emoji-sphere{{ end }}" id="prochaine-manifestation">{{ $title }}</h2>
         <div class="home-event-detail">{{ .RenderString (dict "display" "block") $detail }}</div>
         <a class="home-event-link" href="{{ .RelPermalink }}">Toutes les manifestations</a>
       </aside>

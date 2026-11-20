@@ -26,5 +26,4 @@ Il est constitué comme suit :
 | Vérificateur des comptes       | Bertrand       | MONNOT    |
 | Autres membres du comité       | Denis          | POISAT    |
 |                                | Anne-Françoise | ZELLER    |
-|                                | Christian      | BALMER    |
-| Autres membres fondateurs      | Ellen          | BALMER    |
+
