@@ -147,7 +147,7 @@
   /* Sphère rouge des titres portant la classe .emoji-sphere.
      La police emoji du système dessine un disque rouge cerclé de noir ;
      ce rendu CSS donne une vraie sphère, identique partout. */
-  .content .emoji-sphere::before {
+  .emoji-sphere::before {
     content: "";
     display: inline-block;
     width: 0.9em;

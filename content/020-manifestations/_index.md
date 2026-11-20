@@ -27,11 +27,17 @@ L'association marque également sa présence sur divers marchés d'été ou de N
 Toutes nos activités sont annoncées et mises à jour régulièrement sur notre page "Manifestations".
 
 ## Prochaine date à retenir: 10-12 décembre 2026 {.emoji-sphere}
-
 Au Centre socioculturel de Pôle Sud, avenue Jean-Jacques Mercier 3, Lausanne.
+
+**Horaire**
+- jeudi, de 17:00 à 22:00
+- vendredi, de 17:00 à 22:00
+- samedi, de 11:00 à 20:00
 
 La flèche rouge ci-dessous pointe ce centre.
 
 ![Position de Pôle Sud](images/20261117152704.png)
 
 source : © [OpenStreetMap contributors](https://www.openstreetmap.org/copyright)
+
+Pour des informations supplémentaires aller sur le site https://marchedenoelsolidaire.ch/
