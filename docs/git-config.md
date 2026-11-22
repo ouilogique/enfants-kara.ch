@@ -21,13 +21,13 @@ git config --local core.sshCommand "ssh -o RemoteCommand=none"
 
 Ces réglages sont enregistrés dans `.git/config`, qui n’est pas versionné : ils doivent être refaits pour chaque nouveau clone. Le réglage `core.sshCommand` s’applique à tous les remotes de ce dépôt.
 
-### Envoyer la branche principale
+### Mettre à jour la branche de démonstration
+
+Jusqu’à nouvel ordre, seule la branche `maquette` doit être mise à jour sur `demo`. Ne pas y pousser `main` ni aucune autre branche.
 
 ```bash
-git push -u demo main
+git push demo maquette:refs/heads/maquette
 ```
-
-L’option `-u` configure `main` pour suivre `demo/main`.
 
 ### Dépannage SSH
 

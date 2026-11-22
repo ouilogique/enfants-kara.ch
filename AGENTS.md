@@ -167,6 +167,7 @@ L’ordre des couches est déclaré en tête de `css/style.css` :
 ### Environnements de build
 
 -   Push vers le VPS de démonstration : remote `demo` = `ik_vps1_nico:/srv/ouilogique/demo/enfants-kara/repo.git`.
+  Jusqu’à nouvel ordre, seule la branche `maquette` doit être mise à jour sur `demo`. Ne pas y pousser `main` ni aucune autre branche.
   Configurer chaque clone avec `git config --local core.sshCommand "ssh -o RemoteCommand=none"`
   pour éviter le conflit entre la `RemoteCommand` SSH et la commande Git.
   Ce réglage est local à `.git/config`, non versionné. Procédure complète dans `docs/git-config.md`.
