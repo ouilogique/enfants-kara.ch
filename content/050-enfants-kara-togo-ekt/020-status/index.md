@@ -20,32 +20,28 @@ description: "Statuts de l'association Enfants-Kara Togo (EKT), section locale e
 >
 > A
 >
-> Madame la présidente d'Enfants Kara
+> Madame la présidente d'Enfants Kara,
 >
 > Madame la présidente
 >
 > Nous membre du foyer de l'Esperance de Tigbada (Togo), centre de
-> réinsertion Socioprofessionnel de jeunes orphelins, Démunies et
+> réinsertion socioprofessionnel de jeunes orphelins, démunis et
 > victimes de la traite
 >
 > Venons par la présente lettre pour vous remercier madame la Présidente
-> de Enfant Kara et à tous les donateurs qui portement ont mobilise735
-> 699F pour soutenir le Foyer de l'Esperance de Tigbada (Togo) pour
-> l'achat de 10Machines à coudre de Marque FLYING MAN à 65 000F l'une
-> soit un total de 650 000F. Selon le Technicien elle est plus
-> résistante que Singer
+> d'Enfant Kara et à tous les donateurs qui ont mobilise 735'699F pour soutenir le Foyer de l'Esperance de Tigbada (Togo) pour l'achat de 10 machines à coudre de Marque FLYING MAN à 65 000F l'une soit un total de 650 000F. 
 >
-> Tous les Jeunes en Formation, les Formateurs et les membres du Foyer
+> Tous les Jeunes en formation, les formateurs et les membres du Foyer
 > sont très sensibles pour le grand geste que vous avez fait à notre
-> endroit. Vous trouverez ci- joindre à notre lettre reçu d'achat des
-> machines à coudre ; les photos les machines ; avec Papa Bini et avec
-> quelque apprentis en couture.
+> endroit. Vous trouverez ci- joint à notre lettre le reçu d'achat des
+> machines à coudre ainsi que les photos les machines avec Papa Bini et avec
+> quelques apprentis en couture.
 >
-> Que le tout Puissant vous protège et vous comble, aussi toutes vos
-> famille, de tout ceux dont vous avez besoin pour bien vivre et
-> continuer d\'aider les personnes vulnérables.
+> Que le tout Puissant vous protège et vous comble, ainsi que vos
+> familles, de tout ce dont vous avez besoin pour bien vivre et
+> continuer d'aider les personnes vulnérables.
 >
-> Merci pour votre dévouement à l'égare du Foyer de l'Esperance
+> Merci pour votre dévouement à l'égard du Foyer de l'Espérance
 >
 > **Le Président du Foyer de l'Espérance**
 

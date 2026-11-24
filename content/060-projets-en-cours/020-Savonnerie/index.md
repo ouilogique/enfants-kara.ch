@@ -29,8 +29,8 @@ Par la suite, le projet est complété par la construction d’une savonnerie.
  </figure>
 
 - <figure class="gallery-item">
-   <img src="images/20261101113036.png" alt="Sanitaires commun et au fond: appartements" title="Sanitaires commun et au fond: appartements">
-   <figcaption>Sanitaires commun et au fond: appartements</figcaption>
+   <img src="images/20261101113036.png" alt="Sanitaires communs et au fond, appartements" title="Sanitaires communs et au fond, appartements">
+   <figcaption>Sanitaires communs et au fond, appartements</figcaption>
 
  </figure>
 

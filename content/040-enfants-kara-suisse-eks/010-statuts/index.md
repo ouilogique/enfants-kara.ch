@@ -18,7 +18,7 @@ description: "Statuts officiels de l'association Enfants-Kara, en vigueur depuis
 
 L'association ENFANTS-KARA est une association de bienfaisance sans buts lucratifs servant à soutenir la formation et des projets durables pour des enfants et des jeunes au Togo, en partant de la région de Kara.
 
-Son siège se trouve au Mont-sur-Lausanne, auprès de Madame et Monsieur Rose et Claude BALMER, fondateurs.
+Son siège se trouve au Mont-sur-Lausanne, auprès de Madame  Rose BALMER et et MonsieurClaude BALMER, tous deux fondateurs.
 
 **Article 2 Organisation du comité**
 
