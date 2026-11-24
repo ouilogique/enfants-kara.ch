@@ -9,9 +9,9 @@ aliases:
 description: Les marchés de Noël se déroulent au Centre socioculturel de Pôle Sud, Av. Jean-Jacques Mercier 3, Lausanne"
 ---
 
-Fidèle au rendez-vous, l'association Enfants-Kara participe régulièrement au marché de Noël du Centre socioculturel de Pôle Sud. Chaque mois de décembre, nos bénévoles transforment leur stand en une véritable escale togolaise. Entre les parfums envoûtants du gingembre, du thé, du café et du sirop d'hibiscus, et l'éclat des textiles colorés et des sculptures en bois, les visiteurs peuvent s'imprégner de l'artisanat local dans un cadre magnifiquement décoré.
+Fidèle au rendez-vous, l'association Enfants-Kara participe régulièrement au marché de Noël du Centre socioculturel de Pôle Sud. Chaque mois de décembre, nos bénévoles transforment leur stand en une véritable escale togolaise. Entre les parfums envoûtants du gingembre, du thé, du café et du sirop d'hibiscus, de l'éclat des textiles colorés et des sculptures en bois, les visiteurs peuvent s'imprégner de l'artisanat local dans un cadre magnifiquement décoré.
 
-Les articles présentés, soigneusement sélectionnés au Togo, nous sont parvenus grâce à l'engagement exceptionnel de notre Présidente, Rose Balmer, et de sa famille, qui ont assuré leur transport jusqu'en Suisse. Au-delà du plaisir partagé, ce succès commercial représente un soutien financier majeur pour les projets de l'Association.
+Les articles présentés, soigneusement sélectionnés au Togo nous sont parvenus grâce à l'engagement exceptionnel de notre Présidente Rose Balmer et de sa famille, qui ont assuré leur transport jusqu'en Suisse. Au-delà du plaisir partagé, ce succès commercial représente un soutien financier majeur pour les projets de l'Association.
 
 ---
 
@@ -72,7 +72,7 @@ Nous n'avons malheureusement pas pu participer au marché de Noël.
 ## Marché 2022 {.emoji-sphere}
 
 Le marché s’est déroulé du 15 au 17 décembre. Retour d'Enfants-Kara au Marché de Noël 2022 après deux ans d'interruption du au covid, grâce au dévouement des bénévoles de l'association.
-Quel plaisir, malgré le travail important nécessaire, d'installer nos tréteaux. Comme d'habitude les bénévoles s'y sont succédés. Qu'ils en soient remerciés. !
+Quel plaisir, malgré le travail important nécessaire pour installer nos tréteaux. Comme d'habitude les bénévoles s'y sont succédés. Qu'ils en soient remerciés. !
 
 - <figure class="gallery-item">
    <img src="images/i70c2c48cc807087b-ea06ab5820.jpg" alt="Stand d’artisanat au marché de Noël" title="Stand d’artisanat au marché de Noël">
@@ -90,7 +90,7 @@ Quel plaisir, malgré le travail important nécessaire, d'installer nos tréteau
 
 ## Marché 2019 {.emoji-sphere}
 
-C'est ainsi que du 12 au 14 décembre 2019 une poignée de bénévoles d'EK ont été présents sur un stand bien achalandé. Gingembre en boisson ou poudre, thés, cafés, sirop d'hibiscus en dégustation et à l'achat ont égayé les papilles des visiteurs. Bibelots en bois sculpté, nappages et serviettes colorés, tabliers et chemises étaient en nombre sur l'étal. De belles tentures ont habillé le stand.
+C'est ainsi que du 12 au 14 décembre 2019 une poignée de bénévoles d'EKS ont été présents sur un stand bien achalandé. Gingembre en boisson ou poudre, thés, cafés, sirop d'hibiscus en dégustation et à l'achat ont égayé les papilles des visiteurs. Bibelots en bois sculpté, nappages et serviettes colorés, tabliers et chemises étaient en nombre sur l'étal. De belles tentures ont habillé le stand.
 
 Tous les articles étaient en provenance du Togo grâce à des achats effectués sur place lors de son séjour en juillet et transportés grâce au dévouement de la Présidente Rose Balmer et famille.
 
@@ -101,7 +101,7 @@ Au bilan une rentrée d'argent significative pour les comptes de l'Association.
    <figcaption>Membres du comité sur le stand</figcaption>
 </figure>
 
-Quatre membres du comité surpris sur le stand, de gauche à droite, Steffen Pierre-Alain, Zeller Anouche, Balmer Claude et Balmer Rose. Merci à tous les autres bénévoles invisibles !
+Quatre membres du comité surpris sur le stand, de gauche à droite, Steffen Pierre-Alain, Zeller Anouche, Balmer Claude et Balmer Rose. Merci à tous les autres bénévoles invisibles ,.!
 
 <figure class="gallery-item">
    <img src="images/ia61891e422e1397f-57510eb268.jpg" alt="Bénévoles derrière les produits du stand" title="Bénévoles derrière les produits du stand">

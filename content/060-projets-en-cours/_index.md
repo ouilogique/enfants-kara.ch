@@ -7,7 +7,7 @@ draft: false
 bgImage: "images/projets.JPG"
 aliases:
   - "/projets-en-cours/_index.html"
-description: "En plus de notre aide alimentaire, nous travaillons sur deux projets ponctuels: construction d'une savonnerie et plantations d'arbres fruitiers au profit de l'orphelinat Caredo."
+description: "En plus de notre aide alimentaire, nous travaillons sur deux projets ponctuels: construction d'une savonnerie et plantation d'arbres fruitiers au profit de l'orphelinat Caredo."
 ---
 
 Les projets en cours se trouvent [ici](/foyers/le-foyer-caredo/actions/).

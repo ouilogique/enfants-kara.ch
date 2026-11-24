@@ -19,7 +19,7 @@ Pour soutenir ses actions et partager la richesse de la culture africaine, Enfan
 Environ tous les deux ans, nous organisons une grande soirée de soutien. Convivialité, chants et danses sont les maîtres-mots de ces rencontres, créant une atmosphère festive et solidaire.
 
 **Repas africains**
-Saisissant les opportunités, nous organisons des repas aux saveurs d'Afrique, notamment pour clôturer les cours de danse d'expression africaine à la Maison Saint-Jean-de-Cours, à Lausanne. C'est un moment privilégié de partage et de gourmandise.
+Saisissant les opportunités, nous organisons des repas aux saveurs d'Afrique, notamment pour clôturer les cours de danse d'expression africaine à la Maison Saint-Jean-de-Cour, à Lausanne. C'est un moment privilégié de partage et de gourmandise.
 
 **Stands et marchés**
 L'association marque également sa présence sur divers marchés d'été ou de Noël. À travers la vente d'objets artisanaux, ces journées sont l'occasion de belles rencontres avec d'autres associations, des partenaires et de nombreux sympathisants.
@@ -30,6 +30,7 @@ Toutes nos activités sont annoncées et mises à jour régulièrement sur notre
 Au Centre socioculturel de Pôle Sud, avenue Jean-Jacques Mercier 3, Lausanne.
 
 **Horaire**
+
 - jeudi, de 17:00 à 22:00
 - vendredi, de 17:00 à 22:00
 - samedi, de 11:00 à 20:00

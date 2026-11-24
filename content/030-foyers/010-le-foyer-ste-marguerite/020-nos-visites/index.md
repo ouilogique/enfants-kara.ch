@@ -21,8 +21,8 @@ En 2026, Claude et Rose ont pu à nouveau se rendre deux fois au Togo, en févri
   </figure>
 
 - <figure class="gallery-item">
-    <img src="images/IMG_4311.jpg" alt="Distributions des habits" title="Distributions des habits">
-    <figcaption>Distributions des habits</figcaption>
+    <img src="images/IMG_4311.jpg" alt="Distribution des habits" title="Distribution des habits">
+    <figcaption>Distribution des habits</figcaption>
   </figure>
 
 - <figure class="gallery-item">
@@ -105,8 +105,8 @@ Premier voyage au Togo de Rose et Claude Balmer au Togo.
   </figure>
 
 - <figure class="gallery-item">
-    <img src="images/IMG_2103.jpg" alt="Enfants autours des habits qu'on a apporté" title="Enfants autours des habits qu'on a apporté">
-    <figcaption>Enfants autours des habits que Rose et Claude Balmer ont apporté</figcaption>
+    <img src="images/IMG_2103.jpg" alt="Enfants autour des habits qu'on a apportés" title="Enfants autour des habits qu'on a apportés">
+    <figcaption>Enfants autour des habits que Rose et Claude Balmer ont apportés</figcaption>
   </figure>
 
 - <figure class="gallery-item">
@@ -135,7 +135,7 @@ A chaque Pâques, Enfants-Kara envoie 500 Frs pour fêter l'évènement. Sur les
 
 ### Novembre
 
-C'est la deuxième fois que Rose et Claude retournent au Togo. Ils apportent des habits de Suisse, des vivres, et pour faire plaisir aux enfants, quelques "sucreries" (sodas).
+C'est la deuxième fois que Rose et Claude retournent au Togo. Ils apportent des habits de Suisse, des vivres et pour faire plaisir aux enfants, quelques "sucreries" (sodas).
 
 - <figure class="gallery-item">
     <img src="images/IMG_2973.jpg" alt="Rose Balmer discute avec les enfants de l'ODPE" title="Rose Balmer discute avec les enfants de l'ODPE">

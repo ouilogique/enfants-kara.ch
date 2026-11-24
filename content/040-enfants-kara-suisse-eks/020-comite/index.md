@@ -16,14 +16,14 @@ description: "Composition du comité d'Enfants-Kara Suisse avec la présidente R
 
 Il est constitué comme suit :
 
-| Fonction                       | Prénom         | Nom       |
-| ------------------------------ | -------------- | --------- |
-| Présidente et membre fondateur | Rose           | BALMER    |
-| Vice-président et Webmaster    | Pierre-Alain   | STEFFEN   |
-| Trésorier et membre fondateur  | Claude         | BALMER    |
-| Secrétaires                    | Irene          | RAYMAKERS |
-|                                | Anouche        | ZELLER    |
-| Vérificateur des comptes       | Bertrand       | MONNOT    |
-| Autres membres du comité       | Denis          | POISAT    |
-|                                | Anne-Françoise | ZELLER    |
+| Fonction                                 | Prénom         | Nom       |
+| ---------------------------------------- | -------------- | --------- |
+| Présidente et membre fondateur           | Rose           | BALMER    |
+| Vice-président                           | Pierre-Alain   | STEFFEN   |
+| Trésorier, Webmaster et membre fondateur | Claude         | BALMER    |
+| Secrétaires                              | Irene          | RAYMAKERS |
+|                                          | Anouche        | ZELLER    |
+| Vérificateur des comptes                 | Bertrand       | MONNOT    |
+| Autres membres du comité                 | Denis          | POISAT    |
+|                                          | Anne-Françoise | ZELLER    |
 
