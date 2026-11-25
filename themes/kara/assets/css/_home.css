@@ -206,14 +206,4 @@
   .home-event-link:focus-visible {
     color: #ffd9c6;
   }
-
-  /* Sur écran étroit, la fenêtre passe sous le logo pour ne pas le chevaucher. */
-  @media (max-width: 720px) {
-    .home-event {
-      top: calc(clamp(1.25rem, 3vw, 2.2rem) + 3.9rem);
-      left: clamp(1.25rem, 3vw, 2.2rem);
-      right: clamp(1.25rem, 3vw, 2.2rem);
-      max-width: none;
-    }
-  }
 }

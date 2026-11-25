@@ -54,6 +54,23 @@
     }
   }
 
+  @media (max-width: 720px) {
+    .home-hero-content {
+      padding: 1.25rem 1.25rem 8rem;
+      align-content: start;
+    }
+
+    .home-hero-brand,
+    .home-event {
+      position: static;
+    }
+
+    .home-event {
+      z-index: auto;
+      max-width: none;
+    }
+  }
+
   @media (max-width: 640px) {
     :root {
       --panel-alpha: 0.96;
@@ -134,11 +151,6 @@
       transform: none;
     }
 
-    .home-hero-content {
-      padding: 7rem 1.25rem 8rem;
-      align-content: end;
-    }
-
     .home-hero-content h1 {
       max-width: min(100%, 11ch);
       font-size: clamp(2.35rem, 13vw, 3.9rem);
@@ -158,12 +170,6 @@
       width: 100%;
       min-width: 0;
       padding-inline: 1.1rem;
-    }
-
-    .home-hero-brand {
-      top: 1.25rem;
-      left: 1.25rem;
-      right: 1.25rem;
     }
   }
 }
