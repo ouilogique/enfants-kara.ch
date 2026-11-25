@@ -17,7 +17,7 @@
     min-height: 100vh;
     min-height: 100svh;
     min-height: 100dvh;
-    border-radius: 0;
+    border-radius: var(--radius-none);
     overflow: hidden;
     background: var(--hero-bg);
     isolation: isolate;
@@ -132,7 +132,7 @@
     min-height: 3.25rem;
     margin-top: 0.35rem;
     padding: 0.8rem 2.4rem;
-    border-radius: 999px;
+    border-radius: var(--radius-full);
     text-decoration: none;
     text-align: center;
     font-weight: 800;
@@ -170,7 +170,7 @@
     max-width: min(24rem, calc(100% - 2 * clamp(1.25rem, 3vw, 2.2rem)));
     padding: 1rem 1.15rem;
     border: 1px solid rgba(255, 240, 230, 0.28);
-    border-radius: 1rem;
+    border-radius: var(--radius-standard);
     background: var(--btn-gradient);
     box-shadow: 0 18px 32px rgba(37, 15, 8, 0.28);
     color: var(--on-dark);
@@ -205,15 +205,5 @@
   .home-event-link:hover,
   .home-event-link:focus-visible {
     color: #ffd9c6;
-  }
-
-  /* Sur écran étroit, la fenêtre passe sous le logo pour ne pas le chevaucher. */
-  @media (max-width: 720px) {
-    .home-event {
-      top: calc(clamp(1.25rem, 3vw, 2.2rem) + 3.9rem);
-      left: clamp(1.25rem, 3vw, 2.2rem);
-      right: clamp(1.25rem, 3vw, 2.2rem);
-      max-width: none;
-    }
   }
 }

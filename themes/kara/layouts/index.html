@@ -22,10 +22,10 @@
             <span class="brand-name">{{ site.Title | safeHTML }}</span>
           </span>
         </a>
+        {{ partial "home-event.html" . }}
         <h1>{{ .Title | safeHTML }}</h1>
         <div class="home-hero-text">{{ .Content }}</div>
       </div>
-      {{ partial "home-event.html" . }}
     </header>
     <footer class="site-footer home-footer">
       <a href="https://jeanmonod.net" target="_blank" rel="noopener noreferrer" aria-label="jeanmonod.net"><span class="footer-mark" aria-hidden="true">❧</span></a>
