@@ -93,14 +93,6 @@
       padding-top: 0;
     }
 
-    .sidebar,
-    .brand,
-    .page-header,
-    .content,
-    .card {
-      border-radius: 1.2rem;
-    }
-
     .brand,
     .sidebar,
     .content,

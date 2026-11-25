@@ -12,6 +12,12 @@
     --paper: #fffaf4;
     --paper-strong: #fffaf4;
 
+    /* Rayons par défaut ; surcharges par largeur d’écran en fin de fichier. */
+    --radius-none: 0;
+    --radius-standard: 1rem;
+    --radius-panel: 1.6rem;
+    --radius-full: 999px;
+
     /* Fonds des boîtes (semi-transparents, légèrement cuivrés) */
     --panel-bg: linear-gradient(180deg, rgba(255, 250, 244, var(--panel-alpha)), rgba(247, 232, 215, var(--panel-alpha))),
                 linear-gradient(140deg, rgba(255, 255, 255, calc(var(--panel-alpha) * 0.36)), transparent 55%);
@@ -54,5 +60,11 @@
     --overlay-bg: rgba(32, 20, 13, 0.9);
     --glass-bg: rgba(255, 248, 240, 0.16);
     --glass-bg-hover: rgba(255, 248, 240, 0.28);
+  }
+
+  @media (max-width: 640px) {
+    :root {
+      --radius-panel: 1.2rem;
+    }
   }
 }

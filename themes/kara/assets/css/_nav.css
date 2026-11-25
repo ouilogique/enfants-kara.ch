@@ -2,7 +2,7 @@
   .brand,
   .sidebar {
     padding: 1.25rem;
-    border-radius: 1.6rem;
+    border-radius: var(--radius-panel);
     background: var(--panel-bg);
     border: 1px solid var(--line);
     box-shadow: var(--shadow);
@@ -39,7 +39,7 @@
     justify-content: center;
     width: 3.4rem;
     height: 3.4rem;
-    border-radius: 999px;
+    border-radius: var(--radius-full);
     background: transparent;
     box-shadow: none;
   }
@@ -71,13 +71,13 @@
 
   .sidebar::-webkit-scrollbar-track {
     background: rgba(255, 255, 255, 0.18);
-    border-radius: 999px;
+    border-radius: var(--radius-full);
   }
 
   .sidebar::-webkit-scrollbar-thumb {
     background: linear-gradient(180deg, rgba(181, 86, 45, 0.7), rgba(138, 59, 27, 0.55));
     border: 2px solid rgba(255, 248, 240, 0.75);
-    border-radius: 999px;
+    border-radius: var(--radius-full);
   }
 
   .nav-list {
@@ -93,7 +93,7 @@
   }
 
   .branch {
-    border-radius: 1rem;
+    border-radius: var(--radius-standard);
     overflow: hidden;
   }
 
@@ -103,7 +103,7 @@
     align-items: center;
     gap: 0.55rem;
     padding: 0.42rem 0.52rem;
-    border-radius: 0.9rem;
+    border-radius: var(--radius-standard);
     cursor: default;
     transition: background-color 160ms ease, transform 160ms ease;
   }
@@ -152,7 +152,7 @@
   .leaf {
     display: block;
     padding: 0.35rem 0.65rem;
-    border-radius: 0.75rem;
+    border-radius: var(--radius-standard);
     color: var(--muted);
   }
 

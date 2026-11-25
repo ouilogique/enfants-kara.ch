@@ -80,7 +80,7 @@
   .page-header {
     margin-bottom: 1.35rem;
     padding: calc(var(--panel-padding) * 0.6) var(--panel-padding) calc(var(--panel-padding) * 1);
-    border-radius: 1.8rem;
+    border-radius: var(--radius-panel);
     background: var(--header-bg);
     color: var(--on-dark);
     box-shadow: var(--shadow);
@@ -94,7 +94,7 @@
     inset: auto -2rem -2rem auto;
     width: 12rem;
     height: 12rem;
-    border-radius: 50%;
+    border-radius: var(--radius-full);
     background: radial-gradient(circle, rgba(255, 240, 222, 0.34) 0, transparent 68%);
     pointer-events: none;
   }
@@ -159,7 +159,7 @@
     width: 100%;
     min-height: 5rem;
     padding: 0.95rem 1rem;
-    border-radius: 1.15rem;
+    border-radius: var(--radius-standard);
     font: inherit;
     text-decoration: none;
     text-align: left;
