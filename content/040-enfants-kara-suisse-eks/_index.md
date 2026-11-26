@@ -12,4 +12,4 @@ description: "Organisation de l'association Enfants-Kara Suisse (EKS) : comité,
 
 Merci de votre intérêt pour notre association.
 
-Vous trouverez en sous-menus de cette rubrique (colonne de gauche) la liste des membres de notre comité, nos statuts et les procès-verbaux de nos assemblées générales.
+Vous trouverez dans les sous-menus de cette rubrique la liste des membres de notre comité, nos statuts, les procès-verbaux de nos assemblées générales ainsi que d’autres informations importantes.
