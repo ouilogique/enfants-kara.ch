@@ -4,7 +4,7 @@ title: "Enfants-Kara Togo (EKT)"
 url: "/enfants-kara-togo-ekt/"
 linkTitle: "Enfants-Kara Togo (EKT)"
 draft: false
-bgImage: "images/EKT.jpg"
+bgImage: "images/EKT.JPG"
 aliases:
   - "/enfants-kara-togo-ekt/index.html"
 description: "Organisation de l'association Enfants-Kara Togo (EKT) : comité, statuts et procès-verbaux des assemblées générales."

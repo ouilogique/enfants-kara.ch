@@ -4,7 +4,7 @@ title: "Organisation de l'Association"
 url: "/enfants-kara-suisse-eks/"
 linkTitle: "Enfants-Kara Suisse (EKS)"
 draft: false
-bgImage: "images/EKS.jpg"
+bgImage: "images/EKS.JPG"
 aliases:
   - "/enfants-kara-suisse-eks/index.html"
 description: "Organisation de l'association Enfants-Kara Suisse (EKS) : comité, statuts et procès-verbaux des assemblées générales."
